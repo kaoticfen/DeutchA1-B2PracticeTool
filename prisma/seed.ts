@@ -11,6 +11,7 @@ import { join } from "node:path";
 import { PrismaClient, type Prisma } from "@prisma/client";
 import { z } from "zod";
 import { deriveForms, deriveTranslations } from "../lib/forms";
+import { dedupeWords } from "../lib/merge-words";
 import { normalize } from "../lib/search";
 import {
   cheatSheetFileSchema,
@@ -139,7 +140,12 @@ async function seedWords(words: SeedWord[]) {
 async function main() {
   console.log("Seeding from", SEED_DIR);
 
-  const words = loadDir("words", wordFileSchema);
+  const rawWords = loadDir("words", wordFileSchema);
+
+  // Wordlists are cumulative — the same word appears in several decks at
+  // different levels. Collapse before inserting, keeping the level where each
+  // word is first introduced, so file order can never decide a word's level.
+  const { words, report } = dedupeWords(rawWords);
   const lessons = loadDir("lessons", lessonFileSchema);
   const exercises = loadDir("exercises", exerciseFileSchema);
   const readings = loadDir("reading", readingFileSchema);
@@ -149,6 +155,12 @@ async function main() {
 
   await seedWords(words);
   console.log(`  ✓ ${words.length} words`);
+  if (report.merged > 0) {
+    console.log(
+      `      (${report.total} entries across all sources; ${report.merged} duplicate(s) merged` +
+        `${report.relabelled > 0 ? `, ${report.relabelled} kept at their lowest level` : ""})`,
+    );
+  }
 
   for (const l of lessons) {
     const data = {
