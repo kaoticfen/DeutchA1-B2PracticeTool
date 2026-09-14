@@ -1,0 +1,158 @@
+[
+  {
+    "level": "A1",
+    "title": "Articles & Gender",
+    "bodyMd": "Every German noun has a gender. Learn the article **with** the noun — `das Haus`, never just `Haus`.\n\n| | masculine | feminine | neuter | plural |\n|---|---|---|---|---|\n| **Nominative** | der | die | das | die |\n| **Accusative** | **den** | die | das | die |\n\nIndefinite: `ein / eine / ein`. Negative: `kein / keine / kein` (declines exactly like `ein`).\n\n**Useful gender clues**\n- `-ung`, `-heit`, `-keit`, `-schaft`, `-ion`, `-tät` → **die**\n- `-chen`, `-lein`, `-ment`, `-um` → **das**\n- Days, months, seasons, weather, most `-er` agent nouns → **der**",
+    "order": 1
+  },
+  {
+    "level": "A1",
+    "title": "Present Tense (Präsens)",
+    "bodyMd": "Take the infinitive, drop `-en`, add the ending.\n\n| | lernen | arbeiten | heißen |\n|---|---|---|---|\n| ich | lerne | arbeite | heiße |\n| du | lernst | arbeit**e**st | heißt |\n| er/sie/es | lernt | arbeit**e**t | heißt |\n| wir | lernen | arbeiten | heißen |\n| ihr | lernt | arbeit**e**t | heißt |\n| sie/Sie | lernen | arbeiten | heißen |\n\n> Stems ending in `-t`, `-d`, `-n` after a consonant insert an **e**: du arbeit**e**st.\n\n**The three you cannot avoid**\n\n| | sein | haben | werden |\n|---|---|---|---|\n| ich | bin | habe | werde |\n| du | bist | hast | wirst |\n| er/sie/es | ist | hat | wird |\n| wir | sind | haben | werden |\n| ihr | seid | habt | werdet |\n| sie/Sie | sind | haben | werden |\n\n**Stem-changing verbs** (du / er forms only): fahren → du f**ä**hrst, essen → du **i**sst, sehen → du s**ie**hst, nehmen → du n**imm**st.",
+    "order": 2
+  },
+  {
+    "level": "A1",
+    "title": "Pronouns & the First Two Cases",
+    "bodyMd": "| Nominative | Accusative | Dative |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| es | es | ihm |\n| wir | uns | uns |\n| ihr | euch | euch |\n| sie/Sie | sie/Sie | ihnen/Ihnen |\n\n- **Nominative** = the subject. *Der Hund schläft.*\n- **Accusative** = the direct object. *Ich sehe **den** Hund.*\n\nOnly the masculine article visibly changes in the accusative: `der → den`.",
+    "order": 3
+  },
+  {
+    "level": "A1",
+    "title": "Plural Formation",
+    "bodyMd": "There are five patterns. The plural article is always **die**.\n\n| Pattern | Example | Typical of |\n|---|---|---|\n| `-e` | der Hund → die Hund**e** | many masculine nouns |\n| `-er` (+ umlaut) | das Kind → die Kind**er** | short neuter nouns |\n| `-(e)n` | die Frau → die Frau**en** | most feminine nouns |\n| `-s` | das Auto → die Auto**s** | loanwords |\n| no change (± umlaut) | der Lehrer → die Lehrer | `-er`, `-en`, `-el` endings |\n\n> Nouns in `-ung`, `-heit`, `-keit`, `-schaft` always take `-en`.",
+    "order": 4
+  },
+  {
+    "level": "A1",
+    "title": "Word Order",
+    "bodyMd": "**Verb second.** In a statement the conjugated verb is always the *second element*.\n\n- `Ich **gehe** heute ins Kino.`\n- `Heute **gehe** ich ins Kino.` ← front something else and the subject moves behind the verb\n\n**Yes/no questions** put the verb first: `**Gehst** du ins Kino?`\n\n**W-questions** put the question word first, verb second: `Wann **gehst** du ins Kino?`\n\nCommon question words: wer, was, wo, wohin, woher, wann, wie, warum, wie viel.\n\n**Time – Manner – Place**: `Ich fahre **morgen** (time) **mit dem Bus** (manner) **nach Berlin** (place).`",
+    "order": 5
+  },
+  {
+    "level": "A1",
+    "title": "Negation: nicht vs. kein",
+    "bodyMd": "- **kein** negates a noun with `ein` or with no article: `Ich habe **kein** Auto.`\n- **nicht** negates everything else: `Ich komme **nicht**.`\n\n`nicht` goes **before** adjectives, prepositional phrases and separable prefixes, but **after** the direct object:\n\n- `Das ist **nicht** gut.`\n- `Ich fahre **nicht** nach Berlin.`\n- `Ich kenne den Mann **nicht**.`",
+    "order": 6
+  },
+  {
+    "level": "A1",
+    "title": "Numbers, Time & Dates",
+    "bodyMd": "`0 null · 1 eins · 2 zwei · 3 drei · 4 vier · 5 fünf · 6 sechs · 7 sieben · 8 acht · 9 neun · 10 zehn`\n`11 elf · 12 zwölf · 13 dreizehn · 16 sechzehn · 17 siebzehn · 20 zwanzig · 30 dreißig`\n\nAbove 20, German says the **units first**: `21 = einundzwanzig` (\"one-and-twenty\").\n\n**Telling the time**\n- `Es ist halb **acht**` = 7:30 — *half way to eight*, not half past eight.\n- `Viertel nach sieben` = 7:15 · `Viertel vor acht` = 7:45.\n\n**Days**: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag — all **der**, all used with `am`: `am Montag`.",
+    "order": 7
+  },
+  {
+    "level": "A2",
+    "title": "Perfect Tense (Perfekt)",
+    "bodyMd": "The everyday past tense in speech: **haben/sein (position 2) + Partizip II (last)**.\n\n`Ich **habe** gestern Fußball **gespielt**.`\n\n**Forming the participle**\n\n| Verb type | Rule | Example |\n|---|---|---|\n| regular | ge- + stem + -t | spielen → **ge**spiel**t** |\n| irregular | ge- + stem + -en | sehen → **ge**seh**en** |\n| separable | prefix + ge + stem | aufstehen → auf**ge**standen |\n| `-ieren` | **no** ge- | studieren → studiert |\n| inseparable (be-, ver-, er-, ent-, ge-, zer-) | **no** ge- | verstehen → verstanden |\n\n**haben or sein?** Use **sein** for:\n- change of location — gehen, fahren, fliegen, kommen\n- change of state — aufstehen, einschlafen, werden\n- the three exceptions — **sein, bleiben, passieren**\n\nEverything else takes **haben**.",
+    "order": 1
+  },
+  {
+    "level": "A2",
+    "title": "The Dative Case",
+    "bodyMd": "The dative marks the **indirect object** — the receiver.\n\n`Ich gebe **dem Kind** (dative) **einen Apfel** (accusative).`\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Dative | dem | der | dem | den + noun**-n** |\n\n> Plural dative adds **-n** to the noun itself: `mit den Kinder**n**`.\n\n**Dative verbs** — these take a dative object even though English uses a direct one:\n`helfen, danken, gefallen, gehören, antworten, folgen, glauben, passen, schmecken`\n\n`Ich helfe **dir**.` · `Das Buch gehört **mir**.`",
+    "order": 2
+  },
+  {
+    "level": "A2",
+    "title": "Modal Verbs",
+    "bodyMd": "| | können | müssen | dürfen | wollen | sollen | mögen |\n|---|---|---|---|---|---|---|\n| ich | kann | muss | darf | will | soll | mag |\n| du | kannst | musst | darfst | willst | sollst | magst |\n| er/sie/es | kann | muss | darf | will | soll | mag |\n| wir | können | müssen | dürfen | wollen | sollen | mögen |\n| ihr | könnt | müsst | dürft | wollt | sollt | mögt |\n| sie/Sie | können | müssen | dürfen | wollen | sollen | mögen |\n\n> **ich** and **er/sie/es** are identical and take **no ending**.\n\nThe modal is conjugated in position 2; the main verb goes to the **end as an infinitive**:\n`Ich **kann** heute nicht **kommen**.`\n\n**Watch out**: `müssen` negated means *don't have to*. For *must not*, use `nicht dürfen`.\n`Du musst nicht kommen.` = you needn't. · `Du darfst nicht kommen.` = you're not allowed.\n\n`möchte` (would like) is the polite form of mögen: ich möchte, du möchtest, er möchte.",
+    "order": 3
+  },
+  {
+    "level": "A2",
+    "title": "Prepositions by Case",
+    "bodyMd": "**Always accusative** — *durch, für, gegen, ohne, um, bis, entlang*\n> Mnemonic: **DOGFUB**\n\n**Always dative** — *aus, bei, mit, nach, seit, von, zu, gegenüber*\n\n**Two-way (Wechselpräpositionen)** — *an, auf, hinter, in, neben, über, unter, vor, zwischen*\n\n| Question | Case | Meaning | Example |\n|---|---|---|---|\n| **Wohin?** | accusative | movement to | Ich gehe **in die** Schule. |\n| **Wo?** | dative | static location | Ich bin **in der** Schule. |\n\n**Common contractions**: `in dem → im`, `in das → ins`, `an dem → am`, `an das → ans`, `zu dem → zum`, `zu der → zur`, `bei dem → beim`, `von dem → vom`.",
+    "order": 4
+  },
+  {
+    "level": "A2",
+    "title": "Comparative & Superlative",
+    "bodyMd": "| Positive | Comparative | Superlative |\n|---|---|---|\n| schnell | schnell**er** | am schnell**sten** |\n| schön | schöner | am schönsten |\n| alt | **ä**lter | am **ä**ltesten |\n\n- One-syllable adjectives with a, o, u usually take an **umlaut**: alt → älter, groß → größer, jung → jünger.\n- Stems in `-d`, `-t`, `-s`, `-ß`, `-z` insert an **e**: am ältesten, am heißesten.\n\n**Irregulars**: gut → besser → am besten · viel → mehr → am meisten · gern → lieber → am liebsten · hoch → höher → am höchsten · nah → näher → am nächsten.\n\n**Comparisons**: `so … wie` for equality, **als** for difference.\n`Er ist **so groß wie** ich.` · `Er ist größer **als** ich.`",
+    "order": 5
+  },
+  {
+    "level": "A2",
+    "title": "Separable Verbs & Imperative",
+    "bodyMd": "**Separable verbs** split in a main clause — the prefix goes to the very end.\n\n`aufstehen` → `Ich **stehe** um 7 Uhr **auf**.`\n\nCommon separable prefixes: *an-, auf-, aus-, ein-, mit-, nach-, vor-, zu-, zurück-, weg-, ab-, her-, hin-*.\n\nInseparable prefixes never split: *be-, emp-, ent-, er-, ge-, miss-, ver-, zer-*.\n\n**Imperative**\n\n| Form | Rule | Example |\n|---|---|---|\n| du | verb stem, no ending | **Komm!** / **Steh auf!** |\n| ihr | like the present tense | **Kommt!** |\n| Sie | verb + Sie | **Kommen Sie!** |\n\nIrregular: sein → **Sei** ruhig! / **Seid** ruhig! / **Seien Sie** ruhig!",
+    "order": 6
+  },
+  {
+    "level": "A2",
+    "title": "Subordinate Clauses",
+    "bodyMd": "After a subordinating conjunction the conjugated verb moves to the **end**.\n\n`Ich bleibe zu Hause, **weil** ich krank **bin**.`\n\nCommon subordinators: **weil, dass, wenn, ob, obwohl, damit, bevor, nachdem, während, seitdem, als**.\n\n> **weil** sends the verb to the end. **denn** (also \"because\") does **not** — it keeps normal order:\n> `Ich bleibe zu Hause, **denn** ich **bin** krank.`\n\n**wenn vs. als**\n- **als** = a single completed event in the past: `**Als** ich zehn war, …`\n- **wenn** = repeated past events, or any present/future condition: `**Wenn** es regnet, bleibe ich zu Hause.`\n\nIf the subordinate clause comes first, the main clause starts with its verb:\n`**Weil** ich krank **bin**, **bleibe** ich zu Hause.`",
+    "order": 7
+  },
+  {
+    "level": "B1",
+    "title": "Adjective Endings",
+    "bodyMd": "The hardest table in German. Which ending you use depends on what comes **before** the adjective.\n\n**After a definite article** (der/die/das, dieser, jeder) — *weak*\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nom | -e | -e | -e | -en |\n| Akk | **-en** | -e | -e | -en |\n| Dat | -en | -en | -en | -en |\n| Gen | -en | -en | -en | -en |\n\n**After an indefinite article** (ein, kein, mein) — *mixed*\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nom | **-er** | -e | **-es** | -en |\n| Akk | -en | -e | **-es** | -en |\n| Dat | -en | -en | -en | -en |\n| Gen | -en | -en | -en | -en |\n\n**With no article** — *strong*: the adjective takes the ending the article would have had.\n`gut**er** Wein · kalt**es** Wasser · mit gut**em** Wein`\n\n> Shortcut: once anything in the phrase shows the case, the adjective usually just takes **-e** or **-en**.",
+    "order": 1
+  },
+  {
+    "level": "B1",
+    "title": "Konjunktiv II — Hypotheticals & Politeness",
+    "bodyMd": "Formed from the Präteritum stem + umlaut + `-e` endings, or with **würde + infinitive**.\n\n| | sein | haben | werden | können |\n|---|---|---|---|---|\n| ich | wäre | hätte | würde | könnte |\n| du | wärst | hättest | würdest | könntest |\n| er/sie/es | wäre | hätte | würde | könnte |\n| wir | wären | hätten | würden | könnten |\n| ihr | wärt | hättet | würdet | könntet |\n| sie/Sie | wären | hätten | würden | könnten |\n\n**Use würde + infinitive for most other verbs**: `Ich **würde** mehr **reisen**.`\nBut keep the real forms for *sein, haben, werden* and the modals — `ich würde haben` sounds wrong.\n\n**Uses**\n- Unreal conditions: `**Wenn** ich Zeit **hätte**, **würde** ich mehr lesen.`\n- Politeness: `**Könnten** Sie mir helfen?` · `Ich **hätte** gern einen Kaffee.`\n- Past hypotheticals: `hätte/wäre + Partizip II` — `Ich **hätte** das nicht **gesagt**.`",
+    "order": 2
+  },
+  {
+    "level": "B1",
+    "title": "The Passive Voice",
+    "bodyMd": "**werden + Partizip II**. The focus moves to the action, not the actor.\n\n| Tense | Form | Example |\n|---|---|---|\n| Präsens | wird + P2 | Das Haus **wird** gebaut. |\n| Präteritum | wurde + P2 | Das Haus **wurde** gebaut. |\n| Perfekt | ist + P2 + **worden** | Das Haus **ist** gebaut **worden**. |\n| with modal | modal + P2 + werden | Das Haus **muss** gebaut **werden**. |\n\n> In the Perfekt passive the participle of `werden` is **worden**, not `geworden`.\n\nName the actor with **von** (a person) or **durch** (a means):\n`Das Haus wurde **von** einem Architekten geplant.`\n`Die Stadt wurde **durch** ein Erdbeben zerstört.`\n\n**Alternatives**: `man` (`**Man** baut das Haus.`), or `sein + zu + infinitive` (`Das ist **zu machen**.`).",
+    "order": 3
+  },
+  {
+    "level": "B1",
+    "title": "Relative Clauses",
+    "bodyMd": "The relative pronoun matches the **gender and number** of the noun it refers to, but takes its **case from its own clause**. The verb goes to the end.\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nom | der | die | das | die |\n| Akk | **den** | die | das | die |\n| Dat | **dem** | **der** | **dem** | **denen** |\n| Gen | **dessen** | **deren** | **dessen** | **deren** |\n\n- `Der Mann, **der** dort steht, …` — subject → nominative\n- `Der Mann, **den** ich kenne, …` — object of kennen → accusative\n- `Der Mann, **dem** ich helfe, …` — helfen takes dative\n- `Der Mann, **dessen** Auto kaputt ist, …` — possession → genitive\n\nWith a preposition, the preposition comes first and sets the case:\n`Die Frau, **mit der** ich spreche, …`",
+    "order": 4
+  },
+  {
+    "level": "B1",
+    "title": "Präteritum (Simple Past)",
+    "bodyMd": "The written narrative past. In speech it is mostly limited to *sein, haben, werden* and the modals.\n\n| | sein | haben | werden | können | gehen |\n|---|---|---|---|---|---|\n| ich | war | hatte | wurde | konnte | ging |\n| du | warst | hattest | wurdest | konntest | gingst |\n| er/sie/es | war | hatte | wurde | konnte | ging |\n| wir | waren | hatten | wurden | konnten | gingen |\n| ihr | wart | hattet | wurdet | konntet | gingt |\n| sie/Sie | waren | hatten | wurden | konnten | gingen |\n\n> **ich** and **er/sie/es** are always identical in the Präteritum.\n\nRegular verbs insert **-te-**: `machen → ich mach**te**, du mach**test**`.\nModals lose their umlaut: können → konnte, müssen → musste, dürfen → durfte.",
+    "order": 5
+  },
+  {
+    "level": "B1",
+    "title": "The Genitive & Reflexive Verbs",
+    "bodyMd": "**Genitive** shows possession. Masculine and neuter nouns add **-(e)s**.\n\n| masc | fem | neut | plural |\n|---|---|---|---|\n| des Mannes | der Frau | des Kindes | der Kinder |\n\n`das Auto **des Mannes**` — in speech most people say `das Auto **von dem Mann**`.\n\nGenitive prepositions: **während, wegen, trotz, statt, innerhalb, außerhalb**.\n\n**Reflexive verbs** use an extra pronoun pointing back at the subject.\n\n| | accusative | dative |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er/sie/es | sich | sich |\n| wir | uns | uns |\n| ihr | euch | euch |\n| sie/Sie | sich | sich |\n\n`Ich wasche **mich**.` (accusative — no other object)\n`Ich wasche **mir** die Hände.` (dative — there is already a direct object)\n\nCommon: sich freuen (auf/über), sich interessieren für, sich erinnern an, sich vorstellen, sich beeilen.",
+    "order": 6
+  },
+  {
+    "level": "B2",
+    "title": "Konjunktiv I — Reported Speech",
+    "bodyMd": "Used in journalism and formal writing to report what someone said without vouching for it.\n\nFormed from the **infinitive stem + -e** endings:\n\n| | sein | haben | gehen | können |\n|---|---|---|---|---|\n| ich | sei | habe | gehe | könne |\n| du | seist | habest | gehest | könnest |\n| er/sie/es | **sei** | **habe** | **gehe** | **könne** |\n| wir | seien | haben | gehen | können |\n| ihr | seiet | habet | gehet | könnet |\n| sie/Sie | seien | haben | gehen | können |\n\n`Er sagt, er **habe** keine Zeit.` · `Sie behauptet, sie **sei** krank.`\n\n> **The substitution rule**: when the Konjunktiv I form is identical to the indicative (mostly `wir`/`sie` plural), switch to **Konjunktiv II** to keep the reporting audible.\n> `Sie sagen, sie **hätten** keine Zeit.` (not *sie haben*)\n\nPast reported speech uses `habe/sei + Partizip II`: `Er sagte, er **sei** früh **gegangen**.`",
+    "order": 1
+  },
+  {
+    "level": "B2",
+    "title": "Verbs with Fixed Prepositions",
+    "bodyMd": "These pairings are not predictable from English and must be memorised with their case.\n\n| Verb | Preposition | Case |\n|---|---|---|\n| warten | auf | Akk |\n| sich freuen | auf (future) / über (present) | Akk |\n| sich interessieren | für | Akk |\n| denken | an | Akk |\n| sich erinnern | an | Akk |\n| sich kümmern | um | Akk |\n| bestehen | aus (consist) / auf (insist) | Dat / Dat |\n| teilnehmen | an | Dat |\n| leiden | unter | Dat |\n| gehören | zu | Dat |\n| abhängen | von | Dat |\n\n**da-/wo- compounds**: for things, not people.\n- Question: `**Worauf** wartest du?` → `Ich warte **darauf**.`\n- People keep the preposition: `**Auf wen** wartest du?` → `Ich warte **auf ihn**.`\n\nInsert **-r-** before a vowel: `wo**r**auf`, `da**r**an`, `wo**r**über`.",
+    "order": 2
+  },
+  {
+    "level": "B2",
+    "title": "Participles & Extended Modifiers",
+    "bodyMd": "**Partizip I** (present): infinitive + **-d** — describes something *doing* the action, active and ongoing.\n`das **weinende** Kind` — the crying child\n\n**Partizip II** (past): describes something the action was *done to*, passive and completed.\n`das **gekochte** Essen` — the cooked food\n\nBoth take normal adjective endings.\n\n**Extended modifiers** pack a whole relative clause in front of the noun — very common in formal writing:\n\n> `der **gestern von der Polizei verhaftete** Mann`\n> = `der Mann, **der gestern von der Polizei verhaftet wurde**`\n\n**zu + Partizip I** expresses necessity or possibility:\n`die **zu lösende** Aufgabe` = the task that must be solved",
+    "order": 3
+  },
+  {
+    "level": "B2",
+    "title": "Nominalization & Register",
+    "bodyMd": "Formal German prefers nouns where English prefers verbs — the *Nominalstil*.\n\n| Verbal | Nominal |\n|---|---|\n| Weil die Preise **gestiegen sind**, … | **Wegen des Anstiegs** der Preise … |\n| Nachdem er **angekommen war**, … | **Nach seiner Ankunft** … |\n| Wenn man das **bedenkt**, … | **Unter Berücksichtigung** dessen … |\n\n**Common conversions**\n- verb + **-ung**: entscheiden → die Entscheidung\n- infinitive as neuter noun: das Lesen, das Schwimmen\n- adjective + **-heit/-keit**: schön → die Schönheit, möglich → die Möglichkeit\n\nMatching connectors:\n\n| Subordinator | Preposition |\n|---|---|\n| weil | wegen + Gen |\n| obwohl | trotz + Gen |\n| während | während + Gen |\n| nachdem | nach + Dat |\n| damit | zu + Dat / zwecks + Gen |",
+    "order": 4
+  },
+  {
+    "level": "B2",
+    "title": "Advanced Connectors",
+    "bodyMd": "**Two-part connectors**\n\n| Pair | Meaning | Example |\n|---|---|---|\n| entweder … oder | either … or | **Entweder** wir fahren, **oder** wir bleiben. |\n| weder … noch | neither … nor | Er spricht **weder** Deutsch **noch** Französisch. |\n| sowohl … als auch | both … and | **Sowohl** er **als auch** sie kommen. |\n| nicht nur … sondern auch | not only … but also | **Nicht nur** billig, **sondern auch** gut. |\n| je … desto | the … the | **Je** mehr ich lerne, **desto** besser verstehe ich. |\n| zwar … aber | admittedly … but | Es ist **zwar** teuer, **aber** es lohnt sich. |\n\n> **je … desto** takes a subordinate clause first (verb last), then desto + comparative with the verb second.\n\n**Adverbial connectors** (verb stays second, subject moves after it):\n*trotzdem, deshalb, deswegen, außerdem, allerdings, dennoch, folglich, stattdessen*\n\n`Es regnete. **Trotzdem gingen** wir spazieren.`",
+    "order": 5
+  },
+  {
+    "level": "B2",
+    "title": "n-Declension & Tricky Plurals",
+    "bodyMd": "A group of masculine nouns adds **-(e)n** in every case except the nominative singular.\n\n| | singular | plural |\n|---|---|---|\n| Nom | der Student | die Studenten |\n| Akk | den Student**en** | die Studenten |\n| Dat | dem Student**en** | den Studenten |\n| Gen | des Student**en** | der Studenten |\n\n**Which nouns?**\n- masculine nouns ending in `-e` denoting people or animals: der Junge, der Kunde, der Kollege, der Löwe\n- `-ent`, `-ant`, `-ist`, `-ograf`, `-arch`: Student, Praktikant, Polizist, Fotograf, Monarch\n- a short irregular list: Herr, Mensch, Nachbar, Bauer, Held\n\n`Ich helfe dem **Kollegen**.` · `Ich kenne diesen **Studenten**.`\n\n> **der Name** is doubly irregular: des Namens, dem Namen, den Namen.",
+    "order": 6
+  }
+]
