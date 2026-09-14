@@ -18,6 +18,43 @@ const TYPE_LABELS: Record<string, string> = {
   SENTENCE_BUILD: "Sentence building",
 };
 
+type TopicRow = { tag: string; topic: string; _count: { _all: number } };
+type TopicFilter = { tag: string; label: string; count: number };
+
+/**
+ * One entry per tag, counting every exercise under it.
+ *
+ * A topic only doubles as a label while it names exactly one tag: "a1-satzbau"
+ * spans three topics, and "Syntax" covers both a1-wortstellung and a1-negation.
+ * Either way the tag itself is the honest label ("a1-satzbau" -> "Satzbau").
+ */
+function foldTopicsByTag(rows: TopicRow[]): TopicFilter[] {
+  const byTag = new Map<string, { tag: string; topics: Set<string>; count: number }>();
+  for (const row of rows) {
+    const entry = byTag.get(row.tag) ?? { tag: row.tag, topics: new Set<string>(), count: 0 };
+    entry.count += row._count._all;
+    entry.topics.add(row.topic);
+    byTag.set(row.tag, entry);
+  }
+
+  const tagsPerTopic = new Map<string, number>();
+  for (const { topics } of byTag.values()) {
+    for (const topic of topics) tagsPerTopic.set(topic, (tagsPerTopic.get(topic) ?? 0) + 1);
+  }
+
+  return [...byTag.values()].map(({ tag, topics, count }) => {
+    const [topic] = topics;
+    const unambiguous = topics.size === 1 && tagsPerTopic.get(topic) === 1;
+    return { tag, label: unambiguous ? topic : tagLabel(tag), count };
+  });
+}
+
+/** "a1-satzbau" -> "Satzbau". */
+function tagLabel(tag: string): string {
+  const name = tag.replace(/^[ab][12]-/, "").replace(/-/g, " ");
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}
+
 export default async function ExercisesPage({
   searchParams,
 }: {
@@ -31,15 +68,20 @@ export default async function ExercisesPage({
   const tag = sp.tag ?? null;
   const type = sp.type && sp.type in TYPE_LABELS ? (sp.type as ExerciseType) : null;
 
-  const [exercises, topics] = await Promise.all([
+  const [exercises, topicRows] = await Promise.all([
     pickExercises({ level, tag, type, count: SET_SIZE }),
     prisma.exercise.groupBy({
       by: ["tag", "topic"],
       where: { level },
       _count: { _all: true },
-      orderBy: { tag: "asc" },
+      orderBy: [{ tag: "asc" }, { topic: "asc" }],
     }),
   ]);
+
+  // A tag can span several topics (a1-satzbau drills verbs, nouns AND
+  // prepositions), so the grouped rows are folded back down to one pill per
+  // tag — the tag is what the filter actually selects on.
+  const topics = foldTopicsByTag(topicRows);
 
   const qs = (next: Record<string, string | null>) => {
     const q = new URLSearchParams();
@@ -58,7 +100,7 @@ export default async function ExercisesPage({
       <PageHeader
         title="Grammar Exercises"
         subtitle={`${TYPE_LABELS[type ?? ""] ?? "Mixed"} drills at ${level}${
-          tag ? ` · ${topics.find((t) => t.tag === tag)?.topic ?? tag}` : ""
+          tag ? ` · ${topics.find((t) => t.tag === tag)?.label ?? tag}` : ""
         }.`}
       />
 
@@ -84,7 +126,7 @@ export default async function ExercisesPage({
           </Link>
           {topics.map((t) => (
             <Link key={t.tag} href={qs({ tag: t.tag })} className="pill" data-active={tag === t.tag}>
-              {t.topic} <span className="muted">{t._count._all}</span>
+              {t.label} <span className="muted">{t.count}</span>
             </Link>
           ))}
         </div>
