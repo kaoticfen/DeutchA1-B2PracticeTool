@@ -1,0 +1,7451 @@
+[
+  {
+    "lemma": "Anschluss",
+    "level": "A1",
+    "translationsEn": [
+      "connection"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "In Mannheim haben Sie Anschluss nach Saarbrücken.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "an sein",
+    "level": "A1",
+    "translationsEn": [
+      "to be on"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heute Nacht war das Licht an.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "antworten",
+    "level": "A1",
+    "translationsEn": [
+      "to answer"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er antwortet nicht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anziehen",
+    "level": "A1",
+    "translationsEn": [
+      "to get dressed"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss mich noch anziehen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Appetit",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Guten Appetit!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "arbeiten",
+    "level": "A1",
+    "translationsEn": [
+      "to work"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo arbeiten Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "arbeitslos",
+    "level": "A1",
+    "translationsEn": [
+      "unemployed"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Es gibt bei uns viele Leute, die schon lange arbeitslos sind.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "auch",
+    "level": "A1",
+    "translationsEn": [
+      "also"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin auch Spanier.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "auf",
+    "level": "A1",
+    "translationsEn": [
+      "on"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Kinder spielen auf der Straße.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aufhören",
+    "level": "A1",
+    "translationsEn": [
+      "to end"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Kurs hört in einer Woche auf.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "auf sein",
+    "level": "A1",
+    "translationsEn": [
+      "to be open"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Du brauchst den Schlüssel nicht. Die Wohnung ist auf.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aufstehen",
+    "level": "A1",
+    "translationsEn": [
+      "to get up"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss immer um vier Uhr aufstehen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aus",
+    "level": "A1",
+    "translationsEn": [
+      "from"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er kommt aus Brasilien.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ausflug",
+    "level": "A1",
+    "translationsEn": [
+      "excursion"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Morgen machen wir einen Ausflug nach Heidelberg.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ausfüllen",
+    "level": "A1",
+    "translationsEn": [
+      "to fill out"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Füllen Sie bitte dieses Formular aus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ausgang",
+    "level": "A1",
+    "translationsEn": [
+      "exit"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wo ist der Ausgang?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ausland",
+    "level": "A1",
+    "translationsEn": [
+      "abroad",
+      "overseas"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Fahren Sie ins Ausland?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ausländisch",
+    "level": "A1",
+    "translationsEn": [
+      "foreign"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Leider habe ich nur ausländisches Geld.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ausmachen",
+    "level": "A1",
+    "translationsEn": [
+      "to switch off"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mach bitte das Licht aus!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aussehen",
+    "level": "A1",
+    "translationsEn": [
+      "to look"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das sieht schön aus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aus sein",
+    "level": "A1",
+    "translationsEn": [
+      "to be off"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das Licht ist aus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aussteigen",
+    "level": "A1",
+    "translationsEn": [
+      "to alight"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo muss ich aussteigen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ausweis",
+    "level": "A1",
+    "translationsEn": [
+      "identity card"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Hier ist mein Ausweis.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ausziehen",
+    "level": "A1",
+    "translationsEn": [
+      "to take off"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Zieh die Schuhe aus, bitte!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sich ausziehen",
+    "level": "A1",
+    "translationsEn": [
+      "to get undressed"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich ziehe mich aus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Automat",
+    "level": "A1",
+    "translationsEn": [
+      "machine"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Die Fahrkarten gibt es nur am Automaten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "automatisch",
+    "level": "A1",
+    "translationsEn": [
+      "automatic"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Du musst nichts machen. Das geht automatisch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bäckerei",
+    "level": "A1",
+    "translationsEn": [
+      "bakery"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Ich geh mal schnell zur Bäckerei.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bad",
+    "level": "A1",
+    "translationsEn": [
+      "bathroom"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wir haben kein großes Bad.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "baden",
+    "level": "A1",
+    "translationsEn": [
+      "to bathe"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bade nicht so gern, ich dusche lieber.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bahn",
+    "level": "A1",
+    "translationsEn": [
+      "train"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wir fahren lieber mit der Bahn.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bahnhof",
+    "level": "A1",
+    "translationsEn": [
+      "train station"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Komme ich hier zum Bahnhof?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bahnsteig",
+    "level": "A1",
+    "translationsEn": [
+      "platform"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Auf welchem Bahnsteig fährt der Zug?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bald",
+    "level": "A1",
+    "translationsEn": [
+      "soon"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich komme bald.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Balkon",
+    "level": "A1",
+    "translationsEn": [
+      "balcony"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Die Wohnung hat auch einen kleinen Balkon.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bank",
+    "level": "A1",
+    "translationsEn": [
+      "bank"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Bank schließt schon um vier Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bar",
+    "level": "A1",
+    "translationsEn": [
+      "cash"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Muss ich bar zahlen oder geht‘s auch mit Karte?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bauch",
+    "level": "A1",
+    "translationsEn": [
+      "stomach"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Seit gestern tut mir der Bauch weh.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bedeuten",
+    "level": "A1",
+    "translationsEn": [
+      "to mean"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was bedeutet das Wort?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "beginnen",
+    "level": "A1",
+    "translationsEn": [
+      "to begin"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das Spiel beginnt um 15.30 Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bei",
+    "level": "A1",
+    "translationsEn": [
+      "next to"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Offenbach liegt bei Frankfurt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bei uns",
+    "level": "A1",
+    "translationsEn": [
+      "here",
+      "where we are"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bei uns regnet es heute.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "beide",
+    "level": "A1",
+    "translationsEn": [
+      "both"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Beide Eltern arbeiten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zum Beispiel/z. B.",
+    "level": "A1",
+    "translationsEn": [
+      "for example"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bekannt",
+    "level": "A1",
+    "translationsEn": [
+      "well known"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Picasso ist sehr bekannt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bekommen",
+    "level": "A1",
+    "translationsEn": [
+      "to receive"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Haben Sie meinen Brief bekommen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "benutzen",
+    "level": "A1",
+    "translationsEn": [
+      "to use"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Aufzüge bitte nicht benutzen!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "besetzt",
+    "level": "A1",
+    "translationsEn": [
+      "busy"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Nummer ist immer besetzt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "besichtigen",
+    "level": "A1",
+    "translationsEn": [
+      "to visit"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich möchte gern den Dom besichtigen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "besser",
+    "level": "A1",
+    "translationsEn": [
+      "better"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Es geht mir schon besser.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "best",
+    "level": "A1",
+    "translationsEn": [
+      "best"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Am besten treffen wir uns morgen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bestellen",
+    "level": "A1",
+    "translationsEn": [
+      "to order"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir möchten bestellen, bitte.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "besuchen",
+    "level": "A1",
+    "translationsEn": [
+      "to visit"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Darf ich dich besuchen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bezahlen",
+    "level": "A1",
+    "translationsEn": [
+      "to pay"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo muss ich bezahlen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bier",
+    "level": "A1",
+    "translationsEn": [
+      "beer"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Noch ein Bier bitte.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "billig",
+    "level": "A1",
+    "translationsEn": [
+      "cheap"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Jacke kostet nur 10 Euro! Die ist aber billig!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bis",
+    "level": "A1",
+    "translationsEn": [
+      "to"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich fahre nur bis Stuttgart.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bisschen",
+    "level": "A1",
+    "translationsEn": [
+      "little"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bitte",
+    "level": "A1",
+    "translationsEn": [
+      "please"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Eine Tasse Kaffee, bitte!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bitten",
+    "level": "A1",
+    "translationsEn": [
+      "to ask"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Darf ich Sie um etwas bitten?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bitter",
+    "level": "A1",
+    "translationsEn": [
+      "bitter"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Kaffee schmeckt bitter.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bleiben",
+    "level": "A1",
+    "translationsEn": [
+      "to stay"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bleibe heute zu Hause.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Blick",
+    "level": "A1",
+    "translationsEn": [
+      "view"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Von diesem Hotel hat man einen guten Blick auf den Rhein.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Bogen",
+    "level": "A1",
+    "translationsEn": [
+      "sheet"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "böse",
+    "level": "A1",
+    "translationsEn": [
+      "angry"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie ist böse auf mich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "brauchen",
+    "level": "A1",
+    "translationsEn": [
+      "to need"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Brauchst du die Zeitung noch?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "breit",
+    "level": "A1",
+    "translationsEn": [
+      "wide"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie breit ist der Schrank?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "bringen",
+    "level": "A1",
+    "translationsEn": [
+      "to bring"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bringen Sie mir bitte noch einen Kaffee!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "buchstabieren",
+    "level": "A1",
+    "translationsEn": [
+      "to spell"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bitte buchstabieren Sie Ihren Namen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Butter",
+    "level": "A1",
+    "translationsEn": [
+      "butter"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Für mich bitte ein Brötchen mit Butter und Käse.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "das Café",
+    "level": "A1",
+    "translationsEn": [
+      "cafe"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sollen wir uns im Café treffen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Chef",
+    "level": "A1",
+    "translationsEn": [
+      "boss"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wir haben eine neue Chefin.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "circa/ca.",
+    "level": "A1",
+    "translationsEn": [
+      "approximately"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "da",
+    "level": "A1",
+    "translationsEn": [
+      "there"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Da hinten ist er ja.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "daneben",
+    "level": "A1",
+    "translationsEn": [
+      "next to it"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Du kennst doch die Post. Daneben ist die Bank.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "danken",
+    "level": "A1",
+    "translationsEn": [
+      "to thank"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich danke Ihnen für die Einladung.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Dank",
+    "level": "A1",
+    "translationsEn": [
+      "thanks"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Vielen Dank!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "danke",
+    "level": "A1",
+    "translationsEn": [
+      "thank you"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Soll ich Ihnen helfen? / Nein, danke!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dann",
+    "level": "A1",
+    "translationsEn": [
+      "then"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss noch schnell zur Post, dann komme ich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Datum",
+    "level": "A1",
+    "translationsEn": [
+      "date"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Bitte schreiben Sie noch das Datum auf das Formular.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dauern",
+    "level": "A1",
+    "translationsEn": [
+      "to take"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie lange dauert der Film?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dein",
+    "level": "A1",
+    "translationsEn": [
+      "your"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ist das dein Auto?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "denn",
+    "level": "A1",
+    "translationsEn": [
+      "because"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich kann nicht kommen, denn ich bin krank.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "das",
+    "level": "A1",
+    "translationsEn": [
+      "that"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich nehme das da.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "der",
+    "level": "A1",
+    "translationsEn": [
+      "the"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hier ist der Brief, den du suchst.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "die",
+    "level": "A1",
+    "translationsEn": [
+      "the"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Fahrkarte bekommst du am Bahnhof.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dich",
+    "level": "A1",
+    "translationsEn": [
+      "you"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Blumen sind für dich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dies",
+    "level": "A1",
+    "translationsEn": [
+      "this"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich nehme lieber diesen Kuchen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dir",
+    "level": "A1",
+    "translationsEn": [
+      "you"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Gefallen dir die Blumen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Disco",
+    "level": "A1",
+    "translationsEn": [
+      "disco"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Heute abend gehen wir in die Disco tanzen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Doktor",
+    "level": "A1",
+    "translationsEn": [
+      "doctor"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Meine Tochter ist krank. Wir gehen zum Doktor.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Doppelzimmer",
+    "level": "A1",
+    "translationsEn": [
+      "double room"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dort",
+    "level": "A1",
+    "translationsEn": [
+      "there"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Dort ist mein Zimmer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dorthin",
+    "level": "A1",
+    "translationsEn": [
+      "there (to that place",
+      "in that direction)"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Deine Tasche kannst du dorthin stellen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dorther",
+    "level": "A1",
+    "translationsEn": [
+      "from there"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er kommt gerade dorther.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "draußen",
+    "level": "A1",
+    "translationsEn": [
+      "outside"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wollen wir draußen sitzen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "drucken",
+    "level": "A1",
+    "translationsEn": [
+      "to print"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bitte drucke das Formular für mich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "drücken",
+    "level": "A1",
+    "translationsEn": [
+      "to press"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Drück hier, dann geht der Computer an.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "durch",
+    "level": "A1",
+    "translationsEn": [
+      "through"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Am besten gehen Sie durch die Breite Straße.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dürfen",
+    "level": "A1",
+    "translationsEn": [
+      "to be allowed"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie dürfen hier nicht rauchen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Durst",
+    "level": "A1",
+    "translationsEn": [
+      "thirst"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Hast du etwas zu trinken? Ich habe großen Durst.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "duschen",
+    "level": "A1",
+    "translationsEn": [
+      "to shower"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bade nicht so gern, ich dusche lieber.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Dusche",
+    "level": "A1",
+    "translationsEn": [
+      "shower"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Unsere Wohnung hat nur eine Dusche.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "eilig",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hast du es eilig?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein",
+    "level": "A1",
+    "translationsEn": [
+      "one",
+      "a"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich nehme ein Bier. Willst du auch eins?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "einfach",
+    "level": "A1",
+    "translationsEn": [
+      "simple"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Prüfung ist ganz einfach.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Eingang",
+    "level": "A1",
+    "translationsEn": [
+      "entrance"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Der Eingang ist um die Ecke.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "einkaufen",
+    "level": "A1",
+    "translationsEn": [
+      "to go shopping"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss noch für morgen einkaufen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "einladen",
+    "level": "A1",
+    "translationsEn": [
+      "to invite",
+      "treat"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Darf ich Sie zu einem Kaffee einladen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Einladung",
+    "level": "A1",
+    "translationsEn": [
+      "invitation"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Danke für die Einladung!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "noch einmal",
+    "level": "A1",
+    "translationsEn": [
+      "again"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Diese Prüfung mache ich nicht noch einmal.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "einmal",
+    "level": "A1",
+    "translationsEn": [
+      "once"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie dürfen diese Prüfung nur einmal machen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "einsteigen",
+    "level": "A1",
+    "translationsEn": [
+      "to get on"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Schnell, steig ein, der Zug fährt gleich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Eintritt",
+    "level": "A1",
+    "translationsEn": [
+      "entry"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Der Preis für den Eintritt ist 5 Euro.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Einzelzimmer",
+    "level": "A1",
+    "translationsEn": [
+      "single room"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Haben Sie noch ein Einzelzimmer?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Eltern",
+    "level": "A1",
+    "translationsEn": [
+      "parents"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Meine Eltern leben in Spanien.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "empfehlen",
+    "level": "A1",
+    "translationsEn": [
+      "to recommend"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Welchen Wein können Sie mir empfehlen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "enden",
+    "level": "A1",
+    "translationsEn": [
+      "to end"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Straße endet hier.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ende",
+    "level": "A1",
+    "translationsEn": [
+      "end"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Sie wohnt am Ende der Straße.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "entschuldigen",
+    "level": "A1",
+    "translationsEn": [
+      "to excuse"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Entschuldigen Sie bitte!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Entschuldigung",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Entschuldigung! / Bitte.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "er",
+    "level": "A1",
+    "translationsEn": [
+      "he"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er heißt Ali.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "erklären",
+    "level": "A1",
+    "translationsEn": [
+      "to explain"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kannst du mir das erklären?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "erlauben",
+    "level": "A1",
+    "translationsEn": [
+      "allow"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Rauchen ist hier nicht erlaubt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "erzählen",
+    "level": "A1",
+    "translationsEn": [
+      "to tell"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir müssen euch etwas erzählen!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "es",
+    "level": "A1",
+    "translationsEn": [
+      "it"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Es regnet.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "essen",
+    "level": "A1",
+    "translationsEn": [
+      "to eat"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was gibt es zu essen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "euer",
+    "level": "A1",
+    "translationsEn": [
+      "your [pl.]"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Euer Kurs beginnt heute.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fahren",
+    "level": "A1",
+    "translationsEn": [
+      "to travel"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich fahre mit dem Auto zur Arbeit.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Fahrer",
+    "level": "A1",
+    "translationsEn": [
+      "driver"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Bitte nicht mit dem Fahrer sprechen!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "falsch",
+    "level": "A1",
+    "translationsEn": [
+      "wrong",
+      "incorrect"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das ist falsch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Familienname",
+    "level": "A1",
+    "translationsEn": [
+      "surname"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Meine Familiennamen sind García González.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Familienstand",
+    "level": "A1",
+    "translationsEn": [
+      "family",
+      "marital status"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Bei „Familienstand“ musst du „ledig“ ankreuzen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Feierabend",
+    "level": "A1",
+    "translationsEn": [
+      "end of work",
+      "home time"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wir machen jetzt Feierabend.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Feiertag",
+    "level": "A1",
+    "translationsEn": [
+      "bank holiday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Am Montag ist Feiertag.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "feiern",
+    "level": "A1",
+    "translationsEn": [
+      "to celebrate"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir feiern heute meinen Geburtstag.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fehlen",
+    "level": "A1",
+    "translationsEn": [
+      "to be absent"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Herr Müller ist nicht da, er fehlt schon seit drei Tagen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fernsehen",
+    "level": "A1",
+    "translationsEn": [
+      "to watch TV"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wollen wir heute Abend mal fernsehen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fertig",
+    "level": "A1",
+    "translationsEn": [
+      "finished",
+      "ready",
+      "done"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bist du fertig?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Feuer",
+    "level": "A1",
+    "translationsEn": [
+      "fire",
+      "lighter"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Haben Sie Feuer?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Fieber",
+    "level": "A1",
+    "translationsEn": [
+      "fever"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Mein Mann hat noch immer Fieber.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "finden",
+    "level": "A1",
+    "translationsEn": [
+      "to find"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir müssen den Schlüssel finden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Firma",
+    "level": "A1",
+    "translationsEn": [
+      "company"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Er arbeitet jetzt bei einer anderen Firma.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Fleisch",
+    "level": "A1",
+    "translationsEn": [
+      "meat"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Fleisch mag ich nicht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fliegen",
+    "level": "A1",
+    "translationsEn": [
+      "to fly"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "abfliegen",
+    "level": "A1",
+    "translationsEn": [
+      "to depart"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wann fliegst du ab?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Abflug",
+    "level": "A1",
+    "translationsEn": [
+      "departure"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Der Abflug ist um 11.20 Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Flughafen",
+    "level": "A1",
+    "translationsEn": [
+      "airport"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Kannst du mich zum Flughafen bringen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Flugzeug",
+    "level": "A1",
+    "translationsEn": [
+      "aeroplane"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Das Flugzeug aus Berlin kommt heute später an.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fragen",
+    "level": "A1",
+    "translationsEn": [
+      "to ask"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er möchte Sie etwas fragen. Wann kommen Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Frau",
+    "level": "A1",
+    "translationsEn": [
+      "Ms"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Das ist Frau Becker.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Frauen",
+    "level": "A1",
+    "translationsEn": [
+      "women"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Hier arbeiten mehr Frauen als Männer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "frei",
+    "level": "A1",
+    "translationsEn": [
+      "free"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ist der Platz noch frei?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Freizeit",
+    "level": "A1",
+    "translationsEn": [
+      "free time"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "In meiner Freizeit spiele ich oft Fußball.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fremd",
+    "level": "A1",
+    "translationsEn": [
+      "foreign"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das weiß ich nicht, ich bin fremd hier.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "freuen",
+    "level": "A1",
+    "translationsEn": [
+      "to look forward"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich freue mich auf den Urlaub.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Freundin",
+    "level": "A1",
+    "translationsEn": [
+      "friend",
+      "girlfriend"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Das ist meine Freundin.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "früher",
+    "level": "A1",
+    "translationsEn": [
+      "earlier",
+      "in the past"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Früher waren wir oft zusammen im Kino.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "frühstücken",
+    "level": "A1",
+    "translationsEn": [
+      "to have breakfast"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Am Sonntag frühstücke ich gern im Bett.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Frühstück",
+    "level": "A1",
+    "translationsEn": [
+      "breakfast"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Möchtest du ein Ei zum Frühstück?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Führung",
+    "level": "A1",
+    "translationsEn": [
+      "tour"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Führung durch das Haus beginnt in 3 Minuten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "für",
+    "level": "A1",
+    "translationsEn": [
+      "for"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das ist für Sie.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Fußball",
+    "level": "A1",
+    "translationsEn": [
+      "football"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Spielt ihr gerne Fußball?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Garten",
+    "level": "A1",
+    "translationsEn": [
+      "garden"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wir haben leider keinen Garten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "geben",
+    "level": "A1",
+    "translationsEn": [
+      "to give"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kannst du mir bitte deinen Kugelschreiber geben?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "es gibt",
+    "level": "A1",
+    "translationsEn": [
+      "there is",
+      "are"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Es gibt keine Karten mehr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "geboren",
+    "level": "A1",
+    "translationsEn": [
+      "born"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin in Zagreb geboren.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Geburtsjahr",
+    "level": "A1",
+    "translationsEn": [
+      "birth year"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Das Geburtsjahr Ihres Sohnes, bitte?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Geburtsort",
+    "level": "A1",
+    "translationsEn": [
+      "birthplace"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Bitte schreiben Sie Ihren Geburtsort auf das Formular.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Geburtstag",
+    "level": "A1",
+    "translationsEn": [
+      "birthday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Herzlichen Glückwunsch zum Geburtstag!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gefallen",
+    "level": "A1",
+    "translationsEn": [
+      "to like"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das gefällt mir.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gegen",
+    "level": "A1",
+    "translationsEn": [
+      "into"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Fahr nicht gegen den Baum!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gehen",
+    "level": "A1",
+    "translationsEn": [
+      "to work",
+      "function"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich weiß nicht, wie das geht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gehören",
+    "level": "A1",
+    "translationsEn": [
+      "to belong"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wem gehört das?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Geld",
+    "level": "A1",
+    "translationsEn": [
+      "money"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Hast du noch Geld?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Gemüse",
+    "level": "A1",
+    "translationsEn": [
+      "vegetables"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Gemüse brauchen wir auch noch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Gepäck",
+    "level": "A1",
+    "translationsEn": [
+      "luggage"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wollen Sie Ihr Gepäck mitnehmen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gerade",
+    "level": "A1",
+    "translationsEn": [
+      "now"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Da kommt er ja gerade.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "geradeaus",
+    "level": "A1",
+    "translationsEn": [
+      "straight on"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Gehen Sie immer geradeaus!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gern",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich gehe gerne einkaufen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Geschwister",
+    "level": "A1",
+    "translationsEn": [
+      "siblings"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Ich habe leider keine Geschwister.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gestern",
+    "level": "A1",
+    "translationsEn": [
+      "yesterday"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Gestern war ich krank.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gestorben",
+    "level": "A1",
+    "translationsEn": [
+      "died"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Meine Frau ist gestern gestorben.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Gewicht",
+    "level": "A1",
+    "translationsEn": [
+      "weight"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Bei „Gewicht“ schreibst du: 62 Kilo.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gewinnen",
+    "level": "A1",
+    "translationsEn": [
+      "to win"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wer gewinnt das Spiel?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "glauben",
+    "level": "A1",
+    "translationsEn": [
+      "to believe"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie können mir glauben, es ist so.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gleich",
+    "level": "A1",
+    "translationsEn": [
+      "same"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das ist mir gleich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Glück",
+    "level": "A1",
+    "translationsEn": [
+      "luck"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Viel Glück!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "glücklich",
+    "level": "A1",
+    "translationsEn": [
+      "happily"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Meine Kinder sind glücklich verheiratet.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Glückwunsch",
+    "level": "A1",
+    "translationsEn": [
+      "congratulations"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Herzlichen Glückwunsch zum Geburtstag.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Grad",
+    "level": "A1",
+    "translationsEn": [
+      "degrees"
+    ],
+    "posGuess": "NOUN",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heute haben wir dreißig Grad.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gratulieren",
+    "level": "A1",
+    "translationsEn": [
+      "to congratulate"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich gratuliere dir!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "grillen",
+    "level": "A1",
+    "translationsEn": [
+      "to barbecue"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heute grillen wir im Garten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "groß",
+    "level": "A1",
+    "translationsEn": [
+      "tall"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mein Bruder und ich sind gleich groß.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Größe",
+    "level": "A1",
+    "translationsEn": [
+      "size"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Haben Sie das auch in Größe 40?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Großeltern",
+    "level": "A1",
+    "translationsEn": [
+      "grandparents"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Meine Großeltern leben in Japan.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Großmutter",
+    "level": "A1",
+    "translationsEn": [
+      "grandmother"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Meine Großmutter heißt Eva.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Großvater",
+    "level": "A1",
+    "translationsEn": [
+      "grandfather"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Mein Großvater ist schon 80.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gültig",
+    "level": "A1",
+    "translationsEn": [
+      "valid"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Pass ist nicht mehr gültig.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "günstig",
+    "level": "A1",
+    "translationsEn": [
+      "cheap"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Dort gibt es günstige Angebote.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gut",
+    "level": "A1",
+    "translationsEn": [
+      "good"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das finde ich gut.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "haben",
+    "level": "A1",
+    "translationsEn": [
+      "to have"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich habe ein neues Auto.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Halbpension",
+    "level": "A1",
+    "translationsEn": [
+      "half-board"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Möchten Sie Vollpension oder Halbpension?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Halle",
+    "level": "A1",
+    "translationsEn": [
+      "hall"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wir treffen uns in Halle B.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hallo",
+    "level": "A1",
+    "translationsEn": [
+      "hello"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hallo Inge! Wie geht’s?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "halten",
+    "level": "A1",
+    "translationsEn": [
+      "to stop"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Dieser Zug hält nicht in Rüdesheim.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Haltestelle",
+    "level": "A1",
+    "translationsEn": [
+      "stop"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "An der nächsten Haltestelle müssen Sie aussteigen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Hausmann",
+    "level": "A1",
+    "translationsEn": [
+      "househusband"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Der Hausmann wäscht, kocht und kauft ein.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Heimat",
+    "level": "A1",
+    "translationsEn": [
+      "home"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Ich komme aus der Schweiz. Das ist meine Heimat.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "heiraten",
+    "level": "A1",
+    "translationsEn": [
+      "to marry"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Meine Schwester heiratet einen Japaner.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "heißen",
+    "level": "A1",
+    "translationsEn": [
+      "to be called"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich heiße Charlotte Meier.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "helfen",
+    "level": "A1",
+    "translationsEn": [
+      "to help"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Können Sie mir helfen, bitte?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hell",
+    "level": "A1",
+    "translationsEn": [
+      "light"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Im Sommer ist es bis 21 Uhr hell.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Herd",
+    "level": "A1",
+    "translationsEn": [
+      "stove"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "In der neuen Küche fehlt noch der Herd.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "herzlich",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Herzlichen Glückwunsch!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "heute",
+    "level": "A1",
+    "translationsEn": [
+      "today"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heute ist ein schöner Tag.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hier",
+    "level": "A1",
+    "translationsEn": [
+      "here"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hier ist 06131-553221, Pamela Linke.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Hilfe",
+    "level": "A1",
+    "translationsEn": [
+      "help"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Hilfe! Bitte helfen Sie mir!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hinten",
+    "level": "A1",
+    "translationsEn": [
+      "at",
+      "in the back"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Tür zum Aussteigen ist hinten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hoch",
+    "level": "A1",
+    "translationsEn": [
+      "high"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Mount Everest ist 8.880 Meter hoch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Hochzeit",
+    "level": "A1",
+    "translationsEn": [
+      "marriage"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Zur dieser Hochzeit kommen mehr als fünfzig Gäste.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "holen",
+    "level": "A1",
+    "translationsEn": [
+      "to fetch"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich hole zwei Flaschen Wasser aus der Küche.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hören",
+    "level": "A1",
+    "translationsEn": [
+      "to listen"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hör mal! Was ist das?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Hunger",
+    "level": "A1",
+    "translationsEn": [
+      "hunger"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich habe Hunger! Wann ist das Essen fertig?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ich",
+    "level": "A1",
+    "translationsEn": [
+      "I"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich heiße Veronika.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ihm/ihr",
+    "level": "A1",
+    "translationsEn": [
+      "him",
+      "her"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Gib ihm/ihr bitte das Buch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ihn",
+    "level": "A1",
+    "translationsEn": [
+      "him"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ruf ihn bitte an.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "immer",
+    "level": "A1",
+    "translationsEn": [
+      "always"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Frau Bast kommt immer zu spät.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "in",
+    "level": "A1",
+    "translationsEn": [
+      "in"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich wohne in Wiesbaden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "international",
+    "level": "A1",
+    "translationsEn": [
+      "international"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ...",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Internet",
+    "level": "A1",
+    "translationsEn": [
+      "internet"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Das findest du im Internet.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ja",
+    "level": "A1",
+    "translationsEn": [
+      "yes"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sind Sie Herr Watanabe? / Ja.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "jed",
+    "level": "A1",
+    "translationsEn": [
+      "every"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Blumen kannst du in jedem Bahnhof kaufen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "jetzt",
+    "level": "A1",
+    "translationsEn": [
+      "now"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Jetzt machen wir eine Pause.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "jung",
+    "level": "A1",
+    "translationsEn": [
+      "young"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Claudia ist 21. / Was? Noch so jung?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kaffee",
+    "level": "A1",
+    "translationsEn": [
+      "coffee"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Zum Frühstück trinke ich immer Kaffee.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kaputt",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das Glas war teuer. Es geht sehr leicht kaputt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kasse",
+    "level": "A1",
+    "translationsEn": [
+      "till"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Zahlen Sie bitte an der Kasse.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kaufen",
+    "level": "A1",
+    "translationsEn": [
+      "to buy"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Tim kauft sich ein neues Auto.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kein",
+    "level": "A1",
+    "translationsEn": [
+      "no",
+      "none"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Es gibt keine Eintrittskarten mehr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kennen",
+    "level": "A1",
+    "translationsEn": [
+      "to know"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kennen Sie diese Frau? / Nein, leider nicht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kennenlernen",
+    "level": "A1",
+    "translationsEn": [
+      "to get to know"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir sind neu hier. Wir möchten Sie kennenlernen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kindergarten",
+    "level": "A1",
+    "translationsEn": [
+      "kindergarten"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Die kleine Laura geht schon in den Kindergarten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kiosk",
+    "level": "A1",
+    "translationsEn": [
+      "kiosk"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "klar",
+    "level": "A1",
+    "translationsEn": [
+      "of course",
+      "naturally"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kommst du mit? / Klar!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Klasse",
+    "level": "A1",
+    "translationsEn": [
+      "class"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "In unserer Klasse sind fünfundzwanzig Schüler.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kleidung",
+    "level": "A1",
+    "translationsEn": [
+      "clothes"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wo finde ich Kleidung? / Jacken im ersten, Jeans im zweiten Stock.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "klein",
+    "level": "A1",
+    "translationsEn": [
+      "small"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Eltville ist eine kleine Stadt am Rhein.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kochen",
+    "level": "A1",
+    "translationsEn": [
+      "to cook"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Herr Georgi kann gut kochen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kommen",
+    "level": "A1",
+    "translationsEn": [
+      "to come"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Woher kommen Sie? / Aus Frankreich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "können",
+    "level": "A1",
+    "translationsEn": [
+      "to be able to"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich kann Deutsch und Russisch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Konto",
+    "level": "A1",
+    "translationsEn": [
+      "account"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kopf",
+    "level": "A1",
+    "translationsEn": [
+      "head"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Mein Kopf tut weh!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kosten",
+    "level": "A1",
+    "translationsEn": [
+      "to cost"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie viel kostet das? / 10 Euro.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "krank",
+    "level": "A1",
+    "translationsEn": [
+      "ill"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kriegen",
+    "level": "A1",
+    "translationsEn": [
+      "to get"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich kriege 15 Euro in der Stunde für meine Arbeit.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Küche",
+    "level": "A1",
+    "translationsEn": [
+      "kitchen"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Der neue Herd kommt in die Küche.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kuchen",
+    "level": "A1",
+    "translationsEn": [
+      "cake"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich nehme ein Stück Kuchen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kugelschreiber",
+    "level": "A1",
+    "translationsEn": [
+      "ball-point pen"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Hast du einen Kugelschreiber für mich?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Kühlschrank",
+    "level": "A1",
+    "translationsEn": [
+      "fridge"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Haben wir noch Milch? / Ja, im Kühlschrank.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kulturell interessiert",
+    "level": "A1",
+    "translationsEn": [
+      "interested in culture"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin kulturell interessiert. Ich gehe oft ins Museum.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kulturell",
+    "level": "A1",
+    "translationsEn": [
+      "cultural"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Geschichte ist kulturell wichtig.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sich kümmern",
+    "level": "A1",
+    "translationsEn": [
+      "to look after"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Jede Mutter kümmert sich um ihre kleinen Kinder.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "kurz",
+    "level": "A1",
+    "translationsEn": [
+      "short"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ricardo hat kurzes Haar.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lachen",
+    "level": "A1",
+    "translationsEn": [
+      "to laugh"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Kinder lachen viel.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lang",
+    "level": "A1",
+    "translationsEn": [
+      "long"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Jeans ist zu lang.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lange",
+    "level": "A1",
+    "translationsEn": [
+      "long"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie lange fährt der Zug von Hamburg nach Berlin?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "langsam",
+    "level": "A1",
+    "translationsEn": [
+      "slow"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Könnten Sie bitte etwas langsamer sprechen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "laufen",
+    "level": "A1",
+    "translationsEn": [
+      "to walk",
+      "run"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich möchte nicht Auto fahren, ich möchte laufen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "laut",
+    "level": "A1",
+    "translationsEn": [
+      "loud"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Nicht so laut! Das Baby schläft.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "leben",
+    "level": "A1",
+    "translationsEn": [
+      "to live"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie lebt bei ihrer Schwester.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Lebensmittel",
+    "level": "A1",
+    "translationsEn": [
+      "food"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Lebensmittel bekommen Sie im Supermarkt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ledig",
+    "level": "A1",
+    "translationsEn": [
+      "single"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sind Sie verheiratet? / Nein. Ledig.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "legen",
+    "level": "A1",
+    "translationsEn": [
+      "to put"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Legen Sie das Buch auf den Tisch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "leicht",
+    "level": "A1",
+    "translationsEn": [
+      "light"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Koffer ist leicht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "leider",
+    "level": "A1",
+    "translationsEn": [
+      "unfortunately"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Leider kann ich nicht kommen. Ich muss zum Arzt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "leise",
+    "level": "A1",
+    "translationsEn": [
+      "quiet"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Seid leise. Die anderen schlafen schon.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lernen",
+    "level": "A1",
+    "translationsEn": [
+      "to learn"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie lange lernen Sie schon Deutsch?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lesen",
+    "level": "A1",
+    "translationsEn": [
+      "to read"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich lese ein Buch von García Márquez.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "letzt",
+    "level": "A1",
+    "translationsEn": [
+      "last"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Morgen ist der letzte Kurstag.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Leute",
+    "level": "A1",
+    "translationsEn": [
+      "people"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "In der Disko sind viele Leute.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Licht",
+    "level": "A1",
+    "translationsEn": [
+      "light"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wo macht man hier das Licht an?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lieb",
+    "level": "A1",
+    "translationsEn": [
+      "dear"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Liebe Susanne, lieber Hans,",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lieben",
+    "level": "A1",
+    "translationsEn": [
+      "to love"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich liebe dich!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lieber",
+    "level": "A1",
+    "translationsEn": [
+      "to prefer"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie fährt lieber mit der Bahn.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Lieblings",
+    "level": "A1",
+    "translationsEn": [
+      "favourite"
+    ],
+    "posGuess": "NOUN",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mein Lieblingsfilm ist „Schwarze Augen“.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "liegen",
+    "level": "A1",
+    "translationsEn": [
+      "to lie"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Um neun Uhr liegt Judith noch im Bett.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "links",
+    "level": "A1",
+    "translationsEn": [
+      "left"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Gehen Sie die nächste Straße links.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Lokal",
+    "level": "A1",
+    "translationsEn": [
+      "pub"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "In unserer Straße gibt es ein neues Lokal.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "lustig",
+    "level": "A1",
+    "translationsEn": [
+      "funny"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Frau Mertens ist lustig. Sie lacht immer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "machen",
+    "level": "A1",
+    "translationsEn": [
+      "to do"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was machst du heute Abend?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "man",
+    "level": "A1",
+    "translationsEn": [
+      "one",
+      "impersonal ‘you’"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hier darf man nicht rauchen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "männlich",
+    "level": "A1",
+    "translationsEn": [
+      "male"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Meer",
+    "level": "A1",
+    "translationsEn": [
+      "sea"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wir machen Urlaub am Meer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mehr",
+    "level": "A1",
+    "translationsEn": [
+      "more"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Dieses Auto kostet 1.000 Euro mehr als das andere.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mein",
+    "level": "A1",
+    "translationsEn": [
+      "my"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mein Vater ist Arzt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "meist",
+    "level": "A1",
+    "translationsEn": [
+      "most"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die meisten Norddeutschen sind sehr groß.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mieten",
+    "level": "A1",
+    "translationsEn": [
+      "to rent"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich möchte ein Auto mieten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Miete",
+    "level": "A1",
+    "translationsEn": [
+      "rent"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Miete für diese Wohnung ist 600 Euro.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Milch",
+    "level": "A1",
+    "translationsEn": [
+      "milk"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Milch steht im Kühlschrank.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mit",
+    "level": "A1",
+    "translationsEn": [
+      "with"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Trinken Sie den Kaffee mit Milch?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mitbringen",
+    "level": "A1",
+    "translationsEn": [
+      "to bring with one",
+      "to get"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich gehe einkaufen. Soll ich dir was mitbringen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mitkommen",
+    "level": "A1",
+    "translationsEn": [
+      "to come with"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich gehe ins Kino. Kommst du mit?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mitmachen",
+    "level": "A1",
+    "translationsEn": [
+      "to join in"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Warum macht ihr nicht mit?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mitnehmen",
+    "level": "A1",
+    "translationsEn": [
+      "to take with"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Nehmen wir meine Schwester ins Kino mit?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Mitte",
+    "level": "A1",
+    "translationsEn": [
+      "middle"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Der Lehrer steht in der Mitte des Klassenzimmers.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Möbel",
+    "level": "A1",
+    "translationsEn": [
+      "furniture"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Sind die Möbel neu?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "möchten",
+    "level": "A1",
+    "translationsEn": [
+      "would like to"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was möchten Sie trinken?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "mögen",
+    "level": "A1",
+    "translationsEn": [
+      "to like"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Magst du Kaffee oder Tee?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "möglich",
+    "level": "A1",
+    "translationsEn": [
+      "possible"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Moment",
+    "level": "A1",
+    "translationsEn": [
+      "moment"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Moment mal bitte!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "morgen",
+    "level": "A1",
+    "translationsEn": [
+      "tomorrow"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Morgen beginnt die Schule um 10 Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "müde",
+    "level": "A1",
+    "translationsEn": [
+      "tired"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin müde. Ich gehe schlafen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Mund",
+    "level": "A1",
+    "translationsEn": [
+      "mouth"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Öffnen Sie den Mund.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "müssen",
+    "level": "A1",
+    "translationsEn": [
+      "to have to"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nach",
+    "level": "A1",
+    "translationsEn": [
+      "to"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich gehe jetzt nach Hause.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nächst",
+    "level": "A1",
+    "translationsEn": [
+      "next"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sehen wir uns nächste Woche?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nehmen",
+    "level": "A1",
+    "translationsEn": [
+      "to have (food",
+      "drink)"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heute gibt es Hähnchen. Das nehme ich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nein",
+    "level": "A1",
+    "translationsEn": [
+      "no"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Fährst du auch nach München? / Nein, ich habe keine Zeit.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "neu",
+    "level": "A1",
+    "translationsEn": [
+      "new"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin der neue Kollege.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nicht",
+    "level": "A1",
+    "translationsEn": [
+      "not"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das stimmt nicht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nichts",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das macht nichts.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nie",
+    "level": "A1",
+    "translationsEn": [
+      "never"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er kommt nie pünktlich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "noch",
+    "level": "A1",
+    "translationsEn": [
+      "still"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Vielleicht kommt er noch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "normal",
+    "level": "A1",
+    "translationsEn": [
+      "normal"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "75 kg. Sein Gewicht ist normal.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "nur",
+    "level": "A1",
+    "translationsEn": [
+      "only"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich möchte nur ein Glas Wasser.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "oben",
+    "level": "A1",
+    "translationsEn": [
+      "upstairs"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich wohne oben.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Obst",
+    "level": "A1",
+    "translationsEn": [
+      "fruit"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Im Sommer ist das Obst billig.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "öffnen",
+    "level": "A1",
+    "translationsEn": [
+      "to open"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich öffne die Tür.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "geöffnet",
+    "level": "A1",
+    "translationsEn": [
+      "open"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Laden ist samstags bis 16:00 Uhr geöffnet.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "oft",
+    "level": "A1",
+    "translationsEn": [
+      "often"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Petra treffe ich oft.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ohne",
+    "level": "A1",
+    "translationsEn": [
+      "without"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ohne Geld kann er nichts kaufen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Öl",
+    "level": "A1",
+    "translationsEn": [
+      "oil"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Den Salat machen wir ohne Öl.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ordnung",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Das ist in Ordnung.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Papier",
+    "level": "A1",
+    "translationsEn": [
+      "paper"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Hier sind Papier und Bleistift.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Papiere",
+    "level": "A1",
+    "translationsEn": [
+      "papers"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Haben Sie Ihre Papiere dabei?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Party",
+    "level": "A1",
+    "translationsEn": [
+      "party"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Heute Abend machen wir eine Party.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Polizei",
+    "level": "A1",
+    "translationsEn": [
+      "police"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Holen Sie die Polizei!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Pommes",
+    "level": "A1",
+    "translationsEn": [
+      "chips"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Kinder essen Hähnchen mit Pommes frites.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Post",
+    "level": "A1",
+    "translationsEn": [
+      "post office"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wo ist die Post, bitte?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Postleitzahl",
+    "level": "A1",
+    "translationsEn": [
+      "postcode"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wie ist Ihre Postleitzahl?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Praktikum",
+    "level": "A1",
+    "translationsEn": [
+      "internship"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Ich mache ein Praktikum bei Siemens.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Praxis",
+    "level": "A1",
+    "translationsEn": [
+      "practice"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Praxis ist ab acht Uhr geöffnet.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Prüfung",
+    "level": "A1",
+    "translationsEn": [
+      "examination"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Prüfung ist am Montag um 8:00 Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "pünktlich",
+    "level": "A1",
+    "translationsEn": [
+      "sharp"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Bus fährt pünktlich um acht Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Rad fahren",
+    "level": "A1",
+    "translationsEn": [
+      "to cycle"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das Kind kann schon Rad fahren.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "rauchen",
+    "level": "A1",
+    "translationsEn": [
+      "to smoke"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich rauche nicht.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "rechts",
+    "level": "A1",
+    "translationsEn": [
+      "right"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Schillerstraße ist hier rechts.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "regnen",
+    "level": "A1",
+    "translationsEn": [
+      "to rain"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heute regnet es.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Regen",
+    "level": "A1",
+    "translationsEn": [
+      "rain"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Bei diesem Regen gehe ich nicht raus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Reis",
+    "level": "A1",
+    "translationsEn": [
+      "rice"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich esse gern Reis.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "reisen",
+    "level": "A1",
+    "translationsEn": [
+      "to travel"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich reise gern.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Reise",
+    "level": "A1",
+    "translationsEn": [
+      "journey",
+      "trip"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wir machen eine Reise nach Österreich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Reiseführer",
+    "level": "A1",
+    "translationsEn": [
+      "travel guide"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich kaufe mir einen Reiseführer von Berlin.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "reparieren",
+    "level": "A1",
+    "translationsEn": [
+      "to repair"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er hat das Fahrrad repariert.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Reparatur",
+    "level": "A1",
+    "translationsEn": [
+      "repair"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Reparatur ist sehr teuer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Rezeption",
+    "level": "A1",
+    "translationsEn": [
+      "reception"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Fragen Sie bitte im Hotel an der Rezeption.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "richtig",
+    "level": "A1",
+    "translationsEn": [
+      "correct"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Habe ich das richtig verstanden?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "riechen",
+    "level": "A1",
+    "translationsEn": [
+      "to smell"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Dieser Wein riecht gut.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ruhig",
+    "level": "A1",
+    "translationsEn": [
+      "quiet"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich möchte ein ruhiges Zimmer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Saft",
+    "level": "A1",
+    "translationsEn": [
+      "juice"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Möchtest du einen Apfelsaft?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sagen",
+    "level": "A1",
+    "translationsEn": [
+      "to say",
+      "tell"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sag mal, wie geht es dir denn?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Salat",
+    "level": "A1",
+    "translationsEn": [
+      "salad"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wie schmeckt dir der Salat?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Salz",
+    "level": "A1",
+    "translationsEn": [
+      "salt"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Entschuldigung, kann ich bitte das Salz haben?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "S-Bahn",
+    "level": "A1",
+    "translationsEn": [
+      "commuter train"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Ich nehme lieber die S-Bahn.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Schalter",
+    "level": "A1",
+    "translationsEn": [
+      "counter"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Gehen Sie bitte zum Schalter drei!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "scheinen",
+    "level": "A1",
+    "translationsEn": [
+      "to shine"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Sonne scheint.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schicken",
+    "level": "A1",
+    "translationsEn": [
+      "to send"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bitte schicken Sie mir eine E-Mail.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schlafen",
+    "level": "A1",
+    "translationsEn": [
+      "to sleep"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich schlafe meistens acht Stunden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schlecht",
+    "level": "A1",
+    "translationsEn": [
+      "sick"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mir ist schlecht!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schließen",
+    "level": "A1",
+    "translationsEn": [
+      "to close"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bitte, schließen Sie die Tür.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "geschlossen",
+    "level": "A1",
+    "translationsEn": [
+      "closed"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Bank hat am Samstag geschlossen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Schluss",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich muss jetzt Schluss machen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schmecken",
+    "level": "A1",
+    "translationsEn": [
+      "to taste"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Schmeckt das gut?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schnell",
+    "level": "A1",
+    "translationsEn": [
+      "quick",
+      "fast"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er fährt schnell.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schon",
+    "level": "A1",
+    "translationsEn": [
+      "already"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ist das Essen schon fertig?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schön",
+    "level": "A1",
+    "translationsEn": [
+      "lovely"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Schönen Urlaub!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schreiben",
+    "level": "A1",
+    "translationsEn": [
+      "to write"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er schreibt jeden Tag fünfzig E-Mails.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Schule",
+    "level": "A1",
+    "translationsEn": [
+      "school"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Meine Tochter geht schon in die Schule.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schwer",
+    "level": "A1",
+    "translationsEn": [
+      "heavy"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ist Ihr Gepäck sehr schwer?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schwimmen",
+    "level": "A1",
+    "translationsEn": [
+      "to swim"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich schwimme jeden Tag einen Kilometer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Schwimmbad",
+    "level": "A1",
+    "translationsEn": [
+      "swimming pool"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Kommst du mit ins Schwimmbad?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "See",
+    "level": "A1",
+    "translationsEn": [
+      "lake"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Komm, wir fahren zum Starnberger See.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sehen",
+    "level": "A1",
+    "translationsEn": [
+      "to see"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich kann dich nicht sehen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sehr",
+    "level": "A1",
+    "translationsEn": [
+      "very"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Danke sehr!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sein",
+    "level": "A1",
+    "translationsEn": [
+      "his"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Herr Müller ist in seinem Zimmer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "weg sein",
+    "level": "A1",
+    "translationsEn": [
+      "to be gone"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Herr Meier ist schon weg.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zu sein",
+    "level": "A1",
+    "translationsEn": [
+      "to be closed"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Tür ist zu.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "seit",
+    "level": "A1",
+    "translationsEn": [
+      "for"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich wohne seit drei Jahren in Köln.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "selbstständig",
+    "level": "A1",
+    "translationsEn": [
+      "independent"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er ist selbstständig.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sich",
+    "level": "A1",
+    "translationsEn": [
+      "yourself"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie müssen sich erst anmelden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sie",
+    "level": "A1",
+    "translationsEn": [
+      "she"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie heißt sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sitzen",
+    "level": "A1",
+    "translationsEn": [
+      "to sit"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo sitzen Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "so",
+    "level": "A1",
+    "translationsEn": [
+      "like this"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie müssen das so machen!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Sofa",
+    "level": "A1",
+    "translationsEn": [
+      "sofa"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Das Sofa ist neu.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sofort",
+    "level": "A1",
+    "translationsEn": [
+      "immediately"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Bitte antworten Sie sofort.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sollen",
+    "level": "A1",
+    "translationsEn": [
+      "should"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Soll ich kommen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Sonne",
+    "level": "A1",
+    "translationsEn": [
+      "sun"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Die Sonne scheint.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "spät",
+    "level": "A1",
+    "translationsEn": [
+      "late"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Es ist schon spät, ich muss gehen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "später",
+    "level": "A1",
+    "translationsEn": [
+      "later"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das können wir später machen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Speisekarte",
+    "level": "A1",
+    "translationsEn": [
+      "menu"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Bringen Sie mir die Speisekarte, bitte.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "spielen",
+    "level": "A1",
+    "translationsEn": [
+      "to play"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Kinder spielen draußen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Sport",
+    "level": "A1",
+    "translationsEn": [
+      "sport"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich mache viel Sport.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sprechen",
+    "level": "A1",
+    "translationsEn": [
+      "to speak"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kann ich (mit) Herrn Klein sprechen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "stehen",
+    "level": "A1",
+    "translationsEn": [
+      "to be"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich glaube es nicht, aber es steht in der Zeitung.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "stellen",
+    "level": "A1",
+    "translationsEn": [
+      "to put"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Stell die Tasche rechts in die Ecke!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Stock",
+    "level": "A1",
+    "translationsEn": [
+      "floor"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Unsere Wohnung liegt im ersten Stock.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Straßenbahn",
+    "level": "A1",
+    "translationsEn": [
+      "tram"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wo fährt die Straßenbahn ab?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "studieren",
+    "level": "A1",
+    "translationsEn": [
+      "to study"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich studiere in Mainz.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Studium",
+    "level": "A1",
+    "translationsEn": [
+      "degree course"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Das Studium beginnt im Oktober.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "suchen",
+    "level": "A1",
+    "translationsEn": [
+      "to look",
+      "search for"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Suchst du etwas?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "tanzen",
+    "level": "A1",
+    "translationsEn": [
+      "to dance"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Tanzen Sie gern?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Tee",
+    "level": "A1",
+    "translationsEn": [
+      "tea"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich trinke morgens immer Tee.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "telefonieren",
+    "level": "A1",
+    "translationsEn": [
+      "to telephone"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Darf ich mal telefonieren?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Telefon",
+    "level": "A1",
+    "translationsEn": [
+      "telephone"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Haben Sie ein Telefon?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Test",
+    "level": "A1",
+    "translationsEn": [
+      "test"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Der Test war einfach.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "teuer",
+    "level": "A1",
+    "translationsEn": [
+      "expensive"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das ist mir zu teuer.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Thema",
+    "level": "A1",
+    "translationsEn": [
+      "topic"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wir sprechen heute über das Thema „Essen und Trinken“.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Toilette",
+    "level": "A1",
+    "translationsEn": [
+      "toilet"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wo ist die Toilette, bitte?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "tot",
+    "level": "A1",
+    "translationsEn": [
+      "dead"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sein Vater ist schon lange tot.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "treffen",
+    "level": "A1",
+    "translationsEn": [
+      "to meet"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich treffe in der Stadt einen Kollegen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "trinken",
+    "level": "A1",
+    "translationsEn": [
+      "to drink"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Möchtest du etwas trinken?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "tschüss",
+    "level": "A1",
+    "translationsEn": [
+      "..."
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Junge Leute sagen meistens „tschüss!“ und nicht „auf Wiedersehen“.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "tun",
+    "level": "A1",
+    "translationsEn": [
+      "to do"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich habe noch etwas zu tun.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "über",
+    "level": "A1",
+    "translationsEn": [
+      "across"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Gehen Sie hier über die Straße.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "übernachten",
+    "level": "A1",
+    "translationsEn": [
+      "to stay overnight"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Du kannst bei mir übernachten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "überweisen",
+    "level": "A1",
+    "translationsEn": [
+      "to transfer"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sie können das Geld auch überweisen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Uhr",
+    "level": "A1",
+    "translationsEn": [
+      "o&#x27",
+      "clock",
+      "am"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Es ist vier Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "um",
+    "level": "A1",
+    "translationsEn": [
+      "at"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er kommt um sieben Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "umziehen",
+    "level": "A1",
+    "translationsEn": [
+      "to move"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Nächsten Monat ziehen wir um.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "und",
+    "level": "A1",
+    "translationsEn": [
+      "and"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Peter und Helmut sind meine Söhne.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "unser",
+    "level": "A1",
+    "translationsEn": [
+      "our"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das ist unsere Lehrerin.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "unten",
+    "level": "A1",
+    "translationsEn": [
+      "at the bottom"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er wohnt ganz unten im Haus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "unter",
+    "level": "A1",
+    "translationsEn": [
+      "below"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Unter uns wohnt eine Familie mit drei Kindern.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Unterricht",
+    "level": "A1",
+    "translationsEn": [
+      "class"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wir haben Unterricht von 8:00 bis 12:00 Uhr.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "unterschreiben",
+    "level": "A1",
+    "translationsEn": [
+      "to sign"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo muss ich unterschreiben?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Unterschrift",
+    "level": "A1",
+    "translationsEn": [
+      "signature"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Hier fehlt noch Ihre Unterschrift.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Urlaub",
+    "level": "A1",
+    "translationsEn": [
+      "holiday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Ich nehme im September Urlaub.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "verboten",
+    "level": "A1",
+    "translationsEn": [
+      "forbidden"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hier ist Rauchen verboten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "verdienen",
+    "level": "A1",
+    "translationsEn": [
+      "to earn"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich verdiene 1.500 Euro im Monat.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Verein",
+    "level": "A1",
+    "translationsEn": [
+      "club"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Es gibt einen neuen Sportverein in der Stadt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "verheiratet",
+    "level": "A1",
+    "translationsEn": [
+      "married"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin verheiratet und habe drei Kinder.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "verkaufen",
+    "level": "A1",
+    "translationsEn": [
+      "to sell"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er verkauft sein altes Auto.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vermieten",
+    "level": "A1",
+    "translationsEn": [
+      "to rent out"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Die Wohnung ist schon vermietet.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Vermieter",
+    "level": "A1",
+    "translationsEn": [
+      "landlord"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Unser Vermieter heißt Huber. Er wohnt auch hier.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "verstehen",
+    "level": "A1",
+    "translationsEn": [
+      "to understand"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Können Sie mich verstehen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "viel",
+    "level": "A1",
+    "translationsEn": [
+      "a lot"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hier regnet es viel.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vielleicht",
+    "level": "A1",
+    "translationsEn": [
+      "perhaps",
+      "may"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich komme vielleicht mit dem Bus.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "von",
+    "level": "A1",
+    "translationsEn": [
+      "of"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das Auto von Felix ist kaputt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vor",
+    "level": "A1",
+    "translationsEn": [
+      "ago"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Termin war vor einer Stunde.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Vorsicht",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Vorsicht! Da kommt ein Auto.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vorstellen",
+    "level": "A1",
+    "translationsEn": [
+      "to introduce"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Vorwahl",
+    "level": "A1",
+    "translationsEn": [
+      "area code"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Wie ist die Vorwahl von München?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wandern",
+    "level": "A1",
+    "translationsEn": [
+      "to hike"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir wandern um den Chiemsee.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wann",
+    "level": "A1",
+    "translationsEn": [
+      "when"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wann bist du fertig?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "warten",
+    "level": "A1",
+    "translationsEn": [
+      "to wait"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Können Sie ein paar Minuten warten?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "warum",
+    "level": "A1",
+    "translationsEn": [
+      "why"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Warum kommt er nicht?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "was",
+    "level": "A1",
+    "translationsEn": [
+      "what"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was ist das?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "was für ein",
+    "level": "A1",
+    "translationsEn": [
+      "what kind of"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was für eine Farbe möchten Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "waschen",
+    "level": "A1",
+    "translationsEn": [
+      "to wash"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo kann ich mir die Hände waschen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wasser",
+    "level": "A1",
+    "translationsEn": [
+      "water"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Ein Glas Wasser, bitte.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "weh tun",
+    "level": "A1",
+    "translationsEn": [
+      "to hurt"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss zum Arzt. Mein Bein tut weh.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "weiblich",
+    "level": "A1",
+    "translationsEn": [
+      "female"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wein",
+    "level": "A1",
+    "translationsEn": [
+      "wine"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Nein danke, ich möchte keinen Wein.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "weit",
+    "level": "A1",
+    "translationsEn": [
+      "far"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Zum Bahnhof ist es nicht weit.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "weiter",
+    "level": "A1",
+    "translationsEn": [
+      "further"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Bus fährt nicht weiter.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "welch",
+    "level": "A1",
+    "translationsEn": [
+      "which"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Welches Buch möchtest du?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Welt",
+    "level": "A1",
+    "translationsEn": [
+      "world"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Es gibt viele Probleme auf der Welt.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wenig",
+    "level": "A1",
+    "translationsEn": [
+      "little",
+      "not very much"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich habe leider nur wenig verstanden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wer",
+    "level": "A1",
+    "translationsEn": [
+      "who"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wer ist das?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "werden",
+    "level": "A1",
+    "translationsEn": [
+      "to become"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mein Sohn will Arzt werden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wetter",
+    "level": "A1",
+    "translationsEn": [
+      "weather"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Wir hatten schlechtes Wetter.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wichtig",
+    "level": "A1",
+    "translationsEn": [
+      "important"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Dieses Formular ist sehr wichtig.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wie",
+    "level": "A1",
+    "translationsEn": [
+      "what"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie heißt du?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wiederholen",
+    "level": "A1",
+    "translationsEn": [
+      "to repeat"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Können Sie das bitte wiederholen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wiederhören",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Auf Wiederhören!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wiedersehen",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Auf Wiedersehen!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wie viel",
+    "level": "A1",
+    "translationsEn": [
+      "how much"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie viel Milch nehmen Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "willkommen",
+    "level": "A1",
+    "translationsEn": [
+      "…"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Herzlich willkommen!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wind",
+    "level": "A1",
+    "translationsEn": [
+      "wind"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Der Wind kommt aus Osten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wir",
+    "level": "A1",
+    "translationsEn": [
+      "we"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir lernen Deutsch.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wissen",
+    "level": "A1",
+    "translationsEn": [
+      "to know"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Weißt du, wie er heißt?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wo",
+    "level": "A1",
+    "translationsEn": [
+      "where"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo waren Sie im Urlaub?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "woher",
+    "level": "A1",
+    "translationsEn": [
+      "from where"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Woher kommen Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wohin",
+    "level": "A1",
+    "translationsEn": [
+      "to where"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wohin fährt dieser Bus?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wohnen",
+    "level": "A1",
+    "translationsEn": [
+      "to live"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich wohne in München.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wollen",
+    "level": "A1",
+    "translationsEn": [
+      "to want"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wollen Sie einen Kaffee trinken?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "wunderbar",
+    "level": "A1",
+    "translationsEn": [
+      "wonderful"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Das Essen schmeckt wunderbar.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zahlen",
+    "level": "A1",
+    "translationsEn": [
+      "to pay"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir möchten zahlen, bitte!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Zeit",
+    "level": "A1",
+    "translationsEn": [
+      "time"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Ich habe heute keine Zeit.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zurzeit",
+    "level": "A1",
+    "translationsEn": [
+      "at the moment"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Zurzeit habe ich sehr viel zu tun.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Zoll",
+    "level": "A1",
+    "translationsEn": [
+      "customs"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wir müssen noch durch den Zoll.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zu",
+    "level": "A1",
+    "translationsEn": [
+      "to"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Der Bus fährt zum Bahnhof.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zufrieden",
+    "level": "A1",
+    "translationsEn": [
+      "happy"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin mit der Wohnung zufrieden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zurück",
+    "level": "A1",
+    "translationsEn": [
+      "return"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Einmal Frankfurt und zurück.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zusammen",
+    "level": "A1",
+    "translationsEn": [
+      "together"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Sollen wir zusammen essen gehen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zwischen",
+    "level": "A1",
+    "translationsEn": [
+      "between"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Heidelberg liegt zwischen Frankfurt und Stuttgart.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "eins",
+    "level": "A1",
+    "translationsEn": [
+      "one"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zwei",
+    "level": "A1",
+    "translationsEn": [
+      "two"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "drei",
+    "level": "A1",
+    "translationsEn": [
+      "three"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vier",
+    "level": "A1",
+    "translationsEn": [
+      "four"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fünf",
+    "level": "A1",
+    "translationsEn": [
+      "five"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sechs",
+    "level": "A1",
+    "translationsEn": [
+      "six"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sieben",
+    "level": "A1",
+    "translationsEn": [
+      "seven"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "acht",
+    "level": "A1",
+    "translationsEn": [
+      "eight"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "neun",
+    "level": "A1",
+    "translationsEn": [
+      "nine"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zehn",
+    "level": "A1",
+    "translationsEn": [
+      "ten"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "elf",
+    "level": "A1",
+    "translationsEn": [
+      "eleven"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zwölf",
+    "level": "A1",
+    "translationsEn": [
+      "twelve"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dreizehn",
+    "level": "A1",
+    "translationsEn": [
+      "thirteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vierzehn",
+    "level": "A1",
+    "translationsEn": [
+      "fourteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fünfzehn",
+    "level": "A1",
+    "translationsEn": [
+      "fifteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sechzehn",
+    "level": "A1",
+    "translationsEn": [
+      "sixteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "siebzehn",
+    "level": "A1",
+    "translationsEn": [
+      "seventeen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "achtzehn",
+    "level": "A1",
+    "translationsEn": [
+      "eighteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "neunzehn",
+    "level": "A1",
+    "translationsEn": [
+      "nineteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zwanzig",
+    "level": "A1",
+    "translationsEn": [
+      "twenty"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "einundzwanzig",
+    "level": "A1",
+    "translationsEn": [
+      "twenty one"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dreißig",
+    "level": "A1",
+    "translationsEn": [
+      "thirty"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vierzig",
+    "level": "A1",
+    "translationsEn": [
+      "fourty"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fünfzig",
+    "level": "A1",
+    "translationsEn": [
+      "fifty"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sechzig",
+    "level": "A1",
+    "translationsEn": [
+      "sixty"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "siebzig",
+    "level": "A1",
+    "translationsEn": [
+      "seventy"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "achtzig",
+    "level": "A1",
+    "translationsEn": [
+      "eighty"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "neunzig",
+    "level": "A1",
+    "translationsEn": [
+      "ninety"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hundert",
+    "level": "A1",
+    "translationsEn": [
+      "hundred"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "hunderteins",
+    "level": "A1",
+    "translationsEn": [
+      "one hundred and one"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zweihundert",
+    "level": "A1",
+    "translationsEn": [
+      "two hundred"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "tausend",
+    "level": "A1",
+    "translationsEn": [
+      "thousand"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "eine Million",
+    "level": "A1",
+    "translationsEn": [
+      "one million"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "eine Milliarde",
+    "level": "A1",
+    "translationsEn": [
+      "one billion"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "erste",
+    "level": "A1",
+    "translationsEn": [
+      "first"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zweite",
+    "level": "A1",
+    "translationsEn": [
+      "second"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dritte",
+    "level": "A1",
+    "translationsEn": [
+      "third"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vierte",
+    "level": "A1",
+    "translationsEn": [
+      "fourth"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "null Uhr drei",
+    "level": "A1",
+    "translationsEn": [
+      "time: 00:03"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "sieben Uhr fünfzehn",
+    "level": "A1",
+    "translationsEn": [
+      "time: 07:15"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "dreizehn Uhr siebzehn",
+    "level": "A1",
+    "translationsEn": [
+      "time: 13:17"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vierundzwanzig Uhr",
+    "level": "A1",
+    "translationsEn": [
+      "time: 24:00"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Woche",
+    "level": "A1",
+    "translationsEn": [
+      "week"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Uhr",
+    "level": "A1",
+    "translationsEn": [
+      "one o'clock"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "fünf Minuten vor/nach eins",
+    "level": "A1",
+    "translationsEn": [
+      "five to",
+      "past one"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Viertel vor/nach zwei",
+    "level": "A1",
+    "translationsEn": [
+      "quarter to",
+      "past two"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "halb drei",
+    "level": "A1",
+    "translationsEn": [
+      "half past two"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein halb; halb",
+    "level": "A1",
+    "translationsEn": [
+      "one half",
+      "half"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Viertel; Viertel",
+    "level": "A1",
+    "translationsEn": [
+      "one quarter",
+      "quarter"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "neunzehnhundertneunundneunzig",
+    "level": "A1",
+    "translationsEn": [
+      "nineteen ninety nine"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zweitausendvierzehn",
+    "level": "A1",
+    "translationsEn": [
+      "two thousand and fourteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Sonntag",
+    "level": "A1",
+    "translationsEn": [
+      "Sunday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Montag",
+    "level": "A1",
+    "translationsEn": [
+      "Monday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Dienstag",
+    "level": "A1",
+    "translationsEn": [
+      "Tuesday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Mittwoch",
+    "level": "A1",
+    "translationsEn": [
+      "Wednesday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Donnerstag",
+    "level": "A1",
+    "translationsEn": [
+      "Thursday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Freitag",
+    "level": "A1",
+    "translationsEn": [
+      "Friday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "der Samstag/Sonnabend",
+    "level": "A1",
+    "translationsEn": [
+      "Saturday"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Wochenende",
+    "level": "A1",
+    "translationsEn": [
+      "weekend"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "am Wochenende",
+    "level": "A1",
+    "translationsEn": [
+      "at the weekend"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Mittag",
+    "level": "A1",
+    "translationsEn": [
+      "midday"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Januar",
+    "level": "A1",
+    "translationsEn": [
+      "January"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Februar",
+    "level": "A1",
+    "translationsEn": [
+      "February"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "März",
+    "level": "A1",
+    "translationsEn": [
+      "March"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "April",
+    "level": "A1",
+    "translationsEn": [
+      "April"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Mai",
+    "level": "A1",
+    "translationsEn": [
+      "May"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Juni",
+    "level": "A1",
+    "translationsEn": [
+      "June"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Juli",
+    "level": "A1",
+    "translationsEn": [
+      "July"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "August",
+    "level": "A1",
+    "translationsEn": [
+      "August"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "September",
+    "level": "A1",
+    "translationsEn": [
+      "September"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Oktober",
+    "level": "A1",
+    "translationsEn": [
+      "October"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "November",
+    "level": "A1",
+    "translationsEn": [
+      "November"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Dezember",
+    "level": "A1",
+    "translationsEn": [
+      "December"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "der Frühling/das Frühjahr",
+    "level": "A1",
+    "translationsEn": [
+      "spring"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Sommer",
+    "level": "A1",
+    "translationsEn": [
+      "summer"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Herbst",
+    "level": "A1",
+    "translationsEn": [
+      "autumn"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Winter",
+    "level": "A1",
+    "translationsEn": [
+      "winter"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Meter",
+    "level": "A1",
+    "translationsEn": [
+      "one metre"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Zentimeter",
+    "level": "A1",
+    "translationsEn": [
+      "one centimetre"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Meter fünfzehn",
+    "level": "A1",
+    "translationsEn": [
+      "one metre fifteen"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "zweihundert Kilometer",
+    "level": "A1",
+    "translationsEn": [
+      "two hundred kilometres"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Quadratmeter",
+    "level": "A1",
+    "translationsEn": [
+      "one square metre"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Grad unter Null/minus ein Grad",
+    "level": "A1",
+    "translationsEn": [
+      "one degree below zero",
+      "minus one degree"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "vier Grad über Null/plus vier Grad",
+    "level": "A1",
+    "translationsEn": [
+      "four degrees above zero",
+      "plus four degrees"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Prozent",
+    "level": "A1",
+    "translationsEn": [
+      "one percent"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Liter",
+    "level": "A1",
+    "translationsEn": [
+      "one litre"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Gramm",
+    "level": "A1",
+    "translationsEn": [
+      "one gram"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Pfund",
+    "level": "A1",
+    "translationsEn": [
+      "one pound"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ein Kilo",
+    "level": "A1",
+    "translationsEn": [
+      "one kilo"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "schwarz",
+    "level": "A1",
+    "translationsEn": [
+      "black"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "grau",
+    "level": "A1",
+    "translationsEn": [
+      "grey"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "blau",
+    "level": "A1",
+    "translationsEn": [
+      "blue"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "grün",
+    "level": "A1",
+    "translationsEn": [
+      "green"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "weiß",
+    "level": "A1",
+    "translationsEn": [
+      "white"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "rot",
+    "level": "A1",
+    "translationsEn": [
+      "red"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "gelb",
+    "level": "A1",
+    "translationsEn": [
+      "yellow"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "braun",
+    "level": "A1",
+    "translationsEn": [
+      "brown"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Norden",
+    "level": "A1",
+    "translationsEn": [
+      "north"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Süden",
+    "level": "A1",
+    "translationsEn": [
+      "south"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Westen",
+    "level": "A1",
+    "translationsEn": [
+      "west"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Osten",
+    "level": "A1",
+    "translationsEn": [
+      "east"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ab",
+    "level": "A1",
+    "translationsEn": [
+      "as of"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ab morgen muss ich arbeiten.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "aber",
+    "level": "A1",
+    "translationsEn": [
+      "but"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich bin oft im Büro, aber nur für wenige Stunden.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "abfahren",
+    "level": "A1",
+    "translationsEn": [
+      "to leave"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wir fahren um zwölf Uhr ab.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "abgeben",
+    "level": "A1",
+    "translationsEn": [
+      "to hand sth. in"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Ich muss meine Schlüssel abgeben.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "abholen",
+    "level": "A1",
+    "translationsEn": [
+      "to pick so.",
+      "sth. up"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wann kann ich den Schrank bei dir abholen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Absender",
+    "level": "A1",
+    "translationsEn": [
+      "Sender"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Da ist ein Brief für dich ohne Absender.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Achtung",
+    "level": "A1",
+    "translationsEn": [
+      "Attention"
+    ],
+    "posGuess": "NOUN",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Achtung! Das dürfen Sie nicht tun.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Adresse",
+    "level": "A1",
+    "translationsEn": [
+      "Address"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Können Sie mir seine Adresse sagen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "all",
+    "level": "A1",
+    "translationsEn": [
+      "all"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Alles Gute! Das ist alles.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "allein",
+    "level": "A1",
+    "translationsEn": [
+      "alone"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Er kommt allein.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "also",
+    "level": "A1",
+    "translationsEn": [
+      "so"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Also, es ist so: ...",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "alt",
+    "level": "A1",
+    "translationsEn": [
+      "old"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wie alt sind Sie?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Alter",
+    "level": "A1",
+    "translationsEn": [
+      "Age"
+    ],
+    "posGuess": "NOUN",
+    "article": "das",
+    "plural": null,
+    "exampleDe": "Alter: 26 Jahre.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "an",
+    "level": "A1",
+    "translationsEn": [
+      "at"
+    ],
+    "posGuess": "PREP",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Fahren Sie an der nächsten Straße nach rechts.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anbieten",
+    "level": "A1",
+    "translationsEn": [
+      "to offer"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Was darf ich dir anbieten?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ander",
+    "level": "A1",
+    "translationsEn": [
+      "other-"
+    ],
+    "posGuess": null,
+    "article": null,
+    "plural": null,
+    "exampleDe": "Willst du diese Jacke? - Nein, ich möchte die Andere.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anfangen",
+    "level": "A1",
+    "translationsEn": [
+      "to begin"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Hier fängt die Bahnhofstraße an.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Anfang",
+    "level": "A1",
+    "translationsEn": [
+      "Beginning"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Sie wohnt am Anfang der Straße.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anklicken",
+    "level": "A1",
+    "translationsEn": [
+      "to click sth."
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Da musst du dieses Wort anklicken.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ankommen",
+    "level": "A1",
+    "translationsEn": [
+      "to arrive"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wann kommt dieser Zug in Hamburg an?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Ankunft",
+    "level": "A1",
+    "translationsEn": [
+      "Arrival"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "ankreuzen",
+    "level": "A1",
+    "translationsEn": [
+      "to check sth."
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Auf dem Fomular müssen Sie an mehreren Stellen etwas ankreuzen.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anmachen",
+    "level": "A1",
+    "translationsEn": [
+      "to turn sth. on"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Mach bitte das Licht an!",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anmelden",
+    "level": "A1",
+    "translationsEn": [
+      "to register"
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Wo kann ich mich anmelden?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Anmeldung",
+    "level": "A1",
+    "translationsEn": [
+      "Registration"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Anrede",
+    "level": "A1",
+    "translationsEn": [
+      "Salutation"
+    ],
+    "posGuess": "NOUN",
+    "article": "die",
+    "plural": null,
+    "exampleDe": "Schreiben Sie auch eine Anrede und einen Gruß.",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "anrufen",
+    "level": "A1",
+    "translationsEn": [
+      "to call so."
+    ],
+    "posGuess": "VERB",
+    "article": null,
+    "plural": null,
+    "exampleDe": "Kann man Sie anrufen?",
+    "source": "goethe-a1"
+  },
+  {
+    "lemma": "Anrufbeantworter",
+    "level": "A1",
+    "translationsEn": [
+      "Answering machine"
+    ],
+    "posGuess": "NOUN",
+    "article": "der",
+    "plural": null,
+    "exampleDe": "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.",
+    "source": "goethe-a1"
+  }
+]

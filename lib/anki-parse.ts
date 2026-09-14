@@ -38,17 +38,39 @@ const PREPOSITIONS = new Set([
  *   "¨-er"  -> Haus umlauted + er = Häuser
  *   "-"     -> unchanged
  *   "-s"    -> Auto + s      = Autos
- * Returns null when the notation isn't one we can expand safely.
+ *   "\"-e"  -> same as ¨-e; some decks type the umlaut as an ASCII quote
+ *   "¨"     -> umlaut alone, no suffix (Garten -> Gärten)
+ *   "-ä, er"-> umlaut spelled out as the vowel it produces, suffix after the
+ *             comma = Häuser. Goethe A1 writes every umlaut plural this way.
+ *   "–"     -> en dash for an unchanged plural
+ * Returns null when the notation isn't one we can expand safely — including
+ * the "(Sg.)" / "(Pl.)" markers used for nouns that have no counterpart form.
  */
+const UMLAUT_MARKER = /^[¨̈"]/;
+
 export function expandPlural(singular: string, notation: string): string | null {
-  const n = notation.trim();
+  let n = notation.trim();
   if (!n) return null;
 
-  // Already a full word (contains letters beyond the suffix markers).
-  if (/^[A-ZÄÖÜ]/.test(n) && !n.startsWith("-") && !n.startsWith("¨")) return n;
+  // Punctuation decks vary on: a "/" offering a second accepted plural, en and
+  // em dashes standing in for the ASCII one, and a stray trailing comma.
+  n = n.split("/")[0].replace(/[–—]/g, "-").replace(/,+$/, "").trim();
+  if (!n) return null;
 
-  const umlaut = n.startsWith("¨") || n.startsWith("̈");
-  const suffixMatch = /-(.*)$/.exec(n.replace(/^[¨̈]/, ""));
+  // "-ä, er" / "ü, e" — the umlaut written as the vowel it produces, with the
+  // suffix after the comma. A lone umlauted vowel followed by a comma is
+  // unambiguous: a spelled-out plural would have more letters before the comma.
+  const spelledUmlaut = /^-?\s*[äöüÄÖÜ]\s*,\s*(.*)$/.exec(n);
+  if (spelledUmlaut) return expandPlural(singular, `¨-${spelledUmlaut[1].trim()}`);
+
+  // Already a full word (contains letters beyond the suffix markers).
+  if (/^[A-ZÄÖÜ]/.test(n) && !n.startsWith("-") && !UMLAUT_MARKER.test(n)) return n;
+
+  const umlaut = UMLAUT_MARKER.test(n);
+  const rest = n.replace(UMLAUT_MARKER, "").trim();
+
+  // A bare umlaut marker pluralises by vowel change alone, with no suffix.
+  const suffixMatch = umlaut && rest === "" ? ["", ""] : /-(.*)$/.exec(rest);
   if (!suffixMatch) return null;
 
   const suffix = suffixMatch[1].trim();
@@ -75,23 +97,60 @@ export function expandPlural(singular: string, notation: string): string | null 
     }
   }
 
+  // A noun ending in -e takes -n, never -en: "die Adresse, -en" is the deck
+  // contradicting itself, and gluing the two together gives "Adresseen".
+  // Null here hands the word to the backfill rather than inventing a plural.
+  if (stem.endsWith("e") && suffix.startsWith("e")) return null;
+
   return stem + suffix;
+}
+
+/**
+ * Wordlists mark a word that only ever appears with an ending, or only as part
+ * of a compound, with a hanging hyphen: "dies-", "Bio-", "-einander". The
+ * hyphen is notation, not spelling, so the lemma drops it.
+ */
+function tidyLemma(lemma: string): string {
+  return lemma.replace(/^-+|-+$/g, "").trim();
 }
 
 export function parseGermanField(raw: string): ParsedEntry {
   const text = cleanField(raw);
 
-  // Some decks put extra senses in parentheses — keep the headword only.
-  const head = text.replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
+  // An arrow introduces a regional variant and a semicolon the feminine
+  // counterpart — "das Abitur (D) -> A, CH: Matura", "der Absender, -; die
+  // Absenderin, nen". Both name a *different* word, so everything past them is
+  // cut; otherwise the aside lands in this word's plural. The counterpart is
+  // dropped rather than imported: this returns a single entry by contract.
+  const withoutVariant = text.split(/->|→|;/)[0];
 
-  // "das Haus, ¨-er" / "der Apfel, die Äpfel"
-  const withArticle = /^(der|die|das)\s+([A-Za-zÄÖÜäöüß-]+)\s*(?:,\s*(.+))?$/.exec(head);
+  // "(Back-)Ofen", "(herunter-)fahren" — here the bracketed part is glued to
+  // the word rather than being an aside, and the English gloss brackets it the
+  // same way ("(baking) oven"). Joining keeps lemma and gloss describing the
+  // same thing; dropping it would file "to shut down" under plain "fahren".
+  const joined = withoutVariant.replace(
+    /\(([^)]*?)-\)(\p{L})/gu,
+    (_m, prefix: string, next: string) =>
+      /^\p{Lu}/u.test(prefix) ? prefix + next.toLowerCase() : prefix + next,
+  );
+
+  const head = joined
+    // Remaining brackets are genuine asides — extra senses, region tags.
+    .replace(/\([^)]*\)/g, " ")
+    // Some decks mark the separable-prefix boundary with a pipe: "ab|bauen".
+    .replace(/\|/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // "das Haus, ¨-er" / "der Apfel, die Äpfel" / "das/der Obers"
+  const withArticle =
+    /^(der|die|das)(?:\/(?:der|die|das))*\s+([A-Za-zÄÖÜäöüß-]+)\s*(?:[,\s]\s*(.+))?$/.exec(head);
   if (withArticle) {
     const article = withArticle[1] as Article;
     const lemma = withArticle[2];
     const pluralRaw = withArticle[3]?.replace(/^(die|pl\.?)\s*/i, "").trim() ?? "";
     return {
-      lemma,
+      lemma: tidyLemma(lemma),
       article,
       plural: pluralRaw ? expandPlural(lemma, pluralRaw) : null,
       posGuess: "NOUN",
@@ -105,7 +164,7 @@ export function parseGermanField(raw: string): ParsedEntry {
     const article = trailingArticle[2] as Article;
     const rest = trailingArticle[3]?.replace(/^[,\s]+/, "").trim() ?? "";
     return {
-      lemma,
+      lemma: tidyLemma(lemma),
       article,
       plural: rest ? expandPlural(lemma, rest) : null,
       posGuess: "NOUN",
@@ -113,7 +172,7 @@ export function parseGermanField(raw: string): ParsedEntry {
   }
 
   // Everything else: take the first comma-separated form as the headword.
-  const lemma = head.split(",")[0].trim();
+  const lemma = tidyLemma(head.split(",")[0]);
   if (!lemma) return { lemma: "", article: null, plural: null, posGuess: null };
 
   return { lemma, article: null, plural: null, posGuess: guessPos(lemma) };
