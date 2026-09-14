@@ -1,0 +1,645 @@
+[
+  {
+    "level": "A1",
+    "section": "READING",
+    "title": "Eine kurze E-Mail",
+    "payload": {
+      "text": "Hallo Tom,\n\nwie geht es dir? Ich komme am Samstag nach Berlin. Mein Zug kommt um 14 Uhr an. Hast du Zeit? Wir können zusammen Kaffee trinken.\n\nBis bald,\nAnna",
+      "questions": [
+        {
+          "prompt": "Wann kommt Anna an?",
+          "options": [
+            "Am Freitag",
+            "Am Samstag",
+            "Am Sonntag",
+            "Am Montag"
+          ],
+          "answer": "Am Samstag"
+        },
+        {
+          "prompt": "Um wie viel Uhr kommt der Zug an?",
+          "options": [
+            "12 Uhr",
+            "13 Uhr",
+            "14 Uhr",
+            "15 Uhr"
+          ],
+          "answer": "14 Uhr"
+        },
+        {
+          "prompt": "Was möchte Anna machen?",
+          "options": [
+            "Ins Kino gehen",
+            "Kaffee trinken",
+            "Einkaufen",
+            "Arbeiten"
+          ],
+          "answer": "Kaffee trinken"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "section": "READING",
+    "title": "Anzeige: Wohnung zu vermieten",
+    "payload": {
+      "text": "Schöne 2-Zimmer-Wohnung im Zentrum, 60 m², 3. Stock ohne Aufzug. Küche und Bad neu renoviert. Miete 850 Euro warm. Keine Haustiere. Ab 1. Mai frei. Besichtigung nur nach Absprache.",
+      "questions": [
+        {
+          "prompt": "Wie groß ist die Wohnung?",
+          "options": [
+            "50 m²",
+            "60 m²",
+            "70 m²",
+            "80 m²"
+          ],
+          "answer": "60 m²"
+        },
+        {
+          "prompt": "Gibt es einen Aufzug?",
+          "options": [
+            "Ja",
+            "Nein",
+            "Nur im Sommer",
+            "Das steht nicht da"
+          ],
+          "answer": "Nein"
+        },
+        {
+          "prompt": "Darf man eine Katze halten?",
+          "options": [
+            "Ja",
+            "Nein",
+            "Nur mit Erlaubnis",
+            "Nur kleine Tiere"
+          ],
+          "answer": "Nein"
+        },
+        {
+          "prompt": "Ab wann ist die Wohnung frei?",
+          "options": [
+            "1. März",
+            "1. April",
+            "1. Mai",
+            "1. Juni"
+          ],
+          "answer": "1. Mai"
+        }
+      ]
+    }
+  },
+  {
+    "level": "B1",
+    "section": "READING",
+    "title": "Zeitungsartikel: Radfahren in der Stadt",
+    "payload": {
+      "text": "Immer mehr Städte bauen ihre Radwege aus. In Kopenhagen fährt heute fast die Hälfte der Einwohner täglich mit dem Rad zur Arbeit. Deutsche Städte hinken hinterher, holen aber auf. Kritiker bemängeln, dass neue Radwege oft auf Kosten von Parkplätzen entstehen. Befürworter halten dagegen, dass weniger Autos die Luftqualität deutlich verbessern.",
+      "questions": [
+        {
+          "prompt": "Wie viele Einwohner Kopenhagens radeln zur Arbeit?",
+          "options": [
+            "Ein Viertel",
+            "Fast die Hälfte",
+            "Drei Viertel",
+            "Alle"
+          ],
+          "answer": "Fast die Hälfte"
+        },
+        {
+          "prompt": "Was bemängeln Kritiker?",
+          "options": [
+            "Radwege sind zu teuer",
+            "Radwege entstehen auf Kosten von Parkplätzen",
+            "Radwege sind zu schmal",
+            "Es gibt zu wenige Radfahrer"
+          ],
+          "answer": "Radwege entstehen auf Kosten von Parkplätzen"
+        },
+        {
+          "prompt": "Welches Argument nennen Befürworter?",
+          "options": [
+            "Bessere Luftqualität",
+            "Weniger Lärm",
+            "Niedrigere Kosten",
+            "Mehr Tourismus"
+          ],
+          "answer": "Bessere Luftqualität"
+        }
+      ]
+    }
+  },
+  {
+    "level": "B2",
+    "section": "READING",
+    "title": "Kommentar: Vier-Tage-Woche",
+    "payload": {
+      "text": "Die Debatte um die Vier-Tage-Woche wird oft verkürzt geführt. Befürworter verweisen auf Pilotprojekte, in denen die Produktivität trotz kürzerer Arbeitszeit stabil blieb. Skeptiker halten dem entgegen, dass sich solche Ergebnisse kaum auf Branchen übertragen lassen, in denen Arbeitszeit unmittelbar mit Leistung zusammenfällt — etwa in der Pflege oder im Handwerk. Die entscheidende Frage lautet daher nicht, ob die Vier-Tage-Woche funktioniert, sondern für wen.",
+      "questions": [
+        {
+          "prompt": "Worauf verweisen Befürworter?",
+          "options": [
+            "Auf Umfragen",
+            "Auf Pilotprojekte",
+            "Auf Gesetze",
+            "Auf das Ausland"
+          ],
+          "answer": "Auf Pilotprojekte"
+        },
+        {
+          "prompt": "Welches Gegenargument nennen Skeptiker?",
+          "options": [
+            "Die Kosten sind zu hoch",
+            "Ergebnisse lassen sich nicht auf alle Branchen übertragen",
+            "Arbeitnehmer wollen es nicht",
+            "Es ist rechtlich unmöglich"
+          ],
+          "answer": "Ergebnisse lassen sich nicht auf alle Branchen übertragen"
+        },
+        {
+          "prompt": "Wie formuliert der Autor die entscheidende Frage?",
+          "options": [
+            "Ob sie funktioniert",
+            "Für wen sie funktioniert",
+            "Wann sie kommt",
+            "Wer sie bezahlt"
+          ],
+          "answer": "Für wen sie funktioniert"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A1",
+    "section": "LISTENING",
+    "title": "Am Bahnhof",
+    "payload": {
+      "script": "Achtung, eine Durchsage. Der Zug nach München fährt heute von Gleis drei ab. Die Abfahrt ist um sechzehn Uhr zwanzig. Der Zug hat zehn Minuten Verspätung.",
+      "questions": [
+        {
+          "prompt": "Wohin fährt der Zug?",
+          "options": [
+            "Nach Berlin",
+            "Nach München",
+            "Nach Hamburg",
+            "Nach Köln"
+          ],
+          "answer": "Nach München"
+        },
+        {
+          "prompt": "Von welchem Gleis fährt er ab?",
+          "options": [
+            "Gleis eins",
+            "Gleis zwei",
+            "Gleis drei",
+            "Gleis vier"
+          ],
+          "answer": "Gleis drei"
+        },
+        {
+          "prompt": "Wie viel Verspätung hat der Zug?",
+          "options": [
+            "Fünf Minuten",
+            "Zehn Minuten",
+            "Zwanzig Minuten",
+            "Keine"
+          ],
+          "answer": "Zehn Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "section": "LISTENING",
+    "title": "Eine Nachricht auf dem Anrufbeantworter",
+    "payload": {
+      "script": "Hallo Maria, hier ist Peter. Ich kann heute Abend leider nicht kommen. Ich muss länger arbeiten. Können wir uns morgen treffen? Vielleicht um sieben Uhr im Café am Markt. Ruf mich bitte zurück. Tschüss!",
+      "questions": [
+        {
+          "prompt": "Warum kann Peter nicht kommen?",
+          "options": [
+            "Er ist krank",
+            "Er muss länger arbeiten",
+            "Er hat keine Zeit",
+            "Er ist verreist"
+          ],
+          "answer": "Er muss länger arbeiten"
+        },
+        {
+          "prompt": "Wann schlägt er ein Treffen vor?",
+          "options": [
+            "Heute Abend",
+            "Morgen um sieben",
+            "Übermorgen",
+            "Am Wochenende"
+          ],
+          "answer": "Morgen um sieben"
+        },
+        {
+          "prompt": "Wo möchte er sich treffen?",
+          "options": [
+            "Im Restaurant",
+            "Im Café am Markt",
+            "Bei Maria",
+            "Im Büro"
+          ],
+          "answer": "Im Café am Markt"
+        }
+      ]
+    }
+  },
+  {
+    "level": "B1",
+    "section": "LISTENING",
+    "title": "Radiobeitrag: Ehrenamt",
+    "payload": {
+      "script": "In Deutschland engagieren sich rund sechzehn Millionen Menschen ehrenamtlich. Besonders beliebt sind der Sportverein und die Feuerwehr. Auffällig ist allerdings, dass immer weniger junge Menschen dauerhaft mitmachen. Viele engagieren sich lieber projektbezogen, also für einige Wochen oder Monate statt für Jahre.",
+      "questions": [
+        {
+          "prompt": "Wie viele Menschen engagieren sich ehrenamtlich?",
+          "options": [
+            "Sechs Millionen",
+            "Zehn Millionen",
+            "Sechzehn Millionen",
+            "Sechzig Millionen"
+          ],
+          "answer": "Sechzehn Millionen"
+        },
+        {
+          "prompt": "Welche Bereiche sind besonders beliebt?",
+          "options": [
+            "Sportverein und Feuerwehr",
+            "Schule und Kirche",
+            "Politik und Kultur",
+            "Umwelt und Tiere"
+          ],
+          "answer": "Sportverein und Feuerwehr"
+        },
+        {
+          "prompt": "Wie engagieren sich junge Menschen lieber?",
+          "options": [
+            "Dauerhaft",
+            "Projektbezogen",
+            "Gar nicht",
+            "Nur im Sommer"
+          ],
+          "answer": "Projektbezogen"
+        }
+      ]
+    }
+  },
+  {
+    "level": "B2",
+    "section": "LISTENING",
+    "title": "Interview: Sprachen lernen im Erwachsenenalter",
+    "payload": {
+      "script": "Es hält sich hartnäckig die Vorstellung, Erwachsene könnten keine Sprachen mehr richtig lernen. Das ist so nicht haltbar. Richtig ist, dass Kinder die Aussprache leichter übernehmen. Erwachsene dagegen lernen Grammatik und Wortschatz oft deutlich schneller, weil sie bewusster vorgehen und auf bestehendes Sprachwissen zurückgreifen können. Entscheidend ist am Ende weniger das Alter als die Regelmäßigkeit.",
+      "questions": [
+        {
+          "prompt": "Welche Vorstellung hält sich hartnäckig?",
+          "options": [
+            "Kinder lernen langsamer",
+            "Erwachsene können keine Sprachen mehr lernen",
+            "Sprachen lernt man nur im Ausland",
+            "Grammatik ist unwichtig"
+          ],
+          "answer": "Erwachsene können keine Sprachen mehr lernen"
+        },
+        {
+          "prompt": "Was fällt Kindern leichter?",
+          "options": [
+            "Grammatik",
+            "Wortschatz",
+            "Die Aussprache",
+            "Das Schreiben"
+          ],
+          "answer": "Die Aussprache"
+        },
+        {
+          "prompt": "Warum lernen Erwachsene Grammatik schneller?",
+          "options": [
+            "Sie haben mehr Zeit",
+            "Sie gehen bewusster vor",
+            "Sie sind motivierter",
+            "Sie haben bessere Lehrer"
+          ],
+          "answer": "Sie gehen bewusster vor"
+        },
+        {
+          "prompt": "Was ist laut Interview entscheidend?",
+          "options": [
+            "Das Alter",
+            "Die Regelmäßigkeit",
+            "Der Lehrer",
+            "Das Land"
+          ],
+          "answer": "Die Regelmäßigkeit"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A1",
+    "section": "WRITING",
+    "title": "Sich vorstellen",
+    "payload": {
+      "task": "Schreiben Sie eine kurze E-Mail an einen neuen Brieffreund. Stellen Sie sich vor.",
+      "minWords": 30,
+      "hints": [
+        "Name und Alter",
+        "Wo Sie wohnen",
+        "Was Sie beruflich machen",
+        "Ihre Hobbys"
+      ],
+      "modelAnswer": "Hallo Max,\n\nich heiße Sarah und bin 28 Jahre alt. Ich wohne in Köln und arbeite als Lehrerin. In meiner Freizeit lese ich gern und spiele Tennis. Ich habe einen Hund. Er heißt Bruno.\n\nWie alt bist du? Was machst du gern?\n\nViele Grüße\nSarah"
+    }
+  },
+  {
+    "level": "A2",
+    "section": "WRITING",
+    "title": "Eine Einladung absagen",
+    "payload": {
+      "task": "Ein Freund hat Sie zu seiner Geburtstagsfeier eingeladen. Sie können nicht kommen. Schreiben Sie eine E-Mail.",
+      "minWords": 50,
+      "hints": [
+        "Danken Sie für die Einladung",
+        "Erklären Sie, warum Sie nicht kommen können",
+        "Schlagen Sie einen anderen Termin vor",
+        "Wünschen Sie alles Gute"
+      ],
+      "modelAnswer": "Lieber Jonas,\n\nvielen Dank für deine Einladung zur Geburtstagsfeier. Ich freue mich sehr, dass du an mich gedacht hast.\n\nLeider kann ich am Samstag nicht kommen, weil ich beruflich in Hamburg bin. Das tut mir wirklich leid.\n\nHättest du vielleicht in der Woche danach Zeit? Wir könnten zusammen essen gehen.\n\nIch wünsche dir einen schönen Tag und alles Gute zum Geburtstag!\n\nLiebe Grüße\nAnna"
+    }
+  },
+  {
+    "level": "B1",
+    "section": "WRITING",
+    "title": "Eine Meinung äußern",
+    "payload": {
+      "task": "In einem Online-Forum wird diskutiert: „Sollten Handys in der Schule verboten werden?“ Schreiben Sie Ihren Beitrag.",
+      "minWords": 80,
+      "hints": [
+        "Nennen Sie Ihre Meinung klar",
+        "Geben Sie mindestens zwei Argumente",
+        "Nennen Sie ein Gegenargument",
+        "Ziehen Sie ein Fazit"
+      ],
+      "modelAnswer": "Meiner Meinung nach sollten Handys im Unterricht verboten, in den Pausen aber erlaubt sein.\n\nZum einen lenken Handys stark ab. Wer ständig auf Nachrichten schaut, kann sich nicht konzentrieren. Zum anderen fördert ein Verbot den direkten Kontakt zwischen den Schülern, der sonst verloren geht.\n\nNatürlich argumentieren manche, dass Handys im Notfall wichtig sind. Das stimmt, aber in einem Notfall kann man das Sekretariat erreichen.\n\nInsgesamt halte ich ein Verbot während des Unterrichts deshalb für sinnvoll, ein vollständiges Verbot dagegen für übertrieben."
+    }
+  },
+  {
+    "level": "B2",
+    "section": "WRITING",
+    "title": "Erörterung",
+    "payload": {
+      "task": "Schreiben Sie eine Erörterung zum Thema: „Homeoffice — Chance oder Risiko für die Arbeitswelt?“",
+      "minWords": 150,
+      "hints": [
+        "Einleitung mit Problemstellung",
+        "Argumente dafür mit Beispielen",
+        "Argumente dagegen mit Beispielen",
+        "Eigene begründete Position im Fazit",
+        "Verwenden Sie Konnektoren wie zwar…aber, einerseits…andererseits, allerdings"
+      ],
+      "modelAnswer": "Seit einigen Jahren hat sich das Homeoffice von einer Ausnahme zu einem festen Bestandteil der Arbeitswelt entwickelt. Ob diese Entwicklung eher Chancen oder Risiken birgt, wird kontrovers diskutiert.\n\nFür das Homeoffice spricht zunächst die gewonnene Flexibilität. Beschäftigte sparen sich lange Arbeitswege und können Beruf und Familie besser vereinbaren. Hinzu kommt, dass viele zu Hause konzentrierter arbeiten, da sie seltener unterbrochen werden.\n\nAndererseits darf man die Nachteile nicht unterschätzen. Der informelle Austausch im Team geht verloren, und gerade neue Kolleginnen und Kollegen finden schwerer Anschluss. Problematisch ist zudem, dass die Grenze zwischen Arbeit und Freizeit zunehmend verschwimmt.\n\nMeiner Ansicht nach liegt die Lösung in einem Mischmodell. Zwar überwiegen die Vorteile des Homeoffice, allerdings nur dann, wenn regelmäßige Präsenztage den Zusammenhalt sichern. Entscheidend ist folglich nicht das Ob, sondern das Wie."
+    }
+  },
+  {
+    "level": "A1",
+    "section": "SPEAKING",
+    "title": "Sich vorstellen",
+    "payload": {
+      "task": "Stellen Sie sich vor. Sprechen Sie etwa eine Minute.",
+      "prompts": [
+        "Wie heißen Sie?",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie?",
+        "Was machen Sie gern?"
+      ],
+      "tips": [
+        "Sprechen Sie langsam und deutlich.",
+        "Benutzen Sie einfache, vollständige Sätze.",
+        "Es ist besser, kurz und korrekt zu sprechen als lang und fehlerhaft."
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "section": "SPEAKING",
+    "title": "Etwas planen",
+    "payload": {
+      "task": "Planen Sie mit einem Partner einen gemeinsamen Ausflug am Wochenende.",
+      "prompts": [
+        "Wohin wollen wir fahren?",
+        "Wann treffen wir uns?",
+        "Wie kommen wir dorthin?",
+        "Was nehmen wir mit?"
+      ],
+      "tips": [
+        "Machen Sie Vorschläge: Wollen wir…? / Wie wäre es mit…?",
+        "Reagieren Sie auf Ihren Partner: Gute Idee! / Lieber nicht, weil…",
+        "Benutzen Sie Modalverben: können, wollen, müssen."
+      ]
+    }
+  },
+  {
+    "level": "B1",
+    "section": "SPEAKING",
+    "title": "Ein Thema präsentieren",
+    "payload": {
+      "task": "Halten Sie einen kurzen Vortrag (2–3 Minuten) über ein Thema Ihrer Wahl, zum Beispiel: Sport in meinem Land.",
+      "prompts": [
+        "Einleitung: Worum geht es?",
+        "Die Situation in Ihrem Land",
+        "Ihre eigenen Erfahrungen",
+        "Vor- und Nachteile",
+        "Abschluss und Fazit"
+      ],
+      "tips": [
+        "Strukturieren Sie mit: Zuerst… / Außerdem… / Zum Schluss…",
+        "Geben Sie konkrete Beispiele.",
+        "Rechnen Sie mit Nachfragen und bereiten Sie Antworten vor."
+      ]
+    }
+  },
+  {
+    "level": "B2",
+    "section": "SPEAKING",
+    "title": "Diskussion und Argumentation",
+    "payload": {
+      "task": "Diskutieren Sie: „Sollte öffentlicher Nahverkehr kostenlos sein?“ Vertreten Sie eine Position und gehen Sie auf Gegenargumente ein.",
+      "prompts": [
+        "Nennen Sie Ihre Position",
+        "Zwei Argumente mit Begründung",
+        "Ein Gegenargument und Ihre Entkräftung",
+        "Kompromissvorschlag",
+        "Fazit"
+      ],
+      "tips": [
+        "Verwenden Sie Konnektoren: einerseits…andererseits, zwar…aber, folglich.",
+        "Zeigen Sie Höflichkeit beim Widersprechen: Da bin ich anderer Meinung, weil…",
+        "Bleiben Sie beim Thema und fassen Sie am Ende zusammen."
+      ]
+    }
+  },
+  {
+    "level": "A1",
+    "section": "COMPREHENSION",
+    "title": "Zahlen und Zeiten",
+    "payload": {
+      "text": "Der Supermarkt öffnet montags bis freitags von 8 bis 20 Uhr. Am Samstag schließt er schon um 18 Uhr. Am Sonntag ist geschlossen.",
+      "questions": [
+        {
+          "prompt": "Wann öffnet der Supermarkt montags?",
+          "options": [
+            "Um 7 Uhr",
+            "Um 8 Uhr",
+            "Um 9 Uhr",
+            "Um 10 Uhr"
+          ],
+          "answer": "Um 8 Uhr"
+        },
+        {
+          "prompt": "Wann schließt er am Samstag?",
+          "options": [
+            "Um 16 Uhr",
+            "Um 18 Uhr",
+            "Um 20 Uhr",
+            "Um 22 Uhr"
+          ],
+          "answer": "Um 18 Uhr"
+        },
+        {
+          "prompt": "Ist der Supermarkt am Sonntag offen?",
+          "options": [
+            "Ja",
+            "Nein",
+            "Nur vormittags",
+            "Nur nachmittags"
+          ],
+          "answer": "Nein"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "section": "COMPREHENSION",
+    "title": "Eine Wegbeschreibung",
+    "payload": {
+      "text": "Gehen Sie hier geradeaus bis zur Ampel. Dort biegen Sie links ab. Nach etwa hundert Metern sehen Sie rechts eine Apotheke. Das Kino ist direkt gegenüber der Apotheke.",
+      "questions": [
+        {
+          "prompt": "Was macht man an der Ampel?",
+          "options": [
+            "Rechts abbiegen",
+            "Links abbiegen",
+            "Geradeaus gehen",
+            "Umkehren"
+          ],
+          "answer": "Links abbiegen"
+        },
+        {
+          "prompt": "Wo ist die Apotheke?",
+          "options": [
+            "Links",
+            "Rechts",
+            "Geradeaus",
+            "Hinter dem Kino"
+          ],
+          "answer": "Rechts"
+        },
+        {
+          "prompt": "Wo ist das Kino?",
+          "options": [
+            "Neben der Ampel",
+            "Gegenüber der Apotheke",
+            "Hinter der Apotheke",
+            "An der Ecke"
+          ],
+          "answer": "Gegenüber der Apotheke"
+        }
+      ]
+    }
+  },
+  {
+    "level": "B1",
+    "section": "COMPREHENSION",
+    "title": "Textzusammenhang",
+    "payload": {
+      "text": "Viele Menschen nehmen sich zu Jahresbeginn vor, mehr Sport zu treiben. Die Fitnessstudios sind im Januar entsprechend voll. Bereits im März jedoch sind die meisten guten Vorsätze vergessen. Sportpsychologen raten deshalb, sich kleine, konkrete Ziele zu setzen statt großer Vorhaben.",
+      "questions": [
+        {
+          "prompt": "Wann sind die Fitnessstudios besonders voll?",
+          "options": [
+            "Im Januar",
+            "Im März",
+            "Im Sommer",
+            "Im Dezember"
+          ],
+          "answer": "Im Januar"
+        },
+        {
+          "prompt": "Was passiert bis März?",
+          "options": [
+            "Die Studios werden voller",
+            "Die meisten Vorsätze sind vergessen",
+            "Die Preise steigen",
+            "Neue Kurse beginnen"
+          ],
+          "answer": "Die meisten Vorsätze sind vergessen"
+        },
+        {
+          "prompt": "Was raten Sportpsychologen?",
+          "options": [
+            "Große Ziele setzen",
+            "Kleine, konkrete Ziele setzen",
+            "Gar keine Ziele setzen",
+            "Einen Trainer engagieren"
+          ],
+          "answer": "Kleine, konkrete Ziele setzen"
+        }
+      ]
+    }
+  },
+  {
+    "level": "B2",
+    "section": "COMPREHENSION",
+    "title": "Implizite Aussagen erkennen",
+    "payload": {
+      "text": "Dass die Reform notwendig war, bestreitet kaum jemand. Über die Ausgestaltung lässt sich allerdings streiten. Insbesondere die kurze Übergangsfrist dürfte manche Betriebe vor erhebliche Probleme stellen — ein Umstand, den die Verantwortlichen offenbar in Kauf genommen haben.",
+      "questions": [
+        {
+          "prompt": "Wie steht der Autor zur Notwendigkeit der Reform?",
+          "options": [
+            "Er hält sie für unnötig",
+            "Er stellt sie nicht infrage",
+            "Er ist unentschieden",
+            "Er äußert sich nicht"
+          ],
+          "answer": "Er stellt sie nicht infrage"
+        },
+        {
+          "prompt": "Was kritisiert der Autor konkret?",
+          "options": [
+            "Die Kosten",
+            "Die kurze Übergangsfrist",
+            "Die Zielsetzung",
+            "Die Kommunikation"
+          ],
+          "answer": "Die kurze Übergangsfrist"
+        },
+        {
+          "prompt": "Was bedeutet „in Kauf genommen“ hier?",
+          "options": [
+            "Sie haben es nicht bemerkt",
+            "Sie haben es bewusst akzeptiert",
+            "Sie haben es verhindert",
+            "Sie haben es bezahlt"
+          ],
+          "answer": "Sie haben es bewusst akzeptiert"
+        }
+      ]
+    }
+  }
+]

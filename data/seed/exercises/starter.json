@@ -1,0 +1,2969 @@
+[
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which article goes with „Haus“?",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "explanation": "Haus is neuter: das Haus, plural die Häuser."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which article goes with „Wohnung“?",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "die",
+    "explanation": "Nouns ending in -ung are always feminine."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which article goes with „Mädchen“?",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "explanation": "Nouns ending in -chen are always neuter, regardless of meaning."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which article goes with „Lehrer“?",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "der",
+    "explanation": "Agent nouns in -er referring to a male person are masculine."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which article goes with „Möglichkeit“?",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "die",
+    "explanation": "The ending -keit is always feminine."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the plural of „das Kind“?",
+    "options": [
+      "die Kinder",
+      "die Kinde",
+      "die Kindern",
+      "die Kinds"
+    ],
+    "answer": "die Kinder",
+    "explanation": "Short neuter nouns often form the plural with -er."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "FILL_BLANK",
+    "prompt": "___ Hund schläft im Garten.",
+    "answer": "Der",
+    "explanation": "Hund is masculine and is the subject here, so the nominative article is der."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "FILL_BLANK",
+    "prompt": "___ Zeitung liegt auf dem Tisch.",
+    "answer": "Die",
+    "explanation": "Zeitung is feminine (-ung), so the nominative article is die."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-gender",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the plural of „der Apfel“?",
+    "options": [
+      "die Äpfel",
+      "die Apfels",
+      "die Apfeln",
+      "die Apfele"
+    ],
+    "answer": "die Äpfel",
+    "explanation": "Many masculine nouns form the plural with an umlaut and no ending."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "FILL_BLANK",
+    "prompt": "Ich ___ jeden Tag Deutsch. (lernen)",
+    "answer": "lerne",
+    "explanation": "ich takes the ending -e: ich lerne."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "FILL_BLANK",
+    "prompt": "Du ___ sehr gut Deutsch. (sprechen)",
+    "answer": "sprichst",
+    "explanation": "sprechen is a stem-changing verb: e becomes i in the du form."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "FILL_BLANK",
+    "prompt": "Er ___ morgen nach Berlin. (fahren)",
+    "answer": "fährt",
+    "explanation": "fahren changes a to ä in the er/sie/es form."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "FILL_BLANK",
+    "prompt": "Wir ___ einen Film. (sehen)",
+    "answer": "sehen",
+    "explanation": "The wir form is identical to the infinitive; no stem change."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "FILL_BLANK",
+    "prompt": "Ihr ___ im Büro. (arbeiten)",
+    "answer": "arbeitet",
+    "explanation": "Stems ending in -t insert an e: ihr arbeitet."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich ___ aus Deutschland.",
+    "options": [
+      "bin",
+      "bist",
+      "ist",
+      "sind"
+    ],
+    "answer": "bin",
+    "explanation": "sein is irregular: ich bin, du bist, er ist."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Du ___ einen Hund.",
+    "options": [
+      "habe",
+      "hast",
+      "hat",
+      "haben"
+    ],
+    "answer": "hast",
+    "explanation": "haben in the du form is hast."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Sie (she) ___ ein Buch.",
+    "options": [
+      "lese",
+      "liest",
+      "lest",
+      "lesen"
+    ],
+    "answer": "liest",
+    "explanation": "lesen changes e to ie: sie liest."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Was ___ du?",
+    "options": [
+      "mache",
+      "machst",
+      "macht",
+      "machen"
+    ],
+    "answer": "machst",
+    "explanation": "Regular verb, du form takes -st."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-present",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build: 'I am learning German every day.'",
+    "options": [
+      "Deutsch",
+      "Ich",
+      "Tag",
+      "lerne",
+      "jeden"
+    ],
+    "answer": "Ich lerne jeden Tag Deutsch.",
+    "explanation": "The conjugated verb lerne sits in position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich sehe ___ Hund.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "des"
+    ],
+    "answer": "den",
+    "explanation": "Direct object of sehen, masculine, so der becomes den."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Er kauft ___ Apfel.",
+    "options": [
+      "ein",
+      "einen",
+      "einem",
+      "eines"
+    ],
+    "answer": "einen",
+    "explanation": "Masculine accusative: ein becomes einen."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Wir haben ___ Auto.",
+    "options": [
+      "ein",
+      "einen",
+      "eine",
+      "einem"
+    ],
+    "answer": "ein",
+    "explanation": "Auto is neuter, and neuter does not change in the accusative."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das ist ___ Bruder.",
+    "options": [
+      "mein",
+      "meinen",
+      "meinem",
+      "meines"
+    ],
+    "answer": "mein",
+    "explanation": "After sein the noun stays nominative, so mein is correct."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "FILL_BLANK",
+    "prompt": "Ich habe ___ Zeit. (kein)",
+    "answer": "keine",
+    "explanation": "Zeit is feminine, so kein takes -e: keine Zeit."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "FILL_BLANK",
+    "prompt": "Siehst du ___ Mann dort? (der)",
+    "answer": "den",
+    "explanation": "Direct object, masculine, so the accusative is den."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ Frau liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": "Die",
+    "explanation": "Frau is feminine and is the subject, so the nominative is die."
+  },
+  {
+    "level": "A1",
+    "topic": "Cases",
+    "tag": "a1-akkusativ",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build: 'The man buys an apple.'",
+    "options": [
+      "kauft",
+      "einen",
+      "Mann",
+      "Apfel",
+      "Der"
+    ],
+    "answer": "Der Mann kauft einen Apfel.",
+    "explanation": "Subject in the nominative, direct object in the accusative."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which sentence puts the verb in the correct position after a fronted time word?",
+    "options": [
+      "Heute ich gehe ins Kino.",
+      "Heute gehe ich ins Kino.",
+      "Ich heute gehe ins Kino.",
+      "Gehe heute ich ins Kino."
+    ],
+    "answer": "Heute gehe ich ins Kino.",
+    "explanation": "The verb must stay in position two, so the subject moves behind it."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which sentence places the modal verb and the infinitive correctly?",
+    "options": [
+      "Ich kann nicht kommen heute.",
+      "Ich kann heute nicht kommen.",
+      "Ich kommen heute nicht kann.",
+      "Ich heute kann nicht kommen."
+    ],
+    "answer": "Ich kann heute nicht kommen.",
+    "explanation": "The modal is in position two and the infinitive goes to the end."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which sentence places the separable prefix correctly?",
+    "options": [
+      "Ich stehe auf um sieben Uhr.",
+      "Ich stehe um sieben Uhr auf.",
+      "Ich aufstehe um sieben Uhr.",
+      "Um sieben Uhr ich stehe auf."
+    ],
+    "answer": "Ich stehe um sieben Uhr auf.",
+    "explanation": "The separable prefix auf goes to the very end of the clause."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which order is correct?",
+    "options": [
+      "Ich fahre nach Berlin morgen mit dem Bus.",
+      "Ich fahre morgen mit dem Bus nach Berlin.",
+      "Ich fahre mit dem Bus morgen nach Berlin.",
+      "Ich morgen fahre nach Berlin."
+    ],
+    "answer": "Ich fahre morgen mit dem Bus nach Berlin.",
+    "explanation": "The default order is Time – Manner – Place."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the question: 'When are you going to the cinema?'",
+    "options": [
+      "ins",
+      "du",
+      "Wann",
+      "gehst",
+      "Kino"
+    ],
+    "answer": "Wann gehst du ins Kino?",
+    "explanation": "W-question: question word first, verb second."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build: 'Tomorrow I am travelling to Hamburg.'",
+    "options": [
+      "fahre",
+      "ich",
+      "Morgen",
+      "Hamburg",
+      "nach"
+    ],
+    "answer": "Morgen fahre ich nach Hamburg.",
+    "explanation": "Fronting morgen pushes the subject behind the verb."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-wortstellung",
+    "type": "FILL_BLANK",
+    "prompt": "___ du ins Kino? (gehen — yes/no question)",
+    "answer": "Gehst",
+    "explanation": "Yes/no questions begin with the conjugated verb."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-negation",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich habe ___ Auto.",
+    "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "nicht ein"
+    ],
+    "answer": "kein",
+    "explanation": "kein negates a noun that would have taken ein."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-negation",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich trinke ___ Kaffee.",
+    "options": [
+      "nicht",
+      "kein",
+      "keinen",
+      "keine"
+    ],
+    "answer": "keinen",
+    "explanation": "Kaffee is masculine and is the direct object, so kein takes -en."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-negation",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich kenne den Mann ___.",
+    "options": [
+      "kein",
+      "nicht",
+      "keinen",
+      "nicht ein"
+    ],
+    "answer": "nicht",
+    "explanation": "The noun has a definite article, so use nicht — and it follows the object."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-negation",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das ist ___ gut.",
+    "options": [
+      "kein",
+      "nicht",
+      "keine",
+      "keinen"
+    ],
+    "answer": "nicht",
+    "explanation": "nicht negates an adjective and comes before it."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-negation",
+    "type": "FILL_BLANK",
+    "prompt": "Ich fahre ___ nach Berlin.",
+    "answer": "nicht",
+    "explanation": "nicht comes before a prepositional phrase."
+  },
+  {
+    "level": "A1",
+    "topic": "Syntax",
+    "tag": "a1-negation",
+    "type": "FILL_BLANK",
+    "prompt": "Sie hat ___ Geschwister.",
+    "answer": "keine",
+    "explanation": "Geschwister is plural, so kein takes -e."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich ___ gestern Fußball gespielt.",
+    "options": [
+      "bin",
+      "habe",
+      "hat",
+      "war"
+    ],
+    "answer": "habe",
+    "explanation": "spielen takes haben; there is no motion or change of state."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Wir ___ nach Italien gefahren.",
+    "options": [
+      "haben",
+      "sind",
+      "hat",
+      "ist"
+    ],
+    "answer": "sind",
+    "explanation": "fahren is a verb of motion, so it forms the Perfekt with sein."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Was ist the Partizip II of „sehen“?",
+    "options": [
+      "gesehen",
+      "gesehnt",
+      "geseht",
+      "sehen"
+    ],
+    "answer": "gesehen",
+    "explanation": "Irregular verbs form the participle with ge- + stem + -en."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the Partizip II of „studieren“?",
+    "options": [
+      "gestudiert",
+      "studiert",
+      "gestudieren",
+      "studieren"
+    ],
+    "answer": "studiert",
+    "explanation": "Verbs ending in -ieren take no ge-."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the Partizip II of „verstehen“?",
+    "options": [
+      "geverstanden",
+      "verstanden",
+      "gestanden",
+      "verstehen"
+    ],
+    "answer": "verstanden",
+    "explanation": "Inseparable prefixes like ver- block the ge-."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the Partizip II of „aufstehen“?",
+    "options": [
+      "geaufstanden",
+      "aufgestanden",
+      "aufstanden",
+      "gestandenauf"
+    ],
+    "answer": "aufgestanden",
+    "explanation": "Separable verbs put ge- between the prefix and the stem."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "FILL_BLANK",
+    "prompt": "Sie ist um sieben Uhr ___. (aufstehen)",
+    "answer": "aufgestanden",
+    "explanation": "aufstehen is separable and takes sein as a change of state."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "FILL_BLANK",
+    "prompt": "Ich ___ einen Brief geschrieben.",
+    "answer": "habe",
+    "explanation": "schreiben takes haben."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "FILL_BLANK",
+    "prompt": "Er ___ gestern zu Hause geblieben.",
+    "answer": "ist",
+    "explanation": "bleiben is one of the three exceptions that take sein."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-perfekt",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build: 'I watched a film yesterday.'",
+    "options": [
+      "habe",
+      "gestern",
+      "gesehen",
+      "einen",
+      "Film",
+      "Ich"
+    ],
+    "answer": "Ich habe gestern einen Film gesehen.",
+    "explanation": "habe in position two, participle at the end."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich helfe ___ Mann.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "des"
+    ],
+    "answer": "dem",
+    "explanation": "helfen takes a dative object; masculine dative is dem."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Buch gehört ___ Frau.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "explanation": "gehören takes the dative; feminine dative is der."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich fahre mit ___ Bus.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "des"
+    ],
+    "answer": "dem",
+    "explanation": "mit always takes the dative."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Er spielt mit ___ Kindern.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "den",
+    "explanation": "Dative plural is den, and the noun adds -n: den Kindern."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which verb takes a dative object?",
+    "options": [
+      "sehen",
+      "kaufen",
+      "helfen",
+      "lesen"
+    ],
+    "answer": "helfen",
+    "explanation": "helfen, danken, gefallen, gehören and antworten all take the dative."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "FILL_BLANK",
+    "prompt": "Kannst du ___ helfen? (ich)",
+    "answer": "mir",
+    "explanation": "The dative form of ich is mir."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "FILL_BLANK",
+    "prompt": "Das Essen schmeckt ___ gut. (ich)",
+    "answer": "mir",
+    "explanation": "schmecken takes a dative object."
+  },
+  {
+    "level": "A2",
+    "topic": "Cases",
+    "tag": "a2-dativ",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build: 'I am giving the child an apple.'",
+    "options": [
+      "Kind",
+      "Apfel",
+      "dem",
+      "Ich",
+      "einen",
+      "gebe"
+    ],
+    "answer": "Ich gebe dem Kind einen Apfel.",
+    "explanation": "Dative object before accusative object."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich ___ gut schwimmen.",
+    "options": [
+      "kann",
+      "kannst",
+      "können",
+      "könnt"
+    ],
+    "answer": "kann",
+    "explanation": "The ich form of können is kann, with no ending."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Du ___ das nicht machen.",
+    "options": [
+      "darf",
+      "darfst",
+      "dürfen",
+      "dürft"
+    ],
+    "answer": "darfst",
+    "explanation": "The du form of dürfen is darfst."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which means 'You must not come'?",
+    "options": [
+      "Du musst nicht kommen.",
+      "Du darfst nicht kommen.",
+      "Du kannst nicht kommen.",
+      "Du sollst nicht kommen."
+    ],
+    "answer": "Du darfst nicht kommen.",
+    "explanation": "nicht dürfen expresses prohibition; nicht müssen only means 'don't have to'."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which is the polite way to order?",
+    "options": [
+      "Ich will einen Kaffee.",
+      "Ich möchte einen Kaffee.",
+      "Ich muss einen Kaffee.",
+      "Ich soll einen Kaffee."
+    ],
+    "answer": "Ich möchte einen Kaffee.",
+    "explanation": "möchte is the polite form; wollen sounds blunt."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Where does the main verb go?",
+    "options": [
+      "Ich kann kommen heute.",
+      "Ich kann heute kommen.",
+      "Ich kommen kann heute.",
+      "Ich heute kann kommen."
+    ],
+    "answer": "Ich kann heute kommen.",
+    "explanation": "The infinitive goes to the end of the clause."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "FILL_BLANK",
+    "prompt": "Wir ___ jetzt gehen. (müssen)",
+    "answer": "müssen",
+    "explanation": "The wir form of müssen is müssen."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-modalverben",
+    "type": "FILL_BLANK",
+    "prompt": "___ ihr Deutsch sprechen? (können)",
+    "answer": "Könnt",
+    "explanation": "The ihr form of können is könnt."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich gehe ___ Schule. (movement)",
+    "options": [
+      "in der",
+      "in die",
+      "in dem",
+      "ins der"
+    ],
+    "answer": "in die",
+    "explanation": "Wohin? means movement, so in takes the accusative: in die Schule."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich bin ___ Schule. (location)",
+    "options": [
+      "in der",
+      "in die",
+      "in das",
+      "in den"
+    ],
+    "answer": "in der",
+    "explanation": "Wo? means location, so in takes the dative: in der Schule."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Wir fahren ___ dem Auto.",
+    "options": [
+      "mit",
+      "für",
+      "durch",
+      "ohne"
+    ],
+    "answer": "mit",
+    "explanation": "mit expresses means of transport and takes the dative."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Geschenk ist ___ dich.",
+    "options": [
+      "für",
+      "mit",
+      "von",
+      "zu"
+    ],
+    "answer": "für",
+    "explanation": "für always takes the accusative: für dich."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which preposition always takes the dative?",
+    "options": [
+      "durch",
+      "für",
+      "aus",
+      "gegen"
+    ],
+    "answer": "aus",
+    "explanation": "aus, bei, mit, nach, seit, von and zu always take the dative."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the contraction of „zu der“?",
+    "options": [
+      "zum",
+      "zur",
+      "zus",
+      "zurm"
+    ],
+    "answer": "zur",
+    "explanation": "zu der contracts to zur; zu dem contracts to zum."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "FILL_BLANK",
+    "prompt": "Das Buch liegt auf ___ Tisch. (der)",
+    "answer": "dem",
+    "explanation": "Location (Wo?), so auf takes the dative: auf dem Tisch."
+  },
+  {
+    "level": "A2",
+    "topic": "Prepositions",
+    "tag": "a2-praepositionen",
+    "type": "FILL_BLANK",
+    "prompt": "Ich lege das Buch auf ___ Tisch. (der)",
+    "answer": "den",
+    "explanation": "Movement onto the table (Wohin?), so auf takes the accusative."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Er ist größer ___ ich.",
+    "options": [
+      "wie",
+      "als",
+      "denn",
+      "so"
+    ],
+    "answer": "als",
+    "explanation": "Comparisons of difference use als."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Sie ist so groß ___ ihre Mutter.",
+    "options": [
+      "als",
+      "wie",
+      "denn",
+      "dass"
+    ],
+    "answer": "wie",
+    "explanation": "so … wie expresses equality."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the comparative of „gut“?",
+    "options": [
+      "guter",
+      "besser",
+      "gutter",
+      "mehr gut"
+    ],
+    "answer": "besser",
+    "explanation": "gut is irregular: gut → besser → am besten."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the superlative of „viel“?",
+    "options": [
+      "am vielsten",
+      "am mehr",
+      "am meisten",
+      "am vielen"
+    ],
+    "answer": "am meisten",
+    "explanation": "viel → mehr → am meisten."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What is the comparative of „alt“?",
+    "options": [
+      "alter",
+      "älter",
+      "altner",
+      "mehr alt"
+    ],
+    "answer": "älter",
+    "explanation": "One-syllable adjectives with a usually add an umlaut."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "FILL_BLANK",
+    "prompt": "Dieses Auto ist ___ als meins. (schnell)",
+    "answer": "schneller",
+    "explanation": "Add -er to form the comparative."
+  },
+  {
+    "level": "A2",
+    "topic": "Adjectives",
+    "tag": "a2-komparativ",
+    "type": "FILL_BLANK",
+    "prompt": "Das ist der ___ Film des Jahres. (gut, superlative)",
+    "answer": "beste",
+    "explanation": "gut is irregular; the attributive superlative is beste."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which sentence uses weil with the correct word order?",
+    "options": [
+      "Ich bleibe zu Hause, weil ich bin krank.",
+      "Ich bleibe zu Hause, weil ich krank bin.",
+      "Ich bleibe zu Hause, weil bin ich krank.",
+      "Ich bleibe zu Hause, weil krank ich bin."
+    ],
+    "answer": "Ich bleibe zu Hause, weil ich krank bin.",
+    "explanation": "weil sends the conjugated verb to the end."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which sentence uses denn with the correct word order?",
+    "options": [
+      "Ich bleibe zu Hause, denn ich krank bin.",
+      "Ich bleibe zu Hause, denn ich bin krank.",
+      "Ich bleibe zu Hause, denn bin ich krank.",
+      "Ich bleibe zu Hause, denn krank bin ich."
+    ],
+    "answer": "Ich bleibe zu Hause, denn ich bin krank.",
+    "explanation": "denn is coordinating and does not change word order."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ ich zehn war, zogen wir um.",
+    "options": [
+      "Wenn",
+      "Als",
+      "Ob",
+      "Dass"
+    ],
+    "answer": "Als",
+    "explanation": "als is used for a single completed event in the past."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ es regnet, bleibe ich zu Hause.",
+    "options": [
+      "Als",
+      "Wenn",
+      "Ob",
+      "Dass"
+    ],
+    "answer": "Wenn",
+    "explanation": "wenn covers repeated events and present or future conditions."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which conjunction does NOT send the verb to the end?",
+    "options": [
+      "weil",
+      "obwohl",
+      "aber",
+      "dass"
+    ],
+    "answer": "aber",
+    "explanation": "aber is coordinating, like und, oder, denn and sondern."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "FILL_BLANK",
+    "prompt": "Ich weiß nicht, ob er heute ___. (kommen)",
+    "answer": "kommt",
+    "explanation": "In an ob-clause the conjugated verb goes last."
+  },
+  {
+    "level": "A2",
+    "topic": "Syntax",
+    "tag": "a2-nebensatz",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build: 'I am learning German because I live in Berlin.'",
+    "options": [
+      "in",
+      "Deutsch",
+      "weil",
+      "Berlin",
+      "ich",
+      "wohne",
+      "lerne",
+      "Ich"
+    ],
+    "answer": "Ich lerne Deutsch weil ich in Berlin wohne.",
+    "explanation": "weil pushes wohne to the end of its clause."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Der ___ Mann wohnt hier.",
+    "options": [
+      "groß",
+      "große",
+      "großer",
+      "großen"
+    ],
+    "answer": "große",
+    "explanation": "After a definite article in the masculine nominative the ending is -e."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ein ___ Buch ist teuer.",
+    "options": [
+      "gut",
+      "gute",
+      "gutes",
+      "guten"
+    ],
+    "answer": "gutes",
+    "explanation": "After ein in the neuter nominative the adjective must show the gender: -es."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich trinke gern ___ Wasser.",
+    "options": [
+      "kalt",
+      "kalte",
+      "kaltes",
+      "kalten"
+    ],
+    "answer": "kaltes",
+    "explanation": "No article, so the adjective takes the definite article's ending: das → -es."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich sehe den ___ Mann.",
+    "options": [
+      "große",
+      "großen",
+      "großer",
+      "großes"
+    ],
+    "answer": "großen",
+    "explanation": "Masculine accusative after a definite article is always -en."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ein ___ Mann steht dort.",
+    "options": [
+      "große",
+      "großer",
+      "großes",
+      "großen"
+    ],
+    "answer": "großer",
+    "explanation": "ein shows no gender, so the adjective takes -er in the masculine nominative."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Haus ist ___.",
+    "options": [
+      "großes",
+      "große",
+      "groß",
+      "großen"
+    ],
+    "answer": "groß",
+    "explanation": "A predicate adjective after sein takes no ending at all."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "FILL_BLANK",
+    "prompt": "Mit ___ Wein. (gut, no article, dative)",
+    "answer": "gutem",
+    "explanation": "Strong declension: dative masculine takes -em."
+  },
+  {
+    "level": "B1",
+    "topic": "Adjectives",
+    "tag": "b1-adjektivendungen",
+    "type": "FILL_BLANK",
+    "prompt": "Die ___ Kinder spielen. (klein)",
+    "answer": "kleinen",
+    "explanation": "Plural after a definite article is always -en."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Wenn ich Zeit ___, würde ich mehr lesen.",
+    "options": [
+      "habe",
+      "hätte",
+      "hatte",
+      "haben"
+    ],
+    "answer": "hätte",
+    "explanation": "Unreal conditions take Konjunktiv II: hätte."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ Sie mir bitte helfen?",
+    "options": [
+      "Können",
+      "Könnten",
+      "Konnten",
+      "Kannten"
+    ],
+    "answer": "Könnten",
+    "explanation": "Könnten is the polite Konjunktiv II form."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which is correct?",
+    "options": [
+      "Ich würde haben mehr Zeit.",
+      "Ich hätte mehr Zeit.",
+      "Ich würde mehr Zeit haben wollen.",
+      "Ich habe würde mehr Zeit."
+    ],
+    "answer": "Ich hätte mehr Zeit.",
+    "explanation": "Never use würde with haben — use the real form hätte."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich ___ gern einen Kaffee.",
+    "options": [
+      "habe",
+      "hätte",
+      "hatte",
+      "haben"
+    ],
+    "answer": "hätte",
+    "explanation": "Ich hätte gern is the standard polite way to order."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Wenn ich das gewusst hätte, ___ ich nicht gekommen.",
+    "options": [
+      "würde",
+      "wäre",
+      "hätte",
+      "war"
+    ],
+    "answer": "wäre",
+    "explanation": "kommen takes sein, so the past hypothetical uses wäre + gekommen."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "FILL_BLANK",
+    "prompt": "Wenn ich reich ___, würde ich reisen. (sein)",
+    "answer": "wäre",
+    "explanation": "The Konjunktiv II of sein is wäre."
+  },
+  {
+    "level": "B1",
+    "topic": "Mood",
+    "tag": "b1-konjunktiv2",
+    "type": "FILL_BLANK",
+    "prompt": "An deiner Stelle ___ ich das nicht machen. (würde)",
+    "answer": "würde",
+    "explanation": "würde + infinitive is the normal Konjunktiv II for ordinary verbs."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Haus ___ gebaut. (present passive)",
+    "options": [
+      "ist",
+      "wird",
+      "hat",
+      "war"
+    ],
+    "answer": "wird",
+    "explanation": "The present passive is werden + Partizip II."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Haus wurde letztes Jahr ___.",
+    "options": [
+      "renoviert",
+      "renovierte",
+      "renovieren",
+      "zu renovieren"
+    ],
+    "answer": "renoviert",
+    "explanation": "The passive needs the Partizip II."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Die Arbeit ist schon gemacht ___.",
+    "options": [
+      "geworden",
+      "worden",
+      "werden",
+      "wurden"
+    ],
+    "answer": "worden",
+    "explanation": "In the Perfekt passive, werden's participle is worden, without ge-."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Haus wurde ___ einem Architekten geplant.",
+    "options": [
+      "von",
+      "durch",
+      "mit",
+      "bei"
+    ],
+    "answer": "von",
+    "explanation": "von introduces a personal agent; durch introduces a means."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Die Stadt wurde ___ ein Erdbeben zerstört.",
+    "options": [
+      "von",
+      "durch",
+      "mit",
+      "aus"
+    ],
+    "answer": "durch",
+    "explanation": "durch introduces an impersonal cause or means."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which sentence describes a state, not an action?",
+    "options": [
+      "Die Tür wird geöffnet.",
+      "Die Tür ist geöffnet.",
+      "Die Tür wurde geöffnet.",
+      "Die Tür ist geöffnet worden."
+    ],
+    "answer": "Die Tür ist geöffnet.",
+    "explanation": "sein + Partizip II is the Zustandspassiv and describes the resulting state."
+  },
+  {
+    "level": "B1",
+    "topic": "Voice",
+    "tag": "b1-passiv",
+    "type": "FILL_BLANK",
+    "prompt": "Der Brief ___ gestern geschrieben. (Präteritum passive)",
+    "answer": "wurde",
+    "explanation": "The Präteritum passive uses wurde + Partizip II."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das ist der Mann, ___ mir geholfen hat.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of its clause, so it is nominative: der."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Der Film, ___ wir gesehen haben, war gut.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "answer": "den",
+    "explanation": "Object of sehen, masculine, so it is accusative: den."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Der Mann, ___ ich helfe, ist mein Nachbar.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "answer": "dem",
+    "explanation": "helfen takes a dative object, so the pronoun is dem."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Der Mann, ___ Auto kaputt ist, wartet.",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "answer": "dessen",
+    "explanation": "Possession calls for the genitive: dessen."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Die Frau, ___ ich spreche, ist Ärztin.",
+    "options": [
+      "mit der",
+      "mit die",
+      "mit dem",
+      "mit den"
+    ],
+    "answer": "mit der",
+    "explanation": "mit takes the dative, and the antecedent is feminine: mit der."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Die Kinder, ___ ich das Buch gab, lachten.",
+    "options": [
+      "die",
+      "den",
+      "denen",
+      "deren"
+    ],
+    "answer": "denen",
+    "explanation": "Dative plural relative pronoun is denen."
+  },
+  {
+    "level": "B1",
+    "topic": "Syntax",
+    "tag": "b1-relativsatz",
+    "type": "FILL_BLANK",
+    "prompt": "Das Haus, in ___ ich wohne, ist alt. (das)",
+    "answer": "dem",
+    "explanation": "in takes the dative for location, and Haus is neuter: in dem."
+  },
+  {
+    "level": "B2",
+    "topic": "Mood",
+    "tag": "b2-konjunktiv1",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Er sagt, er ___ keine Zeit.",
+    "options": [
+      "hat",
+      "habe",
+      "hätte",
+      "haben"
+    ],
+    "answer": "habe",
+    "explanation": "Konjunktiv I of haben in the er form is habe."
+  },
+  {
+    "level": "B2",
+    "topic": "Mood",
+    "tag": "b2-konjunktiv1",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Sie behauptet, sie ___ krank.",
+    "options": [
+      "ist",
+      "sei",
+      "wäre",
+      "sein"
+    ],
+    "answer": "sei",
+    "explanation": "Konjunktiv I of sein in the er/sie form is sei."
+  },
+  {
+    "level": "B2",
+    "topic": "Mood",
+    "tag": "b2-konjunktiv1",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Die Minister sagten, sie ___ nichts gewusst.",
+    "options": [
+      "haben",
+      "habe",
+      "hätten",
+      "hatten"
+    ],
+    "answer": "hätten",
+    "explanation": "Konjunktiv I 'haben' would look indicative, so it switches to Konjunktiv II hätten."
+  },
+  {
+    "level": "B2",
+    "topic": "Mood",
+    "tag": "b2-konjunktiv1",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Er sagte, er ___ früh gegangen.",
+    "options": [
+      "ist",
+      "sei",
+      "hat",
+      "habe"
+    ],
+    "answer": "sei",
+    "explanation": "gehen takes sein, so past reported speech uses sei + gegangen."
+  },
+  {
+    "level": "B2",
+    "topic": "Mood",
+    "tag": "b2-konjunktiv1",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Where is Konjunktiv I mainly used?",
+    "options": [
+      "Everyday conversation",
+      "Journalism and formal reporting",
+      "Giving commands",
+      "Asking questions"
+    ],
+    "answer": "Journalism and formal reporting",
+    "explanation": "Spoken German prefers dass + indicative."
+  },
+  {
+    "level": "B2",
+    "topic": "Mood",
+    "tag": "b2-konjunktiv1",
+    "type": "FILL_BLANK",
+    "prompt": "Der Sprecher erklärte, das Projekt ___ erfolgreich. (sein)",
+    "answer": "sei",
+    "explanation": "Konjunktiv I of sein in the third person singular is sei."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich warte ___ den Bus.",
+    "options": [
+      "auf",
+      "für",
+      "an",
+      "über"
+    ],
+    "answer": "auf",
+    "explanation": "warten auf takes the accusative."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Sie interessiert sich ___ Politik.",
+    "options": [
+      "an",
+      "für",
+      "auf",
+      "über"
+    ],
+    "answer": "für",
+    "explanation": "sich interessieren für + accusative."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich freue mich ___ das Konzert nächste Woche.",
+    "options": [
+      "über",
+      "auf",
+      "an",
+      "für"
+    ],
+    "answer": "auf",
+    "explanation": "sich freuen auf is used for something still to come."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich freue mich ___ das Geschenk.",
+    "options": [
+      "auf",
+      "über",
+      "an",
+      "für"
+    ],
+    "answer": "über",
+    "explanation": "sich freuen über is used for something already received."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ wartest du? (about a thing)",
+    "options": [
+      "Auf was",
+      "Worauf",
+      "Auf wen",
+      "Wofür"
+    ],
+    "answer": "Worauf",
+    "explanation": "For things, fuse wo- with the preposition: worauf."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Ich warte ___. (on him)",
+    "options": [
+      "darauf",
+      "auf ihn",
+      "worauf",
+      "daran"
+    ],
+    "answer": "auf ihn",
+    "explanation": "People keep the preposition plus a normal pronoun."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Das Team nimmt ___ dem Wettbewerb teil.",
+    "options": [
+      "an",
+      "auf",
+      "in",
+      "zu"
+    ],
+    "answer": "an",
+    "explanation": "teilnehmen an takes the dative."
+  },
+  {
+    "level": "B2",
+    "topic": "Verbs",
+    "tag": "b2-verbpraepositionen",
+    "type": "FILL_BLANK",
+    "prompt": "Der Erfolg hängt ___ deiner Arbeit ab.",
+    "answer": "von",
+    "explanation": "abhängen von takes the dative."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ mehr ich lerne, desto besser verstehe ich.",
+    "options": [
+      "Je",
+      "Desto",
+      "Umso",
+      "Wie"
+    ],
+    "answer": "Je",
+    "explanation": "The pair is je … desto, with je introducing the subordinate clause."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Es regnete. Trotzdem ___ wir spazieren.",
+    "options": [
+      "wir gingen",
+      "gingen",
+      "gingen wir",
+      "wir sind gegangen"
+    ],
+    "answer": "gingen wir",
+    "explanation": "trotzdem occupies position one, so the verb is second and the subject follows."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Er spricht ___ Deutsch ___ Französisch. (neither/nor)",
+    "options": [
+      "weder … noch",
+      "entweder … oder",
+      "sowohl … als auch",
+      "nicht nur … sondern auch"
+    ],
+    "answer": "weder … noch",
+    "explanation": "weder … noch means neither … nor."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "___ er als auch sie kommen mit.",
+    "options": [
+      "Weder",
+      "Sowohl",
+      "Entweder",
+      "Nicht nur"
+    ],
+    "answer": "Sowohl",
+    "explanation": "sowohl … als auch means both … and."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which connector sends the verb to the end?",
+    "options": [
+      "trotzdem",
+      "deshalb",
+      "obwohl",
+      "außerdem"
+    ],
+    "answer": "obwohl",
+    "explanation": "obwohl is subordinating; the others are adverbial and keep the verb second."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Which is the most formal way to say 'because of the weather'?",
+    "options": [
+      "weil das Wetter schlecht war",
+      "da das Wetter schlecht war",
+      "aufgrund des schlechten Wetters",
+      "denn das Wetter war schlecht"
+    ],
+    "answer": "aufgrund des schlechten Wetters",
+    "explanation": "aufgrund + genitive is the highest register."
+  },
+  {
+    "level": "B2",
+    "topic": "Syntax",
+    "tag": "b2-konnektoren",
+    "type": "FILL_BLANK",
+    "prompt": "Je mehr man übt, ___ sicherer wird man.",
+    "answer": "desto",
+    "explanation": "je introduces the first clause and desto the second."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am tired.”",
+    "options": [
+      "Ich",
+      "müde",
+      "bin"
+    ],
+    "answer": "Ich bin müde.",
+    "explanation": "Correct: Ich bin müde. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I have a dog.”",
+    "options": [
+      "habe",
+      "Ich",
+      "einen",
+      "Hund"
+    ],
+    "answer": "Ich habe einen Hund.",
+    "explanation": "Correct: Ich habe einen Hund. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “It is getting cold.”",
+    "options": [
+      "kalt",
+      "wird",
+      "Es"
+    ],
+    "answer": "Es wird kalt.",
+    "explanation": "Correct: Es wird kalt. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “What are you doing?”",
+    "options": [
+      "machst",
+      "Was",
+      "du"
+    ],
+    "answer": "Was machst du?",
+    "explanation": "Correct: Was machst du? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “We play football.”",
+    "options": [
+      "Fußball",
+      "spielen",
+      "Wir"
+    ],
+    "answer": "Wir spielen Fußball.",
+    "explanation": "Correct: Wir spielen Fußball. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am learning German.”",
+    "options": [
+      "Deutsch",
+      "Ich",
+      "lerne"
+    ],
+    "answer": "Ich lerne Deutsch.",
+    "explanation": "Correct: Ich lerne Deutsch. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I live in Berlin.”",
+    "options": [
+      "wohne",
+      "Berlin",
+      "in",
+      "Ich"
+    ],
+    "answer": "Ich wohne in Berlin.",
+    "explanation": "Correct: Ich wohne in Berlin. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am buying bread.”",
+    "options": [
+      "Brot",
+      "Ich",
+      "kaufe"
+    ],
+    "answer": "Ich kaufe Brot.",
+    "explanation": "Correct: Ich kaufe Brot. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “What are you saying?”",
+    "options": [
+      "sagst",
+      "Was",
+      "du"
+    ],
+    "answer": "Was sagst du?",
+    "explanation": "Correct: Was sagst du? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I ask the teacher.”",
+    "options": [
+      "frage",
+      "den",
+      "Lehrer",
+      "Ich"
+    ],
+    "answer": "Ich frage den Lehrer.",
+    "explanation": "Correct: Ich frage den Lehrer. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “He likes cooking.”",
+    "options": [
+      "kocht",
+      "gern",
+      "Er"
+    ],
+    "answer": "Er kocht gern.",
+    "explanation": "Correct: Er kocht gern. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I listen to music.”",
+    "options": [
+      "höre",
+      "Ich",
+      "Musik"
+    ],
+    "answer": "Ich höre Musik.",
+    "explanation": "Correct: Ich höre Musik. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I love you.”",
+    "options": [
+      "Ich",
+      "dich",
+      "liebe"
+    ],
+    "answer": "Ich liebe dich.",
+    "explanation": "Correct: Ich liebe dich. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I need help.”",
+    "options": [
+      "Hilfe",
+      "Ich",
+      "brauche"
+    ],
+    "answer": "Ich brauche Hilfe.",
+    "explanation": "Correct: Ich brauche Hilfe. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am looking for my key.”",
+    "options": [
+      "Ich",
+      "Schlüssel",
+      "meinen",
+      "suche"
+    ],
+    "answer": "Ich suche meinen Schlüssel.",
+    "explanation": "Correct: Ich suche meinen Schlüssel. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The children are laughing.”",
+    "options": [
+      "lachen",
+      "Die",
+      "Kinder"
+    ],
+    "answer": "Die Kinder lachen.",
+    "explanation": "Correct: Die Kinder lachen. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I practise every day.”",
+    "options": [
+      "Tag",
+      "jeden",
+      "übe",
+      "Ich"
+    ],
+    "answer": "Ich übe jeden Tag.",
+    "explanation": "Correct: Ich übe jeden Tag. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Verbs",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Can you explain that?”",
+    "options": [
+      "Sie",
+      "Können",
+      "das",
+      "erklären"
+    ],
+    "answer": "Können Sie das erklären?",
+    "explanation": "Correct: Können Sie das erklären? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “She works in an office.”",
+    "options": [
+      "Büro",
+      "Sie",
+      "arbeitet",
+      "im"
+    ],
+    "answer": "Sie arbeitet im Büro.",
+    "explanation": "Correct: Sie arbeitet im Büro. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am waiting for you.”",
+    "options": [
+      "warte",
+      "dich",
+      "Ich",
+      "auf"
+    ],
+    "answer": "Ich warte auf dich.",
+    "explanation": "Correct: Ich warte auf dich. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “He is eating an apple.”",
+    "options": [
+      "einen",
+      "Apfel",
+      "isst",
+      "Er"
+    ],
+    "answer": "Er isst einen Apfel.",
+    "explanation": "Correct: Er isst einen Apfel. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I drink water.”",
+    "options": [
+      "Ich",
+      "Wasser",
+      "trinke"
+    ],
+    "answer": "Ich trinke Wasser.",
+    "explanation": "Correct: Ich trinke Wasser. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “We are travelling to Berlin.”",
+    "options": [
+      "fahren",
+      "nach",
+      "Berlin",
+      "Wir"
+    ],
+    "answer": "Wir fahren nach Berlin.",
+    "explanation": "Correct: Wir fahren nach Berlin. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I see the tower.”",
+    "options": [
+      "Turm",
+      "den",
+      "Ich",
+      "sehe"
+    ],
+    "answer": "Ich sehe den Turm.",
+    "explanation": "Correct: Ich sehe den Turm. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Give me the book.”",
+    "options": [
+      "Gib",
+      "das",
+      "mir",
+      "Buch"
+    ],
+    "answer": "Gib mir das Buch.",
+    "explanation": "Correct: Gib mir das Buch. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I take the bus.”",
+    "options": [
+      "nehme",
+      "den",
+      "Ich",
+      "Bus"
+    ],
+    "answer": "Ich nehme den Bus.",
+    "explanation": "Correct: Ich nehme den Bus. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Do you speak German?”",
+    "options": [
+      "Deutsch",
+      "Sprichst",
+      "du"
+    ],
+    "answer": "Sprichst du Deutsch?",
+    "explanation": "Correct: Sprichst du Deutsch? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “She is reading a book.”",
+    "options": [
+      "Buch",
+      "Sie",
+      "liest",
+      "ein"
+    ],
+    "answer": "Sie liest ein Buch.",
+    "explanation": "Correct: Sie liest ein Buch. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The child is sleeping.”",
+    "options": [
+      "schläft",
+      "Das",
+      "Kind"
+    ],
+    "answer": "Das Kind schläft.",
+    "explanation": "Correct: Das Kind schläft. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “He runs fast.”",
+    "options": [
+      "läuft",
+      "schnell",
+      "Er"
+    ],
+    "answer": "Er läuft schnell.",
+    "explanation": "Correct: Er läuft schnell. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Can you help me?”",
+    "options": [
+      "du",
+      "mir",
+      "helfen",
+      "Kannst"
+    ],
+    "answer": "Kannst du mir helfen?",
+    "explanation": "Correct: Kannst du mir helfen? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am meeting my friends.”",
+    "options": [
+      "meine",
+      "Ich",
+      "treffe",
+      "Freunde"
+    ],
+    "answer": "Ich treffe meine Freunde.",
+    "explanation": "Correct: Ich treffe meine Freunde. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I think the film is good.”",
+    "options": [
+      "den",
+      "Ich",
+      "Film",
+      "finde",
+      "gut"
+    ],
+    "answer": "Ich finde den Film gut.",
+    "explanation": "Correct: Ich finde den Film gut. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Where do you come from?”",
+    "options": [
+      "kommst",
+      "Woher",
+      "du"
+    ],
+    "answer": "Woher kommst du?",
+    "explanation": "Correct: Woher kommst du? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am going home.”",
+    "options": [
+      "Hause",
+      "nach",
+      "gehe",
+      "Ich"
+    ],
+    "answer": "Ich gehe nach Hause.",
+    "explanation": "Correct: Ich gehe nach Hause. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I don't know.”",
+    "options": [
+      "es",
+      "nicht",
+      "Ich",
+      "weiß"
+    ],
+    "answer": "Ich weiß es nicht.",
+    "explanation": "Correct: Ich weiß es nicht. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am staying at home.”",
+    "options": [
+      "bleibe",
+      "Hause",
+      "Ich",
+      "zu"
+    ],
+    "answer": "Ich bleibe zu Hause.",
+    "explanation": "Correct: Ich bleibe zu Hause. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I don't understand you.”",
+    "options": [
+      "dich",
+      "Ich",
+      "nicht",
+      "verstehe"
+    ],
+    "answer": "Ich verstehe dich nicht.",
+    "explanation": "Correct: Ich verstehe dich nicht. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “He is writing a letter.”",
+    "options": [
+      "schreibt",
+      "einen",
+      "Brief",
+      "Er"
+    ],
+    "answer": "Er schreibt einen Brief.",
+    "explanation": "Correct: Er schreibt einen Brief. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am thinking of you.”",
+    "options": [
+      "an",
+      "Ich",
+      "denke",
+      "dich"
+    ],
+    "answer": "Ich denke an dich.",
+    "explanation": "Correct: Ich denke an dich. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Please bring me water.”",
+    "options": [
+      "Bring",
+      "Wasser",
+      "mir",
+      "bitte"
+    ],
+    "answer": "Bring mir bitte Wasser.",
+    "explanation": "Correct: Bring mir bitte Wasser. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Verbs",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “She is wearing a coat.”",
+    "options": [
+      "trägt",
+      "einen",
+      "Mantel",
+      "Sie"
+    ],
+    "answer": "Sie trägt einen Mantel.",
+    "explanation": "Correct: Sie trägt einen Mantel. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I get up at seven.”",
+    "options": [
+      "um",
+      "sieben",
+      "Ich",
+      "auf",
+      "Uhr",
+      "stehe"
+    ],
+    "answer": "Ich stehe um sieben Uhr auf.",
+    "explanation": "Correct: Ich stehe um sieben Uhr auf. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Verbs",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I'll call you later.”",
+    "options": [
+      "an",
+      "rufe",
+      "Ich",
+      "später",
+      "dich"
+    ],
+    "answer": "Ich rufe dich später an.",
+    "explanation": "Correct: Ich rufe dich später an. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “We shop on Saturday.”",
+    "options": [
+      "am",
+      "Wir",
+      "Samstag",
+      "kaufen",
+      "ein"
+    ],
+    "answer": "Wir kaufen am Samstag ein.",
+    "explanation": "Correct: Wir kaufen am Samstag ein. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Are you coming along?”",
+    "options": [
+      "du",
+      "Kommst",
+      "mit"
+    ],
+    "answer": "Kommst du mit?",
+    "explanation": "Correct: Kommst du mit? — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The train arrives at eight.”",
+    "options": [
+      "um",
+      "Der",
+      "an",
+      "acht",
+      "Zug",
+      "kommt"
+    ],
+    "answer": "Der Zug kommt um acht an.",
+    "explanation": "Correct: Der Zug kommt um acht an. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “In the evening I watch TV.”",
+    "options": [
+      "fern",
+      "Abends",
+      "ich",
+      "sehe"
+    ],
+    "answer": "Abends sehe ich fern.",
+    "explanation": "Correct: Abends sehe ich fern. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The bus is about to depart.”",
+    "options": [
+      "Bus",
+      "Der",
+      "fährt",
+      "ab",
+      "gleich"
+    ],
+    "answer": "Der Bus fährt gleich ab.",
+    "explanation": "Correct: Der Bus fährt gleich ab. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Verbs",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I suggest a compromise.”",
+    "options": [
+      "schlage",
+      "einen",
+      "vor",
+      "Ich",
+      "Kompromiss"
+    ],
+    "answer": "Ich schlage einen Kompromiss vor.",
+    "explanation": "Correct: Ich schlage einen Kompromiss vor. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I'm looking forward to the weekend.”",
+    "options": [
+      "auf",
+      "freue",
+      "Wochenende",
+      "mich",
+      "das",
+      "Ich"
+    ],
+    "answer": "Ich freue mich auf das Wochenende.",
+    "explanation": "Correct: Ich freue mich auf das Wochenende. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A2",
+    "topic": "Verbs",
+    "tag": "a2-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “He washes his hands.”",
+    "options": [
+      "Er",
+      "wäscht",
+      "Hände",
+      "die",
+      "sich"
+    ],
+    "answer": "Er wäscht sich die Hände.",
+    "explanation": "Correct: Er wäscht sich die Hände. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Verbs",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am interested in music.”",
+    "options": [
+      "für",
+      "Ich",
+      "Musik",
+      "interessiere",
+      "mich"
+    ],
+    "answer": "Ich interessiere mich für Musik.",
+    "explanation": "Correct: Ich interessiere mich für Musik. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Verbs",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I remember that day.”",
+    "options": [
+      "den",
+      "Ich",
+      "mich",
+      "an",
+      "Tag",
+      "erinnere"
+    ],
+    "answer": "Ich erinnere mich an den Tag.",
+    "explanation": "Correct: Ich erinnere mich an den Tag. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The man is reading.”",
+    "options": [
+      "liest",
+      "Der",
+      "Mann"
+    ],
+    "answer": "Der Mann liest.",
+    "explanation": "Correct: Der Mann liest. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The dog is sleeping.”",
+    "options": [
+      "Hund",
+      "schläft",
+      "Der"
+    ],
+    "answer": "Der Hund schläft.",
+    "explanation": "Correct: Der Hund schläft. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The teacher explains the rule.”",
+    "options": [
+      "Regel",
+      "die",
+      "Lehrer",
+      "erklärt",
+      "Der"
+    ],
+    "answer": "Der Lehrer erklärt die Regel.",
+    "explanation": "Correct: Der Lehrer erklärt die Regel. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The woman is working.”",
+    "options": [
+      "Frau",
+      "arbeitet",
+      "Die"
+    ],
+    "answer": "Die Frau arbeitet.",
+    "explanation": "Correct: Die Frau arbeitet. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The house is big.”",
+    "options": [
+      "ist",
+      "Haus",
+      "groß",
+      "Das"
+    ],
+    "answer": "Das Haus ist groß.",
+    "explanation": "Correct: Das Haus ist groß. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Nouns",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The girl is playing.”",
+    "options": [
+      "spielt",
+      "Das",
+      "Mädchen"
+    ],
+    "answer": "Das Mädchen spielt.",
+    "explanation": "Correct: Das Mädchen spielt. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “We walk through the park.”",
+    "options": [
+      "den",
+      "gehen",
+      "Park",
+      "durch",
+      "Wir"
+    ],
+    "answer": "Wir gehen durch den Park.",
+    "explanation": "Correct: Wir gehen durch den Park. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “That is for you.”",
+    "options": [
+      "ist",
+      "Das",
+      "dich",
+      "für"
+    ],
+    "answer": "Das ist für dich.",
+    "explanation": "Correct: Das ist für dich. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I drink coffee without sugar.”",
+    "options": [
+      "Kaffee",
+      "trinke",
+      "ohne",
+      "Ich",
+      "Zucker"
+    ],
+    "answer": "Ich trinke Kaffee ohne Zucker.",
+    "explanation": "Correct: Ich trinke Kaffee ohne Zucker. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “At eight o'clock.”",
+    "options": [
+      "Um",
+      "Uhr",
+      "acht"
+    ],
+    "answer": "Um acht Uhr.",
+    "explanation": "Correct: Um acht Uhr. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I come from Berlin.”",
+    "options": [
+      "komme",
+      "aus",
+      "Berlin",
+      "Ich"
+    ],
+    "answer": "Ich komme aus Berlin.",
+    "explanation": "Correct: Ich komme aus Berlin. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I travel by bus.”",
+    "options": [
+      "Bus",
+      "fahre",
+      "mit",
+      "Ich",
+      "dem"
+    ],
+    "answer": "Ich fahre mit dem Bus.",
+    "explanation": "Correct: Ich fahre mit dem Bus. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “After work.”",
+    "options": [
+      "Arbeit",
+      "Nach",
+      "der"
+    ],
+    "answer": "Nach der Arbeit.",
+    "explanation": "Correct: Nach der Arbeit. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I'm going to the doctor.”",
+    "options": [
+      "zum",
+      "gehe",
+      "Arzt",
+      "Ich"
+    ],
+    "answer": "Ich gehe zum Arzt.",
+    "explanation": "Correct: Ich gehe zum Arzt. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The picture hangs on the wall.”",
+    "options": [
+      "Bild",
+      "an",
+      "Wand",
+      "Das",
+      "hängt",
+      "der"
+    ],
+    "answer": "Das Bild hängt an der Wand.",
+    "explanation": "Correct: Das Bild hängt an der Wand. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “The book lies on the table.”",
+    "options": [
+      "auf",
+      "Buch",
+      "dem",
+      "Das",
+      "Tisch",
+      "liegt"
+    ],
+    "answer": "Das Buch liegt auf dem Tisch.",
+    "explanation": "Correct: Das Buch liegt auf dem Tisch. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "A1",
+    "topic": "Prepositions",
+    "tag": "a1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “I am at school.”",
+    "options": [
+      "in",
+      "bin",
+      "Schule",
+      "der",
+      "Ich"
+    ],
+    "answer": "Ich bin in der Schule.",
+    "explanation": "Correct: Ich bin in der Schule. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Prepositions",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “We talked during the meal.”",
+    "options": [
+      "sprachen",
+      "des",
+      "Essens",
+      "Während",
+      "wir"
+    ],
+    "answer": "Während des Essens sprachen wir.",
+    "explanation": "Correct: Während des Essens sprachen wir. — remember the conjugated verb takes position two."
+  },
+  {
+    "level": "B1",
+    "topic": "Prepositions",
+    "tag": "b1-satzbau",
+    "type": "SENTENCE_BUILD",
+    "prompt": "Build the German sentence: “Because of the weather we're staying.”",
+    "options": [
+      "des",
+      "hier",
+      "Wetters",
+      "Wegen",
+      "wir",
+      "bleiben"
+    ],
+    "answer": "Wegen des Wetters bleiben wir hier.",
+    "explanation": "Correct: Wegen des Wetters bleiben wir hier. — remember the conjugated verb takes position two."
+  }
+]

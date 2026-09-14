@@ -1,0 +1,376 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum Level {
+  A1
+  A2
+  B1
+  B2
+}
+
+enum Pos {
+  VERB
+  NOUN
+  ADJ
+  PREP
+  ADV
+  OTHER
+}
+
+enum MasteryState {
+  KNOWN
+  SHAKY
+  UNKNOWN
+}
+
+enum LevelMode {
+  AUTO
+  MANUAL
+}
+
+enum ExerciseType {
+  MULTIPLE_CHOICE
+  FILL_BLANK
+  SENTENCE_BUILD
+}
+
+enum ExamSection {
+  READING
+  LISTENING
+  WRITING
+  SPEAKING
+  COMPREHENSION
+}
+
+enum GameKind {
+  WORD_MATCH
+  GENDER_BATTLE
+  LISTENING_QUIZ
+  FILL_BLANK
+}
+
+enum MistakeKind {
+  VOCAB
+  EXERCISE
+  GAME
+  EXAM
+}
+
+// ---------------------------------------------------------------------------
+// Content (seeded; read-only at runtime)
+// ---------------------------------------------------------------------------
+
+model Word {
+  id             Int      @id @default(autoincrement())
+  /// Case-sensitive collation (utf8mb4_0900_as_cs) is applied by migration, so
+  /// `sie` and `Sie` remain distinct entries. See the case_sensitive_lemma migration.
+  lemma          String   @db.VarChar(120)
+  level          Level
+  pos            Pos
+  subcategory    String   @db.VarChar(60)
+  translationsEn Json
+  exampleDe      String?  @db.Text
+  exampleEn      String?  @db.Text
+  searchLemma    String   @db.VarChar(120)
+
+  noun NounDetail?
+  verb VerbDetail?
+  adj  AdjectiveDetail?
+
+  forms        WordForm[]
+  translations Translation[]
+  srsCards     SrsCard[]
+  reviewLogs   ReviewLog[]
+
+  @@unique([lemma, pos])
+  @@index([level, pos, subcategory])
+  @@index([searchLemma])
+}
+
+model NounDetail {
+  wordId  Int    @id
+  article String @db.VarChar(5)
+  plural  String @db.VarChar(120)
+  word    Word   @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+model VerbDetail {
+  wordId      Int     @id
+  isSeparable Boolean @default(false)
+  prefix      String? @db.VarChar(20)
+  isIrregular Boolean @default(false)
+  auxiliary   String  @db.VarChar(10)
+  praesens    Json
+  praeteritum String? @db.VarChar(60)
+  partizip2   String? @db.VarChar(60)
+  word        Word    @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+model AdjectiveDetail {
+  wordId      Int     @id
+  comparative String  @db.VarChar(120)
+  superlative String? @db.VarChar(120)
+  word        Word    @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+/// Inflection search index: every surface form that should resolve to a lemma.
+/// Derived at seed time from conjugations, plurals and comparatives.
+model WordForm {
+  id         Int    @id @default(autoincrement())
+  wordId     Int
+  form       String @db.VarChar(120)
+  searchForm String @db.VarChar(120)
+  formType   String @db.VarChar(30)
+  word       Word   @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@unique([wordId, searchForm, formType])
+  @@index([searchForm])
+}
+
+/// English gloss index, so "to eat" resolves to essen.
+model Translation {
+  id         Int    @id @default(autoincrement())
+  wordId     Int
+  text       String @db.VarChar(160)
+  searchText String @db.VarChar(160)
+  word       Word   @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@unique([wordId, searchText])
+  @@index([searchText])
+}
+
+model Lesson {
+  id          Int     @id @default(autoincrement())
+  slug        String  @unique @db.VarChar(120)
+  level       Level
+  topic       String  @db.VarChar(60)
+  title       String  @db.VarChar(200)
+  summary     String  @db.Text
+  bodyMd      String  @db.Text
+  keyRules    Json
+  examples    Json
+  exerciseTag String  @db.VarChar(60)
+  order       Int     @default(0)
+
+  @@index([level, order])
+}
+
+model Exercise {
+  id          Int          @id @default(autoincrement())
+  level       Level
+  topic       String       @db.VarChar(60)
+  tag         String       @db.VarChar(60)
+  type        ExerciseType
+  prompt      String       @db.Text
+  options     Json?
+  answer      String       @db.VarChar(255)
+  explanation String       @db.Text
+
+  attempts ExerciseAttempt[]
+
+  @@unique([tag, prompt(length: 191)], name: "tag_prompt")
+  @@index([level, tag])
+  @@index([level, type])
+}
+
+model ReadingText {
+  id        Int    @id @default(autoincrement())
+  level     Level
+  title     String @db.VarChar(200)
+  bodyDe    String @db.Text
+  glossary  Json
+  questions Json
+
+  @@unique([level, title])
+  @@index([level])
+}
+
+model ExamItem {
+  id      Int         @id @default(autoincrement())
+  level   Level
+  section ExamSection
+  title   String      @db.VarChar(200)
+  payload Json
+
+  attempts ExamAttempt[]
+
+  @@unique([section, title])
+  @@index([level, section])
+}
+
+model PronunciationEntry {
+  id          Int    @id @default(autoincrement())
+  symbol      String @unique @db.VarChar(20)
+  grapheme    String @db.VarChar(40)
+  example     String @db.VarChar(80)
+  description String @db.Text
+  tip         String @db.Text
+  order       Int    @default(0)
+
+  @@index([order])
+}
+
+model CheatSheetSection {
+  id     Int    @id @default(autoincrement())
+  level  Level
+  title  String @db.VarChar(200)
+  bodyMd String @db.Text
+  order  Int    @default(0)
+
+  @@unique([level, title])
+  @@index([level, order])
+}
+
+// ---------------------------------------------------------------------------
+// User state (written at runtime)
+// ---------------------------------------------------------------------------
+
+model User {
+  id           Int       @id @default(autoincrement())
+  email        String    @unique @db.VarChar(190)
+  name         String    @db.VarChar(120)
+  passwordHash String    @db.VarChar(255)
+  currentLevel Level     @default(A1)
+  levelMode    LevelMode @default(AUTO)
+  settings     Json?
+  createdAt    DateTime  @default(now())
+
+  srsCards         SrsCard[]
+  reviewLogs       ReviewLog[]
+  exerciseAttempts ExerciseAttempt[]
+  gameSessions     GameSession[]
+  examAttempts     ExamAttempt[]
+  dailyChallenges  DailyChallenge[]
+  mistakes         Mistake[]
+  activityDays     ActivityDay[]
+}
+
+model SrsCard {
+  id             Int          @id @default(autoincrement())
+  userId         Int
+  wordId         Int
+  state          MasteryState
+  dueAt          DateTime
+  lastReviewedAt DateTime?
+  reviewCount    Int          @default(0)
+  lapses         Int          @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word Word @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, wordId])
+  @@index([userId, dueAt])
+  @@index([userId, state])
+}
+
+model ReviewLog {
+  id         Int          @id @default(autoincrement())
+  userId     Int
+  wordId     Int
+  fromState  MasteryState?
+  toState    MasteryState
+  reviewedAt DateTime     @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word Word @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@index([userId, reviewedAt])
+}
+
+model ExerciseAttempt {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  exerciseId  Int
+  correct     Boolean
+  givenAnswer String   @db.VarChar(255)
+  source      String   @db.VarChar(30)
+  answeredAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exercise Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([userId, answeredAt])
+  @@index([userId, exerciseId])
+}
+
+model GameSession {
+  id         Int      @id @default(autoincrement())
+  userId     Int
+  game       GameKind
+  score      Int
+  total      Int
+  durationMs Int      @default(0)
+  playedAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, playedAt])
+}
+
+model ExamAttempt {
+  id         Int         @id @default(autoincrement())
+  userId     Int
+  examItemId Int
+  section    ExamSection
+  score      Int
+  total      Int
+  detail     Json?
+  takenAt    DateTime    @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examItem ExamItem @relation(fields: [examItemId], references: [id], onDelete: Cascade)
+
+  @@index([userId, takenAt])
+}
+
+model DailyChallenge {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  date        String   @db.VarChar(10)
+  exerciseIds Json
+  answered    Int      @default(0)
+  score       Int      @default(0)
+  completed   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model Mistake {
+  id        Int         @id @default(autoincrement())
+  userId    Int
+  kind      MistakeKind
+  refId     Int?
+  prompt    String      @db.Text
+  expected  String      @db.VarChar(255)
+  given     String      @db.VarChar(255)
+  createdAt DateTime    @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+model ActivityDay {
+  id        Int    @id @default(autoincrement())
+  userId    Int
+  date      String @db.VarChar(10)
+  reviews   Int    @default(0)
+  exercises Int    @default(0)
+  games     Int    @default(0)
+  xp        Int    @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}

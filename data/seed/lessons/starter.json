@@ -1,0 +1,557 @@
+[
+  {
+    "slug": "a1-articles-gender",
+    "level": "A1",
+    "topic": "Nouns",
+    "title": "Articles & Noun Gender",
+    "summary": "Every German noun carries a gender, and the article is the only reliable signal of it.",
+    "bodyMd": "German has three genders, and they are a property of the **word**, not the thing. `das Mädchen` (girl) is neuter because of its `-chen` ending, not because of anything about girls.\n\nThat is why you should never learn a noun on its own. Learn **der Hund**, not *Hund*. The article is part of the word.\n\n## The nominative articles\n\n| masculine | feminine | neuter | plural |\n|---|---|---|---|\n| **der** Hund | **die** Katze | **das** Haus | **die** Häuser |\n\nThe plural article is always `die`, whatever the singular gender was.\n\n## Endings that give the gender away\n\nAbout a third of nouns announce their gender through their ending:\n\n- **die** — `-ung`, `-heit`, `-keit`, `-schaft`, `-ion`, `-tät`, `-ei`\n- **das** — `-chen`, `-lein`, `-ment`, `-um`, `-ma`\n- **der** — `-er` (person doing something), `-ling`, `-ismus`\n\nDays, months, seasons and weather words are **der**: der Montag, der Mai, der Sommer, der Regen.",
+    "keyRules": [
+      "Learn every noun together with its article — der Hund, not Hund.",
+      "All plurals take die in the nominative, regardless of singular gender.",
+      "-ung / -heit / -keit / -schaft / -ion are always feminine.",
+      "-chen and -lein are always neuter, even for people: das Mädchen."
+    ],
+    "examples": [
+      {
+        "de": "Der Hund schläft.",
+        "en": "The dog is sleeping."
+      },
+      {
+        "de": "Die Wohnung ist klein.",
+        "en": "The flat is small."
+      },
+      {
+        "de": "Das Mädchen liest ein Buch.",
+        "en": "The girl is reading a book."
+      }
+    ],
+    "exerciseTag": "a1-gender",
+    "order": 1
+  },
+  {
+    "slug": "a1-present-tense",
+    "level": "A1",
+    "topic": "Verbs",
+    "title": "The Present Tense",
+    "summary": "One tense does the work of three in English — and it covers the future too.",
+    "bodyMd": "German `ich lerne` covers English *I learn*, *I am learning* and *I do learn*. There is no separate continuous form to worry about.\n\n## Regular endings\n\nDrop `-en` from the infinitive and add:\n\n| | lernen |\n|---|---|\n| ich | lern**e** |\n| du | lern**st** |\n| er/sie/es | lern**t** |\n| wir | lern**en** |\n| ihr | lern**t** |\n| sie/Sie | lern**en** |\n\nIf the stem ends in `-t` or `-d`, slip in an **e** so it stays pronounceable: `du arbeit**e**st`, `er arbeit**e**t`.\n\n## Stem-changing verbs\n\nA group of common verbs change their stem vowel — but **only** in the `du` and `er/sie/es` forms:\n\n| change | infinitive | du | er/sie/es |\n|---|---|---|---|\n| e → i | sprechen | sprichst | spricht |\n| e → ie | sehen | siehst | sieht |\n| a → ä | fahren | fährst | fährt |\n| au → äu | laufen | läufst | läuft |\n\nEverything else stays regular: `wir sprechen`, `ihr sprecht`.\n\n## The present tense as future\n\nWith a time expression, the present tense is the normal way to talk about the future:\n\n`**Morgen fahre** ich nach Berlin.` — *Tomorrow I'm going to Berlin.*",
+    "keyRules": [
+      "Drop -en, add -e / -st / -t / -en / -t / -en.",
+      "Stems ending in -t or -d insert an e: du arbeitest.",
+      "Stem changes affect only the du and er/sie/es forms.",
+      "wir and sie/Sie forms are always identical to the infinitive.",
+      "German uses the present tense for the future when a time word makes it clear."
+    ],
+    "examples": [
+      {
+        "de": "Ich lerne jeden Tag Deutsch.",
+        "en": "I study German every day."
+      },
+      {
+        "de": "Du sprichst sehr gut Deutsch.",
+        "en": "You speak German very well."
+      },
+      {
+        "de": "Er fährt morgen nach Hamburg.",
+        "en": "He is going to Hamburg tomorrow."
+      }
+    ],
+    "exerciseTag": "a1-present",
+    "order": 2
+  },
+  {
+    "slug": "a1-cases-nom-akk",
+    "level": "A1",
+    "topic": "Cases",
+    "title": "Nominative & Accusative",
+    "summary": "Who is doing it, and who is having it done to them.",
+    "bodyMd": "German marks a noun's job in the sentence by changing the article in front of it. The first two jobs to learn:\n\n- **Nominative** — the subject, the one doing the verb.\n- **Accusative** — the direct object, the one on the receiving end.\n\n`**Der Hund** (nom) beißt **den Mann** (akk).` — the dog bites the man.\n`**Den Hund** (akk) beißt **der Mann** (nom).` — the *man* bites the dog.\n\nNotice that the word order flipped but the meaning is carried by the articles, not the positions. This is what cases buy you.\n\n## The good news\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nominative | der | die | das | die |\n| Accusative | **den** | die | das | die |\n\n**Only the masculine changes.** Feminine, neuter and plural look identical in both cases.\n\nThe same `-n` appears on `ein → einen` and `kein → keinen`, and on the possessives: `mein → meinen`.\n\n## After sein, it stays nominative\n\n`sein`, `werden` and `bleiben` don't take an object — they link two halves of an equation, so both sides are nominative:\n\n`Er ist **ein guter Lehrer**.` (not *einen*)",
+    "keyRules": [
+      "Nominative = subject; accusative = direct object.",
+      "Only masculine articles change: der becomes den.",
+      "ein → einen, kein → keinen, mein → meinen in the masculine accusative.",
+      "sein, werden and bleiben are followed by the nominative, not the accusative."
+    ],
+    "examples": [
+      {
+        "de": "Der Mann kauft einen Apfel.",
+        "en": "The man buys an apple."
+      },
+      {
+        "de": "Ich sehe den Hund.",
+        "en": "I see the dog."
+      },
+      {
+        "de": "Das ist mein Bruder.",
+        "en": "That is my brother."
+      }
+    ],
+    "exerciseTag": "a1-akkusativ",
+    "order": 3
+  },
+  {
+    "slug": "a1-word-order",
+    "level": "A1",
+    "topic": "Syntax",
+    "title": "Word Order: Verb Second",
+    "summary": "The single most important rule in German sentence structure.",
+    "bodyMd": "In a German statement the conjugated verb sits in **position two**. Not the second word — the second *element*.\n\n`**Ich** | **gehe** | heute ins Kino.`\n`**Heute** | **gehe** | ich ins Kino.`\n\nFront anything you like for emphasis, and the subject simply hops behind the verb. The verb itself never moves.\n\n## Questions\n\n- **Yes/no** — verb first: `**Gehst** du ins Kino?`\n- **W-question** — question word first, verb second: `Wann **gehst** du ins Kino?`\n\n## What goes at the end\n\nGerman brackets its sentences. The conjugated verb is in position 2, and anything else verbal is parked at the very end:\n\n- separable prefix — `Ich **stehe** um sieben Uhr **auf**.`\n- infinitive after a modal — `Ich **kann** heute nicht **kommen**.`\n- past participle — `Ich **habe** gestern Fußball **gespielt**.`\n\n## Order of the middle\n\nWhen several details pile up, the default is **Time – Manner – Place**:\n\n`Ich fahre **morgen** **mit dem Bus** **nach Berlin**.`",
+    "keyRules": [
+      "The conjugated verb is always the second element in a statement.",
+      "Fronting another element pushes the subject after the verb — the verb stays put.",
+      "Yes/no questions start with the verb; W-questions put the verb second.",
+      "Separable prefixes, infinitives and participles go to the very end.",
+      "Middle-field order is Time – Manner – Place."
+    ],
+    "examples": [
+      {
+        "de": "Heute gehe ich ins Kino.",
+        "en": "Today I'm going to the cinema."
+      },
+      {
+        "de": "Ich kann heute nicht kommen.",
+        "en": "I can't come today."
+      },
+      {
+        "de": "Wir fahren morgen mit dem Zug nach Köln.",
+        "en": "We're travelling to Cologne by train tomorrow."
+      }
+    ],
+    "exerciseTag": "a1-wortstellung",
+    "order": 4
+  },
+  {
+    "slug": "a1-negation",
+    "level": "A1",
+    "topic": "Syntax",
+    "title": "Negation: nicht and kein",
+    "summary": "Two ways to say no, and a clear rule for choosing between them.",
+    "bodyMd": "## kein negates nouns\n\nUse **kein** wherever you would have said `ein` — or where there was no article at all:\n\n`Ich habe **ein** Auto.` → `Ich habe **kein** Auto.`\n`Ich trinke Kaffee.` → `Ich trinke **keinen** Kaffee.`\n\n`kein` declines exactly like `ein`: kein / keine / kein, accusative masculine **keinen**.\n\n## nicht negates everything else\n\nIf the noun has a **definite** article or a possessive, or if you're negating a verb, adjective or phrase, use **nicht**:\n\n`Ich kenne **den** Mann **nicht**.`\n`Das ist **nicht** gut.`\n\n## Where nicht goes\n\n`nicht` comes **before** the thing it negates:\n\n- before an adjective — `Das ist **nicht** teuer.`\n- before a prepositional phrase — `Ich fahre **nicht** nach Berlin.`\n- before a separable prefix — `Ich stehe **nicht** auf.`\n\nBut it comes **after** a definite direct object, and after time expressions:\n\n`Ich kenne den Mann **nicht**.`\n`Ich komme heute **nicht**.`",
+    "keyRules": [
+      "kein replaces ein, or a bare noun with no article.",
+      "nicht negates verbs, adjectives, and nouns that have a definite article.",
+      "kein declines like ein: keinen in the masculine accusative.",
+      "nicht goes before adjectives and prepositional phrases, but after a definite object."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe kein Auto.",
+        "en": "I don't have a car."
+      },
+      {
+        "de": "Ich trinke keinen Kaffee.",
+        "en": "I don't drink coffee."
+      },
+      {
+        "de": "Ich kenne den Mann nicht.",
+        "en": "I don't know the man."
+      }
+    ],
+    "exerciseTag": "a1-negation",
+    "order": 5
+  },
+  {
+    "slug": "a2-perfekt",
+    "level": "A2",
+    "topic": "Verbs",
+    "title": "The Perfect Tense",
+    "summary": "How Germans actually talk about the past.",
+    "bodyMd": "In conversation the Perfekt does nearly all the past-tense work, even for things English would put in the simple past.\n\n**Structure**: a helper verb in position 2, the participle at the very end.\n\n`Ich **habe** gestern Fußball **gespielt**.`\n\n## Building the participle\n\n| Type | Rule | Example |\n|---|---|---|\n| regular | **ge** + stem + **t** | spielen → gespielt |\n| irregular | **ge** + stem + **en** | sehen → gesehen |\n| separable | prefix + **ge** + rest | aufstehen → aufgestanden |\n| ends in -ieren | **no ge-** | studieren → studiert |\n| inseparable prefix | **no ge-** | verstehen → verstanden |\n\nThe inseparable prefixes are **be-, emp-, ent-, er-, ge-, miss-, ver-, zer-**. None of them take `ge-`.\n\n## haben or sein?\n\nMost verbs take **haben**. Use **sein** when the verb involves:\n\n1. **movement from A to B** — gehen, fahren, fliegen, kommen, laufen\n2. **a change of state** — aufstehen, einschlafen, sterben, werden\n3. the three memorised exceptions — **sein, bleiben, passieren**\n\n`Ich **bin** nach Berlin **gefahren**.` but `Ich **habe** das Auto **gefahren**.` — with a direct object, `fahren` switches to haben.",
+    "keyRules": [
+      "Perfekt = haben/sein (position 2) + Partizip II (final position).",
+      "Regular participles are ge- + stem + -t; irregular ones end in -en.",
+      "Verbs in -ieren and verbs with inseparable prefixes take no ge-.",
+      "Use sein for motion, change of state, and sein/bleiben/passieren.",
+      "Separable verbs slot ge- between prefix and stem: aufgestanden."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe einen Film gesehen.",
+        "en": "I watched a film."
+      },
+      {
+        "de": "Wir sind nach Italien gefahren.",
+        "en": "We travelled to Italy."
+      },
+      {
+        "de": "Sie ist um sieben Uhr aufgestanden.",
+        "en": "She got up at seven."
+      }
+    ],
+    "exerciseTag": "a2-perfekt",
+    "order": 1
+  },
+  {
+    "slug": "a2-dativ",
+    "level": "A2",
+    "topic": "Cases",
+    "title": "The Dative Case",
+    "summary": "The third case: the receiver, and the one prepositions love.",
+    "bodyMd": "The dative marks the **indirect object** — the person something is given, said or shown to.\n\n`Ich gebe **dem Kind** einen Apfel.` — *to the child*.\n\n## The articles\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Dative | **dem** | **der** | **dem** | **den** + noun**-n** |\n\nTwo things to watch:\n- Feminine `die` becomes **der** — the same word as the masculine nominative. Context tells them apart.\n- The **plural noun itself** takes an `-n`: `mit den Kinder**n**`, `mit den Freund**en**`.\n\n## Verbs that demand the dative\n\nSome verbs take a dative object where English uses a plain direct object. These simply have to be memorised:\n\n**helfen, danken, gefallen, gehören, antworten, folgen, glauben, passen, schmecken, gratulieren**\n\n`Ich helfe **dir**.` — *I help you*, not *I help to you*.\n`Das Buch gehört **mir**.`\n`Das Essen schmeckt **mir** gut.`\n\n## Two objects\n\nWhen a sentence has both, the order is **dative before accusative** — unless the accusative is a pronoun, which jumps in front:\n\n`Ich gebe **dem Mann** **das Buch**.`\n`Ich gebe **es** **dem Mann**.`",
+    "keyRules": [
+      "Dative marks the indirect object — the receiver.",
+      "Feminine die becomes der in the dative.",
+      "Dative plural adds -n to the noun itself: mit den Kindern.",
+      "helfen, danken, gefallen, gehören and friends take a dative object.",
+      "Dative comes before accusative, unless the accusative is a pronoun."
+    ],
+    "examples": [
+      {
+        "de": "Ich helfe meiner Schwester.",
+        "en": "I help my sister."
+      },
+      {
+        "de": "Das Buch gehört dem Lehrer.",
+        "en": "The book belongs to the teacher."
+      },
+      {
+        "de": "Er gibt den Kindern die Bücher.",
+        "en": "He gives the children the books."
+      }
+    ],
+    "exerciseTag": "a2-dativ",
+    "order": 2
+  },
+  {
+    "slug": "a2-modalverben",
+    "level": "A2",
+    "topic": "Verbs",
+    "title": "Modal Verbs",
+    "summary": "Six verbs that reshape the whole sentence around them.",
+    "bodyMd": "Modals express possibility, obligation, permission and desire. They are conjugated in position 2, and they send the main verb to the **end as a bare infinitive**.\n\n`Ich **kann** heute nicht **kommen**.`\n\n## The forms\n\n| | können | müssen | dürfen | wollen | sollen | mögen |\n|---|---|---|---|---|---|---|\n| ich | kann | muss | darf | will | soll | mag |\n| du | kannst | musst | darfst | willst | sollst | magst |\n| er/sie/es | kann | muss | darf | will | soll | mag |\n| wir | können | müssen | dürfen | wollen | sollen | mögen |\n| ihr | könnt | müsst | dürft | wollt | sollt | mögt |\n| sie/Sie | können | müssen | dürfen | wollen | sollen | mögen |\n\nTwo quirks worth burning in: **ich** and **er/sie/es** are identical, and neither takes an ending.\n\n## The trap: negated müssen\n\nThis one catches every learner:\n\n- `Du **musst nicht** kommen.` = You **don't have to** come.\n- `Du **darfst nicht** kommen.` = You **must not** come.\n\nFor English *must not*, you need **nicht dürfen**.\n\n## möchte\n\n`möchte` (*would like*) is technically the subjunctive of mögen, but it behaves as its own verb and is far more polite than `wollen`:\n\n`Ich **möchte** einen Kaffee, bitte.`",
+    "keyRules": [
+      "The modal takes position 2; the main verb goes to the end as an infinitive.",
+      "ich and er/sie/es forms are identical and take no ending.",
+      "nicht müssen = don't have to; nicht dürfen = must not.",
+      "Use möchte rather than wollen to sound polite.",
+      "Modals drop their umlaut in the Präteritum: können → konnte."
+    ],
+    "examples": [
+      {
+        "de": "Ich kann gut schwimmen.",
+        "en": "I can swim well."
+      },
+      {
+        "de": "Du musst nicht kommen.",
+        "en": "You don't have to come."
+      },
+      {
+        "de": "Ich möchte einen Kaffee.",
+        "en": "I would like a coffee."
+      }
+    ],
+    "exerciseTag": "a2-modalverben",
+    "order": 3
+  },
+  {
+    "slug": "a2-praepositionen",
+    "level": "A2",
+    "topic": "Prepositions",
+    "title": "Prepositions and Their Cases",
+    "summary": "Every preposition locks its noun into a case. Some pick one depending on meaning.",
+    "bodyMd": "## Fixed-case prepositions\n\n**Always accusative**: `durch, für, gegen, ohne, um, bis, entlang`\n**Always dative**: `aus, bei, mit, nach, seit, von, zu, gegenüber`\n\nThese never vary. Learn them as blocks.\n\n## The two-way prepositions\n\nNine prepositions take **either** case, and the choice carries meaning:\n\n`an, auf, hinter, in, neben, über, unter, vor, zwischen`\n\n| Question | Case | Sense |\n|---|---|---|\n| **Wohin?** (where to) | accusative | movement into a new place |\n| **Wo?** (where) | dative | staying put |\n\n`Ich gehe **in die** Schule.` — movement, accusative.\n`Ich bin **in der** Schule.` — location, dative.\n\nThe test is not whether the verb involves motion — it's whether the motion **crosses into** the place:\n\n`Ich laufe **in dem** Park.` (running around inside it — dative)\n`Ich laufe **in den** Park.` (running into it — accusative)\n\n## Contractions\n\nCertain combinations are always contracted in normal German:\n\n`in dem → **im**` · `in das → **ins**` · `an dem → **am**` · `an das → **ans**` · `zu dem → **zum**` · `zu der → **zur**` · `bei dem → **beim**` · `von dem → **vom**`",
+    "keyRules": [
+      "durch, für, gegen, ohne, um always take the accusative.",
+      "aus, bei, mit, nach, seit, von, zu always take the dative.",
+      "Two-way prepositions take accusative for Wohin? and dative for Wo?.",
+      "The test is whether movement crosses into the place, not whether motion occurs.",
+      "Contract in dem → im, zu der → zur, an das → ans and friends."
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe in die Stadt.",
+        "en": "I'm going into town."
+      },
+      {
+        "de": "Ich wohne in der Stadt.",
+        "en": "I live in the town."
+      },
+      {
+        "de": "Wir fahren mit dem Auto zum Bahnhof.",
+        "en": "We're driving to the station by car."
+      }
+    ],
+    "exerciseTag": "a2-praepositionen",
+    "order": 4
+  },
+  {
+    "slug": "a2-komparativ",
+    "level": "A2",
+    "topic": "Adjectives",
+    "title": "Comparative & Superlative",
+    "summary": "Making comparisons, including the ones that trip English speakers up.",
+    "bodyMd": "German always builds comparatives with an ending — there is no *more beautiful* construction.\n\n| Positive | Comparative | Superlative |\n|---|---|---|\n| schnell | schnell**er** | am schnell**sten** |\n| schön | schön**er** | am schön**sten** |\n\nEven long adjectives follow this: `interessant → interessanter`, never *mehr interessant*.\n\n## Umlauts\n\nMost one-syllable adjectives with **a, o, u** add an umlaut:\n\n`alt → **ä**lter` · `groß → gr**ö**ßer` · `jung → j**ü**nger` · `lang → l**ä**nger`\n\n## The -est- insert\n\nStems ending in `-d`, `-t`, `-s`, `-ß`, `-z` insert an **e** in the superlative so it can be pronounced:\n\n`alt → am ält**e**sten` · `heiß → am heiß**e**sten`\n\n## Irregulars\n\n| | comparative | superlative |\n|---|---|---|\n| gut | besser | am besten |\n| viel | mehr | am meisten |\n| gern | lieber | am liebsten |\n| hoch | höher | am höchsten |\n| nah | näher | am nächsten |\n\n## wie or als?\n\n- **so … wie** for things that are equal: `Er ist **so groß wie** ich.`\n- **als** for a difference: `Er ist größer **als** ich.`\n\nUsing `wie` for a difference is the single most common mistake here.",
+    "keyRules": [
+      "Comparatives always add -er; German has no 'mehr + adjective' form.",
+      "One-syllable adjectives with a, o, u usually take an umlaut.",
+      "Stems in -d, -t, -s, -ß, -z insert an e: am ältesten.",
+      "gut → besser → am besten; viel → mehr → am meisten; gern → lieber → am liebsten.",
+      "so … wie for equality, als for difference."
+    ],
+    "examples": [
+      {
+        "de": "Mein Bruder ist älter als ich.",
+        "en": "My brother is older than me."
+      },
+      {
+        "de": "Sie ist so groß wie ihre Mutter.",
+        "en": "She is as tall as her mother."
+      },
+      {
+        "de": "Das ist der beste Film des Jahres.",
+        "en": "That's the best film of the year."
+      }
+    ],
+    "exerciseTag": "a2-komparativ",
+    "order": 5
+  },
+  {
+    "slug": "a2-nebensatz",
+    "level": "A2",
+    "topic": "Syntax",
+    "title": "Subordinate Clauses",
+    "summary": "When the verb goes to the end — and which connectors send it there.",
+    "bodyMd": "A subordinating conjunction pushes the conjugated verb to the **very end** of its clause:\n\n`Ich bleibe zu Hause, **weil** ich krank **bin**.`\n\nThe common subordinators: **weil, dass, wenn, ob, obwohl, damit, bevor, nachdem, während, seitdem, als, falls**.\n\n## The weil / denn trap\n\nBoth mean *because*, but they behave completely differently:\n\n`Ich bleibe zu Hause, **weil** ich krank **bin**.` — verb last\n`Ich bleibe zu Hause, **denn** ich **bin** krank.` — normal order\n\n`denn` is a **coordinating** conjunction, like `und`, `aber`, `oder` and `sondern`. None of those five change the word order.\n\n## wenn or als?\n\n- **als** — one completed event in the past: `**Als** ich zehn war, zogen wir um.`\n- **wenn** — repeated past events, or anything present or future: `**Wenn** es regnet, bleibe ich zu Hause.`\n\nIf you can say *whenever*, use `wenn`. If it happened exactly once in the past, use `als`.\n\n## Leading with the subordinate clause\n\nPut the subordinate clause first and the whole thing counts as position one — so the main clause must start with its verb:\n\n`**Weil** ich krank **bin**, **bleibe** ich zu Hause.`\n\nThe two verbs end up next to each other, separated by a comma. That looks strange at first but is correct.",
+    "keyRules": [
+      "Subordinating conjunctions send the conjugated verb to the end of the clause.",
+      "weil sends the verb last; denn does not change word order.",
+      "und, aber, oder, denn, sondern never affect word order.",
+      "als = a single past event; wenn = repeated past, or present/future.",
+      "A fronted subordinate clause forces the main clause to begin with its verb."
+    ],
+    "examples": [
+      {
+        "de": "Ich lerne Deutsch, weil ich in Berlin wohne.",
+        "en": "I'm learning German because I live in Berlin."
+      },
+      {
+        "de": "Als ich Kind war, spielte ich Fußball.",
+        "en": "When I was a child, I played football."
+      },
+      {
+        "de": "Wenn ich Zeit habe, besuche ich dich.",
+        "en": "When I have time, I'll visit you."
+      }
+    ],
+    "exerciseTag": "a2-nebensatz",
+    "order": 6
+  },
+  {
+    "slug": "b1-adjektivendungen",
+    "level": "B1",
+    "topic": "Adjectives",
+    "title": "Adjective Endings",
+    "summary": "The table everyone dreads — and the shortcut that makes it manageable.",
+    "bodyMd": "An adjective in front of a noun must take an ending. Which ending depends on what article precedes it.\n\n## After der/die/das (weak)\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nom | -e | -e | -e | -en |\n| Akk | **-en** | -e | -e | -en |\n| Dat | -en | -en | -en | -en |\n| Gen | -en | -en | -en | -en |\n\nOnly five slots are `-e`; everything else is `-en`.\n\n## After ein/kein/mein (mixed)\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nom | **-er** | -e | **-es** | -en |\n| Akk | -en | -e | **-es** | -en |\n| Dat | -en | -en | -en | -en |\n| Gen | -en | -en | -en | -en |\n\nThe difference sits in three cells. `ein` doesn't show gender by itself, so the adjective has to: `ein gut**er** Mann`, `ein gut**es** Kind`.\n\n## With no article (strong)\n\nThe adjective takes the ending the definite article would have had:\n\n`gut**er** Wein` (der → -er) · `kalt**es** Wasser` (das → -es) · `mit gut**em** Wein` (dem → -em)\n\n## The shortcut\n\nAsk: **does anything before the adjective already show the case and gender?**\n\n- Yes → the adjective takes `-e` or `-en` (weak).\n- No → the adjective must do the job itself, taking the article's ending (strong).",
+    "keyRules": [
+      "Adjective endings depend on the article in front, not just on case.",
+      "After a definite article, endings are only -e or -en.",
+      "After ein/kein/mein, the masculine nominative is -er and the neuter is -es.",
+      "With no article, the adjective takes the ending the definite article would have had.",
+      "Predicate adjectives after sein take no ending at all: Das Haus ist groß."
+    ],
+    "examples": [
+      {
+        "de": "Der große Mann wohnt hier.",
+        "en": "The tall man lives here."
+      },
+      {
+        "de": "Ein gutes Buch ist teuer.",
+        "en": "A good book is expensive."
+      },
+      {
+        "de": "Ich trinke gern kaltes Wasser.",
+        "en": "I like drinking cold water."
+      }
+    ],
+    "exerciseTag": "b1-adjektivendungen",
+    "order": 1
+  },
+  {
+    "slug": "b1-konjunktiv2",
+    "level": "B1",
+    "topic": "Mood",
+    "title": "Konjunktiv II",
+    "summary": "Hypotheticals, wishes, and sounding polite instead of blunt.",
+    "bodyMd": "Konjunktiv II covers everything unreal: what *would* happen, what you *would like*, what you *could* do.\n\n## The forms you must know cold\n\n| | sein | haben | werden | können | müssen |\n|---|---|---|---|---|---|\n| ich | wäre | hätte | würde | könnte | müsste |\n| du | wärst | hättest | würdest | könntest | müsstest |\n| er/sie/es | wäre | hätte | würde | könnte | müsste |\n| wir | wären | hätten | würden | könnten | müssten |\n\nThey're built from the Präteritum stem, plus an umlaut, plus `-e` endings.\n\n## Everything else: würde + infinitive\n\nFor ordinary verbs, the real Konjunktiv II form sounds archaic (`ich ginge`, `ich käme`). Modern German uses **würde + infinitive** instead:\n\n`Ich **würde** mehr **reisen**, wenn ich Geld hätte.`\n\nBut never do this with *sein*, *haben* or the modals — `ich würde haben` is wrong. Use `ich hätte`.\n\n## Unreal conditions\n\nBoth halves go into Konjunktiv II:\n\n`**Wenn** ich Zeit **hätte**, **würde** ich mehr lesen.`\n\n## Politeness\n\nThis is where you'll use it most in daily life:\n\n`**Könnten** Sie mir helfen?` · `Ich **hätte** gern einen Kaffee.` · `**Wären** Sie so freundlich?`\n\n## Past hypotheticals\n\nUse `hätte` or `wäre` plus the participle:\n\n`Ich **hätte** das nicht **gesagt**.` — *I wouldn't have said that.*\n`Wenn ich das **gewusst hätte**, **wäre** ich nicht **gekommen**.`",
+    "keyRules": [
+      "Konjunktiv II expresses hypotheticals, wishes and polite requests.",
+      "Use würde + infinitive for most verbs.",
+      "Never use würde with sein, haben or the modals — use hätte, wäre, könnte.",
+      "Both clauses of an unreal condition go into Konjunktiv II.",
+      "Past hypotheticals use hätte/wäre + Partizip II."
+    ],
+    "examples": [
+      {
+        "de": "Wenn ich Zeit hätte, würde ich mehr lesen.",
+        "en": "If I had time, I would read more."
+      },
+      {
+        "de": "Könnten Sie mir bitte helfen?",
+        "en": "Could you please help me?"
+      },
+      {
+        "de": "Ich hätte das nicht gesagt.",
+        "en": "I wouldn't have said that."
+      }
+    ],
+    "exerciseTag": "b1-konjunktiv2",
+    "order": 2
+  },
+  {
+    "slug": "b1-passiv",
+    "level": "B1",
+    "topic": "Voice",
+    "title": "The Passive Voice",
+    "summary": "Shifting the spotlight from the doer to the deed.",
+    "bodyMd": "The passive is built with **werden + Partizip II**. It matters in German because formal and technical writing leans on it heavily.\n\n`Das Haus **wird** gebaut.` — *The house is being built.*\n\n## Across the tenses\n\n| Tense | Form | Example |\n|---|---|---|\n| Präsens | wird + P2 | Das Haus **wird** gebaut. |\n| Präteritum | wurde + P2 | Das Haus **wurde** gebaut. |\n| Perfekt | ist + P2 + **worden** | Das Haus **ist** gebaut **worden**. |\n| with modal | modal + P2 + werden | Das Haus **muss** gebaut **werden**. |\n\nThe Perfekt form is the one to watch: the participle of `werden` here is **worden**, not `geworden`. The `ge-` drops.\n\n## Naming the agent\n\n- **von** for a person or active force: `Das Haus wurde **von** einem Architekten geplant.`\n- **durch** for a means or cause: `Die Stadt wurde **durch** ein Erdbeben zerstört.`\n\nMost of the time the agent is simply left out — that's the point of the passive.\n\n## Zustandspassiv\n\n`sein + Partizip II` describes a resulting **state**, not an action:\n\n`Die Tür **wird** geöffnet.` — someone is opening it right now.\n`Die Tür **ist** geöffnet.` — it stands open.\n\n## Alternatives\n\nGerman often dodges the passive altogether:\n\n- `**man**` — `**Man** baut hier ein Haus.`\n- `sich lassen` — `Das **lässt sich** machen.`\n- `sein + zu + infinitive` — `Das **ist zu** machen.`",
+    "keyRules": [
+      "Passive = werden + Partizip II.",
+      "In the Perfekt passive, werden's participle is worden, not geworden.",
+      "Use von for a personal agent and durch for a means or cause.",
+      "sein + Partizip II describes a state; werden + Partizip II describes an action.",
+      "man, sich lassen and sein + zu + infinitive are common passive alternatives."
+    ],
+    "examples": [
+      {
+        "de": "Das Haus wird renoviert.",
+        "en": "The house is being renovated."
+      },
+      {
+        "de": "Der Brief wurde gestern geschrieben.",
+        "en": "The letter was written yesterday."
+      },
+      {
+        "de": "Die Arbeit ist schon gemacht worden.",
+        "en": "The work has already been done."
+      }
+    ],
+    "exerciseTag": "b1-passiv",
+    "order": 3
+  },
+  {
+    "slug": "b1-relativsatz",
+    "level": "B1",
+    "topic": "Syntax",
+    "title": "Relative Clauses",
+    "summary": "Joining sentences with der, die, das — and picking the right case.",
+    "bodyMd": "A relative clause adds information about a noun. The relative pronoun takes:\n\n- its **gender and number** from the noun it refers back to,\n- its **case** from its job inside the relative clause.\n\nThat split is the whole difficulty.\n\n## The pronouns\n\n| | masc | fem | neut | plural |\n|---|---|---|---|---|\n| Nom | der | die | das | die |\n| Akk | **den** | die | das | die |\n| Dat | **dem** | **der** | **dem** | **denen** |\n| Gen | **dessen** | **deren** | **dessen** | **deren** |\n\nThey match the definite article except in the dative plural (**denen**) and the whole genitive row.\n\n## Working through it\n\nTake *the man whose car is broken*:\n\n1. The noun is `der Mann` → masculine singular.\n2. Inside the clause, the man **possesses** the car → genitive.\n3. Masculine genitive → **dessen**.\n\n`Der Mann, **dessen** Auto kaputt ist, …`\n\nMore examples:\n\n`Der Mann, **der** dort steht, …` — subject → nominative\n`Der Mann, **den** ich kenne, …` — object of kennen → accusative\n`Der Mann, **dem** ich helfe, …` — helfen takes dative\n\n## With prepositions\n\nThe preposition leads, and it decides the case:\n\n`Die Frau, **mit der** ich spreche, …`\n`Das Haus, **in dem** ich wohne, …`\n\n## Always\n\nThe verb goes to the end, and the clause is always fenced off by commas.",
+    "keyRules": [
+      "Gender and number come from the antecedent; case comes from the relative clause.",
+      "Relative pronouns match the definite article except denen (dative plural) and the genitive row.",
+      "The verb goes to the end of the relative clause.",
+      "A preposition comes before the pronoun and determines its case.",
+      "German always separates relative clauses with commas."
+    ],
+    "examples": [
+      {
+        "de": "Das ist der Mann, der mir geholfen hat.",
+        "en": "That's the man who helped me."
+      },
+      {
+        "de": "Der Film, den wir gesehen haben, war gut.",
+        "en": "The film we saw was good."
+      },
+      {
+        "de": "Die Frau, mit der ich sprach, ist Ärztin.",
+        "en": "The woman I spoke with is a doctor."
+      }
+    ],
+    "exerciseTag": "b1-relativsatz",
+    "order": 4
+  },
+  {
+    "slug": "b2-konjunktiv1",
+    "level": "B2",
+    "topic": "Mood",
+    "title": "Konjunktiv I & Reported Speech",
+    "summary": "How German journalism reports what someone said without endorsing it.",
+    "bodyMd": "Konjunktiv I signals that you are relaying someone else's claim. It is rare in speech and everywhere in newspapers.\n\n## Formation\n\nInfinitive stem + `-e` endings:\n\n| | sein | haben | gehen | können |\n|---|---|---|---|---|\n| ich | sei | habe | gehe | könne |\n| du | seist | habest | gehest | könnest |\n| er/sie/es | **sei** | **habe** | **gehe** | **könne** |\n| wir | seien | haben | gehen | können |\n| sie/Sie | seien | haben | gehen | können |\n\n`sein` is the irregular one — and the one you'll meet most: `er **sei**`, without the `-e` you'd expect.\n\n## The substitution rule\n\nLook at `wir haben` and `sie haben`: identical to the indicative. A reader couldn't tell it was reported speech.\n\nSo when the Konjunktiv I form collides with the indicative, **switch that form to Konjunktiv II**:\n\n`Sie sagen, sie **hätten** keine Zeit.` (not *sie haben*)\n\nThat's why real texts mix the two moods — it isn't inconsistency, it's the rule.\n\n## Past reported speech\n\nThere is only one past. Use `habe`/`sei` + Partizip II:\n\n`Er sagte, er **sei** früh **gegangen**.`\n`Sie erklärte, sie **habe** nichts **gewusst**.`\n\n## In practice\n\nEveryday spoken German just uses `dass` with the indicative:\n\n`Er sagt, **dass** er keine Zeit **hat**.`\n\nKonjunktiv I is a **reading** skill first — recognise it in a newspaper, and you'll know the writer isn't vouching for the claim.",
+    "keyRules": [
+      "Konjunktiv I marks reported speech in formal writing and journalism.",
+      "Formed from the infinitive stem + -e endings; sein is irregular (er sei).",
+      "When the form matches the indicative, switch to Konjunktiv II instead.",
+      "Past reported speech uses habe/sei + Partizip II.",
+      "Spoken German prefers dass + indicative."
+    ],
+    "examples": [
+      {
+        "de": "Er sagt, er habe keine Zeit.",
+        "en": "He says he has no time."
+      },
+      {
+        "de": "Sie behauptet, sie sei krank gewesen.",
+        "en": "She claims she was ill."
+      },
+      {
+        "de": "Die Minister sagten, sie hätten nichts gewusst.",
+        "en": "The ministers said they knew nothing."
+      }
+    ],
+    "exerciseTag": "b2-konjunktiv1",
+    "order": 1
+  },
+  {
+    "slug": "b2-verben-praepositionen",
+    "level": "B2",
+    "topic": "Verbs",
+    "title": "Verbs with Fixed Prepositions",
+    "summary": "Pairings you cannot work out from English — plus the da-/wo- machinery.",
+    "bodyMd": "Many German verbs demand a specific preposition and a specific case. The combination is arbitrary and must be learned as a unit: not `warten`, but **warten auf + Akkusativ**.\n\n| Verb | Preposition | Case |\n|---|---|---|\n| warten | auf | Akk |\n| sich freuen | auf (future) / über (now) | Akk |\n| sich interessieren | für | Akk |\n| denken | an | Akk |\n| sich erinnern | an | Akk |\n| sich kümmern | um | Akk |\n| teilnehmen | an | Dat |\n| leiden | unter | Dat |\n| gehören | zu | Dat |\n| abhängen | von | Dat |\n| bestehen | aus (consist of) / auf (insist on) | Dat |\n\n`sich freuen` shows why the preposition matters: `Ich freue mich **auf** das Konzert` (it's still to come) versus `Ich freue mich **über** das Geschenk` (I have it already).\n\n## da- and wo- compounds\n\nReferring back to a **thing**, you cannot say *auf es*. You fuse the preposition with `da-`:\n\n`Ich warte **darauf**.` — *I'm waiting for it.*\n\nAsking about a thing, fuse with `wo-`:\n\n`**Worauf** wartest du?`\n\nInsert an **-r-** when the preposition starts with a vowel: `da**r**auf`, `wo**r**an`, `da**r**über`.\n\n## People are different\n\nFor people, keep the preposition and use a normal pronoun:\n\n`**Auf wen** wartest du?` → `Ich warte **auf ihn**.`\n\n## Anticipatory da-\n\nWhen a `dass`-clause follows, the main clause often needs a `da-` placeholder:\n\n`Ich freue mich **darauf**, **dass** du kommst.`",
+    "keyRules": [
+      "Learn verb + preposition + case as a single unit.",
+      "sich freuen auf = look forward to; sich freuen über = be pleased about.",
+      "Use da(r)- compounds for things and preposition + pronoun for people.",
+      "Insert -r- before a vowel: darauf, woran, darüber.",
+      "A following dass-clause often needs an anticipatory da- compound."
+    ],
+    "examples": [
+      {
+        "de": "Ich warte auf den Bus. Ich warte darauf.",
+        "en": "I'm waiting for the bus. I'm waiting for it."
+      },
+      {
+        "de": "Worüber sprecht ihr?",
+        "en": "What are you talking about?"
+      },
+      {
+        "de": "Sie interessiert sich für Politik.",
+        "en": "She is interested in politics."
+      }
+    ],
+    "exerciseTag": "b2-verbpraepositionen",
+    "order": 2
+  },
+  {
+    "slug": "b2-konnektoren",
+    "level": "B2",
+    "topic": "Syntax",
+    "title": "Advanced Connectors",
+    "summary": "The linking words that make B2 writing read like an adult wrote it.",
+    "bodyMd": "At B2 the examiner is looking for connectors beyond `und`, `aber` and `weil`. Three families matter, and each treats word order differently.\n\n## Two-part connectors\n\n| Pair | Meaning |\n|---|---|\n| entweder … oder | either … or |\n| weder … noch | neither … nor |\n| sowohl … als auch | both … and |\n| nicht nur … sondern auch | not only … but also |\n| zwar … aber | admittedly … but |\n| je … desto | the … the |\n\n`**Weder** mein Bruder **noch** meine Schwester spricht Deutsch.`\n\n**je … desto** has its own shape: a subordinate clause first (verb last), then `desto` + comparative with the verb second.\n\n`**Je** mehr ich **lerne**, **desto besser verstehe** ich.`\n\n## Adverbial connectors\n\n`trotzdem, deshalb, deswegen, außerdem, allerdings, dennoch, folglich, stattdessen`\n\nThese occupy position one, so the verb still comes second and the **subject moves behind it**:\n\n`Es regnete. **Trotzdem gingen wir** spazieren.`\n\nWriting *Trotzdem wir gingen* is the classic mistake.\n\n## Subordinating connectors\n\n`obwohl, während, indem, sodass, falls, sobald, solange, anstatt dass`\n\nVerb to the end, as always:\n\n`**Obwohl** es regnete, **gingen** wir spazieren.`\n\n## Choosing the register\n\nNote how the same idea climbs in formality:\n\n| Spoken | Written | Formal |\n|---|---|---|\n| weil | da | aufgrund + Gen |\n| obwohl | wenngleich | trotz + Gen |\n| aber | jedoch | allerdings |",
+    "keyRules": [
+      "Two-part connectors like weder … noch and je … desto must be used complete.",
+      "je … desto: subordinate clause with the verb last, then desto + comparative, verb second.",
+      "Adverbial connectors (trotzdem, deshalb) keep the verb second, pushing the subject after it.",
+      "Subordinating connectors (obwohl, während, sodass) send the verb to the end.",
+      "Register climbs from weil to da to aufgrund + genitive."
+    ],
+    "examples": [
+      {
+        "de": "Je mehr ich lerne, desto besser verstehe ich.",
+        "en": "The more I learn, the better I understand."
+      },
+      {
+        "de": "Es regnete. Trotzdem gingen wir spazieren.",
+        "en": "It was raining. Nevertheless we went for a walk."
+      },
+      {
+        "de": "Sowohl er als auch sie kommen mit.",
+        "en": "Both he and she are coming along."
+      }
+    ],
+    "exerciseTag": "b2-konnektoren",
+    "order": 3
+  }
+]
