@@ -39,6 +39,33 @@ import {
 } from "../lib/generation-schema";
 
 const MODEL = "claude-opus-5";
+
+/**
+ * Per-million-token rates for MODEL, used only to turn measured token counts
+ * into a figure worth reading. Check them against current pricing if the
+ * number matters to you — they are a convenience, not a billing source.
+ */
+const PRICE_PER_MTOK = { input: 5, output: 25 };
+
+/** Rough per-word cost of the grammar backfill, for the pre-flight estimate. */
+const EST_TOKENS_PER_WORD = { input: 60, output: 250 };
+
+const spend = { input: 0, output: 0, calls: 0 };
+
+function dollars(input: number, output: number): string {
+  const cost = (input / 1e6) * PRICE_PER_MTOK.input + (output / 1e6) * PRICE_PER_MTOK.output;
+  return cost < 0.01 ? "<$0.01" : `$${cost.toFixed(2)}`;
+}
+
+/** Printed at the end of every run so the cost is never a surprise. */
+function reportSpend() {
+  if (spend.calls === 0) return;
+  console.log(
+    `\nSpend: ${spend.calls} API call(s), ` +
+      `${spend.input.toLocaleString()} in / ${spend.output.toLocaleString()} out tokens ` +
+      `= ${dollars(spend.input, spend.output)} at current ${MODEL} rates.`,
+  );
+}
 const SEED_DIR = join(process.cwd(), "data", "seed");
 const MANIFEST = join(SEED_DIR, ".manifest.json");
 
@@ -130,6 +157,10 @@ async function generate<T>(
         output_config: { format: zodOutputFormat(schema as never) },
         messages: [{ role: "user", content: prompt }],
       });
+
+      spend.calls++;
+      spend.input += response.usage.input_tokens ?? 0;
+      spend.output += response.usage.output_tokens ?? 0;
 
       if (response.stop_reason === "refusal") {
         console.warn(`   ! ${label}: refused (${response.stop_details?.category ?? "unknown"})`);
@@ -540,8 +571,45 @@ async function generateGrammar() {
   const manifest = readManifest();
   let produced = 0;
 
+  // Scale and cost up front. With four cumulative wordlists this can be several
+  // thousand words, and nobody should start that run without knowing the size.
+  const plannedWords = [...groups.values()].reduce((n, w) => n + w.length, 0);
+  const plannedBatches = [...groups.values()].reduce(
+    (n, w) => n + Math.ceil(w.length / BATCH_SIZE),
+    0,
+  );
+  const alreadyDone = [...groups.entries()].reduce((n, [k, w]) => {
+    let done = 0;
+    for (let i = 0; i < w.length; i += BATCH_SIZE) {
+      if (manifest.done.includes(`grammar:${k}:b${Math.floor(i / BATCH_SIZE) + 1}`)) done++;
+    }
+    return n + done;
+  }, 0);
+
+  const estIn = plannedWords * EST_TOKENS_PER_WORD.input;
+  const estOut = plannedWords * EST_TOKENS_PER_WORD.output;
+
+  console.log(
+    `Plan: ${plannedWords} words in ${plannedBatches} batch(es) of up to ${BATCH_SIZE}` +
+      `${alreadyDone > 0 ? `, ${alreadyDone} already done` : ""}.`,
+  );
+  console.log(
+    `Rough estimate: ${dollars(estIn, estOut)} — an estimate only, since adaptive thinking\n` +
+      `makes output length hard to predict. Measure it: run one level first\n` +
+      `(--level A1), read the reported spend, then scale up.\n`,
+  );
+
+  // A per-batch line is useful for a handful of batches and noise for hundreds.
+  const verbose = plannedBatches <= 12 || !DRY_RUN;
+
   for (const [groupKey, words] of groups) {
     const [level, posGuess] = groupKey.split(":");
+    if (DRY_RUN && !verbose) {
+      console.log(
+        `  → ${level} / ${posGuess}: ${words.length} words in ${Math.ceil(words.length / BATCH_SIZE)} batch(es)`,
+      );
+      continue;
+    }
 
     for (let i = 0; i < words.length; i += BATCH_SIZE) {
       const chunk = words.slice(i, i + BATCH_SIZE);
@@ -675,6 +743,8 @@ async function main() {
     console.error(`Unknown --what "${WHAT}". Use: words | exercises | reading | grammar`);
     process.exit(1);
   }
+
+  reportSpend();
 }
 
 main().catch((e) => {
