@@ -22,6 +22,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 
 import { join } from "node:path";
 import { z } from "zod";
 import { LEVELS, type LevelName } from "../lib/levels";
+import { dedupeImported } from "../lib/merge-words";
 import { TAXONOMY } from "../lib/taxonomy";
 import {
   wordSchema,
@@ -497,7 +498,18 @@ Requirements:
  * after generation, so the model can only add detail, never rewrite the entry.
  */
 async function generateGrammar() {
-  const staged = loadStaged();
+  const rawStaged = loadStaged();
+
+  // The same word is restated across cumulative wordlists; collapse it so it is
+  // only ever generated once, at the level where it is first introduced.
+  const { words: staged, report: mergeReport } = dedupeImported(rawStaged);
+  if (mergeReport.merged > 0) {
+    console.log(
+      `\nCollapsed ${mergeReport.merged} duplicate(s) across decks ` +
+        `(${mergeReport.total} staged entries -> ${mergeReport.unique} unique words).`,
+    );
+  }
+
   if (staged.length === 0) {
     console.log(
       "\nNothing staged in data/seed/imported/.\n" +

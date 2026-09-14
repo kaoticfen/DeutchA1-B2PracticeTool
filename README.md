@@ -66,12 +66,21 @@ the words and CEFR levels are curated rather than invented.
 # Always look first — this prints the note types, field names and sample rows
 npx tsx scripts/import-anki.ts --inspect decks/goethe-a2.apkg
 
-# Then import. Fields are auto-detected; override with --german / --english
-npx tsx scripts/import-anki.ts --file decks/goethe-a2.apkg --level A2 \
-    --source goethe-a2 --example Beispiel
+# Then import, one deck per level. Fields are auto-detected; override with
+# --german / --english if the guess is wrong.
+npx tsx scripts/import-anki.ts --file decks/goethe-a1.apkg --level A1 --source goethe-a1
+npx tsx scripts/import-anki.ts --file decks/goethe-a2.apkg --level A2 --source goethe-a2
+npx tsx scripts/import-anki.ts --file decks/goethe-b1.apkg --level B1 --source goethe-b1
 
 npm run db:seed
 ```
+
+**Overlapping decks are handled.** Published wordlists are cumulative — the Goethe B1
+list restates much of A2, which restates much of A1. A word is always kept at the level
+where it is *first introduced*, and its translations are unioned across every deck it
+appears in. This is decided at seed time and is order-independent, so no import sequence
+can relabel basic vocabulary as B1 and skew the level counts the progression engine
+depends on. The seeder reports what it merged.
 
 `.apkg`, `.anki2`, `.anki21` and zstd-compressed `.anki21b` are all handled, with no
 native build and no `sqlite3` binary needed.
