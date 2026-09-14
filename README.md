@@ -63,18 +63,29 @@ German field and a translation — import it. A real wordlist beats a generated 
 the words and CEFR levels are curated rather than invented.
 
 ```bash
+# Fetch the four source decks into decks/
+npx tsx scripts/fetch-decks.ts
+
 # Always look first — this prints the note types, field names and sample rows
 npx tsx scripts/import-anki.ts --inspect decks/goethe-a2.apkg
 
-# Then import, one deck per level. Fields are auto-detected; override with
-# --german / --english if the guess is wrong.
-npx tsx scripts/import-anki.ts --file decks/goethe-a1.apkg --level A1 --source goethe-a1
-npx tsx scripts/import-anki.ts --file decks/goethe-a2.apkg --level A2 --source goethe-a2
-npx tsx scripts/import-anki.ts --file decks/goethe-b1.apkg --level B1 --source goethe-b1
+# Then import, one deck per level. Fields are auto-detected, but check the
+# inspect output: on the A2 deck the German guess lands on the example
+# sentence, so the mapping is given explicitly below.
+npx tsx scripts/import-anki.ts --file decks/goethe-a1.apkg --level A1 --source goethe-a1 \
+    --example de_sentence
+npx tsx scripts/import-anki.ts --file decks/goethe-a2.apkg --level A2 --source goethe-a2 \
+    --german Wort_DE --english Wort_EN --article Artikel --plural Plural --example Satz1_DE
+npx tsx scripts/import-anki.ts --file decks/goethe-b1.apkg --level B1 --source goethe-b1 \
+    --german "German Word" --english "English Word" --example "German Sentence"
 npx tsx scripts/import-anki.ts --file decks/klett-b2.apkg  --level B2 --source klett-b2
 
 npm run db:seed
 ```
+
+`--article` and `--plural` matter when a deck keeps those in their own fields
+instead of writing `das Angebot, -e` in one. The A2 deck does exactly that, and
+naming the fields moves 492 nouns off the generation bill and onto the free path.
 
 **Overlapping decks are handled.** Published wordlists are cumulative — the Goethe B1
 list restates much of A2, which restates much of A1. A word is always kept at the level
@@ -87,9 +98,40 @@ depends on. The seeder reports what it merged.
 native build and no `sqlite3` binary needed.
 
 Nouns whose article **and** plural both parse out of the deck are already complete —
-they go straight into `data/seed/words/` and cost nothing to generate. (`das Haus, ¨-er`
-is expanded to `Häuser`, `der Baum, ¨-e` to `Bäume`, and so on.) Everything else lands
-in `data/seed/imported/` for the grammar backfill below.
+they go straight into `data/seed/words/` and cost nothing to generate. Everything else
+lands in `data/seed/imported/` for the grammar backfill below.
+
+Decks write their plurals in whatever shorthand their author preferred, so
+`lib/anki-parse.ts` reads all of these:
+
+| Notation | Example | Result |
+|---|---|---|
+| `-e`, `-en`, `-s`, `-nen` | `die Ansage, -n` | Ansagen |
+| `-` or `–` | `das Brötchen, –` | Brötchen (unchanged) |
+| `¨-er`, `"-e` | `die Nacht, ¨-e` | Nächte |
+| `-ä, er` | `das Haus, -ä, er` | Häuser |
+| spelled out | `der Apfel, die Äpfel` | Äpfel |
+| `(Sg.)`, `(Pl.)` | `das Alter, (Sg.)` | left to the backfill |
+
+Headwords get the same treatment. A hanging hyphen is notation rather than
+spelling, so `dies-`, `Bio-` and `-einander` lose it; a pipe marking the
+separable boundary goes too, so `ab|biegen` is filed under `abbiegen`. Where a
+deck appends a *different* word — a regional variant after `->`, a feminine
+counterpart after `;` — everything past the marker is cut, because otherwise
+`der Absender, -; die Absenderin, nen` ends up with the plural
+`Absender; die Absenderin, nen`. A bracketed part glued to the word is joined
+instead of dropped (`(herunter-)fahren` → `herunterfahren`), since dropping it
+would file the gloss "to shut down" under plain `fahren`.
+
+The counterpart after a `;` is discarded rather than imported as its own entry.
+Most of those feminine forms have their own note elsewhere in the deck; any that
+do not are simply absent.
+
+The umlaut lands on the last umlautable stem vowel, which is what gives compounds
+the right answer (`Bahnhof` → `Bahnhöfe`), and `au` umlauts as a unit (`Haus` →
+`Häuser`). Where a deck contradicts itself — `die Adresse, -en` would glue into
+`Adresseen` — the word is handed to the backfill rather than given an invented
+plural.
 
 Add `--dry-run` to see the parse report without writing anything. Deck files themselves
 are gitignored — import from them, commit the derived JSON.
@@ -105,8 +147,17 @@ The decks this project was built around, all from AnkiWeb:
 | B1 | [1535528691](https://ankiweb.net/shared/info/1535528691) — *B1 Goethe Wordlist Learning Deck* | Goethe-Institut / DTZ wordlist |
 | B2 | [1185202095](https://ankiweb.net/shared/info/1185202095) — *German B2 Wordlist from Klett Kontext* | Klett *Kontext* B2 coursebook |
 
-AnkiWeb downloads go through a browser session, so these have to be fetched by hand —
-open each page, click Download, and drop the `.apkg` into `decks/`.
+`scripts/fetch-decks.ts` downloads all four. AnkiWeb caps **anonymous downloads at
+two**, then answers `429 Please log in to download more decks.` — so the last two
+need a signed-in session cookie:
+
+```bash
+ANKIWEB_COOKIE='ankiweb=...' npx tsx scripts/fetch-decks.ts
+```
+
+Copy the cookie from a browser signed in to AnkiWeb (DevTools → Application →
+Cookies → `https://ankiweb.net`). Failing that, open each page by hand, click
+Download, and drop the `.apkg` into `decks/`.
 
 The A1–B1 decks reproduce Goethe-Institut wordlists and the B2 deck a Klett coursebook;
 all are third-party uploads reproducing published material. Studying from them is
@@ -202,8 +253,8 @@ components/     UI; games/ and exam/ hold the interactive runners
 lib/            Core logic — srs, leveling, search, forms, taxonomy, answers, streak
                 Import path — apkg (zip/SQLite reader), anki-parse (field parsing)
 data/seed/      Committed content (JSON), loaded by prisma/seed.ts
-scripts/        import-anki, generate-seed (Claude API, offline), verify-e2e,
-                smoke-routes
+scripts/        fetch-decks (AnkiWeb), import-anki, generate-seed (Claude API,
+                offline), verify-e2e, smoke-routes
 ```
 
 The logic in `lib/` is the single source of truth for its rules and is unit tested —

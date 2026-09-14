@@ -17,6 +17,51 @@ describe("cleanField", () => {
   });
 });
 
+describe("parseGermanField — deck-specific shapes", () => {
+  it("drops a regional variant introduced by an arrow", () => {
+    expect(parseGermanField("das Abitur (D) -> A, CH: Matura")).toMatchObject({
+      lemma: "Abitur",
+      article: "das",
+    });
+    // Without the cut, the aside lands in the plural as "Öfen-> A: Rohr".
+    expect(parseGermanField("der (Back-)Ofen, ¨- (D, CH) -> A: (Back-)Rohr")).toMatchObject({
+      lemma: "Backofen",
+      plural: "Backöfen",
+    });
+  });
+  it("drops a feminine counterpart listed after a semicolon", () => {
+    expect(parseGermanField("der Anwalt, ¨-e; die Anwältin, -nen")).toMatchObject({
+      lemma: "Anwalt",
+      plural: "Anwälte",
+    });
+    expect(parseGermanField("der Absender, -; die Absenderin, nen").plural).toBe("Absender");
+  });
+  it("joins a bracketed prefix that is glued to the word", () => {
+    expect(parseGermanField("(herunter-)fahren, faährt herunter").lemma).toBe("herunterfahren");
+    expect(parseGermanField("die (Schlag-)Sahne (D)").lemma).toBe("Schlagsahne");
+  });
+  it("still drops a bracketed aside that stands alone", () => {
+    expect(parseGermanField("(ein) paar").lemma).toBe("paar");
+  });
+  it("strips a separable-prefix pipe", () => {
+    expect(parseGermanField("ab|biegen, biegt ab, bog ab").lemma).toBe("abbiegen");
+  });
+  it("drops a wordlist's hanging hyphen", () => {
+    expect(parseGermanField("dies-").lemma).toBe("dies");
+    expect(parseGermanField("Bio-").lemma).toBe("Bio");
+    expect(parseGermanField("-einander").lemma).toBe("einander");
+  });
+  it("reads a plural notation separated by a space", () => {
+    expect(parseGermanField("der Fasching -")).toMatchObject({
+      lemma: "Fasching",
+      plural: "Fasching",
+    });
+  });
+  it("reads an article written as a pair", () => {
+    expect(parseGermanField("das/der Obers").article).toBe("das");
+  });
+});
+
 describe("expandPlural", () => {
   it("appends a plain suffix", () => {
     expect(expandPlural("Hund", "-e")).toBe("Hunde");
@@ -45,6 +90,40 @@ describe("expandPlural", () => {
   });
   it("returns null when an umlaut is requested but impossible", () => {
     expect(expandPlural("Kind", "¨-er")).toBeNull();
+  });
+  it("reads an ASCII quote as an umlaut marker", () => {
+    expect(expandPlural("Anfang", '"-e')).toBe("Anfänge");
+    expect(expandPlural("Haus", '"-er')).toBe("Häuser");
+  });
+  it("applies a bare umlaut marker with no suffix", () => {
+    expect(expandPlural("Garten", "¨")).toBe("Gärten");
+    expect(expandPlural("Mutter", '"')).toBe("Mütter");
+  });
+  it("reads an umlaut spelled out as its resulting vowel", () => {
+    expect(expandPlural("Haus", "-ä, er")).toBe("Häuser");
+    expect(expandPlural("Aufzug", "-ü, e")).toBe("Aufzüge");
+    expect(expandPlural("Arzt", "-Ä, e")).toBe("Ärzte");
+    expect(expandPlural("Ehemann", "ä, er")).toBe("Ehemänner");
+  });
+  it("reads an en dash as an unchanged plural", () => {
+    expect(expandPlural("Brötchen", "–")).toBe("Brötchen");
+  });
+  it("takes the first of two offered plurals", () => {
+    expect(expandPlural("Wort", "-ö, er/-e")).toBe("Wörter");
+  });
+  it("ignores a trailing comma", () => {
+    expect(expandPlural("Antwort", "-en,")).toBe("Antworten");
+  });
+  it("refuses a suffix that contradicts an -e stem", () => {
+    expect(expandPlural("Adresse", "-en")).toBeNull();
+    expect(expandPlural("Woche", "-e")).toBeNull();
+    // A doubled consonant across the seam is ordinary German, not a typo.
+    expect(expandPlural("Bus", "-se")).toBe("Busse");
+    expect(expandPlural("Partnerin", "-nen")).toBe("Partnerinnen");
+  });
+  it("returns null for the singular- and plural-only markers", () => {
+    expect(expandPlural("Alter", "(Sg.)")).toBeNull();
+    expect(expandPlural("Leute", "(Pl.)")).toBeNull();
   });
 });
 
