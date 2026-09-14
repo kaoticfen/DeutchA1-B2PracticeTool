@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState, useTransition } from "react";
+import { useEffect, useState, useTransition } from "react";
 import { answerExercise } from "@/lib/actions/exercise-actions";
 import type { ExerciseView } from "@/lib/exercises";
 import type { AttemptResult } from "@/lib/exercises";
@@ -28,9 +28,31 @@ export function ExerciseRunner({
   const [score, setScore] = useState(0);
   const [promotedTo, setPromotedTo] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
+  const [refreshing, startRefresh] = useTransition();
+  const [wantsNewSet, setWantsNewSet] = useState(false);
 
-  const ex = exercises[index];
-  const finished = index >= exercises.length;
+  // Answering revalidates, which makes the router re-render the page — and the
+  // pages that feed this runner draw a fresh random set on every request. The
+  // run therefore works from a frozen copy, so question 4 stays question 4
+  // instead of quietly becoming a question from some other set.
+  const [set, setSet] = useState(exercises);
+
+  // "Another set" is the one place a new set is wanted: refresh, then adopt
+  // whatever the server sent back once the transition settles.
+  useEffect(() => {
+    if (!wantsNewSet || refreshing) return;
+    setWantsNewSet(false);
+    setSet(exercises);
+    setIndex(0);
+    setScore(0);
+    setResult(null);
+    setTyped("");
+    setTiles([]);
+    setPromotedTo(null);
+  }, [wantsNewSet, refreshing, exercises]);
+
+  const ex = set[index];
+  const finished = index >= set.length;
 
   function submit(given: string) {
     if (!given.trim() || pending || result) return;
@@ -53,14 +75,14 @@ export function ExerciseRunner({
   }
 
   if (finished) {
-    const pct = exercises.length > 0 ? Math.round((score / exercises.length) * 100) : 0;
+    const pct = set.length > 0 ? Math.round((score / set.length) * 100) : 0;
     return (
       <div className="surface p-8 text-center">
         <div className="text-3xl" aria-hidden>
           {pct >= 80 ? "★" : "✓"}
         </div>
         <h2 className="mt-3 text-xl font-semibold">
-          {score} / {exercises.length} correct
+          {score} / {set.length} correct
         </h2>
         <p className="muted mt-1 text-sm">{pct}% accuracy this set.</p>
 
@@ -74,8 +96,15 @@ export function ExerciseRunner({
         )}
 
         <div className="mt-6 flex flex-wrap justify-center gap-3">
-          <button className="btn btn-primary" onClick={() => router.refresh()}>
-            Another set
+          <button
+            className="btn btn-primary"
+            disabled={refreshing}
+            onClick={() => {
+              setWantsNewSet(true);
+              startRefresh(() => router.refresh());
+            }}
+          >
+            {refreshing ? "Loading…" : "Another set"}
           </button>
           <Link href={onFinishHref} className="btn btn-ghost">
             Done
@@ -104,11 +133,11 @@ export function ExerciseRunner({
         <div className="h-1.5 flex-1 overflow-hidden rounded-full" style={{ background: "var(--surface-2)" }}>
           <div
             className="h-full rounded-full transition-all"
-            style={{ width: `${(index / exercises.length) * 100}%`, background: "var(--color-brand-500)" }}
+            style={{ width: `${(index / set.length) * 100}%`, background: "var(--color-brand-500)" }}
           />
         </div>
         <span className="muted shrink-0 text-xs">
-          {index + 1} / {exercises.length}
+          {index + 1} / {set.length}
         </span>
       </div>
 
@@ -252,7 +281,7 @@ export function ExerciseRunner({
             </div>
             <p className="muted mt-1.5 text-sm">{result.explanation}</p>
             <button className="btn btn-primary mt-4" onClick={next} autoFocus>
-              {index + 1 === exercises.length ? "See results" : "Next"}
+              {index + 1 === set.length ? "See results" : "Next"}
             </button>
           </div>
         )}
