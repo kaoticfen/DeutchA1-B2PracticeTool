@@ -1,0 +1,532 @@
+[
+  {
+    "level": "A1",
+    "title": "Mein Tag",
+    "bodyDe": "Ich heiße Anna und wohne in Hamburg. Jeden Morgen stehe ich um sieben Uhr auf. Ich trinke Kaffee und esse ein Brot. Dann fahre ich mit dem Bus zur Arbeit.\n\nIch arbeite in einem Büro. Die Arbeit ist interessant, aber manchmal auch schwer. Mittags esse ich mit meinen Kollegen in der Kantine.\n\nAm Abend koche ich zu Hause. Danach lese ich ein Buch oder sehe fern. Um elf Uhr gehe ich ins Bett.",
+    "glossary": {
+      "heiße": "am called",
+      "wohne": "live",
+      "stehe ... auf": "get up",
+      "trinke": "drink",
+      "esse": "eat",
+      "fahre": "travel, go",
+      "Büro": "office",
+      "schwer": "hard, difficult",
+      "Mittags": "at midday",
+      "Kollegen": "colleagues",
+      "Kantine": "canteen",
+      "koche": "cook",
+      "Danach": "afterwards",
+      "sehe fern": "watch TV",
+      "Bett": "bed"
+    },
+    "questions": [
+      {
+        "prompt": "Wann steht Anna auf?",
+        "options": [
+          "Um sechs Uhr",
+          "Um sieben Uhr",
+          "Um acht Uhr",
+          "Um elf Uhr"
+        ],
+        "answer": "Um sieben Uhr"
+      },
+      {
+        "prompt": "Wie fährt Anna zur Arbeit?",
+        "options": [
+          "Mit dem Auto",
+          "Mit dem Zug",
+          "Mit dem Bus",
+          "Zu Fuß"
+        ],
+        "answer": "Mit dem Bus"
+      },
+      {
+        "prompt": "Wo isst Anna mittags?",
+        "options": [
+          "Zu Hause",
+          "In der Kantine",
+          "Im Restaurant",
+          "Im Büro"
+        ],
+        "answer": "In der Kantine"
+      },
+      {
+        "prompt": "Was macht Anna am Abend?",
+        "options": [
+          "Sie arbeitet",
+          "Sie kocht",
+          "Sie fährt Bus",
+          "Sie geht ins Büro"
+        ],
+        "answer": "Sie kocht"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "title": "Die Familie Schmidt",
+    "bodyDe": "Familie Schmidt wohnt in einem kleinen Haus in München. Herr Schmidt ist Lehrer und Frau Schmidt ist Ärztin. Sie haben zwei Kinder: Tom und Lisa.\n\nTom ist zehn Jahre alt und geht in die Schule. Er spielt gern Fußball. Lisa ist sechs und liebt ihre Katze.\n\nAm Samstag gehen sie zusammen in den Park. Der Hund kommt auch mit. Am Sonntag besuchen sie die Großeltern.",
+    "glossary": {
+      "wohnt": "lives",
+      "kleinen": "small",
+      "Lehrer": "teacher",
+      "Ärztin": "doctor (f.)",
+      "Kinder": "children",
+      "Jahre alt": "years old",
+      "spielt gern": "likes playing",
+      "liebt": "loves",
+      "Katze": "cat",
+      "zusammen": "together",
+      "Hund": "dog",
+      "besuchen": "visit",
+      "Großeltern": "grandparents"
+    },
+    "questions": [
+      {
+        "prompt": "Was ist Frau Schmidt von Beruf?",
+        "options": [
+          "Lehrerin",
+          "Ärztin",
+          "Studentin",
+          "Verkäuferin"
+        ],
+        "answer": "Ärztin"
+      },
+      {
+        "prompt": "Wie alt ist Tom?",
+        "options": [
+          "Sechs",
+          "Acht",
+          "Zehn",
+          "Zwölf"
+        ],
+        "answer": "Zehn"
+      },
+      {
+        "prompt": "Was macht die Familie am Sonntag?",
+        "options": [
+          "Sie gehen in den Park",
+          "Sie besuchen die Großeltern",
+          "Sie spielen Fußball",
+          "Sie bleiben zu Hause"
+        ],
+        "answer": "Sie besuchen die Großeltern"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "title": "Ein Wochenende in Berlin",
+    "bodyDe": "Letztes Wochenende bin ich mit meiner Freundin nach Berlin gefahren. Wir sind am Freitagabend mit dem Zug angekommen und haben in einem kleinen Hotel im Zentrum übernachtet.\n\nAm Samstag haben wir das Brandenburger Tor besucht. Danach sind wir zum Museum gegangen, weil es geregnet hat. Das Museum war sehr interessant, aber auch ziemlich voll.\n\nAm Abend haben wir in einem türkischen Restaurant gegessen. Das Essen war ausgezeichnet und nicht teuer. Am Sonntag sind wir müde, aber glücklich nach Hause gefahren.",
+    "glossary": {
+      "Letztes Wochenende": "last weekend",
+      "angekommen": "arrived",
+      "übernachtet": "spent the night",
+      "Zentrum": "centre",
+      "besucht": "visited",
+      "geregnet": "rained",
+      "ziemlich": "quite",
+      "voll": "crowded",
+      "ausgezeichnet": "excellent",
+      "teuer": "expensive",
+      "müde": "tired",
+      "glücklich": "happy"
+    },
+    "questions": [
+      {
+        "prompt": "Wann sind sie angekommen?",
+        "options": [
+          "Am Freitagabend",
+          "Am Samstagmorgen",
+          "Am Sonntag",
+          "Am Donnerstag"
+        ],
+        "answer": "Am Freitagabend"
+      },
+      {
+        "prompt": "Warum sind sie ins Museum gegangen?",
+        "options": [
+          "Es war billig",
+          "Es hat geregnet",
+          "Es war leer",
+          "Es war Sonntag"
+        ],
+        "answer": "Es hat geregnet"
+      },
+      {
+        "prompt": "Wie war das Essen?",
+        "options": [
+          "Teuer",
+          "Schlecht",
+          "Ausgezeichnet",
+          "Langweilig"
+        ],
+        "answer": "Ausgezeichnet"
+      },
+      {
+        "prompt": "Wie sind sie nach Hause gefahren?",
+        "options": [
+          "Müde, aber glücklich",
+          "Traurig",
+          "Wütend",
+          "Hungrig"
+        ],
+        "answer": "Müde, aber glücklich"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "title": "Einkaufen im Supermarkt",
+    "bodyDe": "Jeden Samstag gehe ich einkaufen. Zuerst schreibe ich eine Liste, weil ich sonst alles vergesse.\n\nIm Supermarkt kaufe ich Obst, Gemüse, Brot und Milch. Fleisch kaufe ich lieber beim Metzger, denn dort ist die Qualität besser. Manchmal ist es dort allerdings teurer.\n\nLetzte Woche habe ich meine Liste vergessen. Ich habe zwanzig Minuten im Supermarkt gesucht und trotzdem die Butter vergessen. Jetzt fotografiere ich die Liste mit dem Handy.",
+    "glossary": {
+      "einkaufen": "to shop",
+      "Zuerst": "first",
+      "Liste": "list",
+      "sonst": "otherwise",
+      "vergesse": "forget",
+      "Obst": "fruit",
+      "Gemüse": "vegetables",
+      "Fleisch": "meat",
+      "lieber": "preferably",
+      "Metzger": "butcher",
+      "Qualität": "quality",
+      "allerdings": "however",
+      "gesucht": "searched",
+      "trotzdem": "nevertheless",
+      "Handy": "mobile phone"
+    },
+    "questions": [
+      {
+        "prompt": "Warum schreibt er eine Liste?",
+        "options": [
+          "Weil es Spaß macht",
+          "Weil er sonst alles vergisst",
+          "Weil die Frau es will",
+          "Weil es billiger ist"
+        ],
+        "answer": "Weil er sonst alles vergisst"
+      },
+      {
+        "prompt": "Wo kauft er Fleisch?",
+        "options": [
+          "Im Supermarkt",
+          "Beim Metzger",
+          "Auf dem Markt",
+          "Im Internet"
+        ],
+        "answer": "Beim Metzger"
+      },
+      {
+        "prompt": "Was hat er letzte Woche vergessen?",
+        "options": [
+          "Die Milch",
+          "Das Brot",
+          "Die Butter",
+          "Das Obst"
+        ],
+        "answer": "Die Butter"
+      }
+    ]
+  },
+  {
+    "level": "B1",
+    "title": "Arbeiten im Homeoffice",
+    "bodyDe": "Seit der Pandemie arbeiten viele Menschen von zu Hause aus. Für manche ist das ein Vorteil, für andere eine Belastung.\n\nWer im Homeoffice arbeitet, spart sich den Weg zur Arbeit und kann sich die Zeit freier einteilen. Außerdem berichten viele Beschäftigte, dass sie sich zu Hause besser konzentrieren können, weil sie seltener gestört werden.\n\nAllerdings gibt es auch Nachteile. Der Kontakt zu den Kollegen geht verloren, und die Grenze zwischen Arbeit und Freizeit verschwimmt. Wer abends noch schnell E-Mails beantwortet, kommt nie richtig zur Ruhe.\n\nExperten empfehlen deshalb ein Mischmodell: zwei oder drei Tage im Büro, den Rest zu Hause. So bleiben die Vorteile erhalten, ohne dass der Austausch im Team leidet.",
+    "glossary": {
+      "Vorteil": "advantage",
+      "Belastung": "burden",
+      "spart sich": "saves oneself",
+      "einteilen": "to organise, divide up",
+      "Beschäftigte": "employees",
+      "seltener": "less often",
+      "gestört": "disturbed",
+      "Nachteile": "disadvantages",
+      "geht verloren": "is lost",
+      "Grenze": "boundary",
+      "Freizeit": "free time",
+      "verschwimmt": "blurs",
+      "zur Ruhe kommen": "to find rest",
+      "empfehlen": "recommend",
+      "Mischmodell": "hybrid model",
+      "erhalten bleiben": "to be preserved",
+      "Austausch": "exchange",
+      "leidet": "suffers"
+    },
+    "questions": [
+      {
+        "prompt": "Was ist ein Vorteil des Homeoffice?",
+        "options": [
+          "Mehr Kontakt zu Kollegen",
+          "Man spart den Weg zur Arbeit",
+          "Höheres Gehalt",
+          "Kürzere Arbeitszeit"
+        ],
+        "answer": "Man spart den Weg zur Arbeit"
+      },
+      {
+        "prompt": "Warum können sich viele zu Hause besser konzentrieren?",
+        "options": [
+          "Es ist wärmer",
+          "Sie werden seltener gestört",
+          "Sie arbeiten weniger",
+          "Der Chef ist nicht da"
+        ],
+        "answer": "Sie werden seltener gestört"
+      },
+      {
+        "prompt": "Was ist ein Nachteil?",
+        "options": [
+          "Die Arbeit ist schwerer",
+          "Die Grenze zwischen Arbeit und Freizeit verschwimmt",
+          "Man verdient weniger",
+          "Man muss früher aufstehen"
+        ],
+        "answer": "Die Grenze zwischen Arbeit und Freizeit verschwimmt"
+      },
+      {
+        "prompt": "Was empfehlen Experten?",
+        "options": [
+          "Nur im Büro arbeiten",
+          "Nur zu Hause arbeiten",
+          "Ein Mischmodell",
+          "Weniger arbeiten"
+        ],
+        "answer": "Ein Mischmodell"
+      }
+    ]
+  },
+  {
+    "level": "B1",
+    "title": "Die Deutsche Bahn und die Pünktlichkeit",
+    "bodyDe": "Die Deutsche Bahn hat ein Imageproblem. Obwohl das Streckennetz zu den dichtesten Europas gehört, gilt sie im Ausland längst nicht mehr als Vorbild für Pünktlichkeit.\n\nIm vergangenen Jahr erreichte nur etwa jeder dritte Fernzug sein Ziel ohne nennenswerte Verspätung. Die Gründe sind vielfältig: veraltete Infrastruktur, zu wenig Personal und Baustellen, die den Betrieb zusätzlich behindern.\n\nKritiker werfen der Politik vor, jahrzehntelang zu wenig in die Schiene investiert zu haben. Während andere Länder ihre Netze ausbauten, wurde in Deutschland gespart.\n\nInzwischen hat der Bund ein Milliardenprogramm beschlossen. Ob die Züge dadurch wirklich pünktlicher werden, wird sich allerdings erst in einigen Jahren zeigen.",
+    "glossary": {
+      "Imageproblem": "image problem",
+      "Streckennetz": "rail network",
+      "dichtesten": "densest",
+      "gilt": "is regarded",
+      "Vorbild": "role model",
+      "Pünktlichkeit": "punctuality",
+      "vergangenen": "past",
+      "Fernzug": "long-distance train",
+      "nennenswerte": "significant",
+      "Verspätung": "delay",
+      "vielfältig": "varied",
+      "veraltete": "outdated",
+      "Personal": "staff",
+      "Baustellen": "construction sites",
+      "behindern": "hinder",
+      "werfen ... vor": "accuse",
+      "jahrzehntelang": "for decades",
+      "Schiene": "rail",
+      "ausbauten": "expanded",
+      "gespart": "saved, cut back",
+      "Bund": "federal government",
+      "beschlossen": "decided on"
+    },
+    "questions": [
+      {
+        "prompt": "Wie viele Fernzüge kamen ohne große Verspätung an?",
+        "options": [
+          "Fast alle",
+          "Etwa jeder dritte",
+          "Etwa die Hälfte",
+          "Keiner"
+        ],
+        "answer": "Etwa jeder dritte"
+      },
+      {
+        "prompt": "Was ist KEIN genannter Grund für Verspätungen?",
+        "options": [
+          "Veraltete Infrastruktur",
+          "Zu wenig Personal",
+          "Baustellen",
+          "Schlechtes Wetter"
+        ],
+        "answer": "Schlechtes Wetter"
+      },
+      {
+        "prompt": "Was werfen Kritiker der Politik vor?",
+        "options": [
+          "Zu hohe Preise",
+          "Zu wenig Investitionen in die Schiene",
+          "Zu viele Züge",
+          "Zu viel Personal"
+        ],
+        "answer": "Zu wenig Investitionen in die Schiene"
+      },
+      {
+        "prompt": "Wann zeigt sich der Erfolg des Programms?",
+        "options": [
+          "Sofort",
+          "Nächsten Monat",
+          "Erst in einigen Jahren",
+          "Nie"
+        ],
+        "answer": "Erst in einigen Jahren"
+      }
+    ]
+  },
+  {
+    "level": "B2",
+    "title": "Künstliche Intelligenz am Arbeitsplatz",
+    "bodyDe": "Kaum eine Technologie wird derzeit so kontrovers diskutiert wie die künstliche Intelligenz. Während die einen eine neue industrielle Revolution heraufziehen sehen, warnen andere vor dem massenhaften Verlust von Arbeitsplätzen.\n\nTatsächlich deuten die bisherigen Erfahrungen auf ein differenzierteres Bild hin. Zwar übernehmen Algorithmen zunehmend Routineaufgaben, doch entstehen zugleich neue Tätigkeitsfelder, die es vor wenigen Jahren noch gar nicht gab. Entscheidend dürfte weniger sein, ob Arbeitsplätze verschwinden, als vielmehr, wie schnell sich Beschäftigte neue Fähigkeiten aneignen können.\n\nProblematisch ist dabei vor allem die ungleiche Verteilung. Hochqualifizierte profitieren überdurchschnittlich, während Geringqualifizierte einem höheren Risiko ausgesetzt sind, verdrängt zu werden. Ohne gezielte Weiterbildungsprogramme droht die Kluft weiter zu wachsen.\n\nHinzu kommt eine rechtliche Unsicherheit: Wer haftet, wenn ein System eine fehlerhafte Entscheidung trifft? Die Gesetzgebung hinkt der technologischen Entwicklung hinterher — ein Zustand, der auf Dauer kaum haltbar sein dürfte.",
+    "glossary": {
+      "kontrovers": "controversially",
+      "heraufziehen": "approaching, looming",
+      "warnen vor": "warn of",
+      "massenhaften": "mass",
+      "Verlust": "loss",
+      "deuten ... hin": "indicate",
+      "differenzierteres": "more nuanced",
+      "übernehmen": "take over",
+      "zunehmend": "increasingly",
+      "Routineaufgaben": "routine tasks",
+      "Tätigkeitsfelder": "fields of activity",
+      "Entscheidend": "decisive",
+      "aneignen": "to acquire",
+      "ungleiche Verteilung": "unequal distribution",
+      "überdurchschnittlich": "above average",
+      "Geringqualifizierte": "low-skilled workers",
+      "ausgesetzt": "exposed",
+      "verdrängt": "displaced",
+      "Weiterbildungsprogramme": "further training programmes",
+      "Kluft": "gap",
+      "haftet": "is liable",
+      "fehlerhafte": "faulty",
+      "Gesetzgebung": "legislation",
+      "hinkt ... hinterher": "lags behind",
+      "auf Dauer": "in the long run",
+      "haltbar": "tenable"
+    },
+    "questions": [
+      {
+        "prompt": "Welches Bild zeichnet der Text von der KI?",
+        "options": [
+          "Eindeutig positiv",
+          "Eindeutig negativ",
+          "Differenziert",
+          "Gleichgültig"
+        ],
+        "answer": "Differenziert"
+      },
+      {
+        "prompt": "Was ist laut Text entscheidender als der Verlust von Arbeitsplätzen?",
+        "options": [
+          "Der Preis der Technologie",
+          "Wie schnell Beschäftigte neue Fähigkeiten lernen",
+          "Die Zahl der Unternehmen",
+          "Die Rechenleistung"
+        ],
+        "answer": "Wie schnell Beschäftigte neue Fähigkeiten lernen"
+      },
+      {
+        "prompt": "Wer ist am stärksten gefährdet?",
+        "options": [
+          "Hochqualifizierte",
+          "Geringqualifizierte",
+          "Selbstständige",
+          "Studenten"
+        ],
+        "answer": "Geringqualifizierte"
+      },
+      {
+        "prompt": "Welches rechtliche Problem nennt der Text?",
+        "options": [
+          "Datenschutz",
+          "Die Haftungsfrage bei Fehlentscheidungen",
+          "Urheberrecht",
+          "Steuerrecht"
+        ],
+        "answer": "Die Haftungsfrage bei Fehlentscheidungen"
+      },
+      {
+        "prompt": "Wie beurteilt der Autor die Gesetzgebung?",
+        "options": [
+          "Sie ist vorbildlich",
+          "Sie hinkt der Entwicklung hinterher",
+          "Sie ist zu streng",
+          "Sie ist irrelevant"
+        ],
+        "answer": "Sie hinkt der Entwicklung hinterher"
+      }
+    ]
+  },
+  {
+    "level": "B2",
+    "title": "Wohnungsnot in den Städten",
+    "bodyDe": "Wer heute in einer deutschen Großstadt eine bezahlbare Wohnung sucht, braucht vor allem eines: Geduld. In München, Frankfurt oder Hamburg kommen auf eine einzige Besichtigung nicht selten mehrere Dutzend Interessenten.\n\nDie Ursachen sind seit Langem bekannt. Der Zuzug in die Ballungsräume hält an, während gleichzeitig zu wenig gebaut wird. Hohe Baukosten, langwierige Genehmigungsverfahren und ein Mangel an Bauland bremsen die Entwicklung zusätzlich aus.\n\nDie Politik reagiert mit Mietpreisbremsen und Förderprogrammen. Ökonomen bezweifeln jedoch, dass sich das Problem allein über Regulierung lösen lässt. Solange das Angebot nicht ausgeweitet werde, so das Argument, verschiebe man die Not lediglich.\n\nUnstrittig ist, dass die Folgen weit über den Wohnungsmarkt hinausreichen. Wenn Pflegekräfte, Erzieherinnen und Handwerker sich das Leben in der Stadt nicht mehr leisten können, gerät die Funktionsfähigkeit ganzer Städte in Gefahr.",
+    "glossary": {
+      "bezahlbare": "affordable",
+      "Geduld": "patience",
+      "Besichtigung": "viewing",
+      "Interessenten": "interested parties",
+      "Ursachen": "causes",
+      "Zuzug": "influx",
+      "Ballungsräume": "metropolitan areas",
+      "hält an": "continues",
+      "Baukosten": "construction costs",
+      "langwierige": "lengthy",
+      "Genehmigungsverfahren": "approval procedures",
+      "Mangel": "shortage",
+      "Bauland": "building land",
+      "bremsen ... aus": "slow down",
+      "Mietpreisbremse": "rent cap",
+      "Förderprogramme": "subsidy programmes",
+      "bezweifeln": "doubt",
+      "Angebot": "supply",
+      "ausgeweitet": "expanded",
+      "verschiebe": "merely shifts",
+      "Unstrittig": "undisputed",
+      "hinausreichen": "extend beyond",
+      "Pflegekräfte": "care workers",
+      "Erzieherinnen": "nursery teachers",
+      "leisten": "afford",
+      "Funktionsfähigkeit": "ability to function",
+      "gerät in Gefahr": "is endangered"
+    },
+    "questions": [
+      {
+        "prompt": "Was braucht man laut Text vor allem bei der Wohnungssuche?",
+        "options": [
+          "Geld",
+          "Geduld",
+          "Beziehungen",
+          "Glück"
+        ],
+        "answer": "Geduld"
+      },
+      {
+        "prompt": "Welche Ursache wird NICHT genannt?",
+        "options": [
+          "Hohe Baukosten",
+          "Mangel an Bauland",
+          "Zu wenige Makler",
+          "Langwierige Genehmigungsverfahren"
+        ],
+        "answer": "Zu wenige Makler"
+      },
+      {
+        "prompt": "Was bezweifeln Ökonomen?",
+        "options": [
+          "Dass es zu wenig Wohnungen gibt",
+          "Dass Regulierung allein das Problem löst",
+          "Dass die Städte wachsen",
+          "Dass Mieten steigen"
+        ],
+        "answer": "Dass Regulierung allein das Problem löst"
+      },
+      {
+        "prompt": "Welche weitergehende Folge nennt der Text?",
+        "options": [
+          "Die Städte verlieren wichtige Berufsgruppen",
+          "Die Mieten sinken",
+          "Die Bevölkerung schrumpft",
+          "Die Baukosten fallen"
+        ],
+        "answer": "Die Städte verlieren wichtige Berufsgruppen"
+      }
+    ]
+  }
+]
