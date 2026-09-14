@@ -71,6 +71,7 @@ npx tsx scripts/import-anki.ts --inspect decks/goethe-a2.apkg
 npx tsx scripts/import-anki.ts --file decks/goethe-a1.apkg --level A1 --source goethe-a1
 npx tsx scripts/import-anki.ts --file decks/goethe-a2.apkg --level A2 --source goethe-a2
 npx tsx scripts/import-anki.ts --file decks/goethe-b1.apkg --level B1 --source goethe-b1
+npx tsx scripts/import-anki.ts --file decks/klett-b2.apkg  --level B2 --source klett-b2
 
 npm run db:seed
 ```
@@ -117,6 +118,25 @@ npm run db:seed        # load whatever was generated
 Prefer `--what grammar` over `--what words` when you have a deck: it is cheaper (only
 the grammar is generated, not the word list) and more accurate (no invented vocabulary,
 no mislabelled levels).
+
+### Knowing what a run will cost
+
+Every mode reports its measured token usage and cost when it finishes, and the grammar
+backfill prints the batch count and a rough estimate *before* doing any work:
+
+```
+Plan: 4682 words in 240 batch(es) of up to 20.
+Rough estimate: $30.67 — an estimate only, since adaptive thinking
+makes output length hard to predict.
+```
+
+`--dry-run` shows that plan without spending anything. The estimate is deliberately
+crude; the reliable approach is to run one level (`--level A1`), read the reported
+spend, and scale from a real number.
+
+Two things keep the bill down on their own: duplicates across cumulative decks are
+collapsed before generation, so a word restated in three wordlists is generated once;
+and nouns whose article and plural came out of the deck never reach the model at all.
 
 - Add `--dry-run` to see what would be requested without spending anything.
 - Output is validated against `lib/seed-schema.ts` before it is written, so malformed
