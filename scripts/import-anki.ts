@@ -20,7 +20,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
 import { readApkg, cleanField, type AnkiNote } from "../lib/apkg";
-import { parseGermanField, parseTranslations } from "../lib/anki-parse";
+import { expandPlural, parseGermanField, parseTranslations } from "../lib/anki-parse";
 import { importedWordSchema, wordSchema, type ImportedWord } from "../lib/seed-schema";
 import { isLevel, type LevelName } from "../lib/levels";
 
@@ -130,6 +130,11 @@ async function importDeck() {
   const germanField = arg("german") ?? detected.german;
   const englishField = arg("english") ?? detected.english;
   const exampleField = arg("example");
+  // Some decks keep the article and plural in their own fields rather than
+  // embedded in the German word ("Angebot" + "das" + "-e"). Naming them here
+  // puts those nouns on the same free path as "das Angebot, -e" would be.
+  const articleField = arg("article");
+  const pluralField = arg("plural");
 
   if (!germanField || !englishField) {
     console.error(
@@ -145,6 +150,8 @@ async function importDeck() {
   console.log(`  german:  "${germanField}"${arg("german") ? "" : " (auto-detected)"}`);
   console.log(`  english: "${englishField}"${arg("english") ? "" : " (auto-detected)"}`);
   if (exampleField) console.log(`  example: "${exampleField}"`);
+  if (articleField) console.log(`  article: "${articleField}"`);
+  if (pluralField) console.log(`  plural:  "${pluralField}"`);
   console.log();
 
   const complete: unknown[] = [];
@@ -160,6 +167,20 @@ async function importDeck() {
 
     const parsed = parseGermanField(rawGerman);
     const translations = parseTranslations(rawEnglish);
+
+    // The German field stays authoritative; the separate fields only fill gaps
+    // it left, so a deck that has both cannot contradict itself.
+    if (articleField && !parsed.article) {
+      const a = cleanField(note.fields[articleField] ?? "").toLowerCase();
+      if (a === "der" || a === "die" || a === "das") {
+        parsed.article = a;
+        parsed.posGuess = "NOUN";
+      }
+    }
+    if (pluralField && !parsed.plural && parsed.lemma) {
+      const raw = cleanField(note.fields[pluralField] ?? "");
+      if (raw) parsed.plural = expandPlural(parsed.lemma, raw);
+    }
 
     if (!parsed.lemma) {
       skipped.push({ reason: "no German lemma", raw: cleanField(rawGerman) });
@@ -288,6 +309,8 @@ async function main() {
       "  --german <field>    field holding the German word (auto-detected otherwise)\n" +
       "  --english <field>   field holding the translation\n" +
       "  --example <field>   optional field holding an example sentence\n" +
+      "  --article <field>   field holding the article, if the deck separates it\n" +
+      "  --plural <field>    field holding the plural, if the deck separates it\n" +
       "  --limit <n>         only read the first n notes\n" +
       "  --dry-run           report without writing\n",
   );
