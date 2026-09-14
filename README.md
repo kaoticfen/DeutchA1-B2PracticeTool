@@ -53,18 +53,61 @@ levelling at any time in **Profile → Settings**.
 
 ## Growing the content
 
-The starter seed is deliberately small so the app works immediately. To expand toward
-the full 3,000+ word corpus, supply your own API key and run the generator:
+The starter seed is deliberately small so the app works immediately. There are two
+ways to expand it, and they combine well.
+
+### Importing a wordlist (recommended for vocabulary)
+
+If you have an Anki deck — a Goethe Wortliste, a frequency list, anything with a
+German field and a translation — import it. A real wordlist beats a generated one:
+the words and CEFR levels are curated rather than invented.
+
+```bash
+# Always look first — this prints the note types, field names and sample rows
+npx tsx scripts/import-anki.ts --inspect decks/goethe-a2.apkg
+
+# Then import. Fields are auto-detected; override with --german / --english
+npx tsx scripts/import-anki.ts --file decks/goethe-a2.apkg --level A2 \
+    --source goethe-a2 --example Beispiel
+
+npm run db:seed
+```
+
+`.apkg`, `.anki2`, `.anki21` and zstd-compressed `.anki21b` are all handled, with no
+native build and no `sqlite3` binary needed.
+
+Nouns whose article **and** plural both parse out of the deck are already complete —
+they go straight into `data/seed/words/` and cost nothing to generate. (`das Haus, ¨-er`
+is expanded to `Häuser`, `der Baum, ¨-e` to `Bäume`, and so on.) Everything else lands
+in `data/seed/imported/` for the grammar backfill below.
+
+Add `--dry-run` to see the parse report without writing anything. Deck files themselves
+are gitignored — import from them, commit the derived JSON.
+
+> Third-party decks carry their own licensing. Reproductions of published wordlists are
+> fine to study from, but think before pushing the derived data to a public repo.
+
+### Generating
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
 
+# Fill in grammar for imported words — conjugations, plurals, comparatives,
+# subcategory. The deck stays authoritative for lemma, level and meaning.
+npm run generate:seed -- --what grammar
+
+# Or generate vocabulary from scratch, if you have no wordlist to import
 npm run generate:seed -- --what words --target 3000
+
 npm run generate:seed -- --what exercises --per-tag 20
 npm run generate:seed -- --what reading --per-level 6
 
 npm run db:seed        # load whatever was generated
 ```
+
+Prefer `--what grammar` over `--what words` when you have a deck: it is cheaper (only
+the grammar is generated, not the word list) and more accurate (no invented vocabulary,
+no mislabelled levels).
 
 - Add `--dry-run` to see what would be requested without spending anything.
 - Output is validated against `lib/seed-schema.ts` before it is written, so malformed
@@ -80,7 +123,8 @@ never discards your review history or scores.
 ## Tests
 
 ```bash
-npm test                       # unit tests for SRS, levelling, search, answers, streaks
+npm test                       # unit tests: SRS, levelling, search, answers, streaks,
+                               #   Anki parsing, and the .apkg reader
 npx tsx scripts/verify-e2e.ts  # end-to-end checks against the database
 ./scripts/smoke-routes.sh      # every route renders (needs a running dev server)
 ```
@@ -102,8 +146,10 @@ npx tsx scripts/verify-e2e.ts  # end-to-end checks against the database
 app/            Next.js App Router — (app) is authenticated, /cheatsheet is public
 components/     UI; games/ and exam/ hold the interactive runners
 lib/            Core logic — srs, leveling, search, forms, taxonomy, answers, streak
+                Import path — apkg (zip/SQLite reader), anki-parse (field parsing)
 data/seed/      Committed content (JSON), loaded by prisma/seed.ts
-scripts/        generate-seed (Claude API, offline), verify-e2e, smoke-routes
+scripts/        import-anki, generate-seed (Claude API, offline), verify-e2e,
+                smoke-routes
 ```
 
 The logic in `lib/` is the single source of truth for its rules and is unit tested —
