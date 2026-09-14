@@ -94,8 +94,33 @@ in `data/seed/imported/` for the grammar backfill below.
 Add `--dry-run` to see the parse report without writing anything. Deck files themselves
 are gitignored — import from them, commit the derived JSON.
 
-> Third-party decks carry their own licensing. Reproductions of published wordlists are
-> fine to study from, but think before pushing the derived data to a public repo.
+#### Source decks
+
+The decks this project was built around, all from AnkiWeb:
+
+| Level | Deck | Source material |
+|---|---|---|
+| A1 | [734416507](https://ankiweb.net/shared/info/734416507) | Goethe-Institut wordlist |
+| A2 | [1386119660](https://ankiweb.net/shared/info/1386119660) — *A2 Wortliste Goethe* | Goethe-Institut wordlist |
+| B1 | [1535528691](https://ankiweb.net/shared/info/1535528691) — *B1 Goethe Wordlist Learning Deck* | Goethe-Institut / DTZ wordlist |
+| B2 | [1185202095](https://ankiweb.net/shared/info/1185202095) — *German B2 Wordlist from Klett Kontext* | Klett *Kontext* B2 coursebook |
+
+AnkiWeb downloads go through a browser session, so these have to be fetched by hand —
+open each page, click Download, and drop the `.apkg` into `decks/`.
+
+The A1–B1 decks reproduce Goethe-Institut wordlists and the B2 deck a Klett coursebook;
+all are third-party uploads reproducing published material. Studying from them is
+ordinary use. Committing the **derived** JSON is a separate question, and worth a
+thought here specifically because **this repository is public** — `.apkg` files are
+gitignored, but `data/seed/words/imported-*.json` and `data/seed/imported/*.json` are
+not. If you would rather keep the extracted wordlists out of the public repo, add:
+
+```gitignore
+data/seed/words/imported-*.json
+data/seed/imported/
+```
+
+The app works either way; those files can be regenerated from the decks at any time.
 
 ### Generating
 
@@ -185,3 +210,14 @@ The logic in `lib/` is the single source of truth for its rules and is unit test
 review intervals live only in `lib/srs.ts`, promotion thresholds only in
 `lib/leveling.ts`, and the category tree only in `lib/taxonomy.ts` (which also
 constrains what the generator may emit, so the filters and the data cannot drift).
+
+## Known gaps
+
+- **Exam items and lessons have no generator.** Both are hand-authored: 20 exam items
+  (one per section per level) and 18 lessons. The exam bank is the thinnest part of the
+  app and will be exhausted quickly. `--what` currently covers `words`, `exercises`,
+  `reading` and `grammar` only.
+- **Writing and Speaking are self-assessed**, as above — there is no automated grader
+  for free-form German.
+- **Audio depends on a system German TTS voice.** The app reports its absence rather
+  than failing silently, but it cannot supply one.
