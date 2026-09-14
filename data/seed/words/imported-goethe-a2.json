@@ -1,0 +1,6938 @@
+[
+  {
+    "lemma": "Angebot",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "offer"
+    ],
+    "exampleDe": "Heute sind Bananen im Angebot.",
+    "noun": {
+      "article": "das",
+      "plural": "Angebote"
+    }
+  },
+  {
+    "lemma": "Adresse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "address"
+    ],
+    "exampleDe": "Können Sie mir Ihre Adresse geben?",
+    "noun": {
+      "article": "die",
+      "plural": "Adressen"
+    }
+  },
+  {
+    "lemma": "Anfang",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Beginning"
+    ],
+    "exampleDe": "Sie wohnt am Anfang der Straße.",
+    "noun": {
+      "article": "der",
+      "plural": "Anfänge"
+    }
+  },
+  {
+    "lemma": "Angst",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "anxiety",
+      "fear"
+    ],
+    "exampleDe": "Hab keine Angst!",
+    "noun": {
+      "article": "die",
+      "plural": "Ängste"
+    }
+  },
+  {
+    "lemma": "Ahnung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "idea"
+    ],
+    "exampleDe": "Ich hatte keine Ahnung, dass du heute Geburtstag hast.",
+    "noun": {
+      "article": "die",
+      "plural": "Ahnungen"
+    }
+  },
+  {
+    "lemma": "Ankunft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Arrival"
+    ],
+    "exampleDe": "Auf diesem Fahrplan steht nur die Ankunft der Züge.",
+    "noun": {
+      "article": "die",
+      "plural": "Ankünfte"
+    }
+  },
+  {
+    "lemma": "Anmeldung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "registration"
+    ],
+    "exampleDe": "Wo bekomme ich das Formular für die Anmeldung?",
+    "noun": {
+      "article": "die",
+      "plural": "Anmeldungen"
+    }
+  },
+  {
+    "lemma": "Anrufbeantworter",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Answering machine"
+    ],
+    "exampleDe": "Wir sind im Moment nicht da, sprechen Sie bitte auf den Anrufbeantworter.",
+    "noun": {
+      "article": "der",
+      "plural": "Anrufbeantworter"
+    }
+  },
+  {
+    "lemma": "Anruf",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Call"
+    ],
+    "exampleDe": "Eva bekommt viele Anrufe von ihrem Freund Juan.",
+    "noun": {
+      "article": "der",
+      "plural": "Anrufe"
+    }
+  },
+  {
+    "lemma": "Anschluss",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "connection"
+    ],
+    "exampleDe": "In Mannheim haben Sie Anschluss nach Saarbrücken.",
+    "noun": {
+      "article": "der",
+      "plural": "Anschlüsse"
+    }
+  },
+  {
+    "lemma": "Antwort",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "answer"
+    ],
+    "exampleDe": "Er gibt leider keine Antwort.",
+    "noun": {
+      "article": "die",
+      "plural": "Antworten"
+    }
+  },
+  {
+    "lemma": "Ampel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "traffic light"
+    ],
+    "exampleDe": "Du kannst fahren, die Ampel ist grün.",
+    "noun": {
+      "article": "die",
+      "plural": "Ampeln"
+    }
+  },
+  {
+    "lemma": "Anzeige",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "display"
+    ],
+    "exampleDe": "Ich habe Ihre Anzeige in der Zeitung gelesen.",
+    "noun": {
+      "article": "die",
+      "plural": "Anzeigen"
+    }
+  },
+  {
+    "lemma": "Anzug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "suit"
+    ],
+    "exampleDe": "Mein Mann muss sich einen neuen Anzug kaufen.",
+    "noun": {
+      "article": "der",
+      "plural": "Anzüge"
+    }
+  },
+  {
+    "lemma": "Apfel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Apple"
+    ],
+    "exampleDe": "Ein Kilo Äpfel, bitte.",
+    "noun": {
+      "article": "der",
+      "plural": "Äpfel"
+    }
+  },
+  {
+    "lemma": "Apotheke",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "pharmacy"
+    ],
+    "exampleDe": "Das Medikament bekommen Sie in der Apotheke.",
+    "noun": {
+      "article": "die",
+      "plural": "Apotheken"
+    }
+  },
+  {
+    "lemma": "Apparat",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "device",
+      "machine"
+    ],
+    "exampleDe": "Was machen wir mit deinem alten Apparat?",
+    "noun": {
+      "article": "der",
+      "plural": "Apparate"
+    }
+  },
+  {
+    "lemma": "Arbeit",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "job"
+    ],
+    "exampleDe": "Mein Bruder sucht Arbeit.",
+    "noun": {
+      "article": "die",
+      "plural": "Arbeiten"
+    }
+  },
+  {
+    "lemma": "Ausbildung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "education"
+    ],
+    "exampleDe": "Ich möchte eine Ausbildung zum Krankenpfleger machen.",
+    "noun": {
+      "article": "die",
+      "plural": "Ausbildungen"
+    }
+  },
+  {
+    "lemma": "Ausflug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Excursion"
+    ],
+    "exampleDe": "Morgen machen wir einen Ausflug nach Heidelberg.",
+    "noun": {
+      "article": "der",
+      "plural": "Ausflüge"
+    }
+  },
+  {
+    "lemma": "Ausgang",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "exit"
+    ],
+    "exampleDe": "Entschuldigung, wo ist der Ausgang?",
+    "noun": {
+      "article": "der",
+      "plural": "Ausgänge"
+    }
+  },
+  {
+    "lemma": "Artikel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "item"
+    ],
+    "exampleDe": "Im Deutschen gibt es drei Artikel: der, die und das.",
+    "noun": {
+      "article": "der",
+      "plural": "Artikel"
+    }
+  },
+  {
+    "lemma": "Auskunft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "information desk"
+    ],
+    "exampleDe": "Wo ist die Auskunft?",
+    "noun": {
+      "article": "die",
+      "plural": "Auskünfte"
+    }
+  },
+  {
+    "lemma": "Ausstellung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "exhibition"
+    ],
+    "exampleDe": "Gehen wir morgen zusammen in die Ausstellung?",
+    "noun": {
+      "article": "die",
+      "plural": "Ausstellungen"
+    }
+  },
+  {
+    "lemma": "Ausweis",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "ID card"
+    ],
+    "exampleDe": "Darf ich bitte mal Ihren Ausweis sehen? - Hier ist mein Ausweis.",
+    "noun": {
+      "article": "der",
+      "plural": "Ausweise"
+    }
+  },
+  {
+    "lemma": "Aufzug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "elevator"
+    ],
+    "exampleDe": "In diesem Haus gibt es keinen Aufzug.",
+    "noun": {
+      "article": "der",
+      "plural": "Aufzüge"
+    }
+  },
+  {
+    "lemma": "Auge",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "eye"
+    ],
+    "exampleDe": "Er hat blaue Augen.",
+    "noun": {
+      "article": "das",
+      "plural": "Augen"
+    }
+  },
+  {
+    "lemma": "Auto",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "automobile"
+    ],
+    "exampleDe": "Er fährt mit dem Auto.",
+    "noun": {
+      "article": "das",
+      "plural": "Autos"
+    }
+  },
+  {
+    "lemma": "Autobahn",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Highway"
+    ],
+    "exampleDe": "Das Dorf liegt direkt an der Autobahn.",
+    "noun": {
+      "article": "die",
+      "plural": "Autobahnen"
+    }
+  },
+  {
+    "lemma": "Automat",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "machine",
+      "automat",
+      "vending machine"
+    ],
+    "exampleDe": "Fahrkarten gibt es nur am Automaten.",
+    "noun": {
+      "article": "der",
+      "plural": "Automaten"
+    }
+  },
+  {
+    "lemma": "Baby",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "baby"
+    ],
+    "exampleDe": "Wir haben ein Baby. Es ist sechs Wochen alt.",
+    "noun": {
+      "article": "das",
+      "plural": "Babys"
+    }
+  },
+  {
+    "lemma": "Babysitter",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "baby-sitter"
+    ],
+    "exampleDe": "Meine Tochter arbeitet als Babysitter bei einer Familie mit vier Kindern.",
+    "noun": {
+      "article": "der",
+      "plural": "Babysitter"
+    }
+  },
+  {
+    "lemma": "Bäckerei",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "bakery"
+    ],
+    "exampleDe": "Ich geh mal schnell zur Bäckerei.",
+    "noun": {
+      "article": "die",
+      "plural": "Bäckereien"
+    }
+  },
+  {
+    "lemma": "Bad",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bath"
+    ],
+    "exampleDe": "Das Haus ist sehr alt, es hat kein Bad.",
+    "noun": {
+      "article": "das",
+      "plural": "Bäder"
+    }
+  },
+  {
+    "lemma": "Bahn",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "train"
+    ],
+    "exampleDe": "Wir fahren lieber mit der Bahn als mit dem Bus.",
+    "noun": {
+      "article": "die",
+      "plural": "Bahnen"
+    }
+  },
+  {
+    "lemma": "Bekannte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female friend",
+      "female acquaintance"
+    ],
+    "exampleDe": "Meine Bekannte heißt Anna.",
+    "noun": {
+      "article": "die",
+      "plural": "Bekannten"
+    }
+  },
+  {
+    "lemma": "Bahnhof",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "railway station"
+    ],
+    "exampleDe": "Entschuldigung, komme ich hier zum Bahnhof?",
+    "noun": {
+      "article": "der",
+      "plural": "Bahnhöfe"
+    }
+  },
+  {
+    "lemma": "Bahnsteig",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "platform"
+    ],
+    "exampleDe": "Auf Hauptbahnhöfen gibt es meist viele Bahnsteige.",
+    "noun": {
+      "article": "der",
+      "plural": "Bahnsteige"
+    }
+  },
+  {
+    "lemma": "Balkon",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "balcony"
+    ],
+    "exampleDe": "Die Wohnung hat auch einen kleinen Balkon.",
+    "noun": {
+      "article": "der",
+      "plural": "Balkone"
+    }
+  },
+  {
+    "lemma": "Ball",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "ball"
+    ],
+    "exampleDe": "Meine Kinder spielen gern Ball.",
+    "noun": {
+      "article": "der",
+      "plural": "Bälle"
+    }
+  },
+  {
+    "lemma": "Banane",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "banana"
+    ],
+    "exampleDe": "Drei Bananen, bitte!",
+    "noun": {
+      "article": "die",
+      "plural": "Bananen"
+    }
+  },
+  {
+    "lemma": "Band",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "band"
+    ],
+    "exampleDe": "Was ist deine Lieblingsband?",
+    "noun": {
+      "article": "die",
+      "plural": "Bands"
+    }
+  },
+  {
+    "lemma": "Bank",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Bank"
+    ],
+    "exampleDe": "Bei welcher Bank haben Sie Ihr Konto?",
+    "noun": {
+      "article": "die",
+      "plural": "Banken"
+    }
+  },
+  {
+    "lemma": "Basketball",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "basketball"
+    ],
+    "exampleDe": "Yannick spielt lieber Basketball als Fußball.",
+    "noun": {
+      "article": "der",
+      "plural": "Basketbälle"
+    }
+  },
+  {
+    "lemma": "Berg",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "mountain"
+    ],
+    "exampleDe": "Die Zugspitze ist der höchste Berg in Deutschland.",
+    "noun": {
+      "article": "der",
+      "plural": "Berge"
+    }
+  },
+  {
+    "lemma": "Bauch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "belly"
+    ],
+    "exampleDe": "Seit gestern tut mir der Bauch weh.",
+    "noun": {
+      "article": "der",
+      "plural": "Bäuche"
+    }
+  },
+  {
+    "lemma": "Beruf",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "job"
+    ],
+    "exampleDe": "Was bist du von Beruf?",
+    "noun": {
+      "article": "der",
+      "plural": "Berufe"
+    }
+  },
+  {
+    "lemma": "Baum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "tree"
+    ],
+    "exampleDe": "Der Baum ist über hundert Jahre alt.",
+    "noun": {
+      "article": "der",
+      "plural": "Bäume"
+    }
+  },
+  {
+    "lemma": "Bescheid",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "answer",
+      "decision",
+      "information"
+    ],
+    "exampleDe": "Kann Lisa in Heidelberg studieren? - Sie weiß es noch nicht. Sie bekommt erst nächste Woche Bescheid.",
+    "noun": {
+      "article": "der",
+      "plural": "Bescheide"
+    }
+  },
+  {
+    "lemma": "Baustelle",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Building site",
+      "construction site"
+    ],
+    "exampleDe": "Vor unserem Haus ist eine große Baustelle.",
+    "noun": {
+      "article": "die",
+      "plural": "Baustellen"
+    }
+  },
+  {
+    "lemma": "Bleistift",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "pencil"
+    ],
+    "exampleDe": "Hast du einen Bleistift?",
+    "noun": {
+      "article": "der",
+      "plural": "Bleistifte"
+    }
+  },
+  {
+    "lemma": "Blog",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "blog"
+    ],
+    "exampleDe": "Ich schreibe einen Blog über Mode.",
+    "noun": {
+      "article": "der",
+      "plural": "Blogs"
+    }
+  },
+  {
+    "lemma": "Blume",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "flower"
+    ],
+    "exampleDe": "Gefallen dir die Blumen?",
+    "noun": {
+      "article": "die",
+      "plural": "Blumen"
+    }
+  },
+  {
+    "lemma": "Bluse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "blouse"
+    ],
+    "exampleDe": "Ich suche eine weiße Bluse.",
+    "noun": {
+      "article": "die",
+      "plural": "Blusen"
+    }
+  },
+  {
+    "lemma": "Bohne",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Bean"
+    ],
+    "exampleDe": "Hans isst nicht gern Bohnen.",
+    "noun": {
+      "article": "die",
+      "plural": "Bohnen"
+    }
+  },
+  {
+    "lemma": "Besuch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "visit"
+    ],
+    "exampleDe": "Wir bekommen am Wochenende Besuch.",
+    "noun": {
+      "article": "der",
+      "plural": "Besuche"
+    }
+  },
+  {
+    "lemma": "Bett",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bed"
+    ],
+    "exampleDe": "Sie ist krank und muss heute im Bett bleiben.",
+    "noun": {
+      "article": "das",
+      "plural": "Betten"
+    }
+  },
+  {
+    "lemma": "Bewerbung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "application",
+      "canditature"
+    ],
+    "exampleDe": "Kannst du mir bei meiner Bewerbung helfen?",
+    "noun": {
+      "article": "die",
+      "plural": "Bewerbungen"
+    }
+  },
+  {
+    "lemma": "Brief",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "letter"
+    ],
+    "exampleDe": "Haben Sie einen Brief für mich?",
+    "noun": {
+      "article": "der",
+      "plural": "Briefe"
+    }
+  },
+  {
+    "lemma": "Briefmarke",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Stamp"
+    ],
+    "exampleDe": "Bitte die Briefmarke nicht vergessen!",
+    "noun": {
+      "article": "die",
+      "plural": "Briefmarken"
+    }
+  },
+  {
+    "lemma": "Brille",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "glasses"
+    ],
+    "exampleDe": "Wo ist meine Brille?",
+    "noun": {
+      "article": "die",
+      "plural": "Brillen"
+    }
+  },
+  {
+    "lemma": "Bibliothek",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "library"
+    ],
+    "exampleDe": "Sie lernt jeden Tag in der Bibliothek.",
+    "noun": {
+      "article": "die",
+      "plural": "Bibliotheken"
+    }
+  },
+  {
+    "lemma": "Brot",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bread"
+    ],
+    "exampleDe": "Nimm doch noch ein Brot für das Abendessen.",
+    "noun": {
+      "article": "das",
+      "plural": "Brote"
+    }
+  },
+  {
+    "lemma": "Bier",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "beer"
+    ],
+    "exampleDe": "Noch ein Bier, bitte.",
+    "noun": {
+      "article": "das",
+      "plural": "Biere"
+    }
+  },
+  {
+    "lemma": "Bild",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "image"
+    ],
+    "exampleDe": "Hast du ein Bild von deinem Sohn?",
+    "noun": {
+      "article": "das",
+      "plural": "Bilder"
+    }
+  },
+  {
+    "lemma": "Brötchen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bun",
+      "small bread"
+    ],
+    "exampleDe": "Möchtest du Brot oder Brötchen zum Frühstück?",
+    "noun": {
+      "article": "das",
+      "plural": "Brötchen"
+    }
+  },
+  {
+    "lemma": "Brücke",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "bridge"
+    ],
+    "exampleDe": "Fahren Sie über die nächste Brücke und dann nach links.",
+    "noun": {
+      "article": "die",
+      "plural": "Brücken"
+    }
+  },
+  {
+    "lemma": "Birne",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "pear"
+    ],
+    "exampleDe": "Ein Kilo Birnen, bitte!",
+    "noun": {
+      "article": "die",
+      "plural": "Birnen"
+    }
+  },
+  {
+    "lemma": "Buch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "book"
+    ],
+    "exampleDe": "Was kostet das Buch, bitte?",
+    "noun": {
+      "article": "das",
+      "plural": "Bücher"
+    }
+  },
+  {
+    "lemma": "Buchstabe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "letter",
+      "character"
+    ],
+    "exampleDe": "Diesen Buchstaben gibt es in meiner Sprache nicht.",
+    "noun": {
+      "article": "der",
+      "plural": "Buchstaben"
+    }
+  },
+  {
+    "lemma": "Büro",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "office"
+    ],
+    "exampleDe": "Ich arbeite in einem Büro.",
+    "noun": {
+      "article": "das",
+      "plural": "Büros"
+    }
+  },
+  {
+    "lemma": "Blatt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "sheet"
+    ],
+    "exampleDe": "Haben Sie ein Blatt Papier für mich?",
+    "noun": {
+      "article": "das",
+      "plural": "Blätter"
+    }
+  },
+  {
+    "lemma": "Bus",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "bus"
+    ],
+    "exampleDe": "Wann kommt der nächste Bus?",
+    "noun": {
+      "article": "der",
+      "plural": "Busse"
+    }
+  },
+  {
+    "lemma": "Café",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "Coffee shop"
+    ],
+    "exampleDe": "Kommst du mit ins Café? Ich möchte gern einen Kaffee trinken.",
+    "noun": {
+      "article": "das",
+      "plural": "Cafés"
+    }
+  },
+  {
+    "lemma": "Cafeteria",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cafeteria"
+    ],
+    "exampleDe": "Ich gehe jetzt in die Cafeteria. Soll ich dir etwas mitbringen?",
+    "noun": {
+      "article": "die",
+      "plural": "Cafeterias"
+    }
+  },
+  {
+    "lemma": "Datum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "date"
+    ],
+    "exampleDe": "Bitte Datum und Unterschrift nicht vergessen!",
+    "noun": {
+      "article": "das",
+      "plural": "Datumen"
+    }
+  },
+  {
+    "lemma": "Chef",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male boss"
+    ],
+    "exampleDe": "Wir haben einen neuen Chef.",
+    "noun": {
+      "article": "der",
+      "plural": "Chefs"
+    }
+  },
+  {
+    "lemma": "Chefin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female boss"
+    ],
+    "exampleDe": "Wir haben eine neue Chefin.",
+    "noun": {
+      "article": "die",
+      "plural": "Chefinnen"
+    }
+  },
+  {
+    "lemma": "Club",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "club"
+    ],
+    "exampleDe": "Gibt es hier einen Tennis-Club?",
+    "noun": {
+      "article": "der",
+      "plural": "Clubs"
+    }
+  },
+  {
+    "lemma": "Comic",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "comic"
+    ],
+    "exampleDe": "Mein Sohn liest immer nur Comics.",
+    "noun": {
+      "article": "das",
+      "plural": "Comics"
+    }
+  },
+  {
+    "lemma": "Computer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "computer"
+    ],
+    "exampleDe": "Wann bekommst du deinen neuen Computer?",
+    "noun": {
+      "article": "der",
+      "plural": "Computer"
+    }
+  },
+  {
+    "lemma": "Creme",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cream"
+    ],
+    "exampleDe": "Ich suche eine Creme für die Hände.",
+    "noun": {
+      "article": "die",
+      "plural": "Cremes"
+    }
+  },
+  {
+    "lemma": "Ding",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "thing"
+    ],
+    "exampleDe": "Gib mir bitte mal das Ding da drüben!",
+    "noun": {
+      "article": "das",
+      "plural": "Dinge"
+    }
+  },
+  {
+    "lemma": "Disco",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Disco"
+    ],
+    "exampleDe": "Wir gehen heute Abend in die Disco.",
+    "noun": {
+      "article": "die",
+      "plural": "Discos"
+    }
+  },
+  {
+    "lemma": "Doppelzimmer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "double room"
+    ],
+    "exampleDe": "Möchten Sie ein Doppelzimmer oder ein Einzelzimmer?",
+    "noun": {
+      "article": "das",
+      "plural": "Doppelzimmer"
+    }
+  },
+  {
+    "lemma": "Dame",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "lady"
+    ],
+    "exampleDe": "Damen (an der Toilette)",
+    "noun": {
+      "article": "die",
+      "plural": "Damen"
+    }
+  },
+  {
+    "lemma": "Dorf",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "village"
+    ],
+    "exampleDe": "Unser Dorf liegt direkt an der Autobahn.",
+    "noun": {
+      "article": "das",
+      "plural": "Dörfer"
+    }
+  },
+  {
+    "lemma": "Datei",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "file"
+    ],
+    "exampleDe": "Wo hast du die Datei gespeichert?",
+    "noun": {
+      "article": "die",
+      "plural": "Dateien"
+    }
+  },
+  {
+    "lemma": "Einkaufszentrum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "shopping mall"
+    ],
+    "exampleDe": "Kommst du morgen mit ins Einkaufszentrum?",
+    "noun": {
+      "article": "das",
+      "plural": "Einkaufszentrumen"
+    }
+  },
+  {
+    "lemma": "Drucker",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "printer"
+    ],
+    "exampleDe": "Mein Drucker ist kaputt.",
+    "noun": {
+      "article": "der",
+      "plural": "Drucker"
+    }
+  },
+  {
+    "lemma": "Einladung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "invitation"
+    ],
+    "exampleDe": "Danke für die Einladung zu deinem Geburtstag!",
+    "noun": {
+      "article": "die",
+      "plural": "Einladungen"
+    }
+  },
+  {
+    "lemma": "Dusche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "shower"
+    ],
+    "exampleDe": "Unsere Wohnung hat nur eine Dusche.",
+    "noun": {
+      "article": "die",
+      "plural": "Duschen"
+    }
+  },
+  {
+    "lemma": "Eintritt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "entry"
+    ],
+    "exampleDe": "Der Eintritt kostet fünf Euro.",
+    "noun": {
+      "article": "der",
+      "plural": "Eintritte"
+    }
+  },
+  {
+    "lemma": "E-Book",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "E-Book"
+    ],
+    "exampleDe": "Liest du lieber E-Books oder Bücher aus Papier?",
+    "noun": {
+      "article": "das",
+      "plural": "E-Books"
+    }
+  },
+  {
+    "lemma": "Ecke",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "corner"
+    ],
+    "exampleDe": "Gehen Sie an der nächsten Ecke links, dann kommen Sie zur Apotheke.",
+    "noun": {
+      "article": "die",
+      "plural": "Ecken"
+    }
+  },
+  {
+    "lemma": "E-Mail",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "e-mail"
+    ],
+    "exampleDe": "Ich schreibe dir eine E-Mail.",
+    "noun": {
+      "article": "die",
+      "plural": "E-Mails"
+    }
+  },
+  {
+    "lemma": "Ehefrau",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "wife"
+    ],
+    "exampleDe": "Das ist mein Ehemann.",
+    "noun": {
+      "article": "die",
+      "plural": "Ehefrauen"
+    }
+  },
+  {
+    "lemma": "Ehepartner",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "spouse"
+    ],
+    "exampleDe": "Das ist mein Ehepartner.",
+    "noun": {
+      "article": "der",
+      "plural": "Ehepartner"
+    }
+  },
+  {
+    "lemma": "Ehemann",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "husband"
+    ],
+    "exampleDe": "Das ist meine Ehefrau.",
+    "noun": {
+      "article": "der",
+      "plural": "Ehemänner"
+    }
+  },
+  {
+    "lemma": "Ei",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "egg"
+    ],
+    "exampleDe": "Möchtest du ein Ei zum Frühstück?",
+    "noun": {
+      "article": "das",
+      "plural": "Eier"
+    }
+  },
+  {
+    "lemma": "Empfänger",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "receiver"
+    ],
+    "exampleDe": "Auf dem Brief steht dein Name, also bist du der Empfänger.",
+    "noun": {
+      "article": "der",
+      "plural": "Empfänger"
+    }
+  },
+  {
+    "lemma": "Ende",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "the End"
+    ],
+    "exampleDe": "Sie wohnt am Ende der Straße.",
+    "noun": {
+      "article": "das",
+      "plural": "Enden"
+    }
+  },
+  {
+    "lemma": "Eingang",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "entrance"
+    ],
+    "exampleDe": "Der Eingang ist um die Ecke.",
+    "noun": {
+      "article": "der",
+      "plural": "Eingänge"
+    }
+  },
+  {
+    "lemma": "Entschuldigung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "excuse",
+      "apology"
+    ],
+    "exampleDe": "Oh, Entschuldigung! - Macht nichts. Kein Problem.",
+    "noun": {
+      "article": "die",
+      "plural": "Entschuldigungen"
+    }
+  },
+  {
+    "lemma": "Erdgeschoss",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "ground floor"
+    ],
+    "exampleDe": "Ich wohne im Erdgeschoss.",
+    "noun": {
+      "article": "das",
+      "plural": "Erdgeschosse"
+    }
+  },
+  {
+    "lemma": "Erfahrung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "experience"
+    ],
+    "exampleDe": "Ich habe zehn Jahre Erfahrung in diesem Beruf.",
+    "noun": {
+      "article": "die",
+      "plural": "Erfahrungen"
+    }
+  },
+  {
+    "lemma": "Familie",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "family"
+    ],
+    "exampleDe": "Meine Familie lebt in Spanien.",
+    "noun": {
+      "article": "die",
+      "plural": "Familien"
+    }
+  },
+  {
+    "lemma": "Familienname",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "family name"
+    ],
+    "exampleDe": "Mein Familienname ist González.",
+    "noun": {
+      "article": "der",
+      "plural": "Familiennamen"
+    }
+  },
+  {
+    "lemma": "Fan",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "fan"
+    ],
+    "exampleDe": "Er ist ein großer Fußballfan.",
+    "noun": {
+      "article": "der",
+      "plural": "Fans"
+    }
+  },
+  {
+    "lemma": "Farbe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Colour"
+    ],
+    "exampleDe": "Die Farbe gefällt mir gut.",
+    "noun": {
+      "article": "die",
+      "plural": "Farben"
+    }
+  },
+  {
+    "lemma": "Ermäßigung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "discount"
+    ],
+    "exampleDe": "Für Schüler, Studenten und Rentner gibt es eine Ermäßigung.",
+    "noun": {
+      "article": "die",
+      "plural": "Ermäßigungen"
+    }
+  },
+  {
+    "lemma": "Fehler",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "error"
+    ],
+    "exampleDe": "Diesen Fehler mache ich immer wieder.",
+    "noun": {
+      "article": "der",
+      "plural": "Fehler"
+    }
+  },
+  {
+    "lemma": "Feier",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "celebration"
+    ],
+    "exampleDe": "Die Feier war sehr schön.",
+    "noun": {
+      "article": "die",
+      "plural": "Feiern"
+    }
+  },
+  {
+    "lemma": "Feierabend",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "end of working day"
+    ],
+    "exampleDe": "Wann hast du Feierabend?",
+    "noun": {
+      "article": "der",
+      "plural": "Feierabende"
+    }
+  },
+  {
+    "lemma": "Feiertag",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "holiday"
+    ],
+    "exampleDe": "Am ersten Mai ist ein Feiertag.",
+    "noun": {
+      "article": "der",
+      "plural": "Feiertage"
+    }
+  },
+  {
+    "lemma": "Erwachsene",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "adult"
+    ],
+    "exampleDe": "Erwachsene zahlen zehn Euro, für Kinder ist der Eintritt frei.",
+    "noun": {
+      "article": "der",
+      "plural": "Erwachsenen"
+    }
+  },
+  {
+    "lemma": "Fenster",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "window"
+    ],
+    "exampleDe": "Kannst du bitte das Fenster öffnen?",
+    "noun": {
+      "article": "das",
+      "plural": "Fenster"
+    }
+  },
+  {
+    "lemma": "Fernseher",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "TV"
+    ],
+    "exampleDe": "Der Fernseher ist kaputt.",
+    "noun": {
+      "article": "der",
+      "plural": "Fernseher"
+    }
+  },
+  {
+    "lemma": "Fest",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "celebration",
+      "feast",
+      "party"
+    ],
+    "exampleDe": "Am Wochenende feiern wir ein Fest. Meine Tochter hat Geburtstag.",
+    "noun": {
+      "article": "das",
+      "plural": "Feste"
+    }
+  },
+  {
+    "lemma": "Fach",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "subject"
+    ],
+    "exampleDe": "Welches Fach magst du in der Schule am liebsten?",
+    "noun": {
+      "article": "das",
+      "plural": "Fächer"
+    }
+  },
+  {
+    "lemma": "Abfahrt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Departure"
+    ],
+    "exampleDe": "Wir haben noch zwanzig Minuten bis zur Abfahrt.",
+    "noun": {
+      "article": "die",
+      "plural": "Abfahrten"
+    }
+  },
+  {
+    "lemma": "Fahrkarte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "ticket"
+    ],
+    "exampleDe": "Hast du schon eine Fahrkarte?",
+    "noun": {
+      "article": "die",
+      "plural": "Fahrkarten"
+    }
+  },
+  {
+    "lemma": "Festival",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "festival"
+    ],
+    "exampleDe": "Am Wochenende ist in der Stadt ein Musik-Festival.",
+    "noun": {
+      "article": "das",
+      "plural": "Festivals"
+    }
+  },
+  {
+    "lemma": "Film",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "movie"
+    ],
+    "exampleDe": "Ich möchte gern diesen Film sehen.",
+    "noun": {
+      "article": "der",
+      "plural": "Filme"
+    }
+  },
+  {
+    "lemma": "Fahrplan",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "timetable"
+    ],
+    "exampleDe": "Ist das der neue Fahrplan?",
+    "noun": {
+      "article": "der",
+      "plural": "Fahrpläne"
+    }
+  },
+  {
+    "lemma": "Firma",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "company"
+    ],
+    "exampleDe": "Er arbeitet jetzt bei einer anderen Firma.",
+    "noun": {
+      "article": "die",
+      "plural": "Firmaen"
+    }
+  },
+  {
+    "lemma": "Fahrrad",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bicycle"
+    ],
+    "exampleDe": "Wenn es nicht regnet, fahre ich mit dem Fahrrad.",
+    "noun": {
+      "article": "das",
+      "plural": "Fahrräder"
+    }
+  },
+  {
+    "lemma": "Fisch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "fish"
+    ],
+    "exampleDe": "Fisch mag ich lieber als Fleisch.",
+    "noun": {
+      "article": "der",
+      "plural": "Fische"
+    }
+  },
+  {
+    "lemma": "Flasche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "bottle"
+    ],
+    "exampleDe": "Eine Flasche Mineralwasser, bitte!",
+    "noun": {
+      "article": "die",
+      "plural": "Flaschen"
+    }
+  },
+  {
+    "lemma": "Flohmarkt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "flea market"
+    ],
+    "exampleDe": "Ich gehe gern auf den Flohmarkt.",
+    "noun": {
+      "article": "der",
+      "plural": "Flohmärkte"
+    }
+  },
+  {
+    "lemma": "Führerschein",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "driver's license"
+    ],
+    "exampleDe": "Hast du den Führerschein?",
+    "noun": {
+      "article": "der",
+      "plural": "Führerscheine"
+    }
+  },
+  {
+    "lemma": "Flug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "flight"
+    ],
+    "exampleDe": "Ich möchte einen Flug nach Kanada buchen.",
+    "noun": {
+      "article": "der",
+      "plural": "Flüge"
+    }
+  },
+  {
+    "lemma": "Führung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "guidance",
+      "leadership",
+      "conducted tour"
+    ],
+    "exampleDe": "Die nächste Führung beginnt um 15 Uhr.",
+    "noun": {
+      "article": "die",
+      "plural": "Führungen"
+    }
+  },
+  {
+    "lemma": "Flughafen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "airport"
+    ],
+    "exampleDe": "Kannst du mich zum Flughafen bringen?",
+    "noun": {
+      "article": "der",
+      "plural": "Flughäfen"
+    }
+  },
+  {
+    "lemma": "Flugzeug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "plane"
+    ],
+    "exampleDe": "Das Flugzeug aus Berlin hat Verspätung.",
+    "noun": {
+      "article": "das",
+      "plural": "Flugzeuge"
+    }
+  },
+  {
+    "lemma": "Fluss",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "river"
+    ],
+    "exampleDe": "Der Rhein ist ein großer Fluss.",
+    "noun": {
+      "article": "der",
+      "plural": "Flüsse"
+    }
+  },
+  {
+    "lemma": "Formular",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "form"
+    ],
+    "exampleDe": "Sie müssen dieses Formular ausfüllen.",
+    "noun": {
+      "article": "das",
+      "plural": "Formulare"
+    }
+  },
+  {
+    "lemma": "Fotoapparat",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "camera"
+    ],
+    "exampleDe": "Ich möchte mir einen Fotoapparat kaufen.",
+    "noun": {
+      "article": "der",
+      "plural": "Fotoapparate"
+    }
+  },
+  {
+    "lemma": "Fuß",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "foot"
+    ],
+    "exampleDe": "Der linke Fuß tut mir weh.",
+    "noun": {
+      "article": "der",
+      "plural": "Füße"
+    }
+  },
+  {
+    "lemma": "Fußball",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "soccer"
+    ],
+    "exampleDe": "Spielt ihr gern Fußball?",
+    "noun": {
+      "article": "der",
+      "plural": "Fußbälle"
+    }
+  },
+  {
+    "lemma": "Foto",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "photo"
+    ],
+    "exampleDe": "Darf ich ein Foto machen?",
+    "noun": {
+      "article": "das",
+      "plural": "Fotos"
+    }
+  },
+  {
+    "lemma": "Frage",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "question"
+    ],
+    "exampleDe": "Ich habe eine Frage.",
+    "noun": {
+      "article": "die",
+      "plural": "Fragen"
+    }
+  },
+  {
+    "lemma": "Frau",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Mrs"
+    ],
+    "exampleDe": "Das ist Frau Becker.",
+    "noun": {
+      "article": "die",
+      "plural": "Frauen"
+    }
+  },
+  {
+    "lemma": "Gabel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "fork"
+    ],
+    "exampleDe": "Kann ich bitte eine Gabel haben?",
+    "noun": {
+      "article": "die",
+      "plural": "Gabeln"
+    }
+  },
+  {
+    "lemma": "Garage",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "garage"
+    ],
+    "exampleDe": "Hier ist eine Garage für dein Auto.",
+    "noun": {
+      "article": "die",
+      "plural": "Garagen"
+    }
+  },
+  {
+    "lemma": "Garten",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "garden"
+    ],
+    "exampleDe": "Wir haben leider keinen Garten.",
+    "noun": {
+      "article": "der",
+      "plural": "Gärten"
+    }
+  },
+  {
+    "lemma": "Gast",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "guest"
+    ],
+    "exampleDe": "Heute Abend haben wir Gäste.",
+    "noun": {
+      "article": "der",
+      "plural": "Gäste"
+    }
+  },
+  {
+    "lemma": "Geburtstag",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "birthday"
+    ],
+    "exampleDe": "Herzlichen Glückwunsch zum Geburtstag!",
+    "noun": {
+      "article": "der",
+      "plural": "Geburtstage"
+    }
+  },
+  {
+    "lemma": "Geburtsort",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "place of birth"
+    ],
+    "exampleDe": "Bitte tragen Sie Ihren Geburtsort noch ein.",
+    "noun": {
+      "article": "der",
+      "plural": "Geburtsorte"
+    }
+  },
+  {
+    "lemma": "Geburtsjahr",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "year of birth"
+    ],
+    "exampleDe": "Das Geburtsjahr Ihres Sohnes, bitte?",
+    "noun": {
+      "article": "das",
+      "plural": "Geburtsjahre"
+    }
+  },
+  {
+    "lemma": "Freund",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "friend",
+      "boyfriend"
+    ],
+    "exampleDe": "Das ist ein Freund von mir.",
+    "noun": {
+      "article": "der",
+      "plural": "Freunde"
+    }
+  },
+  {
+    "lemma": "Freundin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female friend",
+      "girlfriend"
+    ],
+    "exampleDe": "Das ist meine Freundin Susanne.",
+    "noun": {
+      "article": "die",
+      "plural": "Freundinnen"
+    }
+  },
+  {
+    "lemma": "Gegenteil",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "opposite"
+    ],
+    "exampleDe": "Das Gegenteil von „klein“ ist „groß“.",
+    "noun": {
+      "article": "das",
+      "plural": "Gegenteile"
+    }
+  },
+  {
+    "lemma": "Gehalt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "salary"
+    ],
+    "exampleDe": "Sie ist mit ihrem Gehalt zufrieden.",
+    "noun": {
+      "article": "das",
+      "plural": "Gehälter"
+    }
+  },
+  {
+    "lemma": "Gewitter",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "thunderstorm"
+    ],
+    "exampleDe": "Ich glaube, es gibt heute ein Gewitter.",
+    "noun": {
+      "article": "das",
+      "plural": "Gewitter"
+    }
+  },
+  {
+    "lemma": "Gitarre",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "guitar"
+    ],
+    "exampleDe": "Er kann gut Gitarre spielen.",
+    "noun": {
+      "article": "die",
+      "plural": "Gitarren"
+    }
+  },
+  {
+    "lemma": "Glas",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "Glass"
+    ],
+    "exampleDe": "Bitte noch ein Glas Apfelsaft!",
+    "noun": {
+      "article": "das",
+      "plural": "Gläser"
+    }
+  },
+  {
+    "lemma": "Gleis",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "track"
+    ],
+    "exampleDe": "Der ICE nach Berlin hält heute an Gleis zwölf.",
+    "noun": {
+      "article": "das",
+      "plural": "Gleise"
+    }
+  },
+  {
+    "lemma": "Geldbörse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Purse"
+    ],
+    "exampleDe": "Sie hat ihre Geldbörse verloren.",
+    "noun": {
+      "article": "die",
+      "plural": "Geldbörsen"
+    }
+  },
+  {
+    "lemma": "Glückwunsch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "congratulation"
+    ],
+    "exampleDe": "Herzlichen Glückwunsch zum Geburtstag!",
+    "noun": {
+      "article": "der",
+      "plural": "Glückwünsche"
+    }
+  },
+  {
+    "lemma": "Größe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "size"
+    ],
+    "exampleDe": "Haben Sie das T-Shirt auch in Größe M?",
+    "noun": {
+      "article": "die",
+      "plural": "Größen"
+    }
+  },
+  {
+    "lemma": "Gerät",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "device"
+    ],
+    "exampleDe": "Elektrogeräte finden Sie im dritten Stock.",
+    "noun": {
+      "article": "das",
+      "plural": "Geräte"
+    }
+  },
+  {
+    "lemma": "Gruppe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "group"
+    ],
+    "exampleDe": "Die erste Gruppe beginnt um 16 Uhr.",
+    "noun": {
+      "article": "die",
+      "plural": "Gruppen"
+    }
+  },
+  {
+    "lemma": "Gericht",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "dish"
+    ],
+    "exampleDe": "Mein Lieblingsgericht ist Pizza.",
+    "noun": {
+      "article": "das",
+      "plural": "Gerichte"
+    }
+  },
+  {
+    "lemma": "Gruß",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "greeting"
+    ],
+    "exampleDe": "Viele Grüße an Ihre Frau.",
+    "noun": {
+      "article": "der",
+      "plural": "Grüße"
+    }
+  },
+  {
+    "lemma": "Geschäft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "shop",
+      "business"
+    ],
+    "exampleDe": "Die Geschäfte schließen um 18.30 Uhr.",
+    "noun": {
+      "article": "das",
+      "plural": "Geschäfte"
+    }
+  },
+  {
+    "lemma": "Geschenk",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "present"
+    ],
+    "exampleDe": "Danke für das schöne Geschenk.",
+    "noun": {
+      "article": "das",
+      "plural": "Geschenke"
+    }
+  },
+  {
+    "lemma": "Geschichte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "story"
+    ],
+    "exampleDe": "Erzählst du mir eine Geschichte?",
+    "noun": {
+      "article": "die",
+      "plural": "Geschichten"
+    }
+  },
+  {
+    "lemma": "Gesicht",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "face"
+    ],
+    "exampleDe": "Wasch dir bitte das Gesicht.",
+    "noun": {
+      "article": "das",
+      "plural": "Gesichter"
+    }
+  },
+  {
+    "lemma": "Gespräch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "talk"
+    ],
+    "exampleDe": "Sie hören ein Gespräch. Zu diesem Gespräch gibt es fünf Aufgaben.",
+    "noun": {
+      "article": "das",
+      "plural": "Gespräche"
+    }
+  },
+  {
+    "lemma": "Getränk",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "drink"
+    ],
+    "exampleDe": "Mein Lieblingsgetränk ist Tomatensaft.",
+    "noun": {
+      "article": "das",
+      "plural": "Getränke"
+    }
+  },
+  {
+    "lemma": "Haar",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "hair"
+    ],
+    "exampleDe": "Sie hat lange Haare.",
+    "noun": {
+      "article": "das",
+      "plural": "Haare"
+    }
+  },
+  {
+    "lemma": "Hähnchen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "chicken"
+    ],
+    "exampleDe": "Ein Hähnchen mit Pommes frites, bitte!",
+    "noun": {
+      "article": "das",
+      "plural": "Hähnchen"
+    }
+  },
+  {
+    "lemma": "Halle",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "hall"
+    ],
+    "exampleDe": "Wir treffen uns in Halle B.",
+    "noun": {
+      "article": "die",
+      "plural": "Hallen"
+    }
+  },
+  {
+    "lemma": "Hals",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "neck"
+    ],
+    "exampleDe": "Mir tut der Hals weh.",
+    "noun": {
+      "article": "der",
+      "plural": "Hälse"
+    }
+  },
+  {
+    "lemma": "Herd",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "stove",
+      "cooker"
+    ],
+    "exampleDe": "In der neuen Küche fehlt noch der Herd.",
+    "noun": {
+      "article": "der",
+      "plural": "Herde"
+    }
+  },
+  {
+    "lemma": "Herr",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Sir"
+    ],
+    "exampleDe": "Guten Tag, Herr Sommer!",
+    "noun": {
+      "article": "der",
+      "plural": "Herren"
+    }
+  },
+  {
+    "lemma": "Hamburger",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "hamburger"
+    ],
+    "exampleDe": "Einen Hamburger ohne Salat, bitte.",
+    "noun": {
+      "article": "der",
+      "plural": "Hamburger"
+    }
+  },
+  {
+    "lemma": "Haltestelle",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "stop"
+    ],
+    "exampleDe": "An der nächsten Haltestelle müssen Sie aussteigen.",
+    "noun": {
+      "article": "die",
+      "plural": "Haltestellen"
+    }
+  },
+  {
+    "lemma": "Hand",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "hand"
+    ],
+    "exampleDe": "Wasch dir bitte die Hände vor dem Essen.",
+    "noun": {
+      "article": "die",
+      "plural": "Hände"
+    }
+  },
+  {
+    "lemma": "Handtuch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "towel"
+    ],
+    "exampleDe": "Gibst du mir bitte ein frisches Handtuch?",
+    "noun": {
+      "article": "das",
+      "plural": "Handtücher"
+    }
+  },
+  {
+    "lemma": "Handy",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "mobile"
+    ],
+    "exampleDe": "In der Schule bitte die Handys ausmachen!",
+    "noun": {
+      "article": "das",
+      "plural": "Handys"
+    }
+  },
+  {
+    "lemma": "Hauptstadt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "capital"
+    ],
+    "exampleDe": "Berlin ist die Hauptstadt von Deutschland.",
+    "noun": {
+      "article": "die",
+      "plural": "Hauptstädte"
+    }
+  },
+  {
+    "lemma": "Haus",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "house"
+    ],
+    "exampleDe": "In welchem Haus wohnst du?",
+    "noun": {
+      "article": "das",
+      "plural": "Häuser"
+    }
+  },
+  {
+    "lemma": "Haushalt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "household"
+    ],
+    "exampleDe": "Wer macht bei euch den Haushalt? - Meine Frau und ich machen den Haushalt zusammen: Ich wasche die Wäsche und sie putzt und räumt auf.",
+    "noun": {
+      "article": "der",
+      "plural": "Haushalte"
+    }
+  },
+  {
+    "lemma": "Heft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "notebook"
+    ],
+    "exampleDe": "Hast du dein Heft dabei?",
+    "noun": {
+      "article": "das",
+      "plural": "Hefte"
+    }
+  },
+  {
+    "lemma": "Hobby",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "hobby"
+    ],
+    "exampleDe": "Meine Hobbys sind Joggen und Schwimmen.",
+    "noun": {
+      "article": "das",
+      "plural": "Hobbys"
+    }
+  },
+  {
+    "lemma": "Hochzeit",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "wedding"
+    ],
+    "exampleDe": "Zu seiner Hochzeit kommen mehr als einhundert Gäste.",
+    "noun": {
+      "article": "die",
+      "plural": "Hochzeiten"
+    }
+  },
+  {
+    "lemma": "Heizung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "heater"
+    ],
+    "exampleDe": "Es ist kalt. Ist die Heizung kaputt?",
+    "noun": {
+      "article": "die",
+      "plural": "Heizungen"
+    }
+  },
+  {
+    "lemma": "Homepage",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "homepage"
+    ],
+    "exampleDe": "Auf der Homepage von Freiburg gibt es alle wichtigen Informationen über die Stadt.",
+    "noun": {
+      "article": "die",
+      "plural": "Homepages"
+    }
+  },
+  {
+    "lemma": "Hose",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "trousers"
+    ],
+    "exampleDe": "Kann ich die Hose waschen?",
+    "noun": {
+      "article": "die",
+      "plural": "Hosen"
+    }
+  },
+  {
+    "lemma": "Hemd",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "shirt"
+    ],
+    "exampleDe": "Nick trägt heute ein neues Hemd.",
+    "noun": {
+      "article": "das",
+      "plural": "Hemden"
+    }
+  },
+  {
+    "lemma": "Hotel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "hotel"
+    ],
+    "exampleDe": "Im Urlaub sind wir in einem Hotel am Meer.",
+    "noun": {
+      "article": "das",
+      "plural": "Hotels"
+    }
+  },
+  {
+    "lemma": "Hund",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "dog"
+    ],
+    "exampleDe": "Magst du Hunde?",
+    "noun": {
+      "article": "der",
+      "plural": "Hunde"
+    }
+  },
+  {
+    "lemma": "Idee",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "idea"
+    ],
+    "exampleDe": "Was machen wir heute Abend? Hast du eine gute Idee?",
+    "noun": {
+      "article": "die",
+      "plural": "Ideen"
+    }
+  },
+  {
+    "lemma": "Junge",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Boy"
+    ],
+    "exampleDe": "In der Klasse von meiner Tochter sind 13 Jungen und 15 Mädchen.",
+    "noun": {
+      "article": "der",
+      "plural": "Jungen"
+    }
+  },
+  {
+    "lemma": "Information",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "information"
+    ],
+    "exampleDe": "Wir haben hier einige wichtige Informationen für Sie.",
+    "noun": {
+      "article": "die",
+      "plural": "Informationen"
+    }
+  },
+  {
+    "lemma": "Kaffee",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "coffee"
+    ],
+    "exampleDe": "Zum Frühstück trinke ich immer Kaffee.",
+    "noun": {
+      "article": "der",
+      "plural": "Kaffees"
+    }
+  },
+  {
+    "lemma": "Kalender",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "calendar"
+    ],
+    "exampleDe": "Haben Sie am Montag Zeit? - Einen Moment, ich schaue in meinem Kalender.",
+    "noun": {
+      "article": "der",
+      "plural": "Kalender"
+    }
+  },
+  {
+    "lemma": "Insel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "island"
+    ],
+    "exampleDe": "Ich möchte im Sommer auf einer Insel Urlaub machen.",
+    "noun": {
+      "article": "die",
+      "plural": "Inseln"
+    }
+  },
+  {
+    "lemma": "Instrument",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "instrument"
+    ],
+    "exampleDe": "Ich spiele Klavier. Spielen Sie auch ein Instrument?",
+    "noun": {
+      "article": "das",
+      "plural": "Instrumente"
+    }
+  },
+  {
+    "lemma": "Kamera",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "camera"
+    ],
+    "exampleDe": "Hannes hat eine neue Kamera. Er kann mit der Kamera Fotos und Filme machen.",
+    "noun": {
+      "article": "die",
+      "plural": "Kameras"
+    }
+  },
+  {
+    "lemma": "Interesse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "interest"
+    ],
+    "exampleDe": "Ich habe viele Interessen: Sport, Lesen, Kultur, Reisen.",
+    "noun": {
+      "article": "das",
+      "plural": "Interessen"
+    }
+  },
+  {
+    "lemma": "Karte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "map"
+    ],
+    "exampleDe": "Ich schreibe meinen Bekannten eine Karte aus dem Urlaub.",
+    "noun": {
+      "article": "die",
+      "plural": "Karten"
+    }
+  },
+  {
+    "lemma": "Kartoffel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "potato"
+    ],
+    "exampleDe": "Für Pommes frites braucht man Kartoffeln.",
+    "noun": {
+      "article": "die",
+      "plural": "Kartoffeln"
+    }
+  },
+  {
+    "lemma": "Kasse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cash register"
+    ],
+    "exampleDe": "Zahlen Sie bitte an der Kasse.",
+    "noun": {
+      "article": "die",
+      "plural": "Kassen"
+    }
+  },
+  {
+    "lemma": "Katze",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cat"
+    ],
+    "exampleDe": "Meine Tochter wünscht sich eine Katze.",
+    "noun": {
+      "article": "die",
+      "plural": "Katzen"
+    }
+  },
+  {
+    "lemma": "Interview",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "interview"
+    ],
+    "exampleDe": "Komm schnell! Im Radio kommt ein Interview mit deinem Lieblingssänger.",
+    "noun": {
+      "article": "das",
+      "plural": "Interviews"
+    }
+  },
+  {
+    "lemma": "Kaufhaus",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "department store"
+    ],
+    "exampleDe": "Meine Pullover kaufe ich immer im Kaufhaus Hertie.",
+    "noun": {
+      "article": "das",
+      "plural": "Kaufhäuser"
+    }
+  },
+  {
+    "lemma": "Jacke",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "jacket"
+    ],
+    "exampleDe": "Zieh dir eine Jacke an. Es ist kalt.",
+    "noun": {
+      "article": "die",
+      "plural": "Jacken"
+    }
+  },
+  {
+    "lemma": "Keller",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "basement",
+      "cellar"
+    ],
+    "exampleDe": "Bitte bring die Kartoffeln in den Keller!",
+    "noun": {
+      "article": "der",
+      "plural": "Keller"
+    }
+  },
+  {
+    "lemma": "Job",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "job"
+    ],
+    "exampleDe": "Jenny hat einen neuen Job bei der Post.",
+    "noun": {
+      "article": "der",
+      "plural": "Jobs"
+    }
+  },
+  {
+    "lemma": "Kette",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "chain"
+    ],
+    "exampleDe": "Meine Mutter bekommt eine schöne Kette zum Geburtstag.",
+    "noun": {
+      "article": "die",
+      "plural": "Ketten"
+    }
+  },
+  {
+    "lemma": "Jugendherberge",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "youth hostel"
+    ],
+    "exampleDe": "Wir übernachten in einer Jugendherberge.",
+    "noun": {
+      "article": "die",
+      "plural": "Jugendherbergen"
+    }
+  },
+  {
+    "lemma": "Kind",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "child"
+    ],
+    "exampleDe": "Wie viele Kinder haben Sie?",
+    "noun": {
+      "article": "das",
+      "plural": "Kinder"
+    }
+  },
+  {
+    "lemma": "Jugendliche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "Youth"
+    ],
+    "exampleDe": "Viele Jugendliche hören den ganzen Tag Musik.",
+    "noun": {
+      "article": "der",
+      "plural": "Jugendlichen"
+    }
+  },
+  {
+    "lemma": "Kindergarten",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "kindergarten"
+    ],
+    "exampleDe": "Die kleine Laura geht schon in den Kindergarten.",
+    "noun": {
+      "article": "der",
+      "plural": "Kindergärten"
+    }
+  },
+  {
+    "lemma": "Kino",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "movie theater"
+    ],
+    "exampleDe": "Gehen wir heute Abend zusammen ins Kino?",
+    "noun": {
+      "article": "das",
+      "plural": "Kinos"
+    }
+  },
+  {
+    "lemma": "Kiosk",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "kiosk"
+    ],
+    "exampleDe": "Zeitungen kannst du am Kiosk kaufen.",
+    "noun": {
+      "article": "der",
+      "plural": "Kioske"
+    }
+  },
+  {
+    "lemma": "Kirche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "church"
+    ],
+    "exampleDe": "Diese Kirche ist fast 800 Jahre alt.",
+    "noun": {
+      "article": "die",
+      "plural": "Kirchen"
+    }
+  },
+  {
+    "lemma": "Krankenhaus",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "hospital"
+    ],
+    "exampleDe": "Meine Tante ist im Krankenhaus.",
+    "noun": {
+      "article": "das",
+      "plural": "Krankenhäuser"
+    }
+  },
+  {
+    "lemma": "Krankenkasse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "health insurance"
+    ],
+    "exampleDe": "Bei welcher Krankenkasse sind Sie?",
+    "noun": {
+      "article": "die",
+      "plural": "Krankenkassen"
+    }
+  },
+  {
+    "lemma": "Krankheit",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "illness"
+    ],
+    "exampleDe": "Welche Krankheit hat Herr Brandner?",
+    "noun": {
+      "article": "die",
+      "plural": "Krankheiten"
+    }
+  },
+  {
+    "lemma": "Kredit",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "credit"
+    ],
+    "exampleDe": "Ich brauche einen Kredit von der Bank.",
+    "noun": {
+      "article": "der",
+      "plural": "Kredite"
+    }
+  },
+  {
+    "lemma": "Klavier",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "piano"
+    ],
+    "exampleDe": "Jakob kann sehr gut Klavier spielen.",
+    "noun": {
+      "article": "das",
+      "plural": "Klaviere"
+    }
+  },
+  {
+    "lemma": "Kleid",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "dress"
+    ],
+    "exampleDe": "Julia möchte ein rotes Kleid kaufen.",
+    "noun": {
+      "article": "das",
+      "plural": "Kleider"
+    }
+  },
+  {
+    "lemma": "Kreuzung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "crossing"
+    ],
+    "exampleDe": "Fahren Sie an der nächsten Kreuzung rechts.",
+    "noun": {
+      "article": "die",
+      "plural": "Kreuzungen"
+    }
+  },
+  {
+    "lemma": "Krimi",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "thriller"
+    ],
+    "exampleDe": "Miriam liest gern spannende Krimis.",
+    "noun": {
+      "article": "der",
+      "plural": "Krimis"
+    }
+  },
+  {
+    "lemma": "Küche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "kitchen"
+    ],
+    "exampleDe": "Ich suche eine neue Wohnung mit drei Zimmern, Küche und Bad.",
+    "noun": {
+      "article": "die",
+      "plural": "Küchen"
+    }
+  },
+  {
+    "lemma": "Kuchen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "cake"
+    ],
+    "exampleDe": "Er ißt sonntags ein Stück Kuchen.",
+    "noun": {
+      "article": "der",
+      "plural": "Kuchen"
+    }
+  },
+  {
+    "lemma": "Koffer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "suitcase"
+    ],
+    "exampleDe": "Hast du den Koffer schon gepackt?",
+    "noun": {
+      "article": "der",
+      "plural": "Koffer"
+    }
+  },
+  {
+    "lemma": "Kühlschrank",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "fridge"
+    ],
+    "exampleDe": "Haben wir noch Milch? - Ja, im Kühlschrank.",
+    "noun": {
+      "article": "der",
+      "plural": "Kühlschränke"
+    }
+  },
+  {
+    "lemma": "Kollege",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male colleague",
+      "co-worker"
+    ],
+    "exampleDe": "Wie heißt der neue Kollege?",
+    "noun": {
+      "article": "der",
+      "plural": "Kollegen"
+    }
+  },
+  {
+    "lemma": "Kollegin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female colleague",
+      "co-worker"
+    ],
+    "exampleDe": "Wie heißt die neue Kollegin?",
+    "noun": {
+      "article": "die",
+      "plural": "Kolleginnen"
+    }
+  },
+  {
+    "lemma": "Kultur",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "culture"
+    ],
+    "exampleDe": "Ich finde fremde Länder und Kulturen sehr interessant.",
+    "noun": {
+      "article": "die",
+      "plural": "Kulturen"
+    }
+  },
+  {
+    "lemma": "Kunde",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male customer"
+    ],
+    "exampleDe": "Einen Moment, bitte. Ich habe einen Kunden.",
+    "noun": {
+      "article": "der",
+      "plural": "Kunden"
+    }
+  },
+  {
+    "lemma": "Kundin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female customer"
+    ],
+    "exampleDe": "Einen Moment, bitte. Ich habe eine Kundin.",
+    "noun": {
+      "article": "die",
+      "plural": "Kundinnen"
+    }
+  },
+  {
+    "lemma": "Kunst",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "art"
+    ],
+    "exampleDe": "Ich verstehe nichts von moderner Kunst.",
+    "noun": {
+      "article": "die",
+      "plural": "Künste"
+    }
+  },
+  {
+    "lemma": "Kontakt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "contact"
+    ],
+    "exampleDe": "Ich habe wenig Kontakt zu meinen Kollegen.",
+    "noun": {
+      "article": "der",
+      "plural": "Kontakte"
+    }
+  },
+  {
+    "lemma": "Konto",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "account"
+    ],
+    "exampleDe": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
+    "noun": {
+      "article": "das",
+      "plural": "Kontoen"
+    }
+  },
+  {
+    "lemma": "Kurs",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "course"
+    ],
+    "exampleDe": "Der Deutschkurs dauert zwei Monate.",
+    "noun": {
+      "article": "der",
+      "plural": "Kurse"
+    }
+  },
+  {
+    "lemma": "Konzert",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "concert"
+    ],
+    "exampleDe": "Für das Konzert am Sonntag gibt es noch Karten.",
+    "noun": {
+      "article": "das",
+      "plural": "Konzerte"
+    }
+  },
+  {
+    "lemma": "Kopf",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "head"
+    ],
+    "exampleDe": "Mein Kopf tut weh!",
+    "noun": {
+      "article": "der",
+      "plural": "Köpfe"
+    }
+  },
+  {
+    "lemma": "Laden",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "small shop"
+    ],
+    "exampleDe": "Ich kaufe meine Kleider immer in einem kleinen Laden im Zentrum.",
+    "noun": {
+      "article": "der",
+      "plural": "Läden"
+    }
+  },
+  {
+    "lemma": "Körper",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "body"
+    ],
+    "exampleDe": "Der Arzt sagt, ich muss etwas für meinen Körper tun, zum Beispiel schwimmen oder Fahrrad fahren.",
+    "noun": {
+      "article": "der",
+      "plural": "Körper"
+    }
+  },
+  {
+    "lemma": "Lampe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "lamp"
+    ],
+    "exampleDe": "Mach bitte die Lampe an. Es ist so dunkel.",
+    "noun": {
+      "article": "die",
+      "plural": "Lampen"
+    }
+  },
+  {
+    "lemma": "Land",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "country"
+    ],
+    "exampleDe": "Deutschland ist ein schönes Land.",
+    "noun": {
+      "article": "das",
+      "plural": "Länder"
+    }
+  },
+  {
+    "lemma": "Landschaft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "landscape"
+    ],
+    "exampleDe": "Die Landschaft ist sehr schön.",
+    "noun": {
+      "article": "die",
+      "plural": "Landschaften"
+    }
+  },
+  {
+    "lemma": "Link",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "link"
+    ],
+    "exampleDe": "Ich schicke dir einen Link zu Deutschübungen.",
+    "noun": {
+      "article": "der",
+      "plural": "Links"
+    }
+  },
+  {
+    "lemma": "Löffel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "spoon"
+    ],
+    "exampleDe": "Bitte bringen Sie mir einen Löffel.",
+    "noun": {
+      "article": "der",
+      "plural": "Löffel"
+    }
+  },
+  {
+    "lemma": "Lokal",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "pub",
+      "tavern",
+      "restaurant"
+    ],
+    "exampleDe": "Gibt es hier in der Nähe ein gutes Lokal?",
+    "noun": {
+      "article": "das",
+      "plural": "Lokale"
+    }
+  },
+  {
+    "lemma": "Lüge",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "lie"
+    ],
+    "exampleDe": "Das stimmt nicht! Das ist eine Lüge!",
+    "noun": {
+      "article": "die",
+      "plural": "Lügen"
+    }
+  },
+  {
+    "lemma": "Laptop",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "laptop"
+    ],
+    "exampleDe": "Ich brauche einen neuen Laptop.",
+    "noun": {
+      "article": "der",
+      "plural": "Laptops"
+    }
+  },
+  {
+    "lemma": "Mädchen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "girl"
+    ],
+    "exampleDe": "Familie Kurz bekommt ein Baby. - Junge oder Mädchen?",
+    "noun": {
+      "article": "das",
+      "plural": "Mädchen"
+    }
+  },
+  {
+    "lemma": "Magen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "stomach"
+    ],
+    "exampleDe": "Mein Magen tut weh.",
+    "noun": {
+      "article": "der",
+      "plural": "Mägen"
+    }
+  },
+  {
+    "lemma": "Mailbox",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "mailbox"
+    ],
+    "exampleDe": "Hier ist die Mailbox von Susanne König.",
+    "noun": {
+      "article": "die",
+      "plural": "Mailboxen"
+    }
+  },
+  {
+    "lemma": "Mann",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "man"
+    ],
+    "exampleDe": "Mein Mann ist Polizist.",
+    "noun": {
+      "article": "der",
+      "plural": "Männer"
+    }
+  },
+  {
+    "lemma": "Mannschaft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "team"
+    ],
+    "exampleDe": "Meine Lieblingsmannschaft hat 1 zu 0 verloren.",
+    "noun": {
+      "article": "die",
+      "plural": "Mannschaften"
+    }
+  },
+  {
+    "lemma": "Mantel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "coat"
+    ],
+    "exampleDe": "Es ist kalt. Zieh deinen Mantel an!",
+    "noun": {
+      "article": "der",
+      "plural": "Mäntel"
+    }
+  },
+  {
+    "lemma": "Markt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "market"
+    ],
+    "exampleDe": "Ich gehe heute auf den Markt.",
+    "noun": {
+      "article": "der",
+      "plural": "Märkte"
+    }
+  },
+  {
+    "lemma": "Licht",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "light"
+    ],
+    "exampleDe": "Es ist so dunkel. Mach bitte das Licht an!",
+    "noun": {
+      "article": "das",
+      "plural": "Lichter"
+    }
+  },
+  {
+    "lemma": "Maschine",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "machine"
+    ],
+    "exampleDe": "Die Waschmaschine funktioniert sehr gut.",
+    "noun": {
+      "article": "die",
+      "plural": "Maschinen"
+    }
+  },
+  {
+    "lemma": "Meer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "sea"
+    ],
+    "exampleDe": "Wir machen Urlaub am Meer.",
+    "noun": {
+      "article": "das",
+      "plural": "Meere"
+    }
+  },
+  {
+    "lemma": "Lied",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "song"
+    ],
+    "exampleDe": "Zum Geburtstag singen wir dir ein Lied.",
+    "noun": {
+      "article": "das",
+      "plural": "Lieder"
+    }
+  },
+  {
+    "lemma": "Meinung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "opinion"
+    ],
+    "exampleDe": "Meine Meinung zu dem Thema ist: …",
+    "noun": {
+      "article": "die",
+      "plural": "Meinungen"
+    }
+  },
+  {
+    "lemma": "Menge",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "amount"
+    ],
+    "exampleDe": "Wir haben noch eine Menge Zeit.",
+    "noun": {
+      "article": "die",
+      "plural": "Mengen"
+    }
+  },
+  {
+    "lemma": "Mensch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "human"
+    ],
+    "exampleDe": "Die Menschen sind hier ein bisschen anders als im Süden.",
+    "noun": {
+      "article": "der",
+      "plural": "Menschen"
+    }
+  },
+  {
+    "lemma": "Moment",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "moment"
+    ],
+    "exampleDe": "Einen Moment, bitte.",
+    "noun": {
+      "article": "der",
+      "plural": "Momente"
+    }
+  },
+  {
+    "lemma": "Motor",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "engine"
+    ],
+    "exampleDe": "Der Motor ist kaputt. Das Auto fährt nicht mehr.",
+    "noun": {
+      "article": "der",
+      "plural": "Motoren"
+    }
+  },
+  {
+    "lemma": "Motorroller",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "scooter"
+    ],
+    "exampleDe": "Oskar fährt mit dem Motorroller zur Arbeit.",
+    "noun": {
+      "article": "der",
+      "plural": "Motorroller"
+    }
+  },
+  {
+    "lemma": "Messe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "fair"
+    ],
+    "exampleDe": "Kommst du mit zur Buchmesse nach Frankfurt?",
+    "noun": {
+      "article": "die",
+      "plural": "Messen"
+    }
+  },
+  {
+    "lemma": "Messer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "knife"
+    ],
+    "exampleDe": "Das Messer schneidet nicht gut.",
+    "noun": {
+      "article": "das",
+      "plural": "Messer"
+    }
+  },
+  {
+    "lemma": "Miete",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "rental fee"
+    ],
+    "exampleDe": "Wie viel Miete bezahlst du für deine Wohnung?",
+    "noun": {
+      "article": "die",
+      "plural": "Mieten"
+    }
+  },
+  {
+    "lemma": "Mund",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "mouth"
+    ],
+    "exampleDe": "Öffnen Sie bitte den Mund. Ich möchte in Ihren Hals sehen.",
+    "noun": {
+      "article": "der",
+      "plural": "Münder"
+    }
+  },
+  {
+    "lemma": "Museum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "museum"
+    ],
+    "exampleDe": "Im Kunstmuseum gibt es eine neue Ausstellung.",
+    "noun": {
+      "article": "das",
+      "plural": "Museumeen"
+    }
+  },
+  {
+    "lemma": "Mütze",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cap"
+    ],
+    "exampleDe": "Haben Sie rote Mützen?",
+    "noun": {
+      "article": "die",
+      "plural": "Mützen"
+    }
+  },
+  {
+    "lemma": "Nachbar",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male neighbor"
+    ],
+    "exampleDe": "Mein Nachbar kommt aus Brasilien.",
+    "noun": {
+      "article": "der",
+      "plural": "Nachbarn"
+    }
+  },
+  {
+    "lemma": "Nachbarin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female neighbor"
+    ],
+    "exampleDe": "Meine Nachbarin ist Italienerin.",
+    "noun": {
+      "article": "die",
+      "plural": "Nachbarinnen"
+    }
+  },
+  {
+    "lemma": "Nachricht",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "message"
+    ],
+    "exampleDe": "Ich sehe abends immer die Nachrichten im Fernsehen.",
+    "noun": {
+      "article": "die",
+      "plural": "Nachrichten"
+    }
+  },
+  {
+    "lemma": "Mitarbeiter",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "employee"
+    ],
+    "exampleDe": "Unsere Firma hat sieben Mitarbeiter.",
+    "noun": {
+      "article": "der",
+      "plural": "Mitarbeiter"
+    }
+  },
+  {
+    "lemma": "Mittagessen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "lunch"
+    ],
+    "exampleDe": "Um zwölf Uhr gibt es Mittagessen.",
+    "noun": {
+      "article": "das",
+      "plural": "Mittagessen"
+    }
+  },
+  {
+    "lemma": "Mitte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "center"
+    ],
+    "exampleDe": "Den Schrank stellen wir an die Wand, den Tisch in die Mitte.",
+    "noun": {
+      "article": "die",
+      "plural": "Mitten"
+    }
+  },
+  {
+    "lemma": "Name",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "name"
+    ],
+    "exampleDe": "Wie ist Ihr Name?",
+    "noun": {
+      "article": "der",
+      "plural": "Namen"
+    }
+  },
+  {
+    "lemma": "Mittel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "medium"
+    ],
+    "exampleDe": "Haben Sie ein Mittel gegen Magenschmerzen?",
+    "noun": {
+      "article": "das",
+      "plural": "Mittel"
+    }
+  },
+  {
+    "lemma": "Mobiltelefon",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "mobile phone"
+    ],
+    "exampleDe": "Wie kann ich Sie erreichen? Haben Sie ein Mobiltelefon?",
+    "noun": {
+      "article": "das",
+      "plural": "Mobiltelefone"
+    }
+  },
+  {
+    "lemma": "Mode",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Fashion"
+    ],
+    "exampleDe": "Wie findest du die neue Mode?",
+    "noun": {
+      "article": "die",
+      "plural": "Moden"
+    }
+  },
+  {
+    "lemma": "Ohr",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "ear"
+    ],
+    "exampleDe": "Ich habe Ohrenschmerzen.",
+    "noun": {
+      "article": "das",
+      "plural": "Ohren"
+    }
+  },
+  {
+    "lemma": "Öl",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "oil"
+    ],
+    "exampleDe": "Machen wir den Salat mit Öl?",
+    "noun": {
+      "article": "das",
+      "plural": "Öle"
+    }
+  },
+  {
+    "lemma": "Orange",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "orange"
+    ],
+    "exampleDe": "Ich esse gern Orangen.",
+    "noun": {
+      "article": "die",
+      "plural": "Orangen"
+    }
+  },
+  {
+    "lemma": "Ordnung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "order"
+    ],
+    "exampleDe": "Er hat seine Hausaufgabe gut gemacht. Das ist alles in Ordnung.",
+    "noun": {
+      "article": "die",
+      "plural": "Ordnungen"
+    }
+  },
+  {
+    "lemma": "Ort",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "place"
+    ],
+    "exampleDe": "Vergessen Sie Ort und Datum nicht, wenn Sie einen Brief schreiben.",
+    "noun": {
+      "article": "der",
+      "plural": "Orte"
+    }
+  },
+  {
+    "lemma": "Note",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "grade"
+    ],
+    "exampleDe": "Eva hat immer sehr gute Noten in Deutsch.",
+    "noun": {
+      "article": "die",
+      "plural": "Noten"
+    }
+  },
+  {
+    "lemma": "Notiz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "note"
+    ],
+    "exampleDe": "Schreib mir bitte eine Notiz.",
+    "noun": {
+      "article": "die",
+      "plural": "Notizen"
+    }
+  },
+  {
+    "lemma": "Paar",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "Pair"
+    ],
+    "exampleDe": "Romeo und Julia sind ein Paar.",
+    "noun": {
+      "article": "das",
+      "plural": "Paare"
+    }
+  },
+  {
+    "lemma": "Nudel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "noodle"
+    ],
+    "exampleDe": "Möchten Sie lieber Reis oder Nudeln? - Lieber Nudeln, bitte.",
+    "noun": {
+      "article": "die",
+      "plural": "Nudeln"
+    }
+  },
+  {
+    "lemma": "Nummer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "number"
+    ],
+    "exampleDe": "Sie haben Zimmer Nummer zwölf.",
+    "noun": {
+      "article": "die",
+      "plural": "Nummern"
+    }
+  },
+  {
+    "lemma": "Paket",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "package"
+    ],
+    "exampleDe": "Bringst du bitte das Paket zur Post?",
+    "noun": {
+      "article": "das",
+      "plural": "Pakete"
+    }
+  },
+  {
+    "lemma": "Papier",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "paper"
+    ],
+    "exampleDe": "Hier sind Papier und Bleistift.",
+    "noun": {
+      "article": "das",
+      "plural": "Papiere"
+    }
+  },
+  {
+    "lemma": "Parfüm",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "perfume"
+    ],
+    "exampleDe": "Ich suche ein Parfum als Geschenk für meine Frau.",
+    "noun": {
+      "article": "das",
+      "plural": "Parfüms"
+    }
+  },
+  {
+    "lemma": "Park",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "park"
+    ],
+    "exampleDe": "Ich gehe gern im Park spazieren.",
+    "noun": {
+      "article": "der",
+      "plural": "Parks"
+    }
+  },
+  {
+    "lemma": "Partner",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male partner"
+    ],
+    "exampleDe": "Roland ist meine Partner.",
+    "noun": {
+      "article": "der",
+      "plural": "Partner"
+    }
+  },
+  {
+    "lemma": "Partnerin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female partner"
+    ],
+    "exampleDe": "Veronika ist meine Partnerin.",
+    "noun": {
+      "article": "die",
+      "plural": "Partnerinnen"
+    }
+  },
+  {
+    "lemma": "Party",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "party"
+    ],
+    "exampleDe": "Heute Abend machen wir eine Party.",
+    "noun": {
+      "article": "die",
+      "plural": "Partys"
+    }
+  },
+  {
+    "lemma": "Pass",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "passport"
+    ],
+    "exampleDe": "Am Flughafen brauchst du deinen Pass.",
+    "noun": {
+      "article": "der",
+      "plural": "Pässe"
+    }
+  },
+  {
+    "lemma": "Passwort",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "password"
+    ],
+    "exampleDe": "Bitte schreiben Sie Ihr Passwort.",
+    "noun": {
+      "article": "das",
+      "plural": "Passwörter"
+    }
+  },
+  {
+    "lemma": "Projekt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "project"
+    ],
+    "exampleDe": "Wir machen ein Projekt über Sehenswürdigkeiten in unserer Stadt.",
+    "noun": {
+      "article": "das",
+      "plural": "Projekte"
+    }
+  },
+  {
+    "lemma": "Pause",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "pause"
+    ],
+    "exampleDe": "Von 12.00 bis 12.30 Uhr haben wir Mittagspause.",
+    "noun": {
+      "article": "die",
+      "plural": "Pausen"
+    }
+  },
+  {
+    "lemma": "Prospekt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "brochure"
+    ],
+    "exampleDe": "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+    "noun": {
+      "article": "der",
+      "plural": "Prospekte"
+    }
+  },
+  {
+    "lemma": "Person",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "person"
+    ],
+    "exampleDe": "Eintritt pro Person: 5 Euro.",
+    "noun": {
+      "article": "die",
+      "plural": "Personen"
+    }
+  },
+  {
+    "lemma": "Pferd",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "horse"
+    ],
+    "exampleDe": "Amira liebt Pferde. Sie reitet seit zehn Jahren.",
+    "noun": {
+      "article": "das",
+      "plural": "Pferde"
+    }
+  },
+  {
+    "lemma": "Pflanze",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "plant"
+    ],
+    "exampleDe": "Können Sie sich bitte um unsere Pflanzen kümmern? Wir sind nächste Woche im Urlaub.",
+    "noun": {
+      "article": "die",
+      "plural": "Pflanzen"
+    }
+  },
+  {
+    "lemma": "Prüfung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "exam"
+    ],
+    "exampleDe": "Ich habe die Prüfung bestanden.",
+    "noun": {
+      "article": "die",
+      "plural": "Prüfungen"
+    }
+  },
+  {
+    "lemma": "Pullover",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "pullover"
+    ],
+    "exampleDe": "Ich muss mir einen Pullover kaufen.",
+    "noun": {
+      "article": "der",
+      "plural": "Pullover"
+    }
+  },
+  {
+    "lemma": "Pizza",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "pizza"
+    ],
+    "exampleDe": "Mein Lieblingsessen ist Pizza.",
+    "noun": {
+      "article": "die",
+      "plural": "Pizzas"
+    }
+  },
+  {
+    "lemma": "Plakat",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "poster"
+    ],
+    "exampleDe": "Wir machen im Unterricht ein Plakat zum Thema „Essen und Trinken“.",
+    "noun": {
+      "article": "das",
+      "plural": "Plakate"
+    }
+  },
+  {
+    "lemma": "Plan",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "plan"
+    ],
+    "exampleDe": "Ich kaufe mir einen Stadtplan.",
+    "noun": {
+      "article": "der",
+      "plural": "Pläne"
+    }
+  },
+  {
+    "lemma": "Platz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "place"
+    ],
+    "exampleDe": "Hier ist noch ein Platz frei.",
+    "noun": {
+      "article": "der",
+      "plural": "Plätze"
+    }
+  },
+  {
+    "lemma": "Qualität",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "quality"
+    ],
+    "exampleDe": "Dieser Fernseher hat eine gute Qualität.",
+    "noun": {
+      "article": "die",
+      "plural": "Qualitäten"
+    }
+  },
+  {
+    "lemma": "Radio",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "radio"
+    ],
+    "exampleDe": "Ich höre im Auto gern Radio.",
+    "noun": {
+      "article": "das",
+      "plural": "Radios"
+    }
+  },
+  {
+    "lemma": "Portion",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "portion"
+    ],
+    "exampleDe": "Ich nehme eine kleine Portion Eis.",
+    "noun": {
+      "article": "die",
+      "plural": "Portionen"
+    }
+  },
+  {
+    "lemma": "Poster",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "poster"
+    ],
+    "exampleDe": "Das Poster hängt über dem Bett.",
+    "noun": {
+      "article": "das",
+      "plural": "Poster"
+    }
+  },
+  {
+    "lemma": "Rathaus",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "town hall"
+    ],
+    "exampleDe": "Das Formular bekommen Sie im Rathaus.",
+    "noun": {
+      "article": "das",
+      "plural": "Rathäuser"
+    }
+  },
+  {
+    "lemma": "Postkarte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "postcard"
+    ],
+    "exampleDe": "Schreibst du mir eine Postkarte aus Kanada?",
+    "noun": {
+      "article": "die",
+      "plural": "Postkarten"
+    }
+  },
+  {
+    "lemma": "Postleitzahl",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "post code"
+    ],
+    "exampleDe": "Wie ist Ihre Postleitzahl?",
+    "noun": {
+      "article": "die",
+      "plural": "Postleitzahlen"
+    }
+  },
+  {
+    "lemma": "Rätsel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "mystery"
+    ],
+    "exampleDe": "Das Rätsel ist schwierig! Ich weiß die Antwort nicht.",
+    "noun": {
+      "article": "das",
+      "plural": "Rätsel"
+    }
+  },
+  {
+    "lemma": "Praktikum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "internship"
+    ],
+    "exampleDe": "Ich mache ein Praktikum bei Siemens.",
+    "noun": {
+      "article": "das",
+      "plural": "Praktikuma"
+    }
+  },
+  {
+    "lemma": "Raum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "room"
+    ],
+    "exampleDe": "Der Unterricht findet heute in Raum 332 statt.",
+    "noun": {
+      "article": "der",
+      "plural": "Räume"
+    }
+  },
+  {
+    "lemma": "Praxis",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "practice"
+    ],
+    "exampleDe": "Unsere Praxis ist ab acht Uhr geöffnet. Frau Doktor Weiß hat ab neun Uhr Sprechstunde.",
+    "noun": {
+      "article": "die",
+      "plural": "Praxisen"
+    }
+  },
+  {
+    "lemma": "Rechnung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "bill"
+    ],
+    "exampleDe": "Schicken Sie die Rechnung an mich.",
+    "noun": {
+      "article": "die",
+      "plural": "Rechnungen"
+    }
+  },
+  {
+    "lemma": "Preis",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "price"
+    ],
+    "exampleDe": "Die Preise sind hier viel höher als bei uns.",
+    "noun": {
+      "article": "der",
+      "plural": "Preise"
+    }
+  },
+  {
+    "lemma": "Problem",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "problem"
+    ],
+    "exampleDe": "Ich habe ein Problem. Können Sie mir bitte helfen?",
+    "noun": {
+      "article": "das",
+      "plural": "Probleme"
+    }
+  },
+  {
+    "lemma": "Reifen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "tire"
+    ],
+    "exampleDe": "Ich brauche neue Reifen für mein Auto.",
+    "noun": {
+      "article": "der",
+      "plural": "Reifen"
+    }
+  },
+  {
+    "lemma": "Produkt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "product"
+    ],
+    "exampleDe": "Unsere Produkte haben eine sehr hohe Qualität.",
+    "noun": {
+      "article": "das",
+      "plural": "Produkte"
+    }
+  },
+  {
+    "lemma": "Reihe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "line",
+      "row",
+      "queue"
+    ],
+    "exampleDe": "Ich habe Karten für das Konzert. Wir sitzen in der dritten Reihe.",
+    "noun": {
+      "article": "die",
+      "plural": "Reihen"
+    }
+  },
+  {
+    "lemma": "Programm",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "program"
+    ],
+    "exampleDe": "Dieses Programm im Radio interessiert mich nicht.",
+    "noun": {
+      "article": "das",
+      "plural": "Programme"
+    }
+  },
+  {
+    "lemma": "Reinigung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cleaning"
+    ],
+    "exampleDe": "Bringst du bitte die Bluse in die Reinigung? Man darf sie nicht in der Waschmaschine waschen.",
+    "noun": {
+      "article": "die",
+      "plural": "Reinigungen"
+    }
+  },
+  {
+    "lemma": "Reise",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "travel"
+    ],
+    "exampleDe": "Wir machen eine Reise nach Österreich.",
+    "noun": {
+      "article": "die",
+      "plural": "Reisen"
+    }
+  },
+  {
+    "lemma": "Reisebüro",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "travel agency"
+    ],
+    "exampleDe": "Wir buchen die Reise im Reisebüro.",
+    "noun": {
+      "article": "das",
+      "plural": "Reisebüros"
+    }
+  },
+  {
+    "lemma": "Reiseführer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "travel guide"
+    ],
+    "exampleDe": "Ich kaufe mir einen Reiseführer von Berlin.",
+    "noun": {
+      "article": "der",
+      "plural": "Reiseführer"
+    }
+  },
+  {
+    "lemma": "Rundgang",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "round tour",
+      "circut"
+    ],
+    "exampleDe": "Der Rundgang durch das Schloss beginnt in wenigen Minuten.",
+    "noun": {
+      "article": "der",
+      "plural": "Rundgänge"
+    }
+  },
+  {
+    "lemma": "Sache",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "thing"
+    ],
+    "exampleDe": "Ihr könnt eure Sachen im Hotel lassen.",
+    "noun": {
+      "article": "die",
+      "plural": "Sachen"
+    }
+  },
+  {
+    "lemma": "Saft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "juice"
+    ],
+    "exampleDe": "Möchtest du einen Apfelsaft?",
+    "noun": {
+      "article": "der",
+      "plural": "Säfte"
+    }
+  },
+  {
+    "lemma": "Rentner",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male pensioner"
+    ],
+    "exampleDe": "Mein Onkel arbeitet nicht mehr. Er ist Rentner.",
+    "noun": {
+      "article": "der",
+      "plural": "Rentner"
+    }
+  },
+  {
+    "lemma": "Rentnerin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female pensioner"
+    ],
+    "exampleDe": "Mein Tante arbeitet nicht mehr. Sie ist Rentnerin.",
+    "noun": {
+      "article": "die",
+      "plural": "Rentnerinnen"
+    }
+  },
+  {
+    "lemma": "Salat",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "salad"
+    ],
+    "exampleDe": "Wie schmeckt dir der Salat?",
+    "noun": {
+      "article": "der",
+      "plural": "Salate"
+    }
+  },
+  {
+    "lemma": "Salz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "salt"
+    ],
+    "exampleDe": "Entschuldigung, kann ich bitte Salz haben?",
+    "noun": {
+      "article": "das",
+      "plural": "Salze"
+    }
+  },
+  {
+    "lemma": "Reparatur",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "repair"
+    ],
+    "exampleDe": "Die Reparatur ist sehr teuer.",
+    "noun": {
+      "article": "die",
+      "plural": "Reparaturen"
+    }
+  },
+  {
+    "lemma": "Satz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "sentence"
+    ],
+    "exampleDe": "Den letzten Satz verstehe ich nicht.",
+    "noun": {
+      "article": "der",
+      "plural": "Sätze"
+    }
+  },
+  {
+    "lemma": "Rest",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "rest"
+    ],
+    "exampleDe": "Hier sind 50 Euro. Den Rest gebe ich dir später.",
+    "noun": {
+      "article": "der",
+      "plural": "Reste"
+    }
+  },
+  {
+    "lemma": "Restaurant",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "restaurant"
+    ],
+    "exampleDe": "Wir essen heute in einem Restaurant.",
+    "noun": {
+      "article": "das",
+      "plural": "Restaurants"
+    }
+  },
+  {
+    "lemma": "Rezept",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "recipe"
+    ],
+    "exampleDe": "Dieser Kuchen schmeckt super! Kannst du mir bitte das Rezept geben?",
+    "noun": {
+      "article": "das",
+      "plural": "Rezepte"
+    }
+  },
+  {
+    "lemma": "Schalter",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "switch"
+    ],
+    "exampleDe": "Gehen Sie bitte zum Schalter drei!",
+    "noun": {
+      "article": "der",
+      "plural": "Schalter"
+    }
+  },
+  {
+    "lemma": "Rezeption",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "reception"
+    ],
+    "exampleDe": "Geben Sie bitte den Schlüssel an der Rezeption ab.",
+    "noun": {
+      "article": "die",
+      "plural": "Rezeptionen"
+    }
+  },
+  {
+    "lemma": "Ring",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "ring"
+    ],
+    "exampleDe": "Ich habe meinen Ring verloren.",
+    "noun": {
+      "article": "der",
+      "plural": "Ringe"
+    }
+  },
+  {
+    "lemma": "Rock",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "skirt"
+    ],
+    "exampleDe": "Der Rock ist zu eng.",
+    "noun": {
+      "article": "der",
+      "plural": "Röcke"
+    }
+  },
+  {
+    "lemma": "Schere",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "scissors"
+    ],
+    "exampleDe": "Die Schere schneidet nicht gut. Hast du eine andere?",
+    "noun": {
+      "article": "die",
+      "plural": "Scheren"
+    }
+  },
+  {
+    "lemma": "Rose",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "rose"
+    ],
+    "exampleDe": "Er schenkt seiner Freundin rote Rosen zum Geburtstag.",
+    "noun": {
+      "article": "die",
+      "plural": "Rosen"
+    }
+  },
+  {
+    "lemma": "Rücken",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "back"
+    ],
+    "exampleDe": "Mein Rücken tut mir weh.",
+    "noun": {
+      "article": "der",
+      "plural": "Rücken"
+    }
+  },
+  {
+    "lemma": "Schiff",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "ship"
+    ],
+    "exampleDe": "Wir fahren mit dem Schiff von Basel nach Köln.",
+    "noun": {
+      "article": "das",
+      "plural": "Schiffe"
+    }
+  },
+  {
+    "lemma": "Rucksack",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "backpack"
+    ],
+    "exampleDe": "Ich nehme lieber einen Rucksack als einen Koffer mit.",
+    "noun": {
+      "article": "der",
+      "plural": "Rucksäcke"
+    }
+  },
+  {
+    "lemma": "Schild",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "sign"
+    ],
+    "exampleDe": "Haben Sie das Schild nicht gesehen?",
+    "noun": {
+      "article": "das",
+      "plural": "Schilder"
+    }
+  },
+  {
+    "lemma": "Schlafzimmer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bedroom"
+    ],
+    "exampleDe": "Hier ist das Schlafzimmer.",
+    "noun": {
+      "article": "das",
+      "plural": "Schlafzimmer"
+    }
+  },
+  {
+    "lemma": "Schüler",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male student",
+      "pupil"
+    ],
+    "exampleDe": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
+    "noun": {
+      "article": "der",
+      "plural": "Schüler"
+    }
+  },
+  {
+    "lemma": "Schülerin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female student",
+      "pupil"
+    ],
+    "exampleDe": "In meinem Kurs sind drei Schülerinnen.",
+    "noun": {
+      "article": "die",
+      "plural": "Schülerinnen"
+    }
+  },
+  {
+    "lemma": "Schwein",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "pig"
+    ],
+    "exampleDe": "Ich esse kein Schweinefleisch.",
+    "noun": {
+      "article": "das",
+      "plural": "Schweine"
+    }
+  },
+  {
+    "lemma": "Schloss",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "lock",
+      "castle"
+    ],
+    "exampleDe": "Am Wochenende besichtigen wir Schloss Neuschwanstein.",
+    "noun": {
+      "article": "das",
+      "plural": "Schlösser"
+    }
+  },
+  {
+    "lemma": "Schwimmbad",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "pool"
+    ],
+    "exampleDe": "Kommst du mit ins Schwimmbad?",
+    "noun": {
+      "article": "das",
+      "plural": "Schwimmbäder"
+    }
+  },
+  {
+    "lemma": "Schluss",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "ending",
+      "the end"
+    ],
+    "exampleDe": "Zum Schluss nochmals herzlichen Dank.",
+    "noun": {
+      "article": "der",
+      "plural": "Schlüsse"
+    }
+  },
+  {
+    "lemma": "See",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "lake"
+    ],
+    "exampleDe": "Morgen fahren wir mal an einen See schwimmen.",
+    "noun": {
+      "article": "der",
+      "plural": "Seen"
+    }
+  },
+  {
+    "lemma": "Schlüssel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "key"
+    ],
+    "exampleDe": "Ich gebe Ihnen noch den Zimmerschlüssel.",
+    "noun": {
+      "article": "der",
+      "plural": "Schlüssel"
+    }
+  },
+  {
+    "lemma": "Schmerz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "pain"
+    ],
+    "exampleDe": "Haben Sie Schmerzen?",
+    "noun": {
+      "article": "der",
+      "plural": "Schmerzen"
+    }
+  },
+  {
+    "lemma": "Sehenswürdigkeit",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "point of interest"
+    ],
+    "exampleDe": "Welche Sehenswürdigkeiten gibt es in Frankfurt?",
+    "noun": {
+      "article": "die",
+      "plural": "Sehenswürdigkeiten"
+    }
+  },
+  {
+    "lemma": "Seife",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "soap"
+    ],
+    "exampleDe": "Hier gibt es keine Seife.",
+    "noun": {
+      "article": "die",
+      "plural": "Seifen"
+    }
+  },
+  {
+    "lemma": "Schokolade",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "chocolate"
+    ],
+    "exampleDe": "Julia liebt Schokolade.",
+    "noun": {
+      "article": "die",
+      "plural": "Schokoladen"
+    }
+  },
+  {
+    "lemma": "Schrank",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "cupboard",
+      "closet"
+    ],
+    "exampleDe": "Die Gläser stehen im Schrank.",
+    "noun": {
+      "article": "der",
+      "plural": "Schränke"
+    }
+  },
+  {
+    "lemma": "Seite",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "page"
+    ],
+    "exampleDe": "Öffnen Sie das Kursbuch auf Seite 20.",
+    "noun": {
+      "article": "die",
+      "plural": "Seiten"
+    }
+  },
+  {
+    "lemma": "Sendung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "program",
+      "show",
+      "broadcast"
+    ],
+    "exampleDe": "Welche Sendungen schaust du gern an? - Ich mag Sportsendungen.",
+    "noun": {
+      "article": "die",
+      "plural": "Sendungen"
+    }
+  },
+  {
+    "lemma": "Schuh",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "shoe"
+    ],
+    "exampleDe": "Zieh die Schuhe aus!",
+    "noun": {
+      "article": "der",
+      "plural": "Schuhe"
+    }
+  },
+  {
+    "lemma": "Schule",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "school"
+    ],
+    "exampleDe": "Meine Tochter geht schon in die Schule.",
+    "noun": {
+      "article": "die",
+      "plural": "Schulen"
+    }
+  },
+  {
+    "lemma": "Situation",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "situation"
+    ],
+    "exampleDe": "Ich bin in einer schwierigen Situation. Ich weiß nicht, was ich tun soll.",
+    "noun": {
+      "article": "die",
+      "plural": "Situationen"
+    }
+  },
+  {
+    "lemma": "Sportplatz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "sports ground"
+    ],
+    "exampleDe": "Das Fußballtraining ist um 17 Uhr auf dem Sportplatz.",
+    "noun": {
+      "article": "der",
+      "plural": "Sportplätze"
+    }
+  },
+  {
+    "lemma": "Sprache",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "language"
+    ],
+    "exampleDe": "Welche Sprachen sprechen Sie?",
+    "noun": {
+      "article": "die",
+      "plural": "Sprachen"
+    }
+  },
+  {
+    "lemma": "Ski",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "ski"
+    ],
+    "exampleDe": "Gehen wir am Wochenende Ski fahren?",
+    "noun": {
+      "article": "der",
+      "plural": "Ski"
+    }
+  },
+  {
+    "lemma": "Sprechstunde",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "consultation hour"
+    ],
+    "exampleDe": "Frau Doktor Weiß hat von 9:00 bis 12:30 Uhr Sprechstunde.",
+    "noun": {
+      "article": "die",
+      "plural": "Sprechstunden"
+    }
+  },
+  {
+    "lemma": "Stadt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "city"
+    ],
+    "exampleDe": "Heidelberg ist eine alte Stadt.",
+    "noun": {
+      "article": "die",
+      "plural": "Städte"
+    }
+  },
+  {
+    "lemma": "Sofa",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "sofa"
+    ],
+    "exampleDe": "Das Sofa ist bequem.",
+    "noun": {
+      "article": "das",
+      "plural": "Sofas"
+    }
+  },
+  {
+    "lemma": "Stadtplan",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "map",
+      "city map"
+    ],
+    "exampleDe": "Haben Sie einen Stadtplan von Salzburg?",
+    "noun": {
+      "article": "der",
+      "plural": "Stadtpläne"
+    }
+  },
+  {
+    "lemma": "Star",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "star"
+    ],
+    "exampleDe": "Diese Sängerin ist ein Star in Deutschland.",
+    "noun": {
+      "article": "der",
+      "plural": "Stars"
+    }
+  },
+  {
+    "lemma": "Sonne",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "sun"
+    ],
+    "exampleDe": "Die Sonne scheint.",
+    "noun": {
+      "article": "die",
+      "plural": "Sonnen"
+    }
+  },
+  {
+    "lemma": "Stelle",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "location"
+    ],
+    "exampleDe": "Ich habe eine neue Stelle. Ich arbeite jetzt bei Mercedes.",
+    "noun": {
+      "article": "die",
+      "plural": "Stellen"
+    }
+  },
+  {
+    "lemma": "Stiefel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "boots"
+    ],
+    "exampleDe": "Wie viel kosten die roten Stiefel?",
+    "noun": {
+      "article": "der",
+      "plural": "Stiefel"
+    }
+  },
+  {
+    "lemma": "Stift",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "pen"
+    ],
+    "exampleDe": "Kannst du mir bitte einen Stift geben? - Was brauchst du? Einen Farbstift oder einen Bleistift oder einen Kugelschreiber?",
+    "noun": {
+      "article": "der",
+      "plural": "Stifte"
+    }
+  },
+  {
+    "lemma": "Stipendium",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "scholarship"
+    ],
+    "exampleDe": "Wenn ich ein gutes Zeugnis habe, bekomme ich ein Stipendium.",
+    "noun": {
+      "article": "das",
+      "plural": "Stipendiumen"
+    }
+  },
+  {
+    "lemma": "Stock",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "floor"
+    ],
+    "exampleDe": "Unsere Wohnung liegt im ersten Stock.",
+    "noun": {
+      "article": "der",
+      "plural": "Stöcke"
+    }
+  },
+  {
+    "lemma": "Stockwerk",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "level",
+      "floor"
+    ],
+    "exampleDe": "Das Gebäude hat zwanzig Stockwerke.",
+    "noun": {
+      "article": "das",
+      "plural": "Stockwerke"
+    }
+  },
+  {
+    "lemma": "Spaziergang",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "walk"
+    ],
+    "exampleDe": "Abends mache ich immer einen Spaziergang.",
+    "noun": {
+      "article": "der",
+      "plural": "Spaziergänge"
+    }
+  },
+  {
+    "lemma": "Strand",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "beach"
+    ],
+    "exampleDe": "Im Urlaub bin ich am liebsten am Strand.",
+    "noun": {
+      "article": "der",
+      "plural": "Strände"
+    }
+  },
+  {
+    "lemma": "Straße",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "road"
+    ],
+    "exampleDe": "In welcher Straße wohnen Sie?",
+    "noun": {
+      "article": "die",
+      "plural": "Straßen"
+    }
+  },
+  {
+    "lemma": "Straßenbahn",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "tram"
+    ],
+    "exampleDe": "Fahren wir mit der Straßenbahn oder mit der U-Bahn?",
+    "noun": {
+      "article": "die",
+      "plural": "Straßenbahnen"
+    }
+  },
+  {
+    "lemma": "Speisekarte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "menu"
+    ],
+    "exampleDe": "Entschuldigung, bringen Sie uns bitte die Speisekarte.",
+    "noun": {
+      "article": "die",
+      "plural": "Speisekarten"
+    }
+  },
+  {
+    "lemma": "Spiel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "game"
+    ],
+    "exampleDe": "Welche Kartenspiele kennen Sie?",
+    "noun": {
+      "article": "das",
+      "plural": "Spiele"
+    }
+  },
+  {
+    "lemma": "Stück",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "piece"
+    ],
+    "exampleDe": "Möchten Sie noch ein Stück Kuchen?",
+    "noun": {
+      "article": "das",
+      "plural": "Stücke"
+    }
+  },
+  {
+    "lemma": "Telefon",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "phone"
+    ],
+    "exampleDe": "Darf ich bitte Ihr Telefon benutzen?",
+    "noun": {
+      "article": "das",
+      "plural": "Telefone"
+    }
+  },
+  {
+    "lemma": "Student",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male student"
+    ],
+    "exampleDe": "Ich bin Student.",
+    "noun": {
+      "article": "der",
+      "plural": "Studenten"
+    }
+  },
+  {
+    "lemma": "Studentin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female student"
+    ],
+    "exampleDe": "Ich bin Studentin.",
+    "noun": {
+      "article": "die",
+      "plural": "Studentinnen"
+    }
+  },
+  {
+    "lemma": "Teller",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "plate"
+    ],
+    "exampleDe": "Möchtest du noch einen Teller Suppe?",
+    "noun": {
+      "article": "der",
+      "plural": "Teller"
+    }
+  },
+  {
+    "lemma": "Stuhl",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "chair"
+    ],
+    "exampleDe": "Ist der Stuhl frei?",
+    "noun": {
+      "article": "der",
+      "plural": "Stühle"
+    }
+  },
+  {
+    "lemma": "Termin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "meeting"
+    ],
+    "exampleDe": "Am besten machen wir sofort einen Termin.",
+    "noun": {
+      "article": "der",
+      "plural": "Termine"
+    }
+  },
+  {
+    "lemma": "Text",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "text"
+    ],
+    "exampleDe": "Lesen Sie bitte den Text.",
+    "noun": {
+      "article": "der",
+      "plural": "Texte"
+    }
+  },
+  {
+    "lemma": "Theater",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "theatre"
+    ],
+    "exampleDe": "Ich gehe nicht gern ins Theater.",
+    "noun": {
+      "article": "das",
+      "plural": "Theater"
+    }
+  },
+  {
+    "lemma": "Thema",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "subject",
+      "topic"
+    ],
+    "exampleDe": "Heute heißt unser Thema: „Essen und Trinken“.",
+    "noun": {
+      "article": "das",
+      "plural": "Themaen"
+    }
+  },
+  {
+    "lemma": "Ticket",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "ticket"
+    ],
+    "exampleDe": "Wie viel kostet das Ticket?",
+    "noun": {
+      "article": "das",
+      "plural": "Tickets"
+    }
+  },
+  {
+    "lemma": "Supermarkt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "supermarket"
+    ],
+    "exampleDe": "Ich kaufe oft im Supermarkt ein.",
+    "noun": {
+      "article": "der",
+      "plural": "Supermärkte"
+    }
+  },
+  {
+    "lemma": "Suppe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "soup"
+    ],
+    "exampleDe": "Schmeckt dir die Suppe?",
+    "noun": {
+      "article": "die",
+      "plural": "Suppen"
+    }
+  },
+  {
+    "lemma": "Tier",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "animal"
+    ],
+    "exampleDe": "Wir dürfen keine Tiere in der Wohnung haben.",
+    "noun": {
+      "article": "das",
+      "plural": "Tiere"
+    }
+  },
+  {
+    "lemma": "Tipp",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "tip"
+    ],
+    "exampleDe": "Kannst du mir einen guten Tipp geben?",
+    "noun": {
+      "article": "der",
+      "plural": "Tipps"
+    }
+  },
+  {
+    "lemma": "Tisch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "table"
+    ],
+    "exampleDe": "Das Essen steht schon auf dem Tisch.",
+    "noun": {
+      "article": "der",
+      "plural": "Tische"
+    }
+  },
+  {
+    "lemma": "Titel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "title"
+    ],
+    "exampleDe": "Wie heißt der Film? - Ich weiß den Titel nicht mehr.",
+    "noun": {
+      "article": "der",
+      "plural": "Titel"
+    }
+  },
+  {
+    "lemma": "Toilette",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "toilet"
+    ],
+    "exampleDe": "Wo ist die Toilette, bitte?",
+    "noun": {
+      "article": "die",
+      "plural": "Toiletten"
+    }
+  },
+  {
+    "lemma": "Tomate",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "tomato"
+    ],
+    "exampleDe": "Die Tomate ist noch grün.",
+    "noun": {
+      "article": "die",
+      "plural": "Tomaten"
+    }
+  },
+  {
+    "lemma": "Topf",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "pot"
+    ],
+    "exampleDe": "Hast du keinen größeren Topf? Ich möchte Kartoffeln kochen.",
+    "noun": {
+      "article": "der",
+      "plural": "Töpfe"
+    }
+  },
+  {
+    "lemma": "Tablet",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "tablet"
+    ],
+    "exampleDe": "Hast du ein Tablet? - Nein, ich habe einen Laptop und ein Handy.",
+    "noun": {
+      "article": "das",
+      "plural": "Tablets"
+    }
+  },
+  {
+    "lemma": "Tablette",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "pill",
+      "tablet"
+    ],
+    "exampleDe": "Du sollst am Abend zwei Tabletten nehmen.",
+    "noun": {
+      "article": "die",
+      "plural": "Tabletten"
+    }
+  },
+  {
+    "lemma": "Torte",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cake"
+    ],
+    "exampleDe": "Zum Geburtstag backe ich dir eine Torte.",
+    "noun": {
+      "article": "die",
+      "plural": "Torten"
+    }
+  },
+  {
+    "lemma": "Tafel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "whiteboard"
+    ],
+    "exampleDe": "Der Lehrer schreibt das neue Wort an die Tafel.",
+    "noun": {
+      "article": "die",
+      "plural": "Tafeln"
+    }
+  },
+  {
+    "lemma": "Tour",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "trip"
+    ],
+    "exampleDe": "Wo kann ich eine Stadttour buchen?",
+    "noun": {
+      "article": "die",
+      "plural": "Touren"
+    }
+  },
+  {
+    "lemma": "Tasche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "bag"
+    ],
+    "exampleDe": "Ich habe die Schlüssel in der Tasche.",
+    "noun": {
+      "article": "die",
+      "plural": "Taschen"
+    }
+  },
+  {
+    "lemma": "Tourist",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "male tourist"
+    ],
+    "exampleDe": "Im Sommer kommen viele Touristen in diese Stadt.",
+    "noun": {
+      "article": "der",
+      "plural": "Touristen"
+    }
+  },
+  {
+    "lemma": "Touristin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "female tourist"
+    ],
+    "exampleDe": "Die Touristin trägt ein schönes Kleid.",
+    "noun": {
+      "article": "die",
+      "plural": "Touristinnen"
+    }
+  },
+  {
+    "lemma": "Tasse",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cup"
+    ],
+    "exampleDe": "Möchten Sie eine Tasse Kaffee?",
+    "noun": {
+      "article": "die",
+      "plural": "Tassen"
+    }
+  },
+  {
+    "lemma": "Taxi",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "taxi"
+    ],
+    "exampleDe": "Bitte rufen Sie mir ein Taxi.",
+    "noun": {
+      "article": "das",
+      "plural": "Taxis"
+    }
+  },
+  {
+    "lemma": "Training",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "training"
+    ],
+    "exampleDe": "Das Training ist immer dienstags.",
+    "noun": {
+      "article": "das",
+      "plural": "Trainings"
+    }
+  },
+  {
+    "lemma": "Traum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "dream"
+    ],
+    "exampleDe": "Ich möchte eine eigene Firma, das ist mein Traum.",
+    "noun": {
+      "article": "der",
+      "plural": "Träume"
+    }
+  },
+  {
+    "lemma": "Team",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "team"
+    ],
+    "exampleDe": "Ich arbeite gern in einem Team.",
+    "noun": {
+      "article": "das",
+      "plural": "Teams"
+    }
+  },
+  {
+    "lemma": "Tee",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "tea"
+    ],
+    "exampleDe": "Ich trinke morgens immer Tee.",
+    "noun": {
+      "article": "der",
+      "plural": "Tees"
+    }
+  },
+  {
+    "lemma": "Treppe",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "stairway"
+    ],
+    "exampleDe": "Ich nehme die Treppe, nicht den Aufzug.",
+    "noun": {
+      "article": "die",
+      "plural": "Treppen"
+    }
+  },
+  {
+    "lemma": "Unfall",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "accident"
+    ],
+    "exampleDe": "Ich hatte gestern einen Unfall.",
+    "noun": {
+      "article": "der",
+      "plural": "Unfälle"
+    }
+  },
+  {
+    "lemma": "Universität",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "university"
+    ],
+    "exampleDe": "Er studiert an der Universität Freiburg.",
+    "noun": {
+      "article": "die",
+      "plural": "Universitäten"
+    }
+  },
+  {
+    "lemma": "T-Shirt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "T-Shirt"
+    ],
+    "exampleDe": "Haben Sie dieses T-Shirt auch in M?",
+    "noun": {
+      "article": "das",
+      "plural": "T-Shirts"
+    }
+  },
+  {
+    "lemma": "Tür",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "door"
+    ],
+    "exampleDe": "Mach bitte die Tür zu!",
+    "noun": {
+      "article": "die",
+      "plural": "Türen"
+    }
+  },
+  {
+    "lemma": "Unterkunft",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "accommodation"
+    ],
+    "exampleDe": "Ich suche noch eine Unterkunft in Basel. Kennst du ein günstiges Hotel?",
+    "noun": {
+      "article": "die",
+      "plural": "Unterkünfte"
+    }
+  },
+  {
+    "lemma": "Unterschied",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "difference"
+    ],
+    "exampleDe": "Was ist der Unterschied zwischen den beiden Kursen? - Die Kurse sind gleich. Es gibt keinen Unterschied.",
+    "noun": {
+      "article": "der",
+      "plural": "Unterschiede"
+    }
+  },
+  {
+    "lemma": "Unterschrift",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "signature"
+    ],
+    "exampleDe": "Hier fehlt noch Ihre Unterschrift.",
+    "noun": {
+      "article": "die",
+      "plural": "Unterschriften"
+    }
+  },
+  {
+    "lemma": "Urlaub",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "vacation"
+    ],
+    "exampleDe": "Ich nehme im September Urlaub.",
+    "noun": {
+      "article": "der",
+      "plural": "Urlaube"
+    }
+  },
+  {
+    "lemma": "Übersetzung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "translation"
+    ],
+    "exampleDe": "Ich brauche eine Übersetzung von meinem Zeugnis.",
+    "noun": {
+      "article": "die",
+      "plural": "Übersetzungen"
+    }
+  },
+  {
+    "lemma": "Uhr",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "Clock"
+    ],
+    "exampleDe": "Es ist vier Uhr.",
+    "noun": {
+      "article": "die",
+      "plural": "Uhren"
+    }
+  },
+  {
+    "lemma": "Veranstaltung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "event"
+    ],
+    "exampleDe": "Am Samstag ist unser Restaurant geschlossen. Wir haben eine Veranstaltung.",
+    "noun": {
+      "article": "die",
+      "plural": "Veranstaltungen"
+    }
+  },
+  {
+    "lemma": "Verein",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "union",
+      "club"
+    ],
+    "exampleDe": "Er ist seit vielen Jahren im Verein.",
+    "noun": {
+      "article": "der",
+      "plural": "Vereine"
+    }
+  },
+  {
+    "lemma": "Umzug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "move"
+    ],
+    "exampleDe": "Der Umzug ist nächste Woche.",
+    "noun": {
+      "article": "der",
+      "plural": "Umzüge"
+    }
+  },
+  {
+    "lemma": "Volleyball",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "volleyball"
+    ],
+    "exampleDe": "Ich spiele gern Volleyball.",
+    "noun": {
+      "article": "der",
+      "plural": "Volleybälle"
+    }
+  },
+  {
+    "lemma": "Verkehrsmittel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "means of transport"
+    ],
+    "exampleDe": "Welche Verkehrsmittel benutzen Sie oft?",
+    "noun": {
+      "article": "das",
+      "plural": "Verkehrsmittel"
+    }
+  },
+  {
+    "lemma": "Vorname",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "first given name"
+    ],
+    "exampleDe": "Ich heiße Müller, mein Vorname ist Eva.",
+    "noun": {
+      "article": "der",
+      "plural": "Vornamen"
+    }
+  },
+  {
+    "lemma": "Vorschlag",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "suggestion"
+    ],
+    "exampleDe": "Was machen wir am Wochenende? Hast du einen guten Vorschlag? - Wir können ins Kino gehen.",
+    "noun": {
+      "article": "der",
+      "plural": "Vorschläge"
+    }
+  },
+  {
+    "lemma": "Vermieter",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "landlord"
+    ],
+    "exampleDe": "Unser Vermieter ist nett.",
+    "noun": {
+      "article": "der",
+      "plural": "Vermieter"
+    }
+  },
+  {
+    "lemma": "Vermieterin",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "landlady"
+    ],
+    "exampleDe": "Usere Vermiterin ist schon sehr alt.",
+    "noun": {
+      "article": "die",
+      "plural": "Vermieterinnen"
+    }
+  },
+  {
+    "lemma": "Wagen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "car",
+      "carriage",
+      "wagon"
+    ],
+    "exampleDe": "Wo steht Ihr Wagen?",
+    "noun": {
+      "article": "der",
+      "plural": "Wagen"
+    }
+  },
+  {
+    "lemma": "Verspätung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "delay"
+    ],
+    "exampleDe": "Unser Zug hat leider 15 Minuten Verspätung.",
+    "noun": {
+      "article": "die",
+      "plural": "Verspätungen"
+    }
+  },
+  {
+    "lemma": "Wald",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "forest"
+    ],
+    "exampleDe": "Im Wald ist es ruhig.",
+    "noun": {
+      "article": "der",
+      "plural": "Wälder"
+    }
+  },
+  {
+    "lemma": "Vertrag",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "contract"
+    ],
+    "exampleDe": "Ich muss den Vertrag noch unterschreiben.",
+    "noun": {
+      "article": "der",
+      "plural": "Verträge"
+    }
+  },
+  {
+    "lemma": "Vogel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "bird"
+    ],
+    "exampleDe": "Nadine mag Vögel.",
+    "noun": {
+      "article": "der",
+      "plural": "Vögel"
+    }
+  },
+  {
+    "lemma": "Wäsche",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cloths",
+      "laundry"
+    ],
+    "exampleDe": "Ich muss noch Wäsche waschen.",
+    "noun": {
+      "article": "die",
+      "plural": "Wäschen"
+    }
+  },
+  {
+    "lemma": "Werkstatt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "workshop"
+    ],
+    "exampleDe": "Mein Auto ist kaputt. Es ist in der Werkstatt.",
+    "noun": {
+      "article": "die",
+      "plural": "Werkstätten"
+    }
+  },
+  {
+    "lemma": "Wettbewerb",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "competition"
+    ],
+    "exampleDe": "Mein Sohn hat bei einem Wettbewerb gewonnen.",
+    "noun": {
+      "article": "der",
+      "plural": "Wettbewerbe"
+    }
+  },
+  {
+    "lemma": "Webseite",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "website"
+    ],
+    "exampleDe": "Es gibt viele Webseiten mit Grammatikübungen.",
+    "noun": {
+      "article": "die",
+      "plural": "Webseiten"
+    }
+  },
+  {
+    "lemma": "Wiederhören",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "Goodbye"
+    ],
+    "exampleDe": "Wir müssen jetzt Schluss machen. Also auf Wiederhören!",
+    "noun": {
+      "article": "das",
+      "plural": "Wiederhören"
+    }
+  },
+  {
+    "lemma": "Wiedersehen",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "Goodbye",
+      "meet again"
+    ],
+    "exampleDe": "Auf Wiedersehen!",
+    "noun": {
+      "article": "das",
+      "plural": "Wiedersehen"
+    }
+  },
+  {
+    "lemma": "Wind",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "wind"
+    ],
+    "exampleDe": "Der Wind ist kalt.",
+    "noun": {
+      "article": "der",
+      "plural": "Winde"
+    }
+  },
+  {
+    "lemma": "Wein",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "wine"
+    ],
+    "exampleDe": "Nein danke, ich möchte keinen Wein.",
+    "noun": {
+      "article": "der",
+      "plural": "Weine"
+    }
+  },
+  {
+    "lemma": "Witz",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "joke"
+    ],
+    "exampleDe": "Wir haben Witze erzählt und viel gelacht.",
+    "noun": {
+      "article": "der",
+      "plural": "Witze"
+    }
+  },
+  {
+    "lemma": "Welt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "world"
+    ],
+    "exampleDe": "Ich möchte gern einmal um die Welt reisen.",
+    "noun": {
+      "article": "die",
+      "plural": "Welten"
+    }
+  },
+  {
+    "lemma": "Wohnung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "flat",
+      "appartment"
+    ],
+    "exampleDe": "Haben Sie schon einen neue Wohnung gefunden?",
+    "noun": {
+      "article": "die",
+      "plural": "Wohnungen"
+    }
+  },
+  {
+    "lemma": "Wohnzimmer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "living room"
+    ],
+    "exampleDe": "Die Kinder sitzen im Wohnzimmer und sehen fern.",
+    "noun": {
+      "article": "das",
+      "plural": "Wohnzimmer"
+    }
+  },
+  {
+    "lemma": "Wolke",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cloud"
+    ],
+    "exampleDe": "Heute gibt es viele Wolken.",
+    "noun": {
+      "article": "die",
+      "plural": "Wolken"
+    }
+  },
+  {
+    "lemma": "Zimmer",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "room"
+    ],
+    "exampleDe": "Das Zimmer ist am größten.",
+    "noun": {
+      "article": "das",
+      "plural": "Zimmer"
+    }
+  },
+  {
+    "lemma": "Zirkus",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "circus"
+    ],
+    "exampleDe": "Heute gehen wir mit den Kindern in den Zirkus.",
+    "noun": {
+      "article": "der",
+      "plural": "Zirkusse"
+    }
+  },
+  {
+    "lemma": "Workshop",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "seminar",
+      "workshop"
+    ],
+    "exampleDe": "Das war ein toller Workshop. Ich habe viel gelernt.",
+    "noun": {
+      "article": "der",
+      "plural": "Workshops"
+    }
+  },
+  {
+    "lemma": "Zitrone",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "lemon"
+    ],
+    "exampleDe": "Ich trinke den Tee mit Zitrone.",
+    "noun": {
+      "article": "die",
+      "plural": "Zitronen"
+    }
+  },
+  {
+    "lemma": "Zoo",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "zoo"
+    ],
+    "exampleDe": "Am Sonntag gehen wir in den Zoo.",
+    "noun": {
+      "article": "der",
+      "plural": "Zoos"
+    }
+  },
+  {
+    "lemma": "Wort",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "word"
+    ],
+    "exampleDe": "Ich kenne das Wort nicht.",
+    "noun": {
+      "article": "das",
+      "plural": "Wörter"
+    }
+  },
+  {
+    "lemma": "Wunsch",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "wish"
+    ],
+    "exampleDe": "Haben Sie noch einen Wunsch?",
+    "noun": {
+      "article": "der",
+      "plural": "Wünsche"
+    }
+  },
+  {
+    "lemma": "Wurst",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "sausage"
+    ],
+    "exampleDe": "Eine Wurst mit Pommes frites, bitte.",
+    "noun": {
+      "article": "die",
+      "plural": "Würste"
+    }
+  },
+  {
+    "lemma": "Zug",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "train"
+    ],
+    "exampleDe": "Ich fahre gern mit dem Zug.",
+    "noun": {
+      "article": "der",
+      "plural": "Züge"
+    }
+  },
+  {
+    "lemma": "Zahl",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "number"
+    ],
+    "exampleDe": "Können Sie die Zahl bitte wiederholen?",
+    "noun": {
+      "article": "die",
+      "plural": "Zahlen"
+    }
+  },
+  {
+    "lemma": "Zahn",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "tooth"
+    ],
+    "exampleDe": "Der Zahn tut mir schon seit einer Woche weh.",
+    "noun": {
+      "article": "der",
+      "plural": "Zähne"
+    }
+  },
+  {
+    "lemma": "Zeit",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "time"
+    ],
+    "exampleDe": "Ich habe heute keine Zeit.",
+    "noun": {
+      "article": "die",
+      "plural": "Zeiten"
+    }
+  },
+  {
+    "lemma": "Zeitschrift",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "magazine"
+    ],
+    "exampleDe": "Diese Zeitschrift kauft Andrea jede Woche.",
+    "noun": {
+      "article": "die",
+      "plural": "Zeitschriften"
+    }
+  },
+  {
+    "lemma": "Zeitung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "newspaper"
+    ],
+    "exampleDe": "Ich lese manchmal Zeitung.",
+    "noun": {
+      "article": "die",
+      "plural": "Zeitungen"
+    }
+  },
+  {
+    "lemma": "Zelt",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "tent"
+    ],
+    "exampleDe": "Im Sommer schlafen wir manchmal im Zelt.",
+    "noun": {
+      "article": "das",
+      "plural": "Zelte"
+    }
+  },
+  {
+    "lemma": "Zentrum",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "center"
+    ],
+    "exampleDe": "Der Bahnhof ist im Stadtzentrum.",
+    "noun": {
+      "article": "das",
+      "plural": "Zentrumen"
+    }
+  },
+  {
+    "lemma": "Zettel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "note"
+    ],
+    "exampleDe": "Hast du einen Zettel für mich? Ich muss etwas notieren.",
+    "noun": {
+      "article": "der",
+      "plural": "Zettel"
+    }
+  },
+  {
+    "lemma": "Zeugnis",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "certificate",
+      "school report"
+    ],
+    "exampleDe": "Morgen bekommen die Kinder ihr Zeugnis.",
+    "noun": {
+      "article": "das",
+      "plural": "Zeugnisse"
+    }
+  },
+  {
+    "lemma": "Ziel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "aim",
+      "target"
+    ],
+    "exampleDe": "John läuft sehr schnell. Er war als erster am Ziel.",
+    "noun": {
+      "article": "das",
+      "plural": "Ziele"
+    }
+  }
+]
