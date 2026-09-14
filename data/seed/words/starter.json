@@ -1,0 +1,3450 @@
+[
+  {
+    "lemma": "sein",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-auxiliary",
+    "translationsEn": [
+      "to be"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "bin",
+        "du": "bist",
+        "er": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie": "sind"
+      },
+      "praeteritum": "war",
+      "partizip2": "gewesen"
+    },
+    "exampleDe": "Ich bin müde.",
+    "exampleEn": "I am tired."
+  },
+  {
+    "lemma": "haben",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-auxiliary",
+    "translationsEn": [
+      "to have"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "habe",
+        "du": "hast",
+        "er": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie": "haben"
+      },
+      "praeteritum": "hatte",
+      "partizip2": "gehabt"
+    },
+    "exampleDe": "Ich habe einen Hund.",
+    "exampleEn": "I have a dog."
+  },
+  {
+    "lemma": "werden",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-auxiliary",
+    "translationsEn": [
+      "to become",
+      "to get"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "werde",
+        "du": "wirst",
+        "er": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie": "werden"
+      },
+      "praeteritum": "wurde",
+      "partizip2": "geworden"
+    },
+    "exampleDe": "Es wird kalt.",
+    "exampleEn": "It is getting cold."
+  },
+  {
+    "lemma": "können",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-modal",
+    "translationsEn": [
+      "can",
+      "to be able to"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "kann",
+        "du": "kannst",
+        "er": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie": "können"
+      },
+      "praeteritum": "konnte",
+      "partizip2": "gekonnt"
+    }
+  },
+  {
+    "lemma": "müssen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-modal",
+    "translationsEn": [
+      "must",
+      "to have to"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "muss",
+        "du": "musst",
+        "er": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie": "müssen"
+      },
+      "praeteritum": "musste",
+      "partizip2": "gemusst"
+    }
+  },
+  {
+    "lemma": "dürfen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-modal",
+    "translationsEn": [
+      "may",
+      "to be allowed to"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "darf",
+        "du": "darfst",
+        "er": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie": "dürfen"
+      },
+      "praeteritum": "durfte",
+      "partizip2": "gedurft"
+    }
+  },
+  {
+    "lemma": "wollen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-modal",
+    "translationsEn": [
+      "to want"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "will",
+        "du": "willst",
+        "er": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie": "wollen"
+      },
+      "praeteritum": "wollte",
+      "partizip2": "gewollt"
+    }
+  },
+  {
+    "lemma": "sollen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-modal",
+    "translationsEn": [
+      "should",
+      "to be supposed to"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "soll",
+        "du": "sollst",
+        "er": "soll",
+        "wir": "sollen",
+        "ihr": "sollt",
+        "sie": "sollen"
+      },
+      "praeteritum": "sollte",
+      "partizip2": "gesollt"
+    }
+  },
+  {
+    "lemma": "mögen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-modal",
+    "translationsEn": [
+      "to like"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "mag",
+        "du": "magst",
+        "er": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "sie": "mögen"
+      },
+      "praeteritum": "mochte",
+      "partizip2": "gemocht"
+    }
+  },
+  {
+    "lemma": "machen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to do",
+      "to make"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "mache",
+        "du": "machst",
+        "er": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie": "machen"
+      },
+      "praeteritum": "machte",
+      "partizip2": "gemacht"
+    },
+    "exampleDe": "Was machst du?",
+    "exampleEn": "What are you doing?"
+  },
+  {
+    "lemma": "spielen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to play"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie": "spielen"
+      },
+      "praeteritum": "spielte",
+      "partizip2": "gespielt"
+    },
+    "exampleDe": "Wir spielen Fußball.",
+    "exampleEn": "We play football."
+  },
+  {
+    "lemma": "lernen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to learn",
+      "to study"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "sie": "lernen"
+      },
+      "praeteritum": "lernte",
+      "partizip2": "gelernt"
+    },
+    "exampleDe": "Ich lerne Deutsch.",
+    "exampleEn": "I am learning German."
+  },
+  {
+    "lemma": "wohnen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to live",
+      "to reside"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie": "wohnen"
+      },
+      "praeteritum": "wohnte",
+      "partizip2": "gewohnt"
+    },
+    "exampleDe": "Ich wohne in Berlin.",
+    "exampleEn": "I live in Berlin."
+  },
+  {
+    "lemma": "kaufen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to buy"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie": "kaufen"
+      },
+      "praeteritum": "kaufte",
+      "partizip2": "gekauft"
+    },
+    "exampleDe": "Ich kaufe Brot.",
+    "exampleEn": "I am buying bread."
+  },
+  {
+    "lemma": "sagen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to say"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "sage",
+        "du": "sagst",
+        "er": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "sie": "sagen"
+      },
+      "praeteritum": "sagte",
+      "partizip2": "gesagt"
+    },
+    "exampleDe": "Was sagst du?",
+    "exampleEn": "What are you saying?"
+  },
+  {
+    "lemma": "fragen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to ask"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "frage",
+        "du": "fragst",
+        "er": "fragt",
+        "wir": "fragen",
+        "ihr": "fragt",
+        "sie": "fragen"
+      },
+      "praeteritum": "fragte",
+      "partizip2": "gefragt"
+    },
+    "exampleDe": "Ich frage den Lehrer.",
+    "exampleEn": "I ask the teacher."
+  },
+  {
+    "lemma": "kochen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to cook"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "koche",
+        "du": "kochst",
+        "er": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie": "kochen"
+      },
+      "praeteritum": "kochte",
+      "partizip2": "gekocht"
+    },
+    "exampleDe": "Er kocht gern.",
+    "exampleEn": "He likes cooking."
+  },
+  {
+    "lemma": "hören",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to hear",
+      "to listen"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "höre",
+        "du": "hörst",
+        "er": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "sie": "hören"
+      },
+      "praeteritum": "hörte",
+      "partizip2": "gehört"
+    },
+    "exampleDe": "Ich höre Musik.",
+    "exampleEn": "I listen to music."
+  },
+  {
+    "lemma": "lieben",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to love"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "liebe",
+        "du": "liebst",
+        "er": "liebt",
+        "wir": "lieben",
+        "ihr": "liebt",
+        "sie": "lieben"
+      },
+      "praeteritum": "liebte",
+      "partizip2": "geliebt"
+    },
+    "exampleDe": "Ich liebe dich.",
+    "exampleEn": "I love you."
+  },
+  {
+    "lemma": "brauchen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to need"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie": "brauchen"
+      },
+      "praeteritum": "brauchte",
+      "partizip2": "gebraucht"
+    },
+    "exampleDe": "Ich brauche Hilfe.",
+    "exampleEn": "I need help."
+  },
+  {
+    "lemma": "suchen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to look for",
+      "to search"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "suche",
+        "du": "suchst",
+        "er": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie": "suchen"
+      },
+      "praeteritum": "suchte",
+      "partizip2": "gesucht"
+    },
+    "exampleDe": "Ich suche meinen Schlüssel.",
+    "exampleEn": "I am looking for my key."
+  },
+  {
+    "lemma": "lachen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to laugh"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "lache",
+        "du": "lachst",
+        "er": "lacht",
+        "wir": "lachen",
+        "ihr": "lacht",
+        "sie": "lachen"
+      },
+      "praeteritum": "lachte",
+      "partizip2": "gelacht"
+    },
+    "exampleDe": "Die Kinder lachen.",
+    "exampleEn": "The children are laughing."
+  },
+  {
+    "lemma": "üben",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to practise"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "übe",
+        "du": "übst",
+        "er": "übt",
+        "wir": "üben",
+        "ihr": "übt",
+        "sie": "üben"
+      },
+      "praeteritum": "übte",
+      "partizip2": "geübt"
+    },
+    "exampleDe": "Ich übe jeden Tag.",
+    "exampleEn": "I practise every day."
+  },
+  {
+    "lemma": "erklären",
+    "level": "B1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to explain"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "erkläre",
+        "du": "erklärst",
+        "er": "erklärt",
+        "wir": "erklären",
+        "ihr": "erklärt",
+        "sie": "erklären"
+      },
+      "praeteritum": "erklärte",
+      "partizip2": "erklärt"
+    },
+    "exampleDe": "Können Sie das erklären?",
+    "exampleEn": "Can you explain that?"
+  },
+  {
+    "lemma": "arbeiten",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to work"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "sie": "arbeiten"
+      },
+      "praeteritum": "arbeitete",
+      "partizip2": "gearbeitet"
+    },
+    "exampleDe": "Sie arbeitet im Büro.",
+    "exampleEn": "She works in an office."
+  },
+  {
+    "lemma": "warten",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-regular",
+    "translationsEn": [
+      "to wait"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "warte",
+        "du": "wartest",
+        "er": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "sie": "warten"
+      },
+      "praeteritum": "wartete",
+      "partizip2": "gewartet"
+    },
+    "exampleDe": "Ich warte auf dich.",
+    "exampleEn": "I am waiting for you."
+  },
+  {
+    "lemma": "essen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to eat"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "esse",
+        "du": "isst",
+        "er": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie": "essen"
+      },
+      "praeteritum": "aß",
+      "partizip2": "gegessen"
+    },
+    "exampleDe": "Er isst einen Apfel.",
+    "exampleEn": "He is eating an apple."
+  },
+  {
+    "lemma": "trinken",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to drink"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie": "trinken"
+      },
+      "praeteritum": "trank",
+      "partizip2": "getrunken"
+    },
+    "exampleDe": "Ich trinke Wasser.",
+    "exampleEn": "I drink water."
+  },
+  {
+    "lemma": "fahren",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to drive",
+      "to travel"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie": "fahren"
+      },
+      "praeteritum": "fuhr",
+      "partizip2": "gefahren"
+    },
+    "exampleDe": "Wir fahren nach Berlin.",
+    "exampleEn": "We are travelling to Berlin."
+  },
+  {
+    "lemma": "sehen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to see"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie": "sehen"
+      },
+      "praeteritum": "sah",
+      "partizip2": "gesehen"
+    },
+    "exampleDe": "Ich sehe den Turm.",
+    "exampleEn": "I see the tower."
+  },
+  {
+    "lemma": "geben",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to give"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie": "geben"
+      },
+      "praeteritum": "gab",
+      "partizip2": "gegeben"
+    },
+    "exampleDe": "Gib mir das Buch.",
+    "exampleEn": "Give me the book."
+  },
+  {
+    "lemma": "nehmen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to take"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie": "nehmen"
+      },
+      "praeteritum": "nahm",
+      "partizip2": "genommen"
+    },
+    "exampleDe": "Ich nehme den Bus.",
+    "exampleEn": "I take the bus."
+  },
+  {
+    "lemma": "sprechen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to speak"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie": "sprechen"
+      },
+      "praeteritum": "sprach",
+      "partizip2": "gesprochen"
+    },
+    "exampleDe": "Sprichst du Deutsch?",
+    "exampleEn": "Do you speak German?"
+  },
+  {
+    "lemma": "lesen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to read"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "lese",
+        "du": "liest",
+        "er": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie": "lesen"
+      },
+      "praeteritum": "las",
+      "partizip2": "gelesen"
+    },
+    "exampleDe": "Sie liest ein Buch.",
+    "exampleEn": "She is reading a book."
+  },
+  {
+    "lemma": "schlafen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to sleep"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie": "schlafen"
+      },
+      "praeteritum": "schlief",
+      "partizip2": "geschlafen"
+    },
+    "exampleDe": "Das Kind schläft.",
+    "exampleEn": "The child is sleeping."
+  },
+  {
+    "lemma": "laufen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to run",
+      "to walk"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "laufe",
+        "du": "läufst",
+        "er": "läuft",
+        "wir": "laufen",
+        "ihr": "lauft",
+        "sie": "laufen"
+      },
+      "praeteritum": "lief",
+      "partizip2": "gelaufen"
+    },
+    "exampleDe": "Er läuft schnell.",
+    "exampleEn": "He runs fast."
+  },
+  {
+    "lemma": "helfen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to help"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie": "helfen"
+      },
+      "praeteritum": "half",
+      "partizip2": "geholfen"
+    },
+    "exampleDe": "Kannst du mir helfen?",
+    "exampleEn": "Can you help me?"
+  },
+  {
+    "lemma": "treffen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to meet"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "treffe",
+        "du": "triffst",
+        "er": "trifft",
+        "wir": "treffen",
+        "ihr": "trefft",
+        "sie": "treffen"
+      },
+      "praeteritum": "traf",
+      "partizip2": "getroffen"
+    },
+    "exampleDe": "Ich treffe meine Freunde.",
+    "exampleEn": "I am meeting my friends."
+  },
+  {
+    "lemma": "finden",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to find"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "finde",
+        "du": "findest",
+        "er": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie": "finden"
+      },
+      "praeteritum": "fand",
+      "partizip2": "gefunden"
+    },
+    "exampleDe": "Ich finde den Film gut.",
+    "exampleEn": "I think the film is good."
+  },
+  {
+    "lemma": "kommen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to come"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "komme",
+        "du": "kommst",
+        "er": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie": "kommen"
+      },
+      "praeteritum": "kam",
+      "partizip2": "gekommen"
+    },
+    "exampleDe": "Woher kommst du?",
+    "exampleEn": "Where do you come from?"
+  },
+  {
+    "lemma": "gehen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to go",
+      "to walk"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie": "gehen"
+      },
+      "praeteritum": "ging",
+      "partizip2": "gegangen"
+    },
+    "exampleDe": "Ich gehe nach Hause.",
+    "exampleEn": "I am going home."
+  },
+  {
+    "lemma": "wissen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to know (a fact)"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie": "wissen"
+      },
+      "praeteritum": "wusste",
+      "partizip2": "gewusst"
+    },
+    "exampleDe": "Ich weiß es nicht.",
+    "exampleEn": "I don't know."
+  },
+  {
+    "lemma": "bleiben",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to stay"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "bleibe",
+        "du": "bleibst",
+        "er": "bleibt",
+        "wir": "bleiben",
+        "ihr": "bleibt",
+        "sie": "bleiben"
+      },
+      "praeteritum": "blieb",
+      "partizip2": "geblieben"
+    },
+    "exampleDe": "Ich bleibe zu Hause.",
+    "exampleEn": "I am staying at home."
+  },
+  {
+    "lemma": "verstehen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to understand"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "verstehe",
+        "du": "verstehst",
+        "er": "versteht",
+        "wir": "verstehen",
+        "ihr": "versteht",
+        "sie": "verstehen"
+      },
+      "praeteritum": "verstand",
+      "partizip2": "verstanden"
+    },
+    "exampleDe": "Ich verstehe dich nicht.",
+    "exampleEn": "I don't understand you."
+  },
+  {
+    "lemma": "schreiben",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to write"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "sie": "schreiben"
+      },
+      "praeteritum": "schrieb",
+      "partizip2": "geschrieben"
+    },
+    "exampleDe": "Er schreibt einen Brief.",
+    "exampleEn": "He is writing a letter."
+  },
+  {
+    "lemma": "denken",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to think"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "denke",
+        "du": "denkst",
+        "er": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "sie": "denken"
+      },
+      "praeteritum": "dachte",
+      "partizip2": "gedacht"
+    },
+    "exampleDe": "Ich denke an dich.",
+    "exampleEn": "I am thinking of you."
+  },
+  {
+    "lemma": "bringen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to bring"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "bringe",
+        "du": "bringst",
+        "er": "bringt",
+        "wir": "bringen",
+        "ihr": "bringt",
+        "sie": "bringen"
+      },
+      "praeteritum": "brachte",
+      "partizip2": "gebracht"
+    },
+    "exampleDe": "Bring mir bitte Wasser.",
+    "exampleEn": "Please bring me water."
+  },
+  {
+    "lemma": "tragen",
+    "level": "B1",
+    "pos": "VERB",
+    "subcategory": "verb-irregular",
+    "translationsEn": [
+      "to carry",
+      "to wear"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "trage",
+        "du": "trägst",
+        "er": "trägt",
+        "wir": "tragen",
+        "ihr": "tragt",
+        "sie": "tragen"
+      },
+      "praeteritum": "trug",
+      "partizip2": "getragen"
+    },
+    "exampleDe": "Sie trägt einen Mantel.",
+    "exampleEn": "She is wearing a coat."
+  },
+  {
+    "lemma": "aufstehen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to get up"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "stehe auf",
+        "du": "stehst auf",
+        "er": "steht auf",
+        "wir": "stehen auf",
+        "ihr": "steht auf",
+        "sie": "stehen auf"
+      },
+      "prefix": "auf",
+      "praeteritum": "stand auf",
+      "partizip2": "aufgestanden"
+    },
+    "exampleDe": "Ich stehe um sieben Uhr auf.",
+    "exampleEn": "I get up at seven."
+  },
+  {
+    "lemma": "anrufen",
+    "level": "A1",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to call (on the phone)"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "rufe an",
+        "du": "rufst an",
+        "er": "ruft an",
+        "wir": "rufen an",
+        "ihr": "ruft an",
+        "sie": "rufen an"
+      },
+      "prefix": "an",
+      "praeteritum": "rief an",
+      "partizip2": "angerufen"
+    },
+    "exampleDe": "Ich rufe dich später an.",
+    "exampleEn": "I'll call you later."
+  },
+  {
+    "lemma": "einkaufen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to shop"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "sie": "kaufen ein"
+      },
+      "prefix": "ein",
+      "praeteritum": "kaufte ein",
+      "partizip2": "eingekauft"
+    },
+    "exampleDe": "Wir kaufen am Samstag ein.",
+    "exampleEn": "We shop on Saturday."
+  },
+  {
+    "lemma": "mitkommen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to come along"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "komme mit",
+        "du": "kommst mit",
+        "er": "kommt mit",
+        "wir": "kommen mit",
+        "ihr": "kommt mit",
+        "sie": "kommen mit"
+      },
+      "prefix": "mit",
+      "praeteritum": "kam mit",
+      "partizip2": "mitgekommen"
+    },
+    "exampleDe": "Kommst du mit?",
+    "exampleEn": "Are you coming along?"
+  },
+  {
+    "lemma": "ankommen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to arrive"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "komme an",
+        "du": "kommst an",
+        "er": "kommt an",
+        "wir": "kommen an",
+        "ihr": "kommt an",
+        "sie": "kommen an"
+      },
+      "prefix": "an",
+      "praeteritum": "kam an",
+      "partizip2": "angekommen"
+    },
+    "exampleDe": "Der Zug kommt um acht an.",
+    "exampleEn": "The train arrives at eight."
+  },
+  {
+    "lemma": "fernsehen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to watch TV"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "sehe fern",
+        "du": "siehst fern",
+        "er": "sieht fern",
+        "wir": "sehen fern",
+        "ihr": "seht fern",
+        "sie": "sehen fern"
+      },
+      "prefix": "fern",
+      "praeteritum": "sah fern",
+      "partizip2": "ferngesehen"
+    },
+    "exampleDe": "Abends sehe ich fern.",
+    "exampleEn": "In the evening I watch TV."
+  },
+  {
+    "lemma": "abfahren",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to depart"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "sein",
+      "praesens": {
+        "ich": "fahre ab",
+        "du": "fährst ab",
+        "er": "fährt ab",
+        "wir": "fahren ab",
+        "ihr": "fahrt ab",
+        "sie": "fahren ab"
+      },
+      "prefix": "ab",
+      "praeteritum": "fuhr ab",
+      "partizip2": "abgefahren"
+    },
+    "exampleDe": "Der Bus fährt gleich ab.",
+    "exampleEn": "The bus is about to depart."
+  },
+  {
+    "lemma": "vorschlagen",
+    "level": "B1",
+    "pos": "VERB",
+    "subcategory": "verb-separable",
+    "translationsEn": [
+      "to suggest"
+    ],
+    "verb": {
+      "isSeparable": true,
+      "isIrregular": true,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "schlage vor",
+        "du": "schlägst vor",
+        "er": "schlägt vor",
+        "wir": "schlagen vor",
+        "ihr": "schlagt vor",
+        "sie": "schlagen vor"
+      },
+      "prefix": "vor",
+      "praeteritum": "schlug vor",
+      "partizip2": "vorgeschlagen"
+    },
+    "exampleDe": "Ich schlage einen Kompromiss vor.",
+    "exampleEn": "I suggest a compromise."
+  },
+  {
+    "lemma": "sich freuen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-reflexive",
+    "translationsEn": [
+      "to be glad",
+      "to look forward"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "freue mich",
+        "du": "freust dich",
+        "er": "freut sich",
+        "wir": "freuen uns",
+        "ihr": "freut euch",
+        "sie": "freuen sich"
+      },
+      "praeteritum": "freute sich",
+      "partizip2": "gefreut"
+    },
+    "exampleDe": "Ich freue mich auf das Wochenende.",
+    "exampleEn": "I'm looking forward to the weekend."
+  },
+  {
+    "lemma": "sich waschen",
+    "level": "A2",
+    "pos": "VERB",
+    "subcategory": "verb-reflexive",
+    "translationsEn": [
+      "to wash oneself"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "wasche mich",
+        "du": "wäschst dich",
+        "er": "wäscht sich",
+        "wir": "waschen uns",
+        "ihr": "wascht euch",
+        "sie": "waschen sich"
+      },
+      "praeteritum": "wusch sich",
+      "partizip2": "gewaschen"
+    },
+    "exampleDe": "Er wäscht sich die Hände.",
+    "exampleEn": "He washes his hands."
+  },
+  {
+    "lemma": "sich interessieren",
+    "level": "B1",
+    "pos": "VERB",
+    "subcategory": "verb-reflexive",
+    "translationsEn": [
+      "to be interested"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "interessiere mich",
+        "du": "interessierst dich",
+        "er": "interessiert sich",
+        "wir": "interessieren uns",
+        "ihr": "interessiert euch",
+        "sie": "interessieren sich"
+      },
+      "praeteritum": "interessierte sich",
+      "partizip2": "interessiert"
+    },
+    "exampleDe": "Ich interessiere mich für Musik.",
+    "exampleEn": "I am interested in music."
+  },
+  {
+    "lemma": "sich erinnern",
+    "level": "B1",
+    "pos": "VERB",
+    "subcategory": "verb-reflexive",
+    "translationsEn": [
+      "to remember"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "erinnere mich",
+        "du": "erinnerst dich",
+        "er": "erinnert sich",
+        "wir": "erinnern uns",
+        "ihr": "erinnert euch",
+        "sie": "erinnern sich"
+      },
+      "praeteritum": "erinnerte sich",
+      "partizip2": "erinnert"
+    },
+    "exampleDe": "Ich erinnere mich an den Tag.",
+    "exampleEn": "I remember that day."
+  },
+  {
+    "lemma": "sich beeilen",
+    "level": "B1",
+    "pos": "VERB",
+    "subcategory": "verb-reflexive",
+    "translationsEn": [
+      "to hurry"
+    ],
+    "verb": {
+      "isSeparable": false,
+      "isIrregular": false,
+      "auxiliary": "haben",
+      "praesens": {
+        "ich": "beeile mich",
+        "du": "beeilst dich",
+        "er": "beeilt sich",
+        "wir": "beeilen uns",
+        "ihr": "beeilt euch",
+        "sie": "beeilen sich"
+      },
+      "praeteritum": "beeilte sich",
+      "partizip2": "beeilt"
+    },
+    "exampleDe": "Beeil dich!",
+    "exampleEn": "Hurry up!"
+  },
+  {
+    "lemma": "Mann",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "man",
+      "husband"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Männer"
+    },
+    "exampleDe": "Der Mann liest.",
+    "exampleEn": "The man is reading."
+  },
+  {
+    "lemma": "Hund",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "dog"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Hunde"
+    },
+    "exampleDe": "Der Hund schläft.",
+    "exampleEn": "The dog is sleeping."
+  },
+  {
+    "lemma": "Tisch",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "table"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Tische"
+    }
+  },
+  {
+    "lemma": "Stuhl",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "chair"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Stühle"
+    }
+  },
+  {
+    "lemma": "Baum",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "tree"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Bäume"
+    }
+  },
+  {
+    "lemma": "Apfel",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "apple"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Äpfel"
+    }
+  },
+  {
+    "lemma": "Bruder",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "brother"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Brüder"
+    }
+  },
+  {
+    "lemma": "Vater",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "father"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Väter"
+    }
+  },
+  {
+    "lemma": "Lehrer",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "teacher"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Lehrer"
+    },
+    "exampleDe": "Der Lehrer erklärt die Regel.",
+    "exampleEn": "The teacher explains the rule."
+  },
+  {
+    "lemma": "Zug",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "train"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Züge"
+    }
+  },
+  {
+    "lemma": "Schlüssel",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "key"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Schlüssel"
+    }
+  },
+  {
+    "lemma": "Freund",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "friend",
+      "boyfriend"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Freunde"
+    }
+  },
+  {
+    "lemma": "Tag",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "day"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Tage"
+    },
+    "exampleDe": "Guten Tag!",
+    "exampleEn": "Good day!"
+  },
+  {
+    "lemma": "Beruf",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-der",
+    "translationsEn": [
+      "profession",
+      "job"
+    ],
+    "noun": {
+      "article": "der",
+      "plural": "Berufe"
+    }
+  },
+  {
+    "lemma": "Frau",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "woman",
+      "wife"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Frauen"
+    },
+    "exampleDe": "Die Frau arbeitet.",
+    "exampleEn": "The woman is working."
+  },
+  {
+    "lemma": "Katze",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "cat"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Katzen"
+    }
+  },
+  {
+    "lemma": "Schule",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "school"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Schulen"
+    }
+  },
+  {
+    "lemma": "Stadt",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "city",
+      "town"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Städte"
+    }
+  },
+  {
+    "lemma": "Tür",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "door"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Türen"
+    }
+  },
+  {
+    "lemma": "Blume",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "flower"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Blumen"
+    }
+  },
+  {
+    "lemma": "Schwester",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "sister"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Schwestern"
+    }
+  },
+  {
+    "lemma": "Mutter",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "mother"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Mütter"
+    }
+  },
+  {
+    "lemma": "Straße",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "street",
+      "road"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Straßen"
+    }
+  },
+  {
+    "lemma": "Zeitung",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "newspaper"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Zeitungen"
+    }
+  },
+  {
+    "lemma": "Arbeit",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "work",
+      "job"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Arbeiten"
+    }
+  },
+  {
+    "lemma": "Sprache",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "language"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Sprachen"
+    }
+  },
+  {
+    "lemma": "Wohnung",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "flat",
+      "apartment"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Wohnungen"
+    }
+  },
+  {
+    "lemma": "Möglichkeit",
+    "level": "B1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "possibility",
+      "opportunity"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Möglichkeiten"
+    }
+  },
+  {
+    "lemma": "Entscheidung",
+    "level": "B1",
+    "pos": "NOUN",
+    "subcategory": "noun-die",
+    "translationsEn": [
+      "decision"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Entscheidungen"
+    }
+  },
+  {
+    "lemma": "Haus",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "house"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Häuser"
+    },
+    "exampleDe": "Das Haus ist groß.",
+    "exampleEn": "The house is big."
+  },
+  {
+    "lemma": "Kind",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "child"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Kinder"
+    }
+  },
+  {
+    "lemma": "Buch",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "book"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Bücher"
+    }
+  },
+  {
+    "lemma": "Auto",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "car"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Autos"
+    }
+  },
+  {
+    "lemma": "Fenster",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "window"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Fenster"
+    }
+  },
+  {
+    "lemma": "Mädchen",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "girl"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Mädchen"
+    },
+    "exampleDe": "Das Mädchen spielt.",
+    "exampleEn": "The girl is playing."
+  },
+  {
+    "lemma": "Wasser",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "water"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Wässer"
+    }
+  },
+  {
+    "lemma": "Brot",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "bread"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Brote"
+    }
+  },
+  {
+    "lemma": "Zimmer",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "room"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Zimmer"
+    }
+  },
+  {
+    "lemma": "Jahr",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "year"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Jahre"
+    }
+  },
+  {
+    "lemma": "Essen",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "food",
+      "meal"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Essen"
+    }
+  },
+  {
+    "lemma": "Problem",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "problem"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Probleme"
+    }
+  },
+  {
+    "lemma": "Ergebnis",
+    "level": "B1",
+    "pos": "NOUN",
+    "subcategory": "noun-das",
+    "translationsEn": [
+      "result"
+    ],
+    "noun": {
+      "article": "das",
+      "plural": "Ergebnisse"
+    }
+  },
+  {
+    "lemma": "Eltern",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-plural-only",
+    "translationsEn": [
+      "parents"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Eltern"
+    }
+  },
+  {
+    "lemma": "Leute",
+    "level": "A1",
+    "pos": "NOUN",
+    "subcategory": "noun-plural-only",
+    "translationsEn": [
+      "people"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Leute"
+    }
+  },
+  {
+    "lemma": "Ferien",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-plural-only",
+    "translationsEn": [
+      "holidays",
+      "vacation"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Ferien"
+    }
+  },
+  {
+    "lemma": "Geschwister",
+    "level": "A2",
+    "pos": "NOUN",
+    "subcategory": "noun-plural-only",
+    "translationsEn": [
+      "siblings"
+    ],
+    "noun": {
+      "article": "die",
+      "plural": "Geschwister"
+    }
+  },
+  {
+    "lemma": "durch",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "through"
+    ],
+    "exampleDe": "Wir gehen durch den Park.",
+    "exampleEn": "We walk through the park."
+  },
+  {
+    "lemma": "für",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "for"
+    ],
+    "exampleDe": "Das ist für dich.",
+    "exampleEn": "That is for you."
+  },
+  {
+    "lemma": "gegen",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "against",
+      "around (time)"
+    ]
+  },
+  {
+    "lemma": "ohne",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "without"
+    ],
+    "exampleDe": "Ich trinke Kaffee ohne Zucker.",
+    "exampleEn": "I drink coffee without sugar."
+  },
+  {
+    "lemma": "um",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "around",
+      "at (time)"
+    ],
+    "exampleDe": "Um acht Uhr.",
+    "exampleEn": "At eight o'clock."
+  },
+  {
+    "lemma": "bis",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "until"
+    ]
+  },
+  {
+    "lemma": "entlang",
+    "level": "B1",
+    "pos": "PREP",
+    "subcategory": "prep-accusative",
+    "translationsEn": [
+      "along"
+    ]
+  },
+  {
+    "lemma": "aus",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "from",
+      "out of"
+    ],
+    "exampleDe": "Ich komme aus Berlin.",
+    "exampleEn": "I come from Berlin."
+  },
+  {
+    "lemma": "bei",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "at",
+      "near",
+      "with"
+    ]
+  },
+  {
+    "lemma": "mit",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "with"
+    ],
+    "exampleDe": "Ich fahre mit dem Bus.",
+    "exampleEn": "I travel by bus."
+  },
+  {
+    "lemma": "nach",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "to",
+      "after"
+    ],
+    "exampleDe": "Nach der Arbeit.",
+    "exampleEn": "After work."
+  },
+  {
+    "lemma": "seit",
+    "level": "A2",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "since",
+      "for"
+    ]
+  },
+  {
+    "lemma": "von",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "from",
+      "of"
+    ]
+  },
+  {
+    "lemma": "zu",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "to"
+    ],
+    "exampleDe": "Ich gehe zum Arzt.",
+    "exampleEn": "I'm going to the doctor."
+  },
+  {
+    "lemma": "gegenüber",
+    "level": "B1",
+    "pos": "PREP",
+    "subcategory": "prep-dative",
+    "translationsEn": [
+      "opposite"
+    ]
+  },
+  {
+    "lemma": "an",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "at",
+      "on (vertical)"
+    ],
+    "exampleDe": "Das Bild hängt an der Wand.",
+    "exampleEn": "The picture hangs on the wall."
+  },
+  {
+    "lemma": "auf",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "on (horizontal)"
+    ],
+    "exampleDe": "Das Buch liegt auf dem Tisch.",
+    "exampleEn": "The book lies on the table."
+  },
+  {
+    "lemma": "hinter",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "behind"
+    ]
+  },
+  {
+    "lemma": "in",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "in",
+      "into"
+    ],
+    "exampleDe": "Ich bin in der Schule.",
+    "exampleEn": "I am at school."
+  },
+  {
+    "lemma": "neben",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "next to"
+    ]
+  },
+  {
+    "lemma": "über",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "over",
+      "above",
+      "about"
+    ]
+  },
+  {
+    "lemma": "unter",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "under",
+      "among"
+    ]
+  },
+  {
+    "lemma": "vor",
+    "level": "A1",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "in front of",
+      "before"
+    ]
+  },
+  {
+    "lemma": "zwischen",
+    "level": "A2",
+    "pos": "PREP",
+    "subcategory": "prep-two-way",
+    "translationsEn": [
+      "between"
+    ]
+  },
+  {
+    "lemma": "während",
+    "level": "B1",
+    "pos": "PREP",
+    "subcategory": "prep-genitive",
+    "translationsEn": [
+      "during"
+    ],
+    "exampleDe": "Während des Essens sprachen wir.",
+    "exampleEn": "We talked during the meal."
+  },
+  {
+    "lemma": "wegen",
+    "level": "B1",
+    "pos": "PREP",
+    "subcategory": "prep-genitive",
+    "translationsEn": [
+      "because of"
+    ],
+    "exampleDe": "Wegen des Wetters bleiben wir hier.",
+    "exampleEn": "Because of the weather we're staying."
+  },
+  {
+    "lemma": "trotz",
+    "level": "B1",
+    "pos": "PREP",
+    "subcategory": "prep-genitive",
+    "translationsEn": [
+      "despite"
+    ]
+  },
+  {
+    "lemma": "statt",
+    "level": "B1",
+    "pos": "PREP",
+    "subcategory": "prep-genitive",
+    "translationsEn": [
+      "instead of"
+    ]
+  },
+  {
+    "lemma": "innerhalb",
+    "level": "B2",
+    "pos": "PREP",
+    "subcategory": "prep-genitive",
+    "translationsEn": [
+      "within",
+      "inside"
+    ]
+  },
+  {
+    "lemma": "außerhalb",
+    "level": "B2",
+    "pos": "PREP",
+    "subcategory": "prep-genitive",
+    "translationsEn": [
+      "outside of"
+    ]
+  },
+  {
+    "lemma": "gut",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "good"
+    ],
+    "adjective": {
+      "comparative": "besser",
+      "superlative": "am besten"
+    }
+  },
+  {
+    "lemma": "schlecht",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "bad"
+    ],
+    "adjective": {
+      "comparative": "schlechter",
+      "superlative": "am schlechtesten"
+    }
+  },
+  {
+    "lemma": "groß",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "big",
+      "tall"
+    ],
+    "adjective": {
+      "comparative": "größer",
+      "superlative": "am größten"
+    }
+  },
+  {
+    "lemma": "klein",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "small"
+    ],
+    "adjective": {
+      "comparative": "kleiner",
+      "superlative": "am kleinsten"
+    }
+  },
+  {
+    "lemma": "schnell",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "fast",
+      "quick"
+    ],
+    "adjective": {
+      "comparative": "schneller",
+      "superlative": "am schnellsten"
+    }
+  },
+  {
+    "lemma": "langsam",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "slow"
+    ],
+    "adjective": {
+      "comparative": "langsamer",
+      "superlative": "am langsamsten"
+    }
+  },
+  {
+    "lemma": "alt",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "old"
+    ],
+    "adjective": {
+      "comparative": "älter",
+      "superlative": "am ältesten"
+    }
+  },
+  {
+    "lemma": "neu",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "new"
+    ],
+    "adjective": {
+      "comparative": "neuer",
+      "superlative": "am neuesten"
+    }
+  },
+  {
+    "lemma": "jung",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "young"
+    ],
+    "adjective": {
+      "comparative": "jünger",
+      "superlative": "am jüngsten"
+    }
+  },
+  {
+    "lemma": "schön",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "beautiful",
+      "nice"
+    ],
+    "adjective": {
+      "comparative": "schöner",
+      "superlative": "am schönsten"
+    }
+  },
+  {
+    "lemma": "teuer",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "expensive"
+    ],
+    "adjective": {
+      "comparative": "teurer",
+      "superlative": "am teuersten"
+    }
+  },
+  {
+    "lemma": "billig",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "cheap"
+    ],
+    "adjective": {
+      "comparative": "billiger",
+      "superlative": "am billigsten"
+    }
+  },
+  {
+    "lemma": "warm",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "warm"
+    ],
+    "adjective": {
+      "comparative": "wärmer",
+      "superlative": "am wärmsten"
+    }
+  },
+  {
+    "lemma": "kalt",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "cold"
+    ],
+    "adjective": {
+      "comparative": "kälter",
+      "superlative": "am kältesten"
+    }
+  },
+  {
+    "lemma": "hoch",
+    "level": "A2",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "high",
+      "tall"
+    ],
+    "adjective": {
+      "comparative": "höher",
+      "superlative": "am höchsten"
+    }
+  },
+  {
+    "lemma": "viel",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "much",
+      "many"
+    ],
+    "adjective": {
+      "comparative": "mehr",
+      "superlative": "am meisten"
+    }
+  },
+  {
+    "lemma": "wichtig",
+    "level": "A2",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "important"
+    ],
+    "adjective": {
+      "comparative": "wichtiger",
+      "superlative": "am wichtigsten"
+    }
+  },
+  {
+    "lemma": "schwierig",
+    "level": "A2",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "difficult"
+    ],
+    "adjective": {
+      "comparative": "schwieriger",
+      "superlative": "am schwierigsten"
+    }
+  },
+  {
+    "lemma": "einfach",
+    "level": "A2",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "easy",
+      "simple"
+    ],
+    "adjective": {
+      "comparative": "einfacher",
+      "superlative": "am einfachsten"
+    }
+  },
+  {
+    "lemma": "glücklich",
+    "level": "A2",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "happy"
+    ],
+    "adjective": {
+      "comparative": "glücklicher",
+      "superlative": "am glücklichsten"
+    }
+  },
+  {
+    "lemma": "müde",
+    "level": "A1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "tired"
+    ],
+    "adjective": {
+      "comparative": "müder",
+      "superlative": "am müdesten"
+    }
+  },
+  {
+    "lemma": "zufrieden",
+    "level": "B1",
+    "pos": "ADJ",
+    "subcategory": "adj-common",
+    "translationsEn": [
+      "satisfied",
+      "content"
+    ],
+    "adjective": {
+      "comparative": "zufriedener",
+      "superlative": "am zufriedensten"
+    }
+  },
+  {
+    "lemma": "heute",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "today"
+    ]
+  },
+  {
+    "lemma": "morgen",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "tomorrow"
+    ]
+  },
+  {
+    "lemma": "gestern",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "yesterday"
+    ]
+  },
+  {
+    "lemma": "immer",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "always"
+    ]
+  },
+  {
+    "lemma": "nie",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "never"
+    ]
+  },
+  {
+    "lemma": "oft",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "often"
+    ]
+  },
+  {
+    "lemma": "manchmal",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "sometimes"
+    ]
+  },
+  {
+    "lemma": "jetzt",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "now"
+    ]
+  },
+  {
+    "lemma": "hier",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "here"
+    ]
+  },
+  {
+    "lemma": "dort",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "there"
+    ]
+  },
+  {
+    "lemma": "sehr",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "very"
+    ]
+  },
+  {
+    "lemma": "schon",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "already"
+    ]
+  },
+  {
+    "lemma": "noch",
+    "level": "A1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "still",
+      "yet"
+    ]
+  },
+  {
+    "lemma": "vielleicht",
+    "level": "A2",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "maybe",
+      "perhaps"
+    ]
+  },
+  {
+    "lemma": "trotzdem",
+    "level": "B1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "nevertheless"
+    ]
+  },
+  {
+    "lemma": "deshalb",
+    "level": "B1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "therefore"
+    ]
+  },
+  {
+    "lemma": "außerdem",
+    "level": "B1",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "besides",
+      "moreover"
+    ]
+  },
+  {
+    "lemma": "allerdings",
+    "level": "B2",
+    "pos": "ADV",
+    "subcategory": "adv-common",
+    "translationsEn": [
+      "however",
+      "admittedly"
+    ]
+  },
+  {
+    "lemma": "und",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "and"
+    ]
+  },
+  {
+    "lemma": "oder",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "or"
+    ]
+  },
+  {
+    "lemma": "aber",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "but"
+    ]
+  },
+  {
+    "lemma": "denn",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "because (main clause)"
+    ]
+  },
+  {
+    "lemma": "weil",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "because (verb last)"
+    ]
+  },
+  {
+    "lemma": "dass",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "that"
+    ]
+  },
+  {
+    "lemma": "wenn",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "if",
+      "when (repeated)"
+    ]
+  },
+  {
+    "lemma": "obwohl",
+    "level": "B1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "although"
+    ]
+  },
+  {
+    "lemma": "damit",
+    "level": "B1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "so that"
+    ]
+  },
+  {
+    "lemma": "als",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "when (single past event)",
+      "than"
+    ]
+  },
+  {
+    "lemma": "bevor",
+    "level": "B1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "before"
+    ]
+  },
+  {
+    "lemma": "nachdem",
+    "level": "B1",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "after"
+    ]
+  },
+  {
+    "lemma": "sondern",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "conjunction",
+    "translationsEn": [
+      "but rather"
+    ]
+  },
+  {
+    "lemma": "ich",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "I"
+    ]
+  },
+  {
+    "lemma": "du",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "you (informal)"
+    ]
+  },
+  {
+    "lemma": "er",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "he"
+    ]
+  },
+  {
+    "lemma": "sie",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "she",
+      "they"
+    ]
+  },
+  {
+    "lemma": "es",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "it"
+    ]
+  },
+  {
+    "lemma": "wir",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "we"
+    ]
+  },
+  {
+    "lemma": "ihr",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "you (plural)"
+    ]
+  },
+  {
+    "lemma": "Sie",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "you (formal)"
+    ]
+  },
+  {
+    "lemma": "mein",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "my"
+    ]
+  },
+  {
+    "lemma": "dein",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "your"
+    ]
+  },
+  {
+    "lemma": "dieser",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "this"
+    ]
+  },
+  {
+    "lemma": "jeder",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "each",
+      "every"
+    ]
+  },
+  {
+    "lemma": "man",
+    "level": "A2",
+    "pos": "OTHER",
+    "subcategory": "pronoun",
+    "translationsEn": [
+      "one",
+      "people (impersonal)"
+    ]
+  },
+  {
+    "lemma": "eins",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "one"
+    ]
+  },
+  {
+    "lemma": "zwei",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "two"
+    ]
+  },
+  {
+    "lemma": "drei",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "three"
+    ]
+  },
+  {
+    "lemma": "vier",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "four"
+    ]
+  },
+  {
+    "lemma": "fünf",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "five"
+    ]
+  },
+  {
+    "lemma": "sechs",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "six"
+    ]
+  },
+  {
+    "lemma": "sieben",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "seven"
+    ]
+  },
+  {
+    "lemma": "acht",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "eight"
+    ]
+  },
+  {
+    "lemma": "neun",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "nine"
+    ]
+  },
+  {
+    "lemma": "zehn",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "ten"
+    ]
+  },
+  {
+    "lemma": "zwanzig",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "twenty"
+    ]
+  },
+  {
+    "lemma": "hundert",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "hundred"
+    ]
+  },
+  {
+    "lemma": "tausend",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "number",
+    "translationsEn": [
+      "thousand"
+    ]
+  },
+  {
+    "lemma": "Guten Tag",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "good day",
+      "hello"
+    ]
+  },
+  {
+    "lemma": "Wie geht es dir?",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "how are you?"
+    ]
+  },
+  {
+    "lemma": "Danke schön",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "thank you very much"
+    ]
+  },
+  {
+    "lemma": "Bitte schön",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "you're welcome",
+      "here you are"
+    ]
+  },
+  {
+    "lemma": "Auf Wiedersehen",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "goodbye"
+    ]
+  },
+  {
+    "lemma": "Entschuldigung",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "excuse me",
+      "sorry"
+    ]
+  },
+  {
+    "lemma": "Ich verstehe nicht",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "I don't understand"
+    ]
+  },
+  {
+    "lemma": "Wie heißt du?",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "what's your name?"
+    ]
+  },
+  {
+    "lemma": "Es tut mir leid",
+    "level": "A1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "I'm sorry"
+    ]
+  },
+  {
+    "lemma": "Meiner Meinung nach",
+    "level": "B1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "in my opinion"
+    ]
+  },
+  {
+    "lemma": "Es kommt darauf an",
+    "level": "B1",
+    "pos": "OTHER",
+    "subcategory": "phrase",
+    "translationsEn": [
+      "it depends"
+    ]
+  }
+]
