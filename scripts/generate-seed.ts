@@ -23,8 +23,19 @@ import { join } from "node:path";
 import { z } from "zod";
 import { LEVELS, type LevelName } from "../lib/levels";
 import { TAXONOMY } from "../lib/taxonomy";
-import { wordSchema, exerciseSchema, readingSchema } from "../lib/seed-schema";
-import { genExerciseBatch, genReadingBatch, genWordBatch } from "../lib/generation-schema";
+import {
+  wordSchema,
+  exerciseSchema,
+  readingSchema,
+  importedWordFileSchema,
+  type ImportedWord,
+} from "../lib/seed-schema";
+import {
+  genExerciseBatch,
+  genGrammarBatch,
+  genReadingBatch,
+  genWordBatch,
+} from "../lib/generation-schema";
 
 const MODEL = "claude-opus-5";
 const SEED_DIR = join(process.cwd(), "data", "seed");
@@ -157,6 +168,22 @@ function loadExisting(dir: string): unknown[] {
   return readdirSync(path)
     .filter((f) => f.endsWith(".json"))
     .flatMap((f) => JSON.parse(readFileSync(join(path, f), "utf-8")) as unknown[]);
+}
+
+/** Reads the importer's staging files, validating as it goes. */
+function loadStaged(): ImportedWord[] {
+  const raw = loadExisting("imported");
+  if (raw.length === 0) return [];
+
+  const parsed = importedWordFileSchema.safeParse(raw);
+  if (!parsed.success) {
+    console.error("\ndata/seed/imported/ failed validation:");
+    for (const issue of parsed.error.issues.slice(0, 5)) {
+      console.error(`   [${issue.path.join(".")}] ${issue.message}`);
+    }
+    process.exit(1);
+  }
+  return parsed.data;
 }
 
 function writeBatch(dir: string, name: string, rows: unknown[]) {
@@ -458,6 +485,166 @@ Requirements:
 }
 
 // ---------------------------------------------------------------------------
+// Grammar backfill for imported wordlists
+// ---------------------------------------------------------------------------
+
+/**
+ * Fills in the grammatical detail a wordlist doesn't carry (conjugations,
+ * plurals, comparatives, subcategory) for words imported by
+ * scripts/import-anki.ts.
+ *
+ * The deck stays authoritative: the lemma, level and translations are re-imposed
+ * after generation, so the model can only add detail, never rewrite the entry.
+ */
+async function generateGrammar() {
+  const staged = loadStaged();
+  if (staged.length === 0) {
+    console.log(
+      "\nNothing staged in data/seed/imported/.\n" +
+        "Import a deck first:\n" +
+        "  npx tsx scripts/import-anki.ts --file <deck.apkg> --level A2\n",
+    );
+    return;
+  }
+
+  // Skip anything already completed — by a previous run, or because the
+  // importer could finish it without help.
+  const existing = loadExisting("words") as { lemma: string }[];
+  const done = new Set(existing.map((w) => w.lemma.toLowerCase()));
+
+  const pending = staged.filter((w) => !done.has(w.lemma.toLowerCase()));
+  console.log(`\nStaged: ${staged.length} · already complete: ${staged.length - pending.length}`);
+  console.log(`To backfill: ${pending.length}\n`);
+  if (pending.length === 0) return;
+
+  // Group by level and guessed part of speech so each prompt is narrow.
+  const groups = new Map<string, ImportedWord[]>();
+  for (const w of pending) {
+    if (ONLY_LEVEL && w.level !== ONLY_LEVEL) continue;
+    const key = `${w.level}:${w.posGuess ?? "unknown"}`;
+    groups.set(key, [...(groups.get(key) ?? []), w]);
+  }
+
+  const manifest = readManifest();
+  let produced = 0;
+
+  for (const [groupKey, words] of groups) {
+    const [level, posGuess] = groupKey.split(":");
+
+    for (let i = 0; i < words.length; i += BATCH_SIZE) {
+      const chunk = words.slice(i, i + BATCH_SIZE);
+      const batchNo = Math.floor(i / BATCH_SIZE) + 1;
+      const key = `grammar:${groupKey}:b${batchNo}`;
+
+      if (manifest.done.includes(key)) {
+        console.log(`  ⟳ ${key} (already done)`);
+        continue;
+      }
+
+      console.log(`  → ${level} / ${posGuess}: batch ${batchNo} (${chunk.length} words)`);
+      if (DRY_RUN) continue;
+
+      const allowed = TAXONOMY.flatMap((c) =>
+        c.subcategories.map((sub) => `${sub.id} — ${sub.label} (${c.label})`),
+      ).join("\n");
+
+      const list = chunk
+        .map((w) => {
+          const known: string[] = [];
+          if (w.article) known.push(`article is "${w.article}"`);
+          if (w.plural) known.push(`plural is "${w.plural}"`);
+          if (w.posGuess) known.push(`probably ${w.posGuess}`);
+          return `- ${w.lemma} = ${w.translationsEn.join(", ")}${known.length ? `  [${known.join("; ")}]` : ""}`;
+        })
+        .join("\n");
+
+      const prompt = `Supply the grammatical detail for these ${chunk.length} German words.
+
+These come from a published ${level} wordlist. The lemma and the English meaning
+are already correct — do not change them, do not add words, do not drop words.
+Return exactly one entry per word, echoing each lemma back unchanged.
+
+Words:
+${list}
+
+Set "subcategory" to exactly one of:
+${allowed}
+
+Field rules:
+- NOUN: fill "noun" with article and plural; "verb" and "adjective" null.
+  Where an article or plural is already given above, use that value — it is correct.
+- VERB: fill "verb" with the full present tense, Präteritum and Partizip II; others null.
+  Separable verbs: isSeparable true, prefix set, praesens written split, e.g. "stehe auf".
+  Use auxiliary "sein" only for motion, change of state, and sein/bleiben/passieren.
+  A lemma written "sich ..." is reflexive — use the verb-reflexive subcategory.
+- ADJ: fill "adjective" with comparative and superlative; others null.
+- PREP: choose the subcategory matching the case it governs.
+- Anything else: all three of noun/verb/adjective null.
+- Always add a natural exampleDe at ${level} level and its exampleEn translation.`;
+
+      const result = await generate(genGrammarBatch, SYSTEM, prompt, key);
+      if (!result) continue;
+
+      const byLemma = new Map(chunk.map((w) => [w.lemma.toLowerCase(), w]));
+      const accepted: unknown[] = [];
+
+      for (const raw of result.words) {
+        const staged = byLemma.get(raw.lemma.trim().toLowerCase());
+        if (!staged) {
+          console.warn(`     ✗ "${raw.lemma}": not one of the words asked for — dropped`);
+          continue;
+        }
+
+        // The deck wins on lemma, level and meaning; the model only adds grammar.
+        const candidate = {
+          lemma: staged.lemma,
+          level: staged.level,
+          translationsEn: staged.translationsEn,
+          pos: raw.pos,
+          subcategory: raw.subcategory,
+          exampleDe: staged.exampleDe ?? raw.exampleDe,
+          exampleEn: staged.exampleEn ?? raw.exampleEn,
+          noun: raw.noun
+            ? { article: staged.article ?? raw.noun.article, plural: staged.plural ?? raw.noun.plural }
+            : undefined,
+          verb: raw.verb
+            ? {
+                ...raw.verb,
+                prefix: raw.verb.prefix ?? undefined,
+                praeteritum: raw.verb.praeteritum ?? undefined,
+                partizip2: raw.verb.partizip2 ?? undefined,
+              }
+            : undefined,
+          adjective: raw.adjective ?? undefined,
+        };
+
+        const parsed = wordSchema.safeParse(candidate);
+        if (!parsed.success) {
+          console.warn(`     ✗ ${staged.lemma}: ${parsed.error.issues[0]?.message}`);
+          continue;
+        }
+
+        byLemma.delete(raw.lemma.trim().toLowerCase());
+        accepted.push(parsed.data);
+      }
+
+      for (const missed of byLemma.values()) {
+        console.warn(`     ! ${missed.lemma}: no entry returned — will retry on the next run`);
+      }
+
+      if (accepted.length > 0) {
+        writeBatch("words", `gen-grammar-${level}-${posGuess}-b${batchNo}`, accepted);
+        produced += accepted.length;
+        console.log(`     ✓ wrote ${accepted.length} (running total ${produced})`);
+      }
+      markDone(key);
+    }
+  }
+
+  console.log(`\nBackfilled ${produced} words. Run \`npm run db:seed\` to load them.`);
+}
+
+// ---------------------------------------------------------------------------
 
 async function main() {
   if (RESET && existsSync(MANIFEST)) {
@@ -471,8 +658,9 @@ async function main() {
   if (WHAT === "words") await generateWords();
   else if (WHAT === "exercises") await generateExercises();
   else if (WHAT === "reading") await generateReading();
+  else if (WHAT === "grammar") await generateGrammar();
   else {
-    console.error(`Unknown --what "${WHAT}". Use: words | exercises | reading`);
+    console.error(`Unknown --what "${WHAT}". Use: words | exercises | reading | grammar`);
     process.exit(1);
   }
 }

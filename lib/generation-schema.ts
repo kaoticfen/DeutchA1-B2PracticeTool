@@ -92,3 +92,46 @@ export const genReading = z.object({
 });
 
 export const genReadingBatch = z.object({ texts: z.array(genReading) });
+
+/**
+ * Grammar backfill for words imported from a wordlist.
+ *
+ * The deck is authoritative for the lemma, the level and the translations —
+ * the model only supplies the grammatical detail a wordlist doesn't carry, and
+ * the caller re-imposes the deck's values afterwards so they can't be altered.
+ */
+export const genGrammar = z.object({
+  lemma: z.string().describe("Echo the given lemma back EXACTLY, unchanged."),
+  pos: z.enum(["VERB", "NOUN", "ADJ", "PREP", "ADV", "OTHER"]),
+  subcategory: z.string().describe("Exactly one of the allowed subcategory ids listed in the prompt."),
+  exampleDe: z.string().describe("A natural German sentence using the word."),
+  exampleEn: z.string().describe("The English translation of exampleDe."),
+  noun: z
+    .object({
+      article: z.enum(["der", "die", "das"]),
+      plural: z.string().describe("Plural form without an article."),
+    })
+    .nullable()
+    .describe("Required when pos is NOUN, otherwise null."),
+  verb: z
+    .object({
+      isSeparable: z.boolean(),
+      prefix: z.string().nullable(),
+      isIrregular: z.boolean(),
+      auxiliary: z.enum(["haben", "sein"]),
+      praesens: genPraesens.describe("For separable verbs write the split form, e.g. 'stehe auf'."),
+      praeteritum: z.string().nullable(),
+      partizip2: z.string().nullable(),
+    })
+    .nullable()
+    .describe("Required when pos is VERB, otherwise null."),
+  adjective: z
+    .object({
+      comparative: z.string(),
+      superlative: z.string().describe("With 'am', e.g. 'am schnellsten'."),
+    })
+    .nullable()
+    .describe("Required when pos is ADJ, otherwise null."),
+});
+
+export const genGrammarBatch = z.object({ words: z.array(genGrammar) });

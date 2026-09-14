@@ -8,3 +8,8 @@ build/
 next-env.d.ts
 coverage/
 data/seed/.manifest.json
+
+# Anki deck files: large, and third-party licensed. Import from them, don't
+# commit them. The derived JSON under data/seed/ is what belongs in the repo.
+decks/
+*.apkg

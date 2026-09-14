@@ -157,3 +157,32 @@ export const cheatSheetSchema = z.object({
 });
 export type SeedCheatSheet = z.infer<typeof cheatSheetSchema>;
 export const cheatSheetFileSchema = z.array(cheatSheetSchema);
+
+/**
+ * Staging format for words imported from an external source (an Anki deck).
+ *
+ * A wordlist gives you the lemma, the level and a gloss — but not conjugation
+ * tables, plurals or a subcategory. Imported words therefore land here first,
+ * and `generate-seed --what grammar` fills in the missing grammar and promotes
+ * them into data/seed/words/ as full `wordSchema` entries.
+ *
+ * Nouns whose article and plural were both parsed out of the deck are already
+ * complete, so the importer writes those straight to data/seed/words/ and they
+ * never cost a token.
+ */
+export const importedWordSchema = z.object({
+  lemma: z.string().min(1).max(120),
+  level: levelSchema,
+  translationsEn: z.array(z.string().min(1).max(160)).min(1).max(6),
+  /** Best-effort classification from the deck; null means "let the model decide". */
+  posGuess: posSchema.nullable().optional(),
+  article: z.enum(["der", "die", "das"]).nullable().optional(),
+  plural: z.string().max(120).nullable().optional(),
+  exampleDe: z.string().max(400).optional(),
+  exampleEn: z.string().max(400).optional(),
+  /** Which deck this came from, so the provenance survives into the repo. */
+  source: z.string().max(120),
+});
+
+export type ImportedWord = z.infer<typeof importedWordSchema>;
+export const importedWordFileSchema = z.array(importedWordSchema);
