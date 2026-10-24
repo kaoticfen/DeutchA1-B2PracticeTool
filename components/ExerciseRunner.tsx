@@ -95,21 +95,33 @@ export function ExerciseRunner({
           </p>
         )}
 
-        <div className="mt-6 flex flex-wrap justify-center gap-3">
-          <button
-            className="btn btn-primary"
-            disabled={refreshing}
-            onClick={() => {
-              setWantsNewSet(true);
-              startRefresh(() => router.refresh());
-            }}
-          >
-            {refreshing ? "Loading…" : "Another set"}
-          </button>
-          <Link href={onFinishHref} className="btn btn-ghost">
-            Done
-          </Link>
-        </div>
+        {source === "daily" ? (
+          // The daily set is fixed for the day, so there is no "another set" to draw.
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link href="/exercises" className="btn btn-primary">
+              Keep practising
+            </Link>
+            <Link href="/flashcards" className="btn btn-ghost">
+              Review flashcards
+            </Link>
+          </div>
+        ) : (
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <button
+              className="btn btn-primary"
+              disabled={refreshing}
+              onClick={() => {
+                setWantsNewSet(true);
+                startRefresh(() => router.refresh());
+              }}
+            >
+              {refreshing ? "Loading…" : "Another set"}
+            </button>
+            <Link href={onFinishHref} className="btn btn-ghost">
+              Done
+            </Link>
+          </div>
+        )}
       </div>
     );
   }

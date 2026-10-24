@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
-import { ExerciseRunner } from "@/components/ExerciseRunner";
+import { DailyChallengeRunner } from "@/components/DailyChallengeRunner";
 import { EmptyState } from "@/components/EmptyState";
 import { StatCard } from "@/components/StatCard";
 import { requireUser } from "@/lib/session";
@@ -48,31 +47,13 @@ export default async function DailyPage() {
           title="No exercises available"
           body="The daily challenge needs seeded grammar exercises. Run `npm run db:seed` first."
         />
-      ) : challenge.completed ? (
-        <div className="surface p-8 text-center">
-          <div className="text-3xl" aria-hidden>
-            ★
-          </div>
-          <h2 className="mt-3 text-xl font-semibold">Today&apos;s challenge is done</h2>
-          <p className="muted mt-1 text-sm">
-            You scored {challenge.score} out of {exercises.length}. Come back tomorrow to extend
-            your streak.
-          </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <Link href="/exercises" className="btn btn-primary">
-              Keep practising
-            </Link>
-            <Link href="/flashcards" className="btn btn-ghost">
-              Review flashcards
-            </Link>
-          </div>
-        </div>
       ) : (
-        <ExerciseRunner
-          key={`${challenge.id}-${answered}`}
-          exercises={remaining}
-          source="daily"
-          onFinishHref="/daily"
+        <DailyChallengeRunner
+          key={challenge.id}
+          completed={challenge.completed}
+          score={challenge.score}
+          total={exercises.length}
+          remaining={remaining}
         />
       )}
 
