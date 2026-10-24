@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+// Every route reads the database (at minimum the first-run check in
+// `isSetupComplete`), so there is nothing to prerender at build time.
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Deutsch A1–B2",
   description: "Learn German from A1 to B2 with spaced repetition, drills and exam prep.",

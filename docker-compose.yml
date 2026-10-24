@@ -8,7 +8,7 @@ services:
       MYSQL_USER: deutsch
       MYSQL_PASSWORD: deutsch
     ports:
-      - "3306:3306"
+      - "${DB_BIND_ADDR:-127.0.0.1}:3306:3306"
     volumes:
       - db_data:/var/lib/mysql
       - ./docker/mysql-init:/docker-entrypoint-initdb.d:ro
@@ -31,7 +31,7 @@ services:
       AUTH_SECRET: "${AUTH_SECRET:-dev-only-secret-change-me}"
       AUTH_TRUST_HOST: "true"
     ports:
-      - "3000:3000"
+      - "${APP_BIND_ADDR:-127.0.0.1}:3000:3000"
 
 volumes:
   db_data:

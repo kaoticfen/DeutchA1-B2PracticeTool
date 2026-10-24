@@ -24,7 +24,9 @@ npm run dev                  # http://localhost:3000
 The first visit lands on `/setup`, which creates your account, offers an optional
 placement quiz, and sets your starting level.
 
-To run the whole thing in Docker instead: `docker compose up`.
+To run the whole thing in Docker instead: `docker compose up -d`. Both ports bind to
+loopback; see [Hosting it on a Tailscale network](#hosting-it-on-a-tailscale-network)
+to reach it from your other devices.
 
 ## What's included
 
@@ -224,6 +226,52 @@ and nouns whose article and plural came out of the deck never reach the model at
 
 Re-seeding is idempotent and keyed on natural keys, so it never duplicates content and
 never discards your review history or scores.
+
+## Hosting it on a Tailscale network
+
+`docker compose up -d` publishes both containers on **127.0.0.1 only** — the app on
+`:3000`, MySQL on `:3306`. Nothing is reachable from your LAN or the internet. To reach
+the app from your other devices, put `tailscale serve` in front of it: tailscaled
+terminates TLS with a real cert and proxies to the local port, so the app itself stays
+bound to loopback.
+
+One-time setup on the host:
+
+```bash
+# 1. Enable HTTPS certificates for the tailnet (admin console, once per tailnet):
+#    https://login.tailscale.com/admin/dns -> "Enable HTTPS..."
+
+# 2. Let your user drive tailscale without sudo:
+sudo tailscale set --operator=$USER
+
+# 3. Proxy the tailnet HTTPS port at the app:
+tailscale serve --bg 3000
+```
+
+Then the app is at `https://<host>.<tailnet>.ts.net` from any device on the tailnet.
+Check it with `tailscale serve status`, and undo it with `tailscale serve --https=443 off`.
+
+Both the serve config and the containers survive a reboot — serve config lives in
+tailscaled's state, and the services are `restart: unless-stopped`.
+
+`AUTH_SECRET` is read from `.env`; `trustHost` is already enabled in `auth.ts`, so
+Auth.js picks up the proxied host and scheme from `tailscale serve` without further
+configuration.
+
+### Binding somewhere other than loopback
+
+`DB_BIND_ADDR` and `APP_BIND_ADDR` override the published bind addresses if you would
+rather skip `tailscale serve` and bind the app straight to the tailnet IP:
+
+```bash
+APP_BIND_ADDR=100.x.y.z docker compose up -d   # http://<host>:3000, no TLS
+```
+
+Leave `DB_BIND_ADDR` alone unless you mean it — the MySQL credentials are the
+docker-compose defaults, so anything that can route to the port can read the database.
+
+> **Do not add `tailscale funnel`** unless you have thought it through. Funnel puts the
+> app on the public internet with only its own email/password login in front of it.
 
 ## Tests
 
