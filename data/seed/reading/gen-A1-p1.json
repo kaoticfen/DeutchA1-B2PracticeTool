@@ -1,0 +1,270 @@
+[
+  {
+    "level": "A1",
+    "title": "Im Supermarkt",
+    "bodyDe": "Anna geht am Samstag in den Supermarkt. Sie hat einen Einkaufszettel. Darauf stehen Milch, Brot, Käse und Äpfel.\n\nDer Supermarkt ist voll. Viele Leute kaufen heute ein. Anna nimmt einen Einkaufswagen und sucht die Milch. Die Milch ist hinten links.\n\nAn der Kasse wartet Anna zehn Minuten. Sie bezahlt mit Karte. Das Obst kostet drei Euro, alles zusammen kostet neunzehn Euro.\n\nZu Hause sieht Anna den Zettel noch einmal. Das Brot liegt nicht in der Tasche. Sie lacht und isst einen Apfel.",
+    "glossary": {
+      "der Supermarkt": "supermarket",
+      "der Einkaufszettel": "shopping list",
+      "darauf": "on it",
+      "der Käse": "cheese",
+      "die Äpfel": "apples",
+      "voll": "full, crowded",
+      "die Leute": "people",
+      "kaufen ein": "(they) shop, buy",
+      "der Einkaufswagen": "shopping cart",
+      "sucht": "looks for",
+      "hinten links": "at the back on the left",
+      "die Kasse": "checkout",
+      "wartet": "waits",
+      "bezahlt": "pays",
+      "das Obst": "fruit",
+      "zusammen": "together, in total",
+      "die Tasche": "bag",
+      "lacht": "laughs"
+    },
+    "questions": [
+      {
+        "prompt": "Wann geht Anna in den Supermarkt?",
+        "options": [
+          "Am Montag",
+          "Am Samstag",
+          "Am Sonntag",
+          "Am Freitag"
+        ],
+        "answer": "Am Samstag"
+      },
+      {
+        "prompt": "Wie bezahlt Anna?",
+        "options": [
+          "Mit Karte",
+          "Mit Bargeld",
+          "Sie bezahlt nicht",
+          "Mit dem Handy"
+        ],
+        "answer": "Mit Karte"
+      },
+      {
+        "prompt": "Was kostet alles zusammen?",
+        "options": [
+          "Drei Euro",
+          "Zehn Euro",
+          "Neunzehn Euro",
+          "Neun Euro"
+        ],
+        "answer": "Neunzehn Euro"
+      },
+      {
+        "prompt": "Warum lacht Anna zu Hause?",
+        "options": [
+          "Das Brot ist billig",
+          "Sie hat das Brot vergessen",
+          "Der Apfel ist süß",
+          "Die Tasche ist kaputt"
+        ],
+        "answer": "Sie hat das Brot vergessen"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "title": "Mein Hund Bruno",
+    "bodyDe": "Ich heiße Jonas und ich habe einen Hund. Er heißt Bruno und ist drei Jahre alt. Bruno ist braun und sehr klein.\n\nJeden Morgen um sieben Uhr gehen wir in den Park. Bruno läuft schnell und spielt mit einem Ball. Er mag auch andere Hunde.\n\nAm Mittag schläft Bruno auf dem Sofa. Er frisst gern Fleisch, aber er mag kein Gemüse.\n\nAm Abend sitzt Bruno vor der Tür. Er wartet auf meine Schwester. Sie bringt ihm immer ein Stück Wurst mit.",
+    "glossary": {
+      "der Hund": "dog",
+      "braun": "brown",
+      "jeden Morgen": "every morning",
+      "der Park": "park",
+      "läuft": "runs",
+      "schnell": "fast",
+      "der Ball": "ball",
+      "am Mittag": "at midday",
+      "schläft": "sleeps",
+      "das Sofa": "sofa",
+      "frisst": "eats (of animals)",
+      "das Fleisch": "meat",
+      "das Gemüse": "vegetables",
+      "vor der Tür": "in front of the door",
+      "wartet auf": "waits for",
+      "die Schwester": "sister",
+      "das Stück": "piece",
+      "die Wurst": "sausage"
+    },
+    "questions": [
+      {
+        "prompt": "Wie alt ist Bruno?",
+        "options": [
+          "Ein Jahr",
+          "Zwei Jahre",
+          "Drei Jahre",
+          "Sieben Jahre"
+        ],
+        "answer": "Drei Jahre"
+      },
+      {
+        "prompt": "Was macht Bruno am Mittag?",
+        "options": [
+          "Er läuft im Park",
+          "Er schläft auf dem Sofa",
+          "Er spielt mit dem Ball",
+          "Er frisst Gemüse"
+        ],
+        "answer": "Er schläft auf dem Sofa"
+      },
+      {
+        "prompt": "Warum sitzt Bruno am Abend vor der Tür?",
+        "options": [
+          "Er möchte Wurst von der Schwester",
+          "Er ist müde",
+          "Er hat Angst",
+          "Er möchte in den Park"
+        ],
+        "answer": "Er möchte Wurst von der Schwester"
+      },
+      {
+        "prompt": "Was mag Bruno nicht?",
+        "options": [
+          "Fleisch",
+          "Gemüse",
+          "Den Ball",
+          "Andere Hunde"
+        ],
+        "answer": "Gemüse"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "title": "Das Wetter in Hamburg",
+    "bodyDe": "Hallo Maria, ich bin jetzt in Hamburg. Die Stadt ist schön, aber das Wetter ist nicht gut.\n\nHeute regnet es den ganzen Tag. Es ist kalt und windig. Ich trage eine Jacke, einen Schal und feste Schuhe. Mein Regenschirm ist leider kaputt.\n\nMorgen scheint vielleicht die Sonne. Dann fahre ich mit dem Rad an den Hafen und mache Fotos.\n\nIn Spanien ist es sicher warm. Wie ist das Wetter bei dir? Schreib mir bitte bald!\n\nViele Grüße, Lena",
+    "glossary": {
+      "das Wetter": "weather",
+      "die Stadt": "city",
+      "regnet": "rains",
+      "den ganzen Tag": "all day",
+      "windig": "windy",
+      "trage": "(I) wear",
+      "die Jacke": "jacket",
+      "der Schal": "scarf",
+      "feste Schuhe": "sturdy shoes",
+      "der Regenschirm": "umbrella",
+      "kaputt": "broken",
+      "scheint": "shines",
+      "vielleicht": "maybe",
+      "das Rad": "bike",
+      "der Hafen": "harbour",
+      "sicher": "surely, certainly",
+      "bald": "soon",
+      "viele Grüße": "best wishes"
+    },
+    "questions": [
+      {
+        "prompt": "Wo ist Lena jetzt?",
+        "options": [
+          "In Spanien",
+          "In Hamburg",
+          "Am Meer",
+          "Zu Hause"
+        ],
+        "answer": "In Hamburg"
+      },
+      {
+        "prompt": "Wie ist das Wetter heute?",
+        "options": [
+          "Warm und sonnig",
+          "Kalt und windig",
+          "Heiß",
+          "Ruhig und trocken"
+        ],
+        "answer": "Kalt und windig"
+      },
+      {
+        "prompt": "Warum wird Lena heute nass?",
+        "options": [
+          "Sie hat keinen Schal",
+          "Ihr Regenschirm ist kaputt",
+          "Sie schwimmt im Hafen",
+          "Sie trägt keine Jacke"
+        ],
+        "answer": "Ihr Regenschirm ist kaputt"
+      },
+      {
+        "prompt": "Was möchte Lena morgen machen?",
+        "options": [
+          "Fotos am Hafen machen",
+          "Schuhe kaufen",
+          "Nach Spanien fliegen",
+          "Zu Hause bleiben"
+        ],
+        "answer": "Fotos am Hafen machen"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "title": "Ein Zimmer in der WG",
+    "bodyDe": "Tim sucht ein Zimmer in Köln. Er findet eine Anzeige im Internet: Zimmer in einer WG, 350 Euro, zwei Mitbewohner.\n\nAm Dienstag besucht Tim die Wohnung. Das Zimmer ist hell und hat ein großes Fenster. Ein Bett, ein Tisch und ein Stuhl sind schon da. Der Schrank ist leider sehr klein.\n\nDie Küche ist groß. Die Mitbewohner heißen Paul und Sara. Sie kochen jeden Abend zusammen.\n\nTim sagt: \"Das Zimmer gefällt mir!\" Am Freitag bringt er seine Bücher und seine Pflanzen.",
+    "glossary": {
+      "sucht": "is looking for",
+      "das Zimmer": "room",
+      "die Anzeige": "advertisement",
+      "die WG": "shared flat",
+      "der Mitbewohner": "flatmate",
+      "besucht": "visits",
+      "die Wohnung": "apartment",
+      "hell": "bright",
+      "das Fenster": "window",
+      "das Bett": "bed",
+      "der Stuhl": "chair",
+      "der Schrank": "wardrobe",
+      "die Küche": "kitchen",
+      "kochen": "cook",
+      "zusammen": "together",
+      "gefällt mir": "I like it",
+      "die Bücher": "books",
+      "die Pflanzen": "plants"
+    },
+    "questions": [
+      {
+        "prompt": "Wie viel kostet das Zimmer?",
+        "options": [
+          "250 Euro",
+          "350 Euro",
+          "530 Euro",
+          "300 Euro"
+        ],
+        "answer": "350 Euro"
+      },
+      {
+        "prompt": "Was ist am Zimmer nicht gut?",
+        "options": [
+          "Das Fenster ist klein",
+          "Der Schrank ist klein",
+          "Es gibt kein Bett",
+          "Es ist dunkel"
+        ],
+        "answer": "Der Schrank ist klein"
+      },
+      {
+        "prompt": "Was macht Tim am Freitag?",
+        "options": [
+          "Er zieht ein und bringt seine Sachen",
+          "Er sucht eine neue Anzeige",
+          "Er kocht mit Paul",
+          "Er besucht die Wohnung zum ersten Mal"
+        ],
+        "answer": "Er zieht ein und bringt seine Sachen"
+      },
+      {
+        "prompt": "Wie viele Mitbewohner hat die WG?",
+        "options": [
+          "Einen",
+          "Zwei",
+          "Drei",
+          "Vier"
+        ],
+        "answer": "Zwei"
+      }
+    ]
+  }
+]

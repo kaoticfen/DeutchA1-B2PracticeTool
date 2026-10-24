@@ -273,6 +273,21 @@ docker-compose defaults, so anything that can route to the port can read the dat
 > **Do not add `tailscale funnel`** unless you have thought it through. Funnel puts the
 > app on the public internet with only its own email/password login in front of it.
 
+## Backing up your progress
+
+All progress — account, flashcard states, attempts, streaks, mistakes — lives in MySQL,
+in the `db_data` Docker volume. With the `db` container running:
+
+```bash
+npm run db:backup                          # gzipped dump into BACKUP_DIR
+npm run db:restore                         # restore the newest dump (asks first)
+npm run db:restore -- path/to/dump.sql.gz  # restore a specific one
+```
+
+`BACKUP_DIR` (in `.env`, default `./backups`) sets where dumps go; point it at a synced
+folder such as Dropbox to keep a copy off the machine. The newest `KEEP_BACKUPS` (default
+14) are kept. Never run `docker compose down -v` — the `-v` deletes the volume.
+
 ## Tests
 
 ```bash

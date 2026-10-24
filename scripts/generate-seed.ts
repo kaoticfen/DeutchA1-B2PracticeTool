@@ -20,7 +20,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { z } from "zod";
+import { z } from "zod/v4";
 import { LEVELS, type LevelName } from "../lib/levels";
 import { dedupeImported } from "../lib/merge-words";
 import { TAXONOMY } from "../lib/taxonomy";
@@ -154,7 +154,7 @@ async function generate<T>(
         max_tokens: 16000,
         system,
         thinking: { type: "adaptive" },
-        output_config: { format: zodOutputFormat(schema as never) },
+        output_config: { format: zodOutputFormat(schema) },
         messages: [{ role: "user", content: prompt }],
       });
 

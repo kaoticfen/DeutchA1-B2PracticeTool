@@ -6,7 +6,7 @@
  * strict versions to act as an independent check on what the model returns.
  */
 
-import { z } from "zod";
+import { z } from "zod/v4";
 
 const level = z.enum(["A1", "A2", "B1", "B2"]);
 

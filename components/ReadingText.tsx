@@ -3,20 +3,25 @@
 import { useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
 import { speak } from "@/lib/speech";
+import { normalize } from "@/lib/search";
+import type { DictGloss } from "@/lib/reading-lookup";
 
 type Question = { prompt: string; options: string[]; answer: string };
 
 /**
- * Tap-to-translate reading. Words are looked up in the text's own glossary,
- * which is seeded alongside it — no network round trip per tap.
+ * Tap-to-translate reading. Words are looked up in the text's own glossary
+ * first, then in dictionary glosses the server resolved for this body — no
+ * network round trip per tap.
  */
 export function ReadingText({
   body,
   glossary,
+  dictionary,
   questions,
 }: {
   body: string;
   glossary: Record<string, string>;
+  dictionary: Record<string, DictGloss[]>;
   questions: Question[];
 }) {
   const [selected, setSelected] = useState<{ word: string; gloss: string | null } | null>(null);
@@ -34,10 +39,19 @@ export function ReadingText({
       index.get(clean.toLowerCase()) ??
       // Try the glossary's multi-word keys that contain this word.
       [...index.entries()].find(([k]) => k.split(/\s+/).includes(clean.toLowerCase()))?.[1] ??
-      null;
+      fromDictionary(clean);
 
     setSelected({ word: clean, gloss });
     speak(clean);
+  }
+
+  function fromDictionary(word: string): string | null {
+    const hits = dictionary[normalize(word)];
+    if (!hits?.length) return null;
+    // A capitalized word is most likely a noun; otherwise prefer the non-noun.
+    const wantNoun = word[0] !== word[0].toLowerCase();
+    const hit = hits.find((h) => h.isNoun === wantNoun) ?? hits[0];
+    return normalize(hit.lemma) === normalize(word) ? hit.gloss : `${hit.lemma} — ${hit.gloss}`;
   }
 
   const score = questions.reduce((n, q, i) => n + (answers[i] === q.answer ? 1 : 0), 0);
@@ -76,7 +90,7 @@ export function ReadingText({
           <div>
             <div className="font-medium">{selected.word}</div>
             <div className="muted text-sm">
-              {selected.gloss ?? "Not in this text's glossary — try the dictionary."}
+              {selected.gloss ?? "No definition found — try the dictionary."}
             </div>
           </div>
           <div className="flex gap-2">

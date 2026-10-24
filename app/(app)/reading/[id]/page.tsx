@@ -5,6 +5,7 @@ import { ReadingText } from "@/components/ReadingText";
 import { SpeakButton } from "@/components/SpeakButton";
 import { requireUser } from "@/lib/session";
 import { prisma } from "@/lib/db";
+import { dictionaryGlosses } from "@/lib/reading-lookup";
 import { LEVEL_LABELS, type LevelName } from "@/lib/levels";
 
 export default async function ReadingPage({ params }: { params: Promise<{ id: string }> }) {
@@ -13,6 +14,8 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
 
   const text = await prisma.readingText.findUnique({ where: { id: Number(id) } });
   if (!text) notFound();
+
+  const dictionary = await dictionaryGlosses(text.bodyDe);
 
   return (
     <>
@@ -32,6 +35,7 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
       <ReadingText
         body={text.bodyDe}
         glossary={(text.glossary as Record<string, string>) ?? {}}
+        dictionary={dictionary}
         questions={(text.questions as { prompt: string; options: string[]; answer: string }[]) ?? []}
       />
     </>
